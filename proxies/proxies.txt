@@ -1,0 +1,8 @@
+# ==============================================================================
+# Proxies List for QuarkFX Economic Calendar Scraper
+# Format: protocol://[user:pass@]host:port
+# Examples:
+# http://127.0.0.1:8080
+# socks5://user:password@proxy.example.com:1080
+# ==============================================================================
+# Add rotating proxies below (one per line) if scraping directly behind Cloudflare.

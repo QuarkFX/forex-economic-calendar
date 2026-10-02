@@ -1,0 +1,3867 @@
+{
+  "source_file": "myfxbook_thisweek.json",
+  "updated_at": "2026-10-02T16:25:30.153277",
+  "count": 386,
+  "events": [
+    {
+      "title": "BoJ Monetary Policy Meeting Minutes",
+      "country": "JPY",
+      "date": "Sunday, Sep 27, 2026",
+      "time": "Sep 27, 23:50",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Industrial Profits (YTD) YoY (Aug)",
+      "country": "CNY",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 01:30",
+      "impact": "Low",
+      "previous": "17.6%",
+      "consensus": "18%",
+      "actual": "15.7%"
+    },
+    {
+      "title": "BoJ JGB Purchase",
+      "country": "JPY",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 03:35",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 05:00",
+      "impact": "Low",
+      "previous": "5",
+      "consensus": "7",
+      "actual": "3"
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 05:00",
+      "impact": "Low",
+      "previous": "-3",
+      "consensus": "-2.7",
+      "actual": "-4.9"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 06:00",
+      "impact": "Low",
+      "previous": "5.3%",
+      "consensus": "5.2%",
+      "actual": "3.7%"
+    },
+    {
+      "title": "Industrial Production MoM (Aug)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 06:00",
+      "impact": "Low",
+      "previous": "-2.7%",
+      "consensus": "-0.7%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "Industrial Production YoY (Aug)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 06:00",
+      "impact": "Low",
+      "previous": "3.3%",
+      "consensus": "2.5%",
+      "actual": "4.8%"
+    },
+    {
+      "title": "ECB Machado Speech",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 07:40",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Myfxbook AUDUSD Sentiment",
+      "country": "AUD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "48%",
+      "consensus": "",
+      "actual": "74%"
+    },
+    {
+      "title": "Myfxbook USDCHF Sentiment",
+      "country": "CHF",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "33%",
+      "consensus": "",
+      "actual": "30%"
+    },
+    {
+      "title": "Myfxbook USDJPY Sentiment",
+      "country": "JPY",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "55%",
+      "consensus": "",
+      "actual": "51%"
+    },
+    {
+      "title": "Myfxbook EURUSD Sentiment",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "63%",
+      "consensus": "",
+      "actual": "73%"
+    },
+    {
+      "title": "Myfxbook GBPUSD Sentiment",
+      "country": "GBP",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "61%",
+      "consensus": "",
+      "actual": "74%"
+    },
+    {
+      "title": "Myfxbook USDCAD Sentiment",
+      "country": "CAD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "26%",
+      "consensus": "",
+      "actual": "7%"
+    },
+    {
+      "title": "Myfxbook NZDUSD Sentiment",
+      "country": "NZD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:00",
+      "impact": "Medium",
+      "previous": "87%",
+      "consensus": "",
+      "actual": "93%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:30",
+      "impact": "Low",
+      "previous": "1.4%",
+      "consensus": "-0.7%",
+      "actual": "1%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 08:30",
+      "impact": "Low",
+      "previous": "4.9%",
+      "consensus": "4.7%",
+      "actual": "5.7%"
+    },
+    {
+      "title": "ECB Elderson Speech",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 09:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "OLO Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:00",
+      "impact": "Low",
+      "previous": "3.26%",
+      "consensus": "",
+      "actual": "3.806%"
+    },
+    {
+      "title": "2036 OLO Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:00",
+      "impact": "Low",
+      "previous": "3.805%",
+      "consensus": "",
+      "actual": "4.299%"
+    },
+    {
+      "title": "2034 OLO Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:00",
+      "impact": "Low",
+      "previous": "3.176%",
+      "consensus": "",
+      "actual": "4.117%"
+    },
+    {
+      "title": "BoE Ramsden Speech",
+      "country": "GBP",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "EU-Bonds Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:10",
+      "impact": "Low",
+      "previous": "2.808%",
+      "consensus": "",
+      "actual": "3.613%"
+    },
+    {
+      "title": "2035 EU-Bonds Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:10",
+      "impact": "Low",
+      "previous": "3.17%",
+      "consensus": "",
+      "actual": "4.003%"
+    },
+    {
+      "title": "2048 EU-Bonds Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 10:10",
+      "impact": "Low",
+      "previous": "3.883%",
+      "consensus": "",
+      "actual": "4.545%"
+    },
+    {
+      "title": "Chancellor John Healey Speech",
+      "country": "GBP",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 11:15",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "12-Month BTF Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 13:00",
+      "impact": "Low",
+      "previous": "3.161%",
+      "consensus": "",
+      "actual": "3.24%"
+    },
+    {
+      "title": "6-Month BTF Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 13:00",
+      "impact": "Low",
+      "previous": "2.898%",
+      "consensus": "",
+      "actual": "2.92%"
+    },
+    {
+      "title": "3-Month BTF Auction",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 13:00",
+      "impact": "Low",
+      "previous": "2.639%",
+      "consensus": "",
+      "actual": "2.7%"
+    },
+    {
+      "title": "ECB President Lagarde Speech",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 13:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Dallas Fed Manufacturing Index (Sep)",
+      "country": "USD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 14:30",
+      "impact": "Medium",
+      "previous": "11.6",
+      "consensus": "1",
+      "actual": "9.8"
+    },
+    {
+      "title": "6-Month Bill Auction",
+      "country": "USD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 15:30",
+      "impact": "Low",
+      "previous": "4.155%",
+      "consensus": "",
+      "actual": "4.285%"
+    },
+    {
+      "title": "3-Month Bill Auction",
+      "country": "USD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 15:30",
+      "impact": "Low",
+      "previous": "4.015%",
+      "consensus": "4.009%",
+      "actual": "4.11%"
+    },
+    {
+      "title": "Fed Barkin Speech",
+      "country": "USD",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 17:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 23:01",
+      "impact": "Low",
+      "previous": "63.2",
+      "consensus": "63",
+      "actual": "61.1"
+    },
+    {
+      "title": "BRC Shop Price Inflation (Sep)",
+      "country": "GBP",
+      "date": "Monday, Sep 28, 2026",
+      "time": "Sep 28, 23:01",
+      "impact": "Low",
+      "previous": "1.5%",
+      "consensus": "1.5%",
+      "actual": "1.4%"
+    },
+    {
+      "title": "Household Spending MoM (Aug)",
+      "country": "AUD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 01:30",
+      "impact": "Low",
+      "previous": "1.1%",
+      "consensus": "0.3%",
+      "actual": "0%"
+    },
+    {
+      "title": "Household Spending YoY (Aug)",
+      "country": "AUD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 01:30",
+      "impact": "Low",
+      "previous": "7%",
+      "consensus": "6.4%",
+      "actual": "6.8%"
+    },
+    {
+      "title": "1-Year Bill Auction",
+      "country": "NZD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 01:35",
+      "impact": "Low",
+      "previous": "3.61%",
+      "consensus": "",
+      "actual": "3.693%"
+    },
+    {
+      "title": "3-Month Bill Auction",
+      "country": "NZD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 01:35",
+      "impact": "Low",
+      "previous": "2.902%",
+      "consensus": "2.909%",
+      "actual": "3.084%"
+    },
+    {
+      "title": "6-Month Bill Auction",
+      "country": "NZD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 01:35",
+      "impact": "Low",
+      "previous": "3.14%",
+      "consensus": "",
+      "actual": "3.19%"
+    },
+    {
+      "title": "40-Year JGB Auction",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 03:35",
+      "impact": "Low",
+      "previous": "3.865%",
+      "consensus": "",
+      "actual": "4.125%"
+    },
+    {
+      "title": "RBA Interest Rate Decision",
+      "country": "AUD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 04:30",
+      "impact": "High",
+      "previous": "4.35%",
+      "consensus": "4.6%",
+      "actual": "4.6%"
+    },
+    {
+      "title": "Leading Economic Index (Jul)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 05:00",
+      "impact": "Low",
+      "previous": "116.2",
+      "consensus": "117.9",
+      "actual": "117.7"
+    },
+    {
+      "title": "Coincident Index (Jul)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 05:00",
+      "impact": "Low",
+      "previous": "118.9",
+      "consensus": "120.6",
+      "actual": "120.6"
+    },
+    {
+      "title": "RBA Press Conference",
+      "country": "AUD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 05:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ECB Cipollone Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 06:45",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "-15",
+      "consensus": "-16",
+      "actual": "-11.7"
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "-28",
+      "consensus": "-28",
+      "actual": "-25.7"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Medium",
+      "previous": "4.3%",
+      "consensus": "4.7%",
+      "actual": "4.9%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "0.7%",
+      "consensus": "0.8%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "High",
+      "previous": "-1%",
+      "consensus": "0.3%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "High",
+      "previous": "-0.4%",
+      "consensus": "0.4%",
+      "actual": "-0.4%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "4.6%",
+      "consensus": "4.9%",
+      "actual": "5%"
+    },
+    {
+      "title": "Core Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "2.9%",
+      "consensus": "3%",
+      "actual": "3.1%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Medium",
+      "previous": "0.7%",
+      "consensus": "0.3%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "KOF Leading Indicators (Sep)",
+      "country": "CHF",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Medium",
+      "previous": "107.5",
+      "consensus": "106",
+      "actual": "109.1"
+    },
+    {
+      "title": "Bundesbank President Nagel Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 07:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Industrial Sales MoM (Jul)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:00",
+      "impact": "Low",
+      "previous": "-0.9%",
+      "consensus": "0.5%",
+      "actual": "1.7%"
+    },
+    {
+      "title": "Industrial Sales YoY (Jul)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:00",
+      "impact": "Low",
+      "previous": "3.2%",
+      "consensus": "2.9%",
+      "actual": "4.8%"
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Low",
+      "previous": "2.9",
+      "consensus": "2.8",
+      "actual": "2.8"
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Low",
+      "previous": "-20.5",
+      "consensus": "-20",
+      "actual": "-20.6"
+    },
+    {
+      "title": "Mortgage Lending (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Medium",
+      "previous": "£4.08B",
+      "consensus": "£4.4B",
+      "actual": "£4.41B"
+    },
+    {
+      "title": "Net Lending to Individuals MoM (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Low",
+      "previous": "£6.2B",
+      "consensus": "£6.2B",
+      "actual": "£6.874B"
+    },
+    {
+      "title": "M4 Money Supply MoM (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Low",
+      "previous": "-0.3%",
+      "consensus": "0.1%",
+      "actual": "0.4%"
+    },
+    {
+      "title": "BoE Consumer Credit (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Medium",
+      "previous": "£2.097B",
+      "consensus": "£1.9B",
+      "actual": "£2.464B"
+    },
+    {
+      "title": "Mortgage Approvals (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 08:30",
+      "impact": "Medium",
+      "previous": "55.93K",
+      "consensus": "56.1K",
+      "actual": "54.92K"
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "CNY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "$184.3B",
+      "consensus": "$195.1B",
+      "actual": "$193.7B"
+    },
+    {
+      "title": "Industrial Production YoY (Jul)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "1.4%",
+      "consensus": "0.3%",
+      "actual": "1.5%"
+    },
+    {
+      "title": "Services Sentiment (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "5.6",
+      "consensus": "6.5",
+      "actual": "6.1"
+    },
+    {
+      "title": "Economic Sentiment (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Medium",
+      "previous": "98.4",
+      "consensus": "99",
+      "actual": "97.9"
+    },
+    {
+      "title": "Selling Price Expectations (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "16.9",
+      "consensus": "25",
+      "actual": "20.3"
+    },
+    {
+      "title": "Industrial Sentiment (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "-5",
+      "consensus": "-4.7",
+      "actual": "-3.8"
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "-15.5",
+      "consensus": "-16.5",
+      "actual": "-16.5"
+    },
+    {
+      "title": "Consumer Inflation Expectations (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "33",
+      "consensus": "40",
+      "actual": "35.2"
+    },
+    {
+      "title": "Balance of Trade (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "-€377.7M",
+      "consensus": "-€360M",
+      "actual": "-€325.5M"
+    },
+    {
+      "title": "Treasury Gilt 2036 Auction",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:00",
+      "impact": "Low",
+      "previous": "5.155%",
+      "consensus": "",
+      "actual": "5.383%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:05",
+      "impact": "Low",
+      "previous": "7.7%",
+      "consensus": "9.1%",
+      "actual": "10.9%"
+    },
+    {
+      "title": "PPI MoM (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:05",
+      "impact": "Low",
+      "previous": "2.3%",
+      "consensus": "0.7%",
+      "actual": "2.4%"
+    },
+    {
+      "title": "5-Year BTP Auction",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:10",
+      "impact": "Low",
+      "previous": "3.44%",
+      "consensus": "",
+      "actual": "4.08%"
+    },
+    {
+      "title": "10-Year BTP Auction",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:10",
+      "impact": "Low",
+      "previous": "4.1%",
+      "consensus": "",
+      "actual": "4.58%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:30",
+      "impact": "Low",
+      "previous": "3.97%",
+      "consensus": "4.5%",
+      "actual": "4.69%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:30",
+      "impact": "Low",
+      "previous": "0.39%",
+      "consensus": "0.2%",
+      "actual": "0.39%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 09:30",
+      "impact": "Low",
+      "previous": "4.2%",
+      "consensus": "4.7%",
+      "actual": "4.6%"
+    },
+    {
+      "title": "Unemployment Benefit Claims (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 10:00",
+      "impact": "Medium",
+      "previous": "21.5K",
+      "consensus": "15K",
+      "actual": "-61.3K"
+    },
+    {
+      "title": "Jobseekers Total (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 10:00",
+      "impact": "Low",
+      "previous": "3143K",
+      "consensus": "3158K",
+      "actual": "3081.7K"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 10:00",
+      "impact": "Low",
+      "previous": "6.8%",
+      "consensus": "6.2%",
+      "actual": "3.5%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 10:00",
+      "impact": "Low",
+      "previous": "2.2%",
+      "consensus": "-1.7%",
+      "actual": "-1.4%"
+    },
+    {
+      "title": "ECB President Lagarde Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 11:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 11:05",
+      "impact": "Medium",
+      "previous": "-3.8",
+      "consensus": "-4.3",
+      "actual": "-1.6"
+    },
+    {
+      "title": "ECB Vujcic Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 11:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "GDP MoM (Aug)",
+      "country": "CAD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 12:30",
+      "impact": "Medium",
+      "previous": "0%",
+      "consensus": "0.2%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "GDP MoM (Jul)",
+      "country": "CAD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 12:30",
+      "impact": "Medium",
+      "previous": "0.4%",
+      "consensus": "0%",
+      "actual": "0%"
+    },
+    {
+      "title": "Redbook YoY (Sep/26)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 12:55",
+      "impact": "Low",
+      "previous": "7.6%",
+      "consensus": "",
+      "actual": "8.2%"
+    },
+    {
+      "title": "House Price Index MoM (Jul)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:00",
+      "impact": "Low",
+      "previous": "0%",
+      "consensus": "0.1%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "House Price Index (Jul)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:00",
+      "impact": "Low",
+      "previous": "442.3",
+      "consensus": "442.9",
+      "actual": "443.5"
+    },
+    {
+      "title": "House Price Index YoY (Jul)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:00",
+      "impact": "Low",
+      "previous": "2.3%",
+      "consensus": "2.2%",
+      "actual": "2.6%"
+    },
+    {
+      "title": "S&P/Case-Shiller Home Price MoM (Jul)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:00",
+      "impact": "Low",
+      "previous": "0.4%",
+      "consensus": "0.2%",
+      "actual": "0%"
+    },
+    {
+      "title": "S&P/Case-Shiller Home Price YoY (Jul)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:00",
+      "impact": "Medium",
+      "previous": "2.2%",
+      "consensus": "2.2%",
+      "actual": "2.5%"
+    },
+    {
+      "title": "ECB Cipollone Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:15",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "NY Fed Bill Purchases 1 to 4 months",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 13:20",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "3.892",
+      "actual": ""
+    },
+    {
+      "title": "JOLTs Job Quits (Aug)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 14:00",
+      "impact": "Low",
+      "previous": "3.089M",
+      "consensus": "3M",
+      "actual": "3.066M"
+    },
+    {
+      "title": "JOLTs Job Openings (Aug)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 14:00",
+      "impact": "High",
+      "previous": "7.335M",
+      "consensus": "7.23M",
+      "actual": "7.079M"
+    },
+    {
+      "title": "CB Consumer Confidence (Sep)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 14:00",
+      "impact": "Medium",
+      "previous": "88.6",
+      "consensus": "89.2",
+      "actual": "81.9"
+    },
+    {
+      "title": "Dallas Fed Services Revenues Index (Sep)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 14:30",
+      "impact": "Low",
+      "previous": "6.6",
+      "consensus": "2",
+      "actual": "-0.9"
+    },
+    {
+      "title": "Dallas Fed Services Index (Sep)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 14:30",
+      "impact": "Low",
+      "previous": "4.2",
+      "consensus": "1",
+      "actual": "-1.8"
+    },
+    {
+      "title": "6-Week Bill Auction",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 15:30",
+      "impact": "Low",
+      "previous": "3.87%",
+      "consensus": "",
+      "actual": "3.97%"
+    },
+    {
+      "title": "52-Week Bill Auction",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 15:30",
+      "impact": "Low",
+      "previous": "3.98%",
+      "consensus": "",
+      "actual": "4.4%"
+    },
+    {
+      "title": "BoE Taylor Speech",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 15:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Goolsbee Speech",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 17:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Musalem Speech",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 17:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Williams Speech",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 18:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ECB Lane Speech",
+      "country": "EUR",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 18:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "API Crude Oil Stock Change (Sep/25)",
+      "country": "USD",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 20:50",
+      "impact": "Medium",
+      "previous": "1.786M",
+      "consensus": "-1.9M",
+      "actual": "1.019M"
+    },
+    {
+      "title": "Car Production YoY (Aug)",
+      "country": "GBP",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 23:01",
+      "impact": "Low",
+      "previous": "-10.6%",
+      "consensus": "-8%",
+      "actual": "6.1%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 23:50",
+      "impact": "Medium",
+      "previous": "3.7%",
+      "consensus": "3.3%",
+      "actual": "2.7%"
+    },
+    {
+      "title": "Industrial Production MoM (Aug)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 23:50",
+      "impact": "Medium",
+      "previous": "-0.2%",
+      "consensus": "1.7%",
+      "actual": "-1.7%"
+    },
+    {
+      "title": "Industrial Production YoY (Aug)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 23:50",
+      "impact": "Low",
+      "previous": "3.9%",
+      "consensus": "3.7%",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "JPY",
+      "date": "Tuesday, Sep 29, 2026",
+      "time": "Sep 29, 23:50",
+      "impact": "Low",
+      "previous": "2.1%",
+      "consensus": "-1%",
+      "actual": "-1.2%"
+    },
+    {
+      "title": "National Day for Truth and Reconciliation",
+      "country": "CAD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ANZ Business Confidence (Sep)",
+      "country": "NZD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 00:00",
+      "impact": "Medium",
+      "previous": "53.7",
+      "consensus": "55.1",
+      "actual": "51.9"
+    },
+    {
+      "title": "Housing Credit MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "0.5%",
+      "consensus": "0.4%",
+      "actual": "0.4%"
+    },
+    {
+      "title": "Private Sector Credit YoY (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "8.4%",
+      "consensus": "8.3%",
+      "actual": "8.4%"
+    },
+    {
+      "title": "Private Sector Credit MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "0.6%",
+      "consensus": "0.5%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "CPI (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "103.07",
+      "consensus": "103.5",
+      "actual": "103.5"
+    },
+    {
+      "title": "Inflation Rate MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Medium",
+      "previous": "1%",
+      "consensus": "0.5%",
+      "actual": "0.4%"
+    },
+    {
+      "title": "Inflation Rate YoY (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Medium",
+      "previous": "3.5%",
+      "consensus": "4.1%",
+      "actual": "4%"
+    },
+    {
+      "title": "RBA Trimmed Mean CPI MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "0.5%",
+      "consensus": "0.3%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "RBA Trimmed Mean CPI YoY (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "3.6%",
+      "consensus": "3.6%",
+      "actual": "3.6%"
+    },
+    {
+      "title": "RBA Weighted Median CPI MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "0.4%",
+      "consensus": "0.4%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "RBA Weighted Median CPI YoY (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "3.6%",
+      "consensus": "3.7%",
+      "actual": "3.6%"
+    },
+    {
+      "title": "Building Permits MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Medium",
+      "previous": "-1.9%",
+      "consensus": "-2%",
+      "actual": "-6.1%"
+    },
+    {
+      "title": "Building Permits YoY (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "10.9%",
+      "consensus": "12.5%",
+      "actual": "10.3%"
+    },
+    {
+      "title": "Private House Approvals MoM (Aug)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "-1.9%",
+      "consensus": "-0.7%",
+      "actual": "3.7%"
+    },
+    {
+      "title": "NBS Manufacturing PMI (Sep)",
+      "country": "CNY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "49.8",
+      "consensus": "50.1",
+      "actual": "50.1"
+    },
+    {
+      "title": "NBS Non Manufacturing PMI (Sep)",
+      "country": "CNY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "High",
+      "previous": "49",
+      "consensus": "49.3",
+      "actual": "50.2"
+    },
+    {
+      "title": "NBS General PMI (Sep)",
+      "country": "CNY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 01:30",
+      "impact": "Low",
+      "previous": "49.5",
+      "consensus": "50.1",
+      "actual": "50.7"
+    },
+    {
+      "title": "ECB Elderson Speech",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 02:20",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "2-Year JGB Auction",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 03:35",
+      "impact": "Low",
+      "previous": "1.708%",
+      "consensus": "",
+      "actual": "1.964%"
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 04:30",
+      "impact": "Low",
+      "previous": "3.7",
+      "consensus": "3.2",
+      "actual": "4.2"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 05:00",
+      "impact": "Low",
+      "previous": "2.8%",
+      "consensus": "-0.3%",
+      "actual": "-1.4%"
+    },
+    {
+      "title": "GDP YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 05:00",
+      "impact": "Low",
+      "previous": "2.7%",
+      "consensus": "1.1%",
+      "actual": "2.3%"
+    },
+    {
+      "title": "Construction Orders YoY (Aug)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 05:00",
+      "impact": "Low",
+      "previous": "-13.4%",
+      "consensus": "-12%",
+      "actual": "-3.6%"
+    },
+    {
+      "title": "Housing Starts YoY (Aug)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 05:00",
+      "impact": "Medium",
+      "previous": "8.2%",
+      "consensus": "7%",
+      "actual": "6.1%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 05:00",
+      "impact": "Low",
+      "previous": "4.1%",
+      "consensus": "5.2%",
+      "actual": "6.1%"
+    },
+    {
+      "title": "Import Prices MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "0.2%",
+      "consensus": "0.7%",
+      "actual": "1%"
+    },
+    {
+      "title": "Import Prices YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "6.8%",
+      "consensus": "8%",
+      "actual": "8.3%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "High",
+      "previous": "-2.2%",
+      "consensus": "0.1%",
+      "actual": "-0.4%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "High",
+      "previous": "-3.2%",
+      "consensus": "1.5%",
+      "actual": "1.3%"
+    },
+    {
+      "title": "GDP Growth Rate YoY (Q2)",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "0.8%",
+      "consensus": "1.2%",
+      "actual": "1.4%"
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Medium",
+      "previous": "-£21.1B",
+      "consensus": "-£24.7B",
+      "actual": "-£19.9B"
+    },
+    {
+      "title": "Business Investment QoQ (Q2)",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "3%",
+      "consensus": "1.7%",
+      "actual": "1.8%"
+    },
+    {
+      "title": "GDP Growth Rate QoQ (Q2)",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "0.6%",
+      "consensus": "0.4%",
+      "actual": "0.5%"
+    },
+    {
+      "title": "Business Investment YoY (Q2)",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:00",
+      "impact": "Low",
+      "previous": "1.8%",
+      "consensus": "0.8%",
+      "actual": "5.2%"
+    },
+    {
+      "title": "PPI MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Low",
+      "previous": "1.3%",
+      "consensus": "0.4%",
+      "actual": "1%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Low",
+      "previous": "0.7%",
+      "consensus": "-0.5%",
+      "actual": "-0.4%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Low",
+      "previous": "3.5%",
+      "consensus": "4.1%",
+      "actual": "4.8%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Medium",
+      "previous": "0.7%",
+      "consensus": "-0.6%",
+      "actual": "-0.3%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "High",
+      "previous": "2.4%",
+      "consensus": "2.8%",
+      "actual": "3%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Low",
+      "previous": "2.6%",
+      "consensus": "3.1%",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Household Consumption MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 06:45",
+      "impact": "Low",
+      "previous": "0.4%",
+      "consensus": "0%",
+      "actual": "-0.5%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:00",
+      "impact": "Low",
+      "previous": "3.3%",
+      "consensus": "4%",
+      "actual": "4.6%"
+    },
+    {
+      "title": "PPI MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:00",
+      "impact": "Low",
+      "previous": "0.3%",
+      "consensus": "0.4%",
+      "actual": "0.9%"
+    },
+    {
+      "title": "ECB Non-Monetary Policy Meeting",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Unemployment Change (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:55",
+      "impact": "High",
+      "previous": "5K",
+      "consensus": "1K",
+      "actual": "12K"
+    },
+    {
+      "title": "Unemployed Persons (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:55",
+      "impact": "Medium",
+      "previous": "3M",
+      "consensus": "3M",
+      "actual": "3.012M"
+    },
+    {
+      "title": "Unemployment Rate (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 07:55",
+      "impact": "High",
+      "previous": "6.4%",
+      "consensus": "6.4%",
+      "actual": "6.4%"
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "Low",
+      "previous": "€6.61B",
+      "consensus": "-€2.6B",
+      "actual": "€0.25B"
+    },
+    {
+      "title": "Brandenburg CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "3.1%",
+      "consensus": "",
+      "actual": "3.6%"
+    },
+    {
+      "title": "Bavaria CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "2.9%",
+      "consensus": "",
+      "actual": "3.2%"
+    },
+    {
+      "title": "North Rhine Westphalia CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.2%",
+      "consensus": "",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Bavaria CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.2%",
+      "consensus": "",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Saxony CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.1%",
+      "consensus": "",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Baden Wuerttemberg CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.1%",
+      "consensus": "",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Brandenburg CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.3%",
+      "consensus": "",
+      "actual": "0.5%"
+    },
+    {
+      "title": "Saxony CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "2.9%",
+      "consensus": "",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Hesse CPI MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "0.3%",
+      "consensus": "",
+      "actual": "0.5%"
+    },
+    {
+      "title": "North Rhine Westphalia CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "2.9%",
+      "consensus": "",
+      "actual": "3.3%"
+    },
+    {
+      "title": "Hesse CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "3%",
+      "consensus": "",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Baden Wuerttemberg CPI YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "High",
+      "previous": "2.6%",
+      "consensus": "",
+      "actual": "2.9%"
+    },
+    {
+      "title": "Business Confidence (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "Medium",
+      "previous": "90.2",
+      "consensus": "90.5",
+      "actual": "91.9"
+    },
+    {
+      "title": "Consumer Confidence (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "Medium",
+      "previous": "94.5",
+      "consensus": "94",
+      "actual": "91.2"
+    },
+    {
+      "title": "Current Account (Jul)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "Low",
+      "previous": "€3.47B",
+      "consensus": "€3B",
+      "actual": "€5.91B"
+    },
+    {
+      "title": "Economic Sentiment Index (Sep)",
+      "country": "CHF",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:00",
+      "impact": "Low",
+      "previous": "12.1",
+      "consensus": "13",
+      "actual": "2.6"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:30",
+      "impact": "Low",
+      "previous": "3.4%",
+      "consensus": "4%",
+      "actual": "3.7%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:30",
+      "impact": "Low",
+      "previous": "0.1%",
+      "consensus": "0.2%",
+      "actual": "-0.1%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 08:30",
+      "impact": "Low",
+      "previous": "3%",
+      "consensus": "3.6%",
+      "actual": "3.3%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Low",
+      "previous": "11.8%",
+      "consensus": "12%",
+      "actual": "14.9%"
+    },
+    {
+      "title": "Retail Sales YoY (Jul)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "High",
+      "previous": "1.9%",
+      "consensus": "1%",
+      "actual": "5.2%"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "High",
+      "previous": "7.9%",
+      "consensus": "8%",
+      "actual": "7.4%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Medium",
+      "previous": "0.5%",
+      "consensus": "0.3%",
+      "actual": "0.7%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Low",
+      "previous": "3.2%",
+      "consensus": "3.8%",
+      "actual": "4.1%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "High",
+      "previous": "3.3%",
+      "consensus": "3.8%",
+      "actual": "4.2%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Low",
+      "previous": "0.1%",
+      "consensus": "1.8%",
+      "actual": "2%"
+    },
+    {
+      "title": "Tourist Arrivals YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Low",
+      "previous": "4.4%",
+      "consensus": "5%",
+      "actual": "11.5%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:00",
+      "impact": "Low",
+      "previous": "1.5%",
+      "consensus": "1.7%",
+      "actual": "2.3%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:30",
+      "impact": "Low",
+      "previous": "9%",
+      "consensus": "9.4%",
+      "actual": "11.1%"
+    },
+    {
+      "title": "10-Year Bund Auction",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:30",
+      "impact": "Low",
+      "previous": "3.39%",
+      "consensus": "",
+      "actual": "3.58%"
+    },
+    {
+      "title": "BoE Financial Policy Committee Record",
+      "country": "GBP",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 09:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "2.7%",
+      "consensus": "2%",
+      "actual": "4.3%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "1.6%",
+      "consensus": "-0.4%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Unemployment Rate (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "5%",
+      "consensus": "5.1%",
+      "actual": "5%"
+    },
+    {
+      "title": "PPI YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "-2.3%",
+      "consensus": "-1.6%",
+      "actual": "-1%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "-0.1%",
+      "consensus": "-0.3%",
+      "actual": "-0.7%"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "5.7%",
+      "consensus": "5.7%",
+      "actual": "5.7%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "2.6%",
+      "consensus": "2.6%",
+      "actual": "2.4%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "3.3%",
+      "consensus": "3.4%",
+      "actual": "3.6%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 10:00",
+      "impact": "Low",
+      "previous": "0%",
+      "consensus": "1%",
+      "actual": "1.2%"
+    },
+    {
+      "title": "MBA Purchase Index (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 11:00",
+      "impact": "Low",
+      "previous": "154.9",
+      "consensus": "",
+      "actual": "148.2"
+    },
+    {
+      "title": "MBA Mortgage Market Index (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 11:00",
+      "impact": "Low",
+      "previous": "227.3",
+      "consensus": "",
+      "actual": "213.6"
+    },
+    {
+      "title": "MBA Mortgage Refinance Index (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 11:00",
+      "impact": "Low",
+      "previous": "611",
+      "consensus": "",
+      "actual": "557.8"
+    },
+    {
+      "title": "MBA Mortgage Applications (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 11:00",
+      "impact": "Low",
+      "previous": "-1.5%",
+      "consensus": "",
+      "actual": "-6%"
+    },
+    {
+      "title": "MBA 30-Year Mortgage Rate (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 11:00",
+      "impact": "Medium",
+      "previous": "7.12%",
+      "consensus": "",
+      "actual": "7.3%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:00",
+      "impact": "Medium",
+      "previous": "0.2%",
+      "consensus": "0.5%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:00",
+      "impact": "Low",
+      "previous": "2.9%",
+      "consensus": "3.1%",
+      "actual": "3.3%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:00",
+      "impact": "Low",
+      "previous": "0.2%",
+      "consensus": "0.5%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:00",
+      "impact": "High",
+      "previous": "2.9%",
+      "consensus": "3.2%",
+      "actual": "3.3%"
+    },
+    {
+      "title": "ADP Employment Change (Sep)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:15",
+      "impact": "High",
+      "previous": "36K",
+      "consensus": "70K",
+      "actual": "90K"
+    },
+    {
+      "title": "Wholesale Inventories MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Medium",
+      "previous": "1.3%",
+      "consensus": "1.1%",
+      "actual": "0.7%"
+    },
+    {
+      "title": "Retail Inventories Ex Autos MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Medium",
+      "previous": "0.8%",
+      "consensus": "0.4%",
+      "actual": "0.1%"
+    },
+    {
+      "title": "PCE Price Index MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Medium",
+      "previous": "0.1%",
+      "consensus": "0.4%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "Core PCE Price Index MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "0.1%",
+      "consensus": "0.3%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "GDP Growth Rate QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "2.5%",
+      "consensus": "1.5%",
+      "actual": "2.2%"
+    },
+    {
+      "title": "Corporate Profits QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "0.5%",
+      "consensus": "8.2%",
+      "actual": "7.7%"
+    },
+    {
+      "title": "PCE Prices QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "4.2%",
+      "consensus": "5.3%",
+      "actual": "5%"
+    },
+    {
+      "title": "PCE Price Index YoY (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Medium",
+      "previous": "3.4%",
+      "consensus": "3.7%",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Core PCE Prices QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "3.9%",
+      "consensus": "3.6%",
+      "actual": "3.3%"
+    },
+    {
+      "title": "GDP Price Index QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Medium",
+      "previous": "3.6%",
+      "consensus": "6.4%",
+      "actual": "6.1%"
+    },
+    {
+      "title": "Real Consumer Spending QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "0.7%",
+      "consensus": "3.4%",
+      "actual": "3.8%"
+    },
+    {
+      "title": "GDP Sales QoQ (Q2)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "2.3%",
+      "consensus": "2.2%",
+      "actual": "2.8%"
+    },
+    {
+      "title": "Personal Spending MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "0.1%",
+      "consensus": "0.8%",
+      "actual": "0.9%"
+    },
+    {
+      "title": "Goods Trade Balance (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "-$118.9B",
+      "consensus": "-$115B",
+      "actual": "-$132.6B"
+    },
+    {
+      "title": "Core PCE Price Index YoY (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "3%",
+      "consensus": "3.3%",
+      "actual": "3%"
+    },
+    {
+      "title": "Personal Income MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "High",
+      "previous": "0.3%",
+      "consensus": "0.4%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "Real Personal Spending MoM (Aug)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 12:30",
+      "impact": "Low",
+      "previous": "0.1%",
+      "consensus": "0.1%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "SNB Quarterly Bulletin",
+      "country": "CHF",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 13:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 13:20",
+      "impact": "Low",
+      "previous": "€1626M",
+      "consensus": "-€4120M",
+      "actual": "€1674M"
+    },
+    {
+      "title": "Chicago PMI (Sep)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 13:45",
+      "impact": "Medium",
+      "previous": "47.1",
+      "consensus": "51.2",
+      "actual": "58.8"
+    },
+    {
+      "title": "Cotality Dwelling Prices MoM (Sep)",
+      "country": "AUD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:01",
+      "impact": "Low",
+      "previous": "-0.9%",
+      "consensus": "-0.9%",
+      "actual": "-1.1%"
+    },
+    {
+      "title": "EIA Gasoline Production Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "-0.054M",
+      "consensus": "",
+      "actual": "-0.124M"
+    },
+    {
+      "title": "EIA Crude Oil Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Medium",
+      "previous": "2.969M",
+      "consensus": "-0.3M",
+      "actual": "0.922M"
+    },
+    {
+      "title": "EIA Cushing Crude Oil Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "2.266M",
+      "consensus": "",
+      "actual": "0.553M"
+    },
+    {
+      "title": "EIA Distillate Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "-0.428M",
+      "consensus": "-0.2M",
+      "actual": "-2.251M"
+    },
+    {
+      "title": "EIA Refinery Crude Runs Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "-0.519M",
+      "consensus": "",
+      "actual": "-0.554M"
+    },
+    {
+      "title": "EIA Distillate Fuel Production Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "-0.068M",
+      "consensus": "",
+      "actual": "-0.156M"
+    },
+    {
+      "title": "EIA Crude Oil Imports Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "0.369M",
+      "consensus": "",
+      "actual": "-0.468M"
+    },
+    {
+      "title": "EIA Gasoline Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Medium",
+      "previous": "-1.686M",
+      "consensus": "-0.5M",
+      "actual": "-1.684M"
+    },
+    {
+      "title": "EIA Heating Oil Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 14:30",
+      "impact": "Low",
+      "previous": "0.346M",
+      "consensus": "",
+      "actual": "-0.62M"
+    },
+    {
+      "title": "17-Week Bill Auction",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 15:30",
+      "impact": "Low",
+      "previous": "4.135%",
+      "consensus": "",
+      "actual": "4.115%"
+    },
+    {
+      "title": "ECB Schnabel Speech",
+      "country": "EUR",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 15:45",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Quarterly Grain Stocks - Soy (Sep)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 16:00",
+      "impact": "Low",
+      "previous": "1.06B",
+      "consensus": "0.33B",
+      "actual": "0.315B"
+    },
+    {
+      "title": "Quarterly Grain Stocks - Corn (Sep)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 16:00",
+      "impact": "Low",
+      "previous": "5.29B",
+      "consensus": "1.91B",
+      "actual": "2.095B"
+    },
+    {
+      "title": "Quarterly Grain Stocks - Wheat (Sep)",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 16:00",
+      "impact": "Low",
+      "previous": "0.92B",
+      "consensus": "1.83B",
+      "actual": "1.845B"
+    },
+    {
+      "title": "Fed Barkin Speech",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 17:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Goolsbee Speech",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 21:10",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Building Permits MoM (Aug)",
+      "country": "NZD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 21:45",
+      "impact": "Low",
+      "previous": "-4.5%",
+      "consensus": "0.9%",
+      "actual": "5.6%"
+    },
+    {
+      "title": "Fed Kashkari Speech",
+      "country": "USD",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 22:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "BoJ Summary of Opinions",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Foreign Bond Investment (Sep/19)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "¥1091B",
+      "consensus": "",
+      "actual": "-¥1904.9B"
+    },
+    {
+      "title": "Stock Investment by Foreigners (Sep/19)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "-¥1520.4B",
+      "consensus": "",
+      "actual": "-¥4942.5B"
+    },
+    {
+      "title": "Foreign Bond Investment (Sep/26)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": "-684.5"
+    },
+    {
+      "title": "Stock Investment by Foreigners (Sep/26)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": "-362"
+    },
+    {
+      "title": "Tankan Non-Manufacturing Outlook (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "28",
+      "consensus": "30",
+      "actual": "30"
+    },
+    {
+      "title": "Tankan Small Manufacturers Index (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "9",
+      "consensus": "11",
+      "actual": "14"
+    },
+    {
+      "title": "Tankan Large Manufacturers Index (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "High",
+      "previous": "22",
+      "consensus": "25",
+      "actual": "24"
+    },
+    {
+      "title": "Tankan Large Non-Manufacturing Index (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "37",
+      "consensus": "36",
+      "actual": "35"
+    },
+    {
+      "title": "Tankan Large All Industry Capex (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "11.5%",
+      "consensus": "12.3%",
+      "actual": "11.3%"
+    },
+    {
+      "title": "Tankan Large Manufacturing Outlook (Q3)",
+      "country": "JPY",
+      "date": "Wednesday, Sep 30, 2026",
+      "time": "Sep 30, 23:50",
+      "impact": "Low",
+      "previous": "17",
+      "consensus": "22",
+      "actual": "21"
+    },
+    {
+      "title": "National Day Golden Week",
+      "country": "CNY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Cyprus Independence Day",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Exports MoM (Aug)",
+      "country": "AUD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 01:30",
+      "impact": "Low",
+      "previous": "-3.6%",
+      "consensus": "",
+      "actual": "3.7%"
+    },
+    {
+      "title": "Balance of Trade (Aug)",
+      "country": "AUD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 01:30",
+      "impact": "High",
+      "previous": "A$1.351B",
+      "consensus": "A$2B",
+      "actual": "A$0.495B"
+    },
+    {
+      "title": "Imports MoM (Aug)",
+      "country": "AUD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 01:30",
+      "impact": "Low",
+      "previous": "-2.4%",
+      "consensus": "",
+      "actual": "5.8%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 04:30",
+      "impact": "Low",
+      "previous": "2.5%",
+      "consensus": "2.5%",
+      "actual": "3.5%"
+    },
+    {
+      "title": "Nationwide Housing Prices MoM (Sep)",
+      "country": "GBP",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:00",
+      "impact": "Medium",
+      "previous": "0.2%",
+      "consensus": "0%",
+      "actual": "-0.2%"
+    },
+    {
+      "title": "Nationwide Housing Prices YoY (Sep)",
+      "country": "GBP",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:00",
+      "impact": "Medium",
+      "previous": "1.6%",
+      "consensus": "1.3%",
+      "actual": "0.8%"
+    },
+    {
+      "title": "Commodity Prices YoY (Sep)",
+      "country": "AUD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:30",
+      "impact": "Low",
+      "previous": "16.2%",
+      "consensus": "15%",
+      "actual": "15.5%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "CHF",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:30",
+      "impact": "Medium",
+      "previous": "0.8%",
+      "consensus": "1%",
+      "actual": "1%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "CHF",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:30",
+      "impact": "High",
+      "previous": "2.6%",
+      "consensus": "2.2%",
+      "actual": "3.2%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "CHF",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:30",
+      "impact": "Low",
+      "previous": "0.4%",
+      "consensus": "0%",
+      "actual": "0%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "CHF",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 06:30",
+      "impact": "High",
+      "previous": "0.1%",
+      "consensus": "-0.1%",
+      "actual": "0.4%"
+    },
+    {
+      "title": "ECB General Council Meeting",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 07:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "procure.ch Manufacturing PMI (Sep)",
+      "country": "CHF",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 07:30",
+      "impact": "High",
+      "previous": "57.1",
+      "consensus": "56",
+      "actual": "55.3"
+    },
+    {
+      "title": "ECB Machado Speech",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 07:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Unemployment Rate (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 07:35",
+      "impact": "High",
+      "previous": "7.2%",
+      "consensus": "7.1%",
+      "actual": "7.1%"
+    },
+    {
+      "title": "Unemployed Persons (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 07:40",
+      "impact": "Low",
+      "previous": "311.4K",
+      "consensus": "314K",
+      "actual": "306.6K"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:00",
+      "impact": "High",
+      "previous": "6%",
+      "consensus": "5.7%",
+      "actual": "6.2%"
+    },
+    {
+      "title": "ECB Cipollone Speech",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:20",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Bonos y Obligaciones Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:40",
+      "impact": "Low",
+      "previous": "3.806%",
+      "consensus": "",
+      "actual": "4.562%"
+    },
+    {
+      "title": "10-Year Index-Linked Obligacion Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:40",
+      "impact": "Low",
+      "previous": "1.425%",
+      "consensus": "",
+      "actual": "1.96%"
+    },
+    {
+      "title": "10-Year Obligacion Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:40",
+      "impact": "Low",
+      "previous": "3.96%",
+      "consensus": "",
+      "actual": "4.176%"
+    },
+    {
+      "title": "2-Year Note Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 08:40",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": "3.43"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "Low",
+      "previous": "4%",
+      "consensus": "3.9%",
+      "actual": "4.1%"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "High",
+      "previous": "6.4%",
+      "consensus": "6.4%",
+      "actual": "6.4%"
+    },
+    {
+      "title": "OAT Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "Low",
+      "previous": "3.92%",
+      "consensus": "",
+      "actual": "5.06%"
+    },
+    {
+      "title": "2037 OAT Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "Low",
+      "previous": "3.95%",
+      "consensus": "",
+      "actual": "4.97%"
+    },
+    {
+      "title": "2036 OAT Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "Low",
+      "previous": "4.23%",
+      "consensus": "",
+      "actual": "4.93%"
+    },
+    {
+      "title": "2048 OAT Auction",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:00",
+      "impact": "Low",
+      "previous": "4.35%",
+      "consensus": "",
+      "actual": "5.4%"
+    },
+    {
+      "title": "Challenger Job Cuts (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 09:30",
+      "impact": "Low",
+      "previous": "52.881K",
+      "consensus": "78K",
+      "actual": "43.281K"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:00",
+      "impact": "Low",
+      "previous": "0.6%",
+      "consensus": "0.2%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:00",
+      "impact": "Low",
+      "previous": "3.4%",
+      "consensus": "3.8%",
+      "actual": "3.9%"
+    },
+    {
+      "title": "Industrial Production MoM (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:00",
+      "impact": "Low",
+      "previous": "-0.4%",
+      "consensus": "0.2%",
+      "actual": "-2%"
+    },
+    {
+      "title": "Industrial Production YoY (Aug)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:00",
+      "impact": "Low",
+      "previous": "-0.8%",
+      "consensus": "-2%",
+      "actual": "-3.8%"
+    },
+    {
+      "title": "New Car Sales YoY (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:10",
+      "impact": "Low",
+      "previous": "11.8%",
+      "consensus": "5.7%",
+      "actual": "10.2%"
+    },
+    {
+      "title": "ECB Montagner Speech",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 10:15",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 11:45",
+      "impact": "Low",
+      "previous": "-$592.06M",
+      "consensus": "-$700M",
+      "actual": "-$118.11M"
+    },
+    {
+      "title": "BoE Mann Speech",
+      "country": "GBP",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 12:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Jobless Claims 4-week Average (Sep/26)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 12:30",
+      "impact": "High",
+      "previous": "202.5K",
+      "consensus": "199K",
+      "actual": "200K"
+    },
+    {
+      "title": "Continuing Jobless Claims (Sep/19)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 12:30",
+      "impact": "High",
+      "previous": "1712K",
+      "consensus": "1730K",
+      "actual": "1701K"
+    },
+    {
+      "title": "Initial Jobless Claims (Sep/26)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 12:30",
+      "impact": "High",
+      "previous": "198K",
+      "consensus": "200K",
+      "actual": "197K"
+    },
+    {
+      "title": "Fed Barkin Speech",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 13:05",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Schmid Speech",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 13:05",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Collins Speech",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 13:05",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "BoE Mills Speech",
+      "country": "GBP",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 13:10",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ECB President Lagarde Speech",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 13:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ISM Manufacturing Prices (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:00",
+      "impact": "Low",
+      "previous": "71.1",
+      "consensus": "72.3",
+      "actual": "77.9"
+    },
+    {
+      "title": "ISM Manufacturing PMI (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:00",
+      "impact": "High",
+      "previous": "54.6",
+      "consensus": "55",
+      "actual": "54.5"
+    },
+    {
+      "title": "ISM Manufacturing New Orders (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:00",
+      "impact": "Low",
+      "previous": "53.7",
+      "consensus": "53.9",
+      "actual": "55.3"
+    },
+    {
+      "title": "ISM Manufacturing Employment (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:00",
+      "impact": "Medium",
+      "previous": "51.2",
+      "consensus": "51.5",
+      "actual": "52.7"
+    },
+    {
+      "title": "Construction Spending MoM (Aug)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:00",
+      "impact": "Low",
+      "previous": "-0.1%",
+      "consensus": "0%",
+      "actual": "0.9%"
+    },
+    {
+      "title": "EIA Natural Gas Stocks Change (Sep/25)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 14:30",
+      "impact": "Low",
+      "previous": "53B",
+      "consensus": "64B",
+      "actual": "64B"
+    },
+    {
+      "title": "8-Week Bill Auction",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 15:30",
+      "impact": "Low",
+      "previous": "3.99%",
+      "consensus": "",
+      "actual": "3.99%"
+    },
+    {
+      "title": "4-Week Bill Auction",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 15:30",
+      "impact": "Low",
+      "previous": "3.85%",
+      "consensus": "",
+      "actual": "3.89%"
+    },
+    {
+      "title": "ECB Schnabel Speech",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 15:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "15-Year Mortgage Rate (Oct/01)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 16:00",
+      "impact": "Low",
+      "previous": "6.42%",
+      "consensus": "",
+      "actual": "6.6%"
+    },
+    {
+      "title": "30-Year Mortgage Rate (Oct/01)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 16:00",
+      "impact": "Low",
+      "previous": "7.03%",
+      "consensus": "",
+      "actual": "7.28%"
+    },
+    {
+      "title": "New Car Registrations YoY (Sep)",
+      "country": "EUR",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 18:30",
+      "impact": "Low",
+      "previous": "3.2%",
+      "consensus": "2%",
+      "actual": "9.9%"
+    },
+    {
+      "title": "Fed Williams Speech",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 19:30",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Fed Balance Sheet (Sep/30)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 20:30",
+      "impact": "Low",
+      "previous": "$6.748T",
+      "consensus": "$6.7T",
+      "actual": "$6.743T"
+    },
+    {
+      "title": "Total Vehicle Sales (Sep)",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 22:00",
+      "impact": "Low",
+      "previous": "16.8M",
+      "consensus": "16.6M",
+      "actual": "16M"
+    },
+    {
+      "title": "Fed Logan Speech",
+      "country": "USD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 22:45",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ANZ Roy Morgan Consumer Confidence (Sep)",
+      "country": "NZD",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:15",
+      "impact": "Low",
+      "previous": "98",
+      "consensus": "98",
+      "actual": "97.6"
+    },
+    {
+      "title": "Tokyo CPI Ex Food and Energy YoY (Sep)",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:30",
+      "impact": "Low",
+      "previous": "2%",
+      "consensus": "2.1%",
+      "actual": "3%"
+    },
+    {
+      "title": "Unemployment Rate (Aug)",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:30",
+      "impact": "Medium",
+      "previous": "2.4%",
+      "consensus": "2.4%",
+      "actual": "2.5%"
+    },
+    {
+      "title": "Tokyo CPI YoY (Sep)",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:30",
+      "impact": "Low",
+      "previous": "1.9%",
+      "consensus": "2.3%",
+      "actual": "2.7%"
+    },
+    {
+      "title": "Jobs/applications ratio (Aug)",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:30",
+      "impact": "Low",
+      "previous": "1.18",
+      "consensus": "1.18",
+      "actual": "1.18"
+    },
+    {
+      "title": "Tokyo Core CPI YoY (Sep)",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:30",
+      "impact": "Low",
+      "previous": "1.8%",
+      "consensus": "2.4%",
+      "actual": "2.7%"
+    },
+    {
+      "title": "Monetary Base YoY",
+      "country": "JPY",
+      "date": "Thursday, Oct 01, 2026",
+      "time": "Oct 01, 23:50",
+      "impact": "Low",
+      "previous": "-15.7%",
+      "consensus": "-16.3%",
+      "actual": "-15.2%"
+    },
+    {
+      "title": "National Day Golden Week",
+      "country": "CNY",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "3-Month Bill Auction",
+      "country": "JPY",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 03:35",
+      "impact": "Low",
+      "previous": "1.256%",
+      "consensus": "",
+      "actual": "1.279%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 04:30",
+      "impact": "Medium",
+      "previous": "3.3%",
+      "consensus": "3.5%",
+      "actual": "3.4%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 05:00",
+      "impact": "Low",
+      "previous": "2.4%",
+      "consensus": "2.3%",
+      "actual": "2.6%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 05:00",
+      "impact": "Low",
+      "previous": "-0.3%",
+      "consensus": "0.4%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Harmonised Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "Low",
+      "previous": "2.9%",
+      "consensus": "3.2%",
+      "actual": "3.5%"
+    },
+    {
+      "title": "Harmonised Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "Low",
+      "previous": "0.5%",
+      "consensus": "0.3%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "Low",
+      "previous": "3.2%",
+      "consensus": "3.6%",
+      "actual": "3.6%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "Low",
+      "previous": "0.6%",
+      "consensus": "0.2%",
+      "actual": "0.2%"
+    },
+    {
+      "title": "Tourist Arrivals YoY (Aug)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "Low",
+      "previous": "4.6%",
+      "consensus": "",
+      "actual": "9.2%"
+    },
+    {
+      "title": "Unemployment Change (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:00",
+      "impact": "High",
+      "previous": "44.419K",
+      "consensus": "17.6K",
+      "actual": "23.587K"
+    },
+    {
+      "title": "ECB Cipollone Speech",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 07:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 08:00",
+      "impact": "High",
+      "previous": "1%",
+      "consensus": "0.7%",
+      "actual": "0.5%"
+    },
+    {
+      "title": "Retail Sales MoM (Aug)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 08:00",
+      "impact": "High",
+      "previous": "-0.4%",
+      "consensus": "-0.1%",
+      "actual": "0.3%"
+    },
+    {
+      "title": "DMP 1Y CPI Expectations (Sep)",
+      "country": "GBP",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 08:30",
+      "impact": "High",
+      "previous": "3.1%",
+      "consensus": "",
+      "actual": "3.3%"
+    },
+    {
+      "title": "DMP 3M Output Price Expectations (Sep)",
+      "country": "GBP",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 08:30",
+      "impact": "Low",
+      "previous": "3.8%",
+      "consensus": "",
+      "actual": "3.7%"
+    },
+    {
+      "title": "New Car Registrations YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 08:45",
+      "impact": "Low",
+      "previous": "7.4%",
+      "consensus": "2.9%",
+      "actual": "11.6%"
+    },
+    {
+      "title": "Retail Sales YoY (Aug)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 09:00",
+      "impact": "Low",
+      "previous": "8.9%",
+      "consensus": "8.4%",
+      "actual": "7%"
+    },
+    {
+      "title": "CPI (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 09:00",
+      "impact": "High",
+      "previous": "103.69",
+      "consensus": "104.1",
+      "actual": "104.3"
+    },
+    {
+      "title": "Core Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 09:00",
+      "impact": "Medium",
+      "previous": "2.4%",
+      "consensus": "2.5%",
+      "actual": "2.5%"
+    },
+    {
+      "title": "Inflation Rate YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 09:00",
+      "impact": "High",
+      "previous": "3.2%",
+      "consensus": "3.6%",
+      "actual": "3.8%"
+    },
+    {
+      "title": "Inflation Rate MoM (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 09:00",
+      "impact": "Medium",
+      "previous": "0.4%",
+      "consensus": "0.5%",
+      "actual": "0.6%"
+    },
+    {
+      "title": "Budget Balance (Aug)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 10:30",
+      "impact": "Low",
+      "previous": "-€6.3B",
+      "consensus": "-€7.1B",
+      "actual": "-€7.3B"
+    },
+    {
+      "title": "ECB Vujcic Speech",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 11:30",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "ECB Buch Speech",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:15",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Nonfarm Payrolls Private (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "High",
+      "previous": "127K",
+      "consensus": "85K",
+      "actual": ""
+    },
+    {
+      "title": "Non Farm Payrolls (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "High",
+      "previous": "162K",
+      "consensus": "90K",
+      "actual": ""
+    },
+    {
+      "title": "Participation Rate (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Medium",
+      "previous": "61.6",
+      "consensus": "61.4",
+      "actual": ""
+    },
+    {
+      "title": "Unemployment Rate (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "High",
+      "previous": "4.1%",
+      "consensus": "4.1%",
+      "actual": ""
+    },
+    {
+      "title": "Government Payrolls (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Low",
+      "previous": "35K",
+      "consensus": "15K",
+      "actual": ""
+    },
+    {
+      "title": "U-6 Unemployment Rate (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "High",
+      "previous": "7.7",
+      "consensus": "7.7",
+      "actual": ""
+    },
+    {
+      "title": "Average Hourly Earnings YoY (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Medium",
+      "previous": "3.1%",
+      "consensus": "3.2%",
+      "actual": ""
+    },
+    {
+      "title": "Manufacturing Payrolls (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Low",
+      "previous": "16K",
+      "consensus": "10K",
+      "actual": ""
+    },
+    {
+      "title": "Average Hourly Earnings MoM (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Medium",
+      "previous": "0.3%",
+      "consensus": "0.3%",
+      "actual": ""
+    },
+    {
+      "title": "Average Weekly Hours (Sep)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 12:30",
+      "impact": "Low",
+      "previous": "34.4",
+      "consensus": "34.3",
+      "actual": ""
+    },
+    {
+      "title": "Factory Orders MoM (Aug)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 14:00",
+      "impact": "Medium",
+      "previous": "0.9%",
+      "consensus": "0.1%",
+      "actual": ""
+    },
+    {
+      "title": "Factory Orders ex Transportation (Aug)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 14:00",
+      "impact": "Low",
+      "previous": "0.6%",
+      "consensus": "0.2%",
+      "actual": ""
+    },
+    {
+      "title": "Fed Logan Speech",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 14:00",
+      "impact": "Medium",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "New Car Registrations YoY (Sep)",
+      "country": "EUR",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 17:00",
+      "impact": "Low",
+      "previous": "8.3%",
+      "consensus": "6.2%",
+      "actual": "1.9%"
+    },
+    {
+      "title": "Baker Hughes Total Rigs Count (Oct/02)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 17:00",
+      "impact": "Low",
+      "previous": "599",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Baker Hughes Oil Rig Count (Oct/02)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 17:00",
+      "impact": "Low",
+      "previous": "455",
+      "consensus": "435",
+      "actual": ""
+    },
+    {
+      "title": "GDP Growth Rate YoY (Q2)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 18:10",
+      "impact": "Low",
+      "previous": "4.79%",
+      "consensus": "3.5%",
+      "actual": ""
+    },
+    {
+      "title": "GDP Growth Rate QoQ (Q2)",
+      "country": "USD",
+      "date": "Friday, Oct 02, 2026",
+      "time": "Oct 02, 18:10",
+      "impact": "Low",
+      "previous": "0.93",
+      "consensus": "0.4",
+      "actual": ""
+    },
+    {
+      "title": "National Day Golden Week",
+      "country": "CNY",
+      "date": "Saturday, Oct 03, 2026",
+      "time": "Oct 03, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "German Unity Day",
+      "country": "EUR",
+      "date": "Saturday, Oct 03, 2026",
+      "time": "Oct 03, 00:00",
+      "impact": "None",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Parliamentary Elections",
+      "country": "EUR",
+      "date": "Saturday, Oct 03, 2026",
+      "time": "Oct 03, 00:00",
+      "impact": "Low",
+      "previous": "",
+      "consensus": "",
+      "actual": ""
+    },
+    {
+      "title": "Current Account (Q2)",
+      "country": "EUR",
+      "date": "Tuesday, Oct 06, 2026",
+      "time": "Oct 06, 09:00",
+      "impact": "Low",
+      "previous": "-€1273.8M",
+      "consensus": "-€340M",
+      "actual": ""
+    }
+  ]
+}
