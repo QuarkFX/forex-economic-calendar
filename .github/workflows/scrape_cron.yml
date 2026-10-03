@@ -1,10 +1,17 @@
-name: QuarkFX Forex Economic Calendar 5-Min Cron
+name: QuarkFX Forex Economic Calendar 15-Min Cron
 
 on:
   schedule:
-    # Run every 5 minutes
-    - cron: '*/5 * * * *'
+    # Run every 15 minutes (Optimal balance for GitHub Actions & fresh releases)
+    - cron: '*/15 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-cron
+  cancel-in-progress: false
 
 jobs:
   scrape-and-update:
@@ -13,6 +20,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,9 +37,46 @@ jobs:
         run: |
           python scraper.py
 
-      - name: Commit and Push Updated 4 JSON Files
+      - name: Commit and Push Updated JSON Files
+        id: commit_step
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/*.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update 4 Economic Calendar JSON files [cron 5min]" && git push)
+          if git diff --staged --quiet; then
+            echo "No data changes detected. Skipping commit."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            CURRENT_BRANCH="${GITHUB_REF_NAME:-main}"
+            git commit -m "chore(data): auto-update economic calendar JSON [skip ci]"
+            git pull --rebase origin "$CURRENT_BRANCH" || true
+            git push origin "$CURRENT_BRANCH"
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "branch=$CURRENT_BRANCH" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Purge jsDelivr Global CDN Cache
+        if: steps.commit_step.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          TARGET_BRANCH="${{ steps.commit_step.outputs.branch || github.ref_name || 'main' }}"
+          echo "Purging jsDelivr edge cache for branch '$TARGET_BRANCH'..."
+          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_thisweek.json" || true
+          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_21days.json" || true
+          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_thisweek.json" || true
+          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_21days.json" || true
+          echo "jsDelivr CDN cache successfully purged worldwide."
+
+      - name: Native Keepalive (Prevent 60-day auto-disable)
+        if: always()
+        run: |
+          LAST_COMMIT=$(git log -1 --format=%ct 2>/dev/null || echo 0)
+          NOW=$(date +%s)
+          DAYS_DIFF=$(( (NOW - LAST_COMMIT) / 86400 ))
+          if [ "$DAYS_DIFF" -ge 50 ]; then
+            echo "Repository inactive for $DAYS_DIFF days. Creating keepalive commit..."
+            git commit --allow-empty -m "chore(keepalive): reset 60-day cron timer [skip ci]" || true
+            git push origin "${GITHUB_REF_NAME:-main}" || true
+          else
+            echo "Repository has recent activity ($DAYS_DIFF days ago). No keepalive needed."
+          fi
+

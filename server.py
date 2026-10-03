@@ -1,62 +1,54 @@
 import os
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, Response
 
 app = Flask(__name__)
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 
-def read_json_file(filename):
+@app.after_request
+def add_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+    response.headers["Cache-Control"] = "public, max-age=60, s-maxage=60, stale-while-revalidate=30"
+    return response
+
+def serve_json(filename):
     filepath = os.path.join(OUTPUT_DIR, filename)
     if not os.path.exists(filepath):
-        return {"error": f"File {filename} not yet generated. Please wait or run scraper.py."}, 404
-    import json
+        return jsonify({"error": f"{filename} not found. Run scraper.py first."}), 404
     with open(filepath, "r", encoding="utf-8") as f:
-        return json.load(f), 200
+        return Response(f.read(), mimetype="application/json")
 
-# 1. Forex Factory - This Week
-@app.route("/api/forexfactory/thisweek", methods=["GET"])
-@app.route("/forexfactory_thisweek.json", methods=["GET"])
-def forexfactory_thisweek():
-    data, code = read_json_file("forexfactory_thisweek.json")
-    return jsonify(data), code
+@app.route("/api/forexfactory/21days")
+@app.route("/forexfactory_21days.json")
+def ff_21days():
+    return serve_json("forexfactory_21days.json")
 
-# 2. Forex Factory - 21 Days (3 Weeks)
-@app.route("/api/forexfactory/21days", methods=["GET"])
-@app.route("/forexfactory_21days.json", methods=["GET"])
-def forexfactory_21days():
-    data, code = read_json_file("forexfactory_21days.json")
-    return jsonify(data), code
+@app.route("/api/myfxbook/21days")
+@app.route("/myfxbook_21days.json")
+def mfb_21days():
+    return serve_json("myfxbook_21days.json")
 
-# 3. Myfxbook - This Week
-@app.route("/api/myfxbook/thisweek", methods=["GET"])
-@app.route("/myfxbook_thisweek.json", methods=["GET"])
-def myfxbook_thisweek():
-    data, code = read_json_file("myfxbook_thisweek.json")
-    return jsonify(data), code
+@app.route("/api/forexfactory/thisweek")
+@app.route("/forexfactory_thisweek.json")
+def ff_thisweek():
+    return serve_json("forexfactory_thisweek.json")
 
-# 4. Myfxbook - 21 Days (3 Weeks)
-@app.route("/api/myfxbook/21days", methods=["GET"])
-@app.route("/myfxbook_21days.json", methods=["GET"])
-def myfxbook_21days():
-    data, code = read_json_file("myfxbook_21days.json")
-    return jsonify(data), code
+@app.route("/api/myfxbook/thisweek")
+@app.route("/myfxbook_thisweek.json")
+def mfb_thisweek():
+    return serve_json("myfxbook_thisweek.json")
 
-# Index route listing all 4 endpoints
-@app.route("/", methods=["GET"])
+@app.route("/")
 def index():
     return jsonify({
         "project": "QuarkFX Forex Economic Calendar",
-        "description": "Scrapes economic calendar from Forex Factory & Myfxbook every 5 minutes",
+        "status": "online",
         "endpoints": {
-            "forexfactory_thisweek": "/api/forexfactory/thisweek",
             "forexfactory_21days": "/api/forexfactory/21days",
-            "myfxbook_thisweek": "/api/myfxbook/thisweek",
-            "myfxbook_21days": "/api/myfxbook/21days"
-        },
-        "static_files": {
-            "forexfactory_thisweek": "/forexfactory_thisweek.json",
-            "forexfactory_21days": "/forexfactory_21days.json",
-            "myfxbook_thisweek": "/myfxbook_thisweek.json",
-            "myfxbook_21days": "/myfxbook_21days.json"
+            "myfxbook_21days": "/api/myfxbook/21days",
+            "forexfactory_thisweek": "/api/forexfactory/thisweek",
+            "myfxbook_thisweek": "/api/myfxbook/thisweek"
         }
     })
 
