@@ -10,3 +10,12 @@ venv/
 .cache/
 *.crx
 
+# AI & Agent instructions (local workspace only)
+AGENTS.md
+GEMINI.md
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
