@@ -273,25 +273,25 @@ class MyfxbookScraper:
     #   UC Mode + CDP Mode (Chrome DevTools Protocol) with automated Turnstile solving
     #   inside an Xvfb virtual display.
     # - This completely bypasses Cloudflare WAF on datacenter IPs with zero server costs.
-    # - `_scrape_period_curl()` is preserved below purely as an offline / local fallback.
+    # - `_scrape_period_curl()` is preserved below purely as a commented reference for local residential use.
     # ==============================================================================
-    def _scrape_period_curl(self, period_id):
-        """Fallback scraper using curl_cffi (functional only on residential IPs, blocked on cloud datacenter IPs)."""
-        url = f"{self.base_url}?calPeriod={period_id}"
-        period_headers = dict(DEFAULT_HEADERS)
-        period_headers["Referer"] = "https://www.myfxbook.com/"
-        try:
-            self._warm_session()
-            r = self.session.get(url, impersonate=self.impersonate, headers=period_headers, timeout=20)
-            if r.status_code == 200 and "economicCalendarTable" in r.text:
-                return self._parse_html(r.text)
-            else:
-                title_match = re.search(r'<title>(.*?)</title>', r.text, re.IGNORECASE)
-                title = title_match.group(1).strip() if title_match else "No Title"
-                print(f"[Myfxbook curl_cffi] Period {period_id}: HTTP {r.status_code}. Title: '{title}' (Datacenter IP challenge)")
-        except Exception as e:
-            print(f"[Myfxbook curl_cffi] Period {period_id} Exception: {e}")
-        return []
+    # def _scrape_period_curl(self, period_id):
+    #     """Fallback scraper using curl_cffi (functional only on residential IPs, blocked on cloud datacenter IPs)."""
+    #     url = f"{self.base_url}?calPeriod={period_id}"
+    #     period_headers = dict(DEFAULT_HEADERS)
+    #     period_headers["Referer"] = "https://www.myfxbook.com/"
+    #     try:
+    #         self._warm_session()
+    #         r = self.session.get(url, impersonate=self.impersonate, headers=period_headers, timeout=20)
+    #         if r.status_code == 200 and "economicCalendarTable" in r.text:
+    #             return self._parse_html(r.text)
+    #         else:
+    #             title_match = re.search(r'<title>(.*?)</title>', r.text, re.IGNORECASE)
+    #             title = title_match.group(1).strip() if title_match else "No Title"
+    #             print(f"[Myfxbook curl_cffi] Period {period_id}: HTTP {r.status_code}. Title: '{title}' (Datacenter IP challenge)")
+    #     except Exception as e:
+    #         print(f"[Myfxbook curl_cffi] Period {period_id} Exception: {e}")
+    #     return []
 
     def _scrape_period(self, period_id, max_retries=2):
         """Scrape economic calendar for a specific calPeriod with SeleniumBase UC + CDP Mode."""
@@ -304,9 +304,11 @@ class MyfxbookScraper:
                 if events:
                     return events
 
-        # 2. Resilient fallback: curl_cffi (if UC mode returned no events)
-        print(f"[Myfxbook] Attempting curl_cffi fallback for period {period_id}...")
-        return self._scrape_period_curl(period_id)
+        # NOTE: curl_cffi fallback is disabled/commented out for GitHub Actions CI because
+        # Cloudflare WAF blocks datacenter IPs with HTTP 403 Turnstile challenge.
+        # If running locally on a personal laptop with residential Wi-Fi, uncomment _scrape_period_curl() above.
+        # return self._scrape_period_curl(period_id)
+        return []
 
     def get_this_week(self, force_refresh=True):
         """Fetch this week's events (calPeriod=3) with live actuals."""
