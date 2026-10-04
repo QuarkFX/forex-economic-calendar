@@ -60,10 +60,10 @@ jobs:
         run: |
           TARGET_BRANCH="${{ steps.commit_step.outputs.branch || github.ref_name || 'main' }}"
           echo "Purging jsDelivr edge cache for branch '$TARGET_BRANCH'..."
-          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_thisweek.json" || true
-          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_21days.json" || true
-          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_thisweek.json" || true
-          curl -s -X POST "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_21days.json" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_thisweek.json" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/forexfactory_21days.json" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_thisweek.json" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${TARGET_BRANCH}/output/myfxbook_21days.json" || true
           echo "jsDelivr CDN cache successfully purged worldwide."
 
       - name: Native Keepalive (Prevent 60-day auto-disable)
