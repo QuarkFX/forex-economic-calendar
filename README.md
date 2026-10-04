@@ -183,26 +183,22 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 
 ## 🛡️ Production Architecture & Resilience
 
-### 🧩 The Cloudflare Datacenter Challenge: How We Solved the 403 WAF Block
+### 🧩 Cloudflare Datacenter Challenge: How We Solved 403 WAF
 
-A critical challenge when building open-source financial scrapers on cloud platforms (GitHub Actions, Azure, AWS, GCP) is aggressive Web Application Firewall (WAF) blocking:
+Cloudflare WAF serves interactive Turnstile challenges (`403 Attention Required!`) to cloud datacenter IPs (GitHub Actions / Azure / AWS), which breaks traditional HTTP scrapers:
 
-| Scraping Technique | Local Residential IP | Cloud Datacenter IP (GitHub Actions / Azure) | QuarkFX Status |
+| Scraping Technique | Residential IP | Cloud Datacenter IP (CI/CD) | QuarkFX Engine Status |
 | :--- | :--- | :--- | :--- |
-| **Standard Requests / Axios / Python urllib** | ❌ Blocked (`403 Forbidden`) | ❌ Blocked (`403 Forbidden`) | Deprecated |
-| **Browser TLS Impersonation (`curl_cffi`)** | ✅ 100% Passes (Residential ISP) | ❌ Blocked by Myfxbook (`403 Attention Required!`) | Works for Forex Factory; Fallback for Myfxbook |
-| **Headless Chrome (Puppeteer / Playwright)** | ⚠️ Flagged by bot detection | ❌ Blocked (`window.navigator.webdriver` detected) | Deprecated |
-| **SeleniumBase UC Mode + CDP Mode** | ✅ 100% Passes | ✅ **100% Passes (Automated Turnstile Bypass)** | 🚀 **Active Production Engine** |
+| **Standard HTTP (requests / axios)** | ❌ Blocked (`403`) | ❌ Blocked (`403 Forbidden`) | Deprecated |
+| **TLS Impersonation (`curl_cffi`)** | ✅ 100% Passes | ❌ Blocked on Myfxbook (`403`) | Active for Forex Factory; Fallback for Myfxbook |
+| **Headless Chrome (Puppeteer / Playwright)** | ⚠️ Unstable | ❌ Blocked (`navigator.webdriver`) | Deprecated |
+| **SeleniumBase UC + CDP Mode** | ✅ 100% Passes | ✅ **100% Passes (Turnstile Solved)** | 🚀 **Active Production Engine** |
 
-#### Why Cloudflare Blocks Cloud Datacenter IPs
-Cloudflare WAF automatically categorizes traffic originating from Microsoft Azure / GitHub Actions CIDR blocks as high-risk automation. While residential ISP connections receive transparent pass-through, cloud datacenter IPs are served interactive **Turnstile** challenge interstitials (`Attention Required! | Cloudflare` or `Just a moment...`). Traditional HTTP scrapers cannot execute client-side JavaScript challenges and immediately abort with `HTTP 403`.
-
-#### The QuarkFX UC + CDP Solution
-To deliver a 100% autonomous, zero-server-cost pipeline on free GitHub Actions runners without requiring paid proxy services:
-1. **Chrome DevTools Protocol (`sb.activate_cdp_mode`)**: Detaches the standard WebDriver automation layer, neutralizing `window.navigator.webdriver` bot signatures entirely.
-2. **Headless-Free Execution in Xvfb (`xvfb=True`)**: Runs genuine headed Google Chrome inside a 1440×900 Linux virtual display, eliminating headless canvas/WebGL fingerprint anomalies.
-3. **Automated Native CDP Turnstile Solver (`sb.solve_captcha`)**: Detects challenge interstitial titles (`Attention Required!`, `Just a moment...`) and dispatches native CDP mouse interaction events directly through the Chrome DevTools socket to solve the checkbox in under 3 seconds.
-4. **Session Clearance Reuse**: Preserves the verified `cf_clearance` cookie session across all period requests (*This Week*, *Previous Week*, *Next Week*), completing the full multi-week extraction in under 18 seconds.
+#### 🚀 The QuarkFX UC + CDP Solution
+- 🔌 **Chrome DevTools Protocol (`cdp_mode`)**: Disconnects WebDriver flags to eliminate bot detection signals.
+- 🖥️ **Headless-Free via Xvfb (`xvfb=True`)**: Runs headed Chrome in a virtual Linux display to bypass canvas checks.
+- ⚡ **Auto Turnstile Solver (`solve_captcha`)**: Dispatches native CDP mouse clicks to clear verification in <3s.
+- 🔄 **Session Clearance Reuse**: Reuses the validated `cf_clearance` session across all periods in <18s total.
 
 ```
                                [ GitHub Actions Cron ]
