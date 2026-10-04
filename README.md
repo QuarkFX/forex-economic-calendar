@@ -111,22 +111,20 @@ Datasets are refreshed automatically every 15 minutes. Upon each update, the Git
 
 | Dataset | Coverage | Production Edge CDN Endpoint (jsDelivr) |
 | :--- | :--- | :--- |
-| 🔴 **Forex Factory (21 Days)** | 3 Weeks (Past + Current + Next) | `https://cdn.jsdelivr.net/gh/:owner/:repo@main/output/forexfactory_21days.json` |
-| 🔵 **Myfxbook (21 Days)** | 3 Weeks (Past + Current + Next) | `https://cdn.jsdelivr.net/gh/:owner/:repo@main/output/myfxbook_21days.json` |
-| 🟠 **Forex Factory (This Week)** | Current Trading Week | `https://cdn.jsdelivr.net/gh/:owner/:repo@main/output/forexfactory_thisweek.json` |
-| 🟢 **Myfxbook (This Week)** | Current Trading Week | `https://cdn.jsdelivr.net/gh/:owner/:repo@main/output/myfxbook_thisweek.json` |
-
-> 💡 **Tip:** Replace `:owner/:repo` with your actual GitHub username and repository name once pushed.
+| 🔴 **Forex Factory (21 Days)** | 3 Weeks (Past + Current + Next) | `https://cdn.jsdelivr.net/gh/QuarkFX/forex-economic-calendar@main/output/forexfactory_21days.json` |
+| 🔵 **Myfxbook (21 Days)** | 3 Weeks (Past + Current + Next) | `https://cdn.jsdelivr.net/gh/QuarkFX/forex-economic-calendar@main/output/myfxbook_21days.json` |
+| 🟠 **Forex Factory (This Week)** | Current Trading Week | `https://cdn.jsdelivr.net/gh/QuarkFX/forex-economic-calendar@main/output/forexfactory_thisweek.json` |
+| 🟢 **Myfxbook (This Week)** | Current Trading Week | `https://cdn.jsdelivr.net/gh/QuarkFX/forex-economic-calendar@main/output/myfxbook_thisweek.json` |
 
 <details>
 <summary><b>🔗 Need Direct Raw GitHub URLs? (Origin Fallback)</b></summary>
 <br>
 
 If your environment restricts CDNs, you can fetch directly from GitHub origin:
-- **Forex Factory (21 Days):** `https://raw.githubusercontent.com/:owner/:repo/main/output/forexfactory_21days.json`
-- **Myfxbook (21 Days):** `https://raw.githubusercontent.com/:owner/:repo/main/output/myfxbook_21days.json`
-- **Forex Factory (This Week):** `https://raw.githubusercontent.com/:owner/:repo/main/output/forexfactory_thisweek.json`
-- **Myfxbook (This Week):** `https://raw.githubusercontent.com/:owner/:repo/main/output/myfxbook_thisweek.json`
+- **Forex Factory (21 Days):** `https://raw.githubusercontent.com/QuarkFX/forex-economic-calendar/main/output/forexfactory_21days.json`
+- **Myfxbook (21 Days):** `https://raw.githubusercontent.com/QuarkFX/forex-economic-calendar/main/output/myfxbook_21days.json`
+- **Forex Factory (This Week):** `https://raw.githubusercontent.com/QuarkFX/forex-economic-calendar/main/output/forexfactory_thisweek.json`
+- **Myfxbook (This Week):** `https://raw.githubusercontent.com/QuarkFX/forex-economic-calendar/main/output/myfxbook_thisweek.json`
 
 </details>
 
@@ -221,22 +219,22 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 📂 QuarkFX Forex Economic Calendar/
 ├── ⚙️ .github/
 │   └── workflows/
-│       └── 🤖 scrape_cron.yml       # 15-minute autonomous GitHub Actions cron workflow
-├── 🌐 output/                       # Publicly served datasets (CDN edge source)
-│   ├── 📊 forexfactory_21days.json  # 21-day rolling calendar from Forex Factory
-│   ├── ⚡ forexfactory_thisweek.json# Current week calendar with live actuals
-│   ├── 📈 myfxbook_21days.json      # 21-day rolling calendar from Myfxbook
-│   └── 🔥 myfxbook_thisweek.json    # Current week calendar from Myfxbook
-├── 🙈 .gitignore                    # Excludes .cache, logs, bytecode, and temp files
-├── ⏱️ cron_runner.py                # Local continuous 15-minute scheduler loop
-├── 🏭 forex_factory_scraper.py      # Forex Factory parser with TLS impersonation
-├── 📖 myfxbook_scraper.py           # Myfxbook parser with period filtering
-├── 🚀 scraper.py                    # Master orchestrator & deterministic SHA-256 change detector
-├── 🖥️ server.py                     # Optional local Flask REST API server with CORS headers
-├── 📦 requirements.txt              # Minimal production dependencies (curl_cffi, bs4, Flask)
-├── 🖼️ icons/                         # Official logo, prop firm icons & platform assets
-├── ⚖️ LICENSE                       # MIT open-source license
-└── 📖 README.md                     # Comprehensive project documentation
+│       └── 🤖 scrape_cron.yml       # 15-minute autonomous GitHub Actions workflow
+├── 🌐 output/                       # Edge CDN datasets (Initial seeds)
+│   ├── 📊 forexfactory_21days.json
+│   ├── ⚡ forexfactory_thisweek.json
+│   ├── 📈 myfxbook_21days.json
+│   └── 🔥 myfxbook_thisweek.json
+├── 🖼️ icons/                         # Logo, Prop firms (FTMO, FundedNext, etc.) & platform badges
+├── 🙈 .gitignore                    # Local cache, bytecode, IDE settings, AGENTS.md, GEMINI.md ignored
+├── ⏱️ cron_runner.py                # Optional local 15-minute continuous scheduler
+├── 🏭 forex_factory_scraper.py      # Forex Factory parser with TLS Safari impersonation
+├── 📖 myfxbook_scraper.py           # Myfxbook parser with TLS Chrome impersonation
+├── 🚀 scraper.py                    # Master orchestrator with SHA-256 change detector
+├── 🖥️ server.py                     # Optional Flask REST API server with CORS
+├── 📦 requirements.txt              # Minimal production dependencies
+├── ⚖️ LICENSE                       # MIT Open Source License
+└── 📖 README.md                     # Complete project documentation
 ```
 
 ---
