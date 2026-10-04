@@ -9,6 +9,7 @@ venv/
 *.tmp
 .cache/
 *.crx
+downloaded_files/
 
 # AI & Agent instructions (local workspace only)
 AGENTS.md

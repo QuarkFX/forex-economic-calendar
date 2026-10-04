@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import json
 import time
@@ -49,7 +50,6 @@ def _dedup_mfb_events(*lists):
             if key not in seen:
                 seen.add(key)
                 merged.append(ev)
-    # Ensure all events are strictly sorted chronologically by timestamp
     merged.sort(key=lambda x: (x.get("timestamp") or 0, x.get("title", "")))
     return merged
 
@@ -74,20 +74,66 @@ class MyfxbookScraper:
         self.impersonate = "chrome124"
         self.session = requests.Session()
         self._warmed = False
+        self.driver = None
+        self.display = None
+
+    def _get_driver(self):
+        """Lazy-initialize SeleniumBase UC Mode driver with virtual display on Linux."""
+        if self.driver is not None:
+            return self.driver
+
+        print("[Myfxbook] Initializing SeleniumBase UC Mode driver...")
+        try:
+            from seleniumbase import Driver
+
+            is_linux = sys.platform.startswith("linux")
+            if is_linux:
+                try:
+                    from sbvirtualdisplay import Display
+                    self.display = Display(visible=False, size=(1440, 900))
+                    self.display.start()
+                    print("[Myfxbook] Virtual display (Xvfb) initialized successfully.")
+                except Exception as de:
+                    print(f"[Myfxbook] Virtual display notice: {de}")
+                    self.display = None
+
+            # On Linux with Xvfb, run headed to eliminate headless anti-bot signatures.
+            # On Windows/macOS, headless=True operates cleanly.
+            use_headless = False if (is_linux and self.display is not None) else True
+            self.driver = Driver(uc=True, headless=use_headless)
+            return self.driver
+        except Exception as e:
+            print(f"[Myfxbook] Driver initialization failed: {e}")
+            self.driver = None
+            return None
 
     def close(self):
-        """Close HTTP session to prevent socket leaks."""
+        """Close browser driver, virtual display, and HTTP session to prevent leaks."""
+        if self.driver:
+            try:
+                self.driver.quit()
+            except Exception:
+                pass
+            self.driver = None
+
+        if self.display:
+            try:
+                self.display.stop()
+            except Exception:
+                pass
+            self.display = None
+
         try:
             self.session.close()
         except Exception:
             pass
 
     def _warm_session(self):
-        """Warm session by visiting homepage first to acquire Cloudflare session cookies."""
+        """Warm curl_cffi session by visiting homepage first."""
         if self._warmed:
             return
         try:
-            r = self.session.get("https://www.myfxbook.com/", impersonate=self.impersonate, headers=DEFAULT_HEADERS, timeout=15)
+            self.session.get("https://www.myfxbook.com/", impersonate=self.impersonate, headers=DEFAULT_HEADERS, timeout=15)
             self._warmed = True
             time.sleep(1)
         except Exception as e:
@@ -112,94 +158,140 @@ class MyfxbookScraper:
         except Exception:
             pass
 
-    def _scrape_period(self, period_id, max_retries=2):
-        """Scrape economic calendar for a specific calPeriod with session reuse and retry."""
+    def _parse_html(self, html_text):
+        """Extract structured events from Myfxbook economic calendar HTML."""
+        if not html_text:
+            return []
+
+        soup = BeautifulSoup(html_text, "html.parser")
+        table = soup.find("table", {"id": "economicCalendarTable"})
+        if not table:
+            return []
+
+        events, cur_date = [], ""
+        for tr in table.find_all("tr"):
+            classes = tr.get("class", [])
+            if "economicCalendarDateRow" in classes:
+                cur_date = tr.text.strip()
+            elif "economicCalendarRow" in classes:
+                tds = tr.find_all("td")
+                if len(tds) >= 9:
+                    raw_time = tds[0].text.strip()
+                    currency = tds[3].text.strip()
+                    title = " ".join(tds[4].text.strip().replace("\n", " ").split())
+                    impact_val = tds[5].text.strip()
+                    if not impact_val or impact_val.lower() in ["none", "holiday", "non-economic"]:
+                        impact = "Non-Economic"
+                    else:
+                        impact = impact_val.capitalize()
+                    prev_val = tds[6].text.strip()
+                    cons_val = tds[7].text.strip()
+                    act_val = tds[8].text.strip()
+
+                    act_classes = " ".join(tds[8].get("class", [])).lower()
+                    actual_state = "neutral"
+                    if "background-transparent-green" in act_classes:
+                        actual_state = "better"
+                    elif "background-transparent-red" in act_classes:
+                        actual_state = "worse"
+
+                    f_date, f_time, iso_dt, ts = _parse_mfb_datetime(cur_date, raw_time)
+
+                    raw_id = tr.get("data-row-id", "").strip() or tr.get("id", "").replace("calRow", "").strip()
+                    if raw_id:
+                        event_id = f"mfb_{raw_id}"
+                    elif ts:
+                        event_id = f"mfb_{ts}_{currency}"
+                    else:
+                        fallback_h = hashlib.md5(f"{title}_{f_date}_{f_time}_{currency}".encode('utf-8')).hexdigest()[:10]
+                        event_id = f"mfb_{fallback_h}"
+
+                    events.append({
+                        "id": event_id,
+                        "title": title,
+                        "country": currency,
+                        "datetime": iso_dt,
+                        "timestamp": ts,
+                        "date": f_date,
+                        "time": f_time,
+                        "timezone": "UTC",
+                        "impact": impact,
+                        "forecast": cons_val,
+                        "consensus": cons_val,
+                        "previous": prev_val,
+                        "actual": act_val,
+                        "actual_state": actual_state,
+                        "raw_date": cur_date
+                    })
+        return events
+
+    def _fetch_html_uc(self, period_id, max_retries=2):
+        """Fetch economic calendar HTML using SeleniumBase UC Mode."""
+        driver = self._get_driver()
+        if not driver:
+            return None
+
+        url = f"{self.base_url}?calPeriod={period_id}"
+        for attempt in range(1, max_retries + 1):
+            try:
+                driver.uc_open_with_reconnect(url, reconnect_time=3)
+                
+                # Check for Cloudflare challenge screens and settle
+                for _ in range(8):
+                    title = driver.title or ""
+                    if any(chal in title for chal in ["Attention Required", "Just a moment", "Cloudflare"]):
+                        time.sleep(2)
+                        try:
+                            driver.uc_gui_click_captcha()
+                        except Exception:
+                            pass
+                    else:
+                        break
+
+                page_source = driver.page_source or ""
+                if "economicCalendarTable" in page_source:
+                    return page_source
+                else:
+                    title = driver.title or "Unknown"
+                    print(f"[Myfxbook UC] Period {period_id} Attempt {attempt}: Table not found. Title: '{title}'")
+                    time.sleep(2 * attempt)
+            except Exception as e:
+                print(f"[Myfxbook UC] Period {period_id} Attempt {attempt} Exception: {e}")
+                time.sleep(2)
+        return None
+
+    def _scrape_period_curl(self, period_id):
+        """Fallback fast scraper using curl_cffi if SeleniumBase driver is unavailable."""
         url = f"{self.base_url}?calPeriod={period_id}"
         period_headers = dict(DEFAULT_HEADERS)
         period_headers["Referer"] = "https://www.myfxbook.com/"
-
-        for attempt in range(1, max_retries + 1):
-            try:
-                self._warm_session()
-                r = self.session.get(url, impersonate=self.impersonate, headers=period_headers, timeout=25)
-                
+        try:
+            self._warm_session()
+            r = self.session.get(url, impersonate=self.impersonate, headers=period_headers, timeout=20)
+            if r.status_code == 200 and "economicCalendarTable" in r.text:
+                return self._parse_html(r.text)
+            else:
                 title_match = re.search(r'<title>(.*?)</title>', r.text, re.IGNORECASE)
-                page_title = title_match.group(1).strip() if title_match else "No Title"
-
-                if r.status_code == 200:
-                    soup = BeautifulSoup(r.text, "html.parser")
-                    table = soup.find("table", {"id": "economicCalendarTable"})
-                    if not table:
-                        print(f"[Myfxbook] Period {period_id} Attempt {attempt}: HTTP 200 but table missing. Title: '{page_title}' (Length: {len(r.text)})")
-                        time.sleep(2 * attempt)
-                        continue
-
-                    events, cur_date = [], ""
-                    for tr in table.find_all("tr"):
-                        classes = tr.get("class", [])
-                        if "economicCalendarDateRow" in classes:
-                            cur_date = tr.text.strip()
-                        elif "economicCalendarRow" in classes:
-                            tds = tr.find_all("td")
-                            if len(tds) >= 9:
-                                raw_time = tds[0].text.strip()
-                                currency = tds[3].text.strip()
-                                title = " ".join(tds[4].text.strip().replace("\n", " ").split())
-                                impact_val = tds[5].text.strip()
-                                if not impact_val or impact_val.lower() in ["none", "holiday", "non-economic"]:
-                                    impact = "Non-Economic"
-                                else:
-                                    impact = impact_val.capitalize()
-                                prev_val = tds[6].text.strip()
-                                cons_val = tds[7].text.strip()
-                                act_val = tds[8].text.strip()
-
-                                act_classes = " ".join(tds[8].get("class", [])).lower()
-                                actual_state = "neutral"
-                                if "background-transparent-green" in act_classes:
-                                    actual_state = "better"
-                                elif "background-transparent-red" in act_classes:
-                                    actual_state = "worse"
-
-                                f_date, f_time, iso_dt, ts = _parse_mfb_datetime(cur_date, raw_time)
-
-                                raw_id = tr.get("data-row-id", "").strip() or tr.get("id", "").replace("calRow", "").strip()
-                                if raw_id:
-                                    event_id = f"mfb_{raw_id}"
-                                elif ts:
-                                    event_id = f"mfb_{ts}_{currency}"
-                                else:
-                                    fallback_h = hashlib.md5(f"{title}_{f_date}_{f_time}_{currency}".encode('utf-8')).hexdigest()[:10]
-                                    event_id = f"mfb_{fallback_h}"
-
-                                events.append({
-                                    "id": event_id,
-                                    "title": title,
-                                    "country": currency,
-                                    "datetime": iso_dt,
-                                    "timestamp": ts,
-                                    "date": f_date,
-                                    "time": f_time,
-                                    "timezone": "UTC",
-                                    "impact": impact,
-                                    "forecast": cons_val,
-                                    "consensus": cons_val,
-                                    "previous": prev_val,
-                                    "actual": act_val,
-                                    "actual_state": actual_state,
-                                    "raw_date": cur_date
-                                })
-                    return events
-                else:
-                    print(f"[Myfxbook] Period {period_id} Attempt {attempt}: HTTP {r.status_code}. Title: '{page_title}' (Length: {len(r.text)})")
-                    if r.status_code in [403, 429]:
-                        time.sleep(3 * attempt)
-                    else:
-                        time.sleep(1)
-            except Exception as e:
-                print(f"[Myfxbook] Period {period_id} Attempt {attempt} Exception: {e}")
-                time.sleep(2)
+                title = title_match.group(1).strip() if title_match else "No Title"
+                print(f"[Myfxbook curl_cffi] Period {period_id}: HTTP {r.status_code}. Title: '{title}'")
+        except Exception as e:
+            print(f"[Myfxbook curl_cffi] Period {period_id} Exception: {e}")
         return []
+
+    def _scrape_period(self, period_id, max_retries=2):
+        """Scrape economic calendar for a specific calPeriod with SeleniumBase UC Mode."""
+        # 1. Primary engine: SeleniumBase UC Mode
+        driver = self._get_driver()
+        if driver:
+            html = self._fetch_html_uc(period_id, max_retries=max_retries)
+            if html:
+                events = self._parse_html(html)
+                if events:
+                    return events
+
+        # 2. Resilient fallback: curl_cffi (if driver failed or returned no events)
+        print(f"[Myfxbook] Attempting curl_cffi fallback for period {period_id}...")
+        return self._scrape_period_curl(period_id)
 
     def get_this_week(self, force_refresh=True):
         """Fetch this week's events (calPeriod=3) with live actuals."""
@@ -223,7 +315,7 @@ class MyfxbookScraper:
             last_week = self._scrape_period(2)
             if last_week:
                 self._write_cache("last_week", last_week)
-            time.sleep(1.5)
+            time.sleep(1)
 
         # 2. This Week (reuses live data from current cycle, no duplicate request)
         this_week = self.get_this_week(force_refresh=False)
@@ -234,7 +326,7 @@ class MyfxbookScraper:
             next_week = self._scrape_period(9)
             if next_week:
                 self._write_cache("next_week", next_week)
-            time.sleep(1.5)
+            time.sleep(1)
 
         # Resilient fallback: If live scrape failed, reuse last known good cache up to 7 days
         if not last_week:
