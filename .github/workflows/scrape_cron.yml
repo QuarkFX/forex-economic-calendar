@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Scraper
         run: |
-          python scraper.py
+          python scripts/scraper.py
 
       - name: Commit and Push Updated JSON Files
         id: commit_step

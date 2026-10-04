@@ -226,12 +226,13 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 │   ├── 📈 myfxbook_21days.json
 │   └── 🔥 myfxbook_thisweek.json
 ├── 🖼️ icons/                         # Logo, Prop firms (FTMO, FundedNext, etc.) & platform badges
+├── 📜 scripts/                       # Core Python engine & scraper modules
+│   ├── ⏱️ cron_runner.py            # Optional local continuous scheduler loop
+│   ├── 🏭 forex_factory_scraper.py  # Forex Factory parser with TLS Safari impersonation
+│   ├── 📖 myfxbook_scraper.py       # Myfxbook parser with TLS Chrome impersonation
+│   ├── 🚀 scraper.py                # Master orchestrator & change detector
+│   └── 🖥️ server.py                 # Optional Flask REST API server with CORS
 ├── 🙈 .gitignore                    # Local cache, bytecode, IDE settings, AGENTS.md, GEMINI.md ignored
-├── ⏱️ cron_runner.py                # Optional local 15-minute continuous scheduler
-├── 🏭 forex_factory_scraper.py      # Forex Factory parser with TLS Safari impersonation
-├── 📖 myfxbook_scraper.py           # Myfxbook parser with TLS Chrome impersonation
-├── 🚀 scraper.py                    # Master orchestrator with SHA-256 change detector
-├── 🖥️ server.py                     # Optional Flask REST API server with CORS
 ├── 📦 requirements.txt              # Minimal production dependencies
 ├── ⚖️ LICENSE                       # MIT Open Source License
 └── 📖 README.md                     # Complete project documentation

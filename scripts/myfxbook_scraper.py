@@ -7,7 +7,8 @@ from datetime import datetime, timezone
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
-CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".cache")
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CACHE_DIR = os.path.join(ROOT_DIR, ".cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 def _parse_mfb_datetime(raw_date, raw_time):

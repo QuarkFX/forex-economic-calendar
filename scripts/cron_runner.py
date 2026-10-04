@@ -1,5 +1,10 @@
+import os
+import sys
 import time
 from datetime import datetime
+
+# Ensure scripts directory is on sys.path for direct module imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scraper import run_all_scrapers
 
 INTERVAL_SECONDS = 900  # 15 minutes (Sweet Spot for economic calendar)

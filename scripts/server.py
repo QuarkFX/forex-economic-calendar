@@ -2,7 +2,8 @@ import os
 from flask import Flask, jsonify, Response
 
 app = Flask(__name__)
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 
 @app.after_request
 def add_headers(response):
@@ -15,7 +16,7 @@ def add_headers(response):
 def serve_json(filename):
     filepath = os.path.join(OUTPUT_DIR, filename)
     if not os.path.exists(filepath):
-        return jsonify({"error": f"{filename} not found. Run scraper.py first."}), 404
+        return jsonify({"error": f"{filename} not found. Run scripts/scraper.py first."}), 404
     with open(filepath, "r", encoding="utf-8") as f:
         return Response(f.read(), mimetype="application/json")
 

@@ -1,12 +1,17 @@
 import os
+import sys
 import json
 import time
 import hashlib
 from datetime import datetime, timezone
+
+# Ensure scripts directory is on sys.path for reliable imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from forex_factory_scraper import ForexFactoryScraper
 from myfxbook_scraper import MyfxbookScraper
 
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 
 def _compute_events_hash(events):
     """Compute deterministic SHA-256 hash of events payload to detect actual content changes."""
