@@ -74,54 +74,39 @@ class MyfxbookScraper:
         self.impersonate = "chrome124"
         self.session = requests.Session()
         self._warmed = False
-        self.driver = None
-        self.display = None
+        self.sb_context = None
+        self.sb = None
 
-    def _get_driver(self):
-        """Lazy-initialize SeleniumBase UC Mode driver with virtual display on Linux."""
-        if self.driver is not None:
-            return self.driver
+    def _get_sb(self):
+        """Lazy-initialize SeleniumBase UC + CDP Mode context manager with virtual display on Linux."""
+        if self.sb is not None:
+            return self.sb
 
-        print("[Myfxbook] Initializing SeleniumBase UC Mode driver...")
+        print("[Myfxbook] Initializing SeleniumBase UC + CDP Mode session...")
         try:
-            from seleniumbase import Driver
+            from seleniumbase import SB
 
             is_linux = sys.platform.startswith("linux")
-            if is_linux:
-                try:
-                    from sbvirtualdisplay import Display
-                    self.display = Display(visible=False, size=(1440, 900))
-                    self.display.start()
-                    print("[Myfxbook] Virtual display (Xvfb) initialized successfully.")
-                except Exception as de:
-                    print(f"[Myfxbook] Virtual display notice: {de}")
-                    self.display = None
-
-            # On Linux with Xvfb, run headed to eliminate headless anti-bot signatures.
-            # On Windows/macOS, headless=True operates cleanly.
-            use_headless = False if (is_linux and self.display is not None) else True
-            self.driver = Driver(uc=True, headless=use_headless)
-            return self.driver
+            # Linux runs headed inside virtual display (xvfb) for full Turnstile GUI interaction.
+            # Windows/macOS runs headless=True cleanly.
+            self.sb_context = SB(uc=True, test=False, xvfb=is_linux, headless=not is_linux)
+            self.sb = self.sb_context.__enter__()
+            return self.sb
         except Exception as e:
-            print(f"[Myfxbook] Driver initialization failed: {e}")
-            self.driver = None
+            print(f"[Myfxbook] Failed to start SeleniumBase UC + CDP session: {e}")
+            self.sb_context = None
+            self.sb = None
             return None
 
     def close(self):
-        """Close browser driver, virtual display, and HTTP session to prevent leaks."""
-        if self.driver:
+        """Close browser context and HTTP session cleanly to prevent resource leaks."""
+        if self.sb_context:
             try:
-                self.driver.quit()
+                self.sb_context.__exit__(None, None, None)
             except Exception:
                 pass
-            self.driver = None
-
-        if self.display:
-            try:
-                self.display.stop()
-            except Exception:
-                pass
-            self.display = None
+            self.sb_context = None
+            self.sb = None
 
         try:
             self.session.close()
@@ -226,37 +211,46 @@ class MyfxbookScraper:
         return events
 
     def _fetch_html_uc(self, period_id, max_retries=2):
-        """Fetch economic calendar HTML using SeleniumBase UC Mode."""
-        driver = self._get_driver()
-        if not driver:
+        """Fetch economic calendar HTML using SeleniumBase UC + CDP Mode."""
+        sb = self._get_sb()
+        if not sb:
             return None
 
         url = f"{self.base_url}?calPeriod={period_id}"
         for attempt in range(1, max_retries + 1):
             try:
-                driver.uc_open_with_reconnect(url, reconnect_time=3)
-                
-                # Check for Cloudflare challenge screens and settle
-                for _ in range(8):
-                    title = driver.title or ""
+                # Activate Chrome DevTools Protocol mode on target URL
+                sb.activate_cdp_mode(url)
+                sb.sleep(2)
+
+                # Cloudflare Turnstile & Challenge Resolver Loop
+                for check in range(12):
+                    title = sb.get_title() or ""
                     if any(chal in title for chal in ["Attention Required", "Just a moment", "Cloudflare"]):
-                        time.sleep(2)
+                        print(f"[Myfxbook UC+CDP] Period {period_id} challenge detected (check {check+1}): '{title}'. Solving...")
                         try:
-                            driver.uc_gui_click_captcha()
-                        except Exception:
-                            pass
+                            if hasattr(sb, "solve_captcha"):
+                                sb.solve_captcha()
+                            elif hasattr(sb, "click_captcha"):
+                                sb.click_captcha()
+                            elif hasattr(sb, "uc_gui_click_cf"):
+                                sb.uc_gui_click_cf()
+                            elif hasattr(sb, "uc_gui_click_captcha"):
+                                sb.uc_gui_click_captcha()
+                        except Exception as ce:
+                            print(f"[Myfxbook UC+CDP] Captcha solve notice: {ce}")
+                        sb.sleep(3)
                     else:
                         break
 
-                page_source = driver.page_source or ""
-                if "economicCalendarTable" in page_source:
-                    return page_source
+                if sb.is_element_present("#economicCalendarTable"):
+                    return sb.get_page_source()
                 else:
-                    title = driver.title or "Unknown"
-                    print(f"[Myfxbook UC] Period {period_id} Attempt {attempt}: Table not found. Title: '{title}'")
-                    time.sleep(2 * attempt)
+                    title = sb.get_title() or "Unknown"
+                    print(f"[Myfxbook UC+CDP] Period {period_id} Attempt {attempt}: Table not found. Title: '{title}'")
+                    sb.sleep(2 * attempt)
             except Exception as e:
-                print(f"[Myfxbook UC] Period {period_id} Attempt {attempt} Exception: {e}")
+                print(f"[Myfxbook UC+CDP] Period {period_id} Attempt {attempt} Exception: {e}")
                 time.sleep(2)
         return None
 
@@ -279,17 +273,17 @@ class MyfxbookScraper:
         return []
 
     def _scrape_period(self, period_id, max_retries=2):
-        """Scrape economic calendar for a specific calPeriod with SeleniumBase UC Mode."""
-        # 1. Primary engine: SeleniumBase UC Mode
-        driver = self._get_driver()
-        if driver:
+        """Scrape economic calendar for a specific calPeriod with SeleniumBase UC + CDP Mode."""
+        # 1. Primary engine: SeleniumBase UC + CDP Mode
+        sb = self._get_sb()
+        if sb:
             html = self._fetch_html_uc(period_id, max_retries=max_retries)
             if html:
                 events = self._parse_html(html)
                 if events:
                     return events
 
-        # 2. Resilient fallback: curl_cffi (if driver failed or returned no events)
+        # 2. Resilient fallback: curl_cffi (if UC mode returned no events)
         print(f"[Myfxbook] Attempting curl_cffi fallback for period {period_id}...")
         return self._scrape_period_curl(period_id)
 
