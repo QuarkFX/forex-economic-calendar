@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./icons/logo.png" alt="QuarkFX Logo" width="220" />
 
-  <h1>🛡️ QuarkFX Prop Firm News Radar™</h1>
+  <h1>🛡️ QuarkFX Prop Firm News Radar™ ⚡</h1>
   <h3>📊 Automated Forex Economic Calendar Data Engine 🌐</h3>
 
   <p>
