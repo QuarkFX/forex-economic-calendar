@@ -53,11 +53,27 @@ def _dedup_mfb_events(*lists):
     merged.sort(key=lambda x: (x.get("timestamp") or 0, x.get("title", "")))
     return merged
 
+DEFAULT_HEADERS = {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "max-age=0",
+    "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"Windows"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+}
+
 class MyfxbookScraper:
     def __init__(self):
         self.base_url = "https://www.myfxbook.com/forex-economic-calendar"
         self.impersonate = "chrome124"
         self.session = requests.Session()
+        self._warmed = False
 
     def close(self):
         """Close HTTP session to prevent socket leaks."""
@@ -65,6 +81,17 @@ class MyfxbookScraper:
             self.session.close()
         except Exception:
             pass
+
+    def _warm_session(self):
+        """Warm session by visiting homepage first to acquire Cloudflare session cookies."""
+        if self._warmed:
+            return
+        try:
+            r = self.session.get("https://www.myfxbook.com/", impersonate=self.impersonate, headers=DEFAULT_HEADERS, timeout=15)
+            self._warmed = True
+            time.sleep(1)
+        except Exception as e:
+            print(f"[Myfxbook] Session warming notice: {e}")
 
     def _read_cache(self, key, max_age):
         path = os.path.join(CACHE_DIR, f"mfb_{key}.json")
@@ -88,14 +115,24 @@ class MyfxbookScraper:
     def _scrape_period(self, period_id, max_retries=2):
         """Scrape economic calendar for a specific calPeriod with session reuse and retry."""
         url = f"{self.base_url}?calPeriod={period_id}"
+        period_headers = dict(DEFAULT_HEADERS)
+        period_headers["Referer"] = "https://www.myfxbook.com/"
+
         for attempt in range(1, max_retries + 1):
             try:
-                r = self.session.get(url, impersonate=self.impersonate, timeout=25)
+                self._warm_session()
+                r = self.session.get(url, impersonate=self.impersonate, headers=period_headers, timeout=25)
+                
+                title_match = re.search(r'<title>(.*?)</title>', r.text, re.IGNORECASE)
+                page_title = title_match.group(1).strip() if title_match else "No Title"
+
                 if r.status_code == 200:
                     soup = BeautifulSoup(r.text, "html.parser")
                     table = soup.find("table", {"id": "economicCalendarTable"})
                     if not table:
-                        return []
+                        print(f"[Myfxbook] Period {period_id} Attempt {attempt}: HTTP 200 but table missing. Title: '{page_title}' (Length: {len(r.text)})")
+                        time.sleep(2 * attempt)
+                        continue
 
                     events, cur_date = [], ""
                     for tr in table.find_all("tr"):
@@ -153,10 +190,14 @@ class MyfxbookScraper:
                                     "raw_date": cur_date
                                 })
                     return events
-                elif r.status_code in [403, 429]:
-                    time.sleep(3 * attempt)
+                else:
+                    print(f"[Myfxbook] Period {period_id} Attempt {attempt}: HTTP {r.status_code}. Title: '{page_title}' (Length: {len(r.text)})")
+                    if r.status_code in [403, 429]:
+                        time.sleep(3 * attempt)
+                    else:
+                        time.sleep(1)
             except Exception as e:
-                print(f"[Myfxbook] Period {period_id} attempt {attempt} error: {e}")
+                print(f"[Myfxbook] Period {period_id} Attempt {attempt} Exception: {e}")
                 time.sleep(2)
         return []
 
