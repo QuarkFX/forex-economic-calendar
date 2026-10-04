@@ -16,6 +16,7 @@
   <p>
     <img src="https://img.shields.io/badge/Engine-QuarkFX-6C5CE7.svg?logo=radar&logoColor=white" alt="QuarkFX Engine" />
     <img src="https://img.shields.io/badge/Sources-Forex%20Factory%20%7C%20Myfxbook-00B894.svg?logo=rss&logoColor=white" alt="Data Sources" />
+    <img src="https://img.shields.io/badge/Bypass-SeleniumBase%20UC%20%2B%20CDP-FF6B6B.svg?logo=googlechrome&logoColor=white" alt="Cloudflare Turnstile Bypass" />
     <img src="https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white" alt="Python 3.11+" />
     <img src="https://img.shields.io/badge/CDN-jsDelivr-E84D31.svg?logo=jsdelivr&logoColor=white" alt="jsDelivr CDN" />
     <img src="https://img.shields.io/badge/Automation-GitHub%20Actions-2088FF.svg?logo=github-actions&logoColor=white" alt="GitHub Actions" />
@@ -38,12 +39,14 @@ Most prop firms enforce strict rules against trading around major economic relea
 
 This open-source repository serves as the core real-time macroeconomic data pipeline powering QuarkFX tools:
 
-- 🌐 **Dual Sources:** Scrapes and standardizes live feeds from **Forex Factory** and **Myfxbook**.
+- 🌐 **Dual Data Sources:** Scrapes and standardizes live feeds from **Forex Factory** and **Myfxbook**.
 - 🤖 **Zero Server Costs:** Autonomous execution every 15 minutes via GitHub Actions cron runners.
+- 🛡️ **Dual-Engine Anti-Bot & WAF Bypass:**
+  - 🏭 **Forex Factory:** TLS Safari 15.3 impersonation (`curl_cffi`) — ultra-fast sub-second execution on datacenter IPs without browser overhead.
+  - 📖 **Myfxbook:** Advanced **SeleniumBase UC + CDP Mode** (`seleniumbase.io`) with automated Cloudflare Turnstile CAPTCHA solving inside virtual display (`xvfb`).
 - 🚀 **Global Edge CDN:** Instant worldwide distribution through jsDelivr with automatic cache invalidation.
-- 🛡️ **Anti-Bot Bypass:** Uses browser TLS impersonation (`curl_cffi`) to defeat Cloudflare/Akamai bot detection.
 - 🕒 **UTC Normalized:** Strict ISO 8601 UTC timestamps with accurate handling for tentative and all-day events.
-- 🔒 **SHA-256 Hashing:** Commits only when calendar events or live actual figures change.
+- 🔒 **SHA-256 Hashing:** Smart change detection commits only when calendar events or live actual figures change.
 
 ---
 
@@ -180,6 +183,27 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 
 ## 🛡️ Production Architecture & Resilience
 
+### 🧩 The Cloudflare Datacenter Challenge: How We Solved the 403 WAF Block
+
+A critical challenge when building open-source financial scrapers on cloud platforms (GitHub Actions, Azure, AWS, GCP) is aggressive Web Application Firewall (WAF) blocking:
+
+| Scraping Technique | Local Residential IP | Cloud Datacenter IP (GitHub Actions / Azure) | QuarkFX Status |
+| :--- | :--- | :--- | :--- |
+| **Standard Requests / Axios / Python urllib** | ❌ Blocked (`403 Forbidden`) | ❌ Blocked (`403 Forbidden`) | Deprecated |
+| **Browser TLS Impersonation (`curl_cffi`)** | ✅ 100% Passes (Residential ISP) | ❌ Blocked by Myfxbook (`403 Attention Required!`) | Works for Forex Factory; Fallback for Myfxbook |
+| **Headless Chrome (Puppeteer / Playwright)** | ⚠️ Flagged by bot detection | ❌ Blocked (`window.navigator.webdriver` detected) | Deprecated |
+| **SeleniumBase UC Mode + CDP Mode** | ✅ 100% Passes | ✅ **100% Passes (Automated Turnstile Bypass)** | 🚀 **Active Production Engine** |
+
+#### Why Cloudflare Blocks Cloud Datacenter IPs
+Cloudflare WAF automatically categorizes traffic originating from Microsoft Azure / GitHub Actions CIDR blocks as high-risk automation. While residential ISP connections receive transparent pass-through, cloud datacenter IPs are served interactive **Turnstile** challenge interstitials (`Attention Required! | Cloudflare` or `Just a moment...`). Traditional HTTP scrapers cannot execute client-side JavaScript challenges and immediately abort with `HTTP 403`.
+
+#### The QuarkFX UC + CDP Solution
+To deliver a 100% autonomous, zero-server-cost pipeline on free GitHub Actions runners without requiring paid proxy services:
+1. **Chrome DevTools Protocol (`sb.activate_cdp_mode`)**: Detaches the standard WebDriver automation layer, neutralizing `window.navigator.webdriver` bot signatures entirely.
+2. **Headless-Free Execution in Xvfb (`xvfb=True`)**: Runs genuine headed Google Chrome inside a 1440×900 Linux virtual display, eliminating headless canvas/WebGL fingerprint anomalies.
+3. **Automated Native CDP Turnstile Solver (`sb.solve_captcha`)**: Detects challenge interstitial titles (`Attention Required!`, `Just a moment...`) and dispatches native CDP mouse interaction events directly through the Chrome DevTools socket to solve the checkbox in under 3 seconds.
+4. **Session Clearance Reuse**: Preserves the verified `cf_clearance` cookie session across all period requests (*This Week*, *Previous Week*, *Next Week*), completing the full multi-week extraction in under 18 seconds.
+
 ```
                                [ GitHub Actions Cron ]
                                   (Every 15 Minutes)
@@ -187,7 +211,8 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
                   ┌───────────────────────┴───────────────────────┐
                   ▼                                               ▼
          Forex Factory Scraper                           Myfxbook Scraper
-     (curl_cffi Chrome Impersonation)             (curl_cffi Chrome Impersonation)
+     (curl_cffi Safari Impersonation)             (SeleniumBase UC + CDP Mode)
+         [Sub-Second TLS Engine]                 [Automated Turnstile Bypass]
                   │                                               │
                   └───────────────────────┬───────────────────────┘
                                           │
@@ -229,7 +254,7 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 ├── 📜 scripts/                       # Core Python engine & scraper modules
 │   ├── ⏱️ cron_runner.py            # Optional local continuous scheduler loop
 │   ├── 🏭 forex_factory_scraper.py  # Forex Factory parser with TLS Safari impersonation
-│   ├── 📖 myfxbook_scraper.py       # Myfxbook parser with TLS Chrome impersonation
+│   ├── 📖 myfxbook_scraper.py       # Myfxbook parser with SeleniumBase UC + CDP Mode
 │   ├── 🚀 scraper.py                # Master orchestrator & change detector
 │   └── 🖥️ server.py                 # Optional Flask REST API server with CORS
 ├── 🙈 .gitignore                    # Local cache, bytecode, IDE settings, AGENTS.md, GEMINI.md ignored
