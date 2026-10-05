@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-05T00:10:54Z",
+  "updated_at": "2026-10-05T04:20:06Z",
   "count": 79,
   "events": [
     {
@@ -69,7 +69,7 @@
       "previous": "-0.4%",
       "actual": "0.6%",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 7:00pm"
+      "raw_date": "Sun Oct 4 8:00pm"
     },
     {
       "id": "ff_151650",
@@ -103,7 +103,7 @@
       "previous": "0.5%",
       "actual": "0.3%",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 7:00pm"
+      "raw_date": "Sun Oct 4 8:00pm"
     },
     {
       "id": "ff_148804",
@@ -120,7 +120,7 @@
       "previous": "35.5",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 12:00am"
+      "raw_date": "Mon Oct 5 1:00am"
     },
     {
       "id": "ff_147267",
@@ -137,7 +137,7 @@
       "previous": "57.8",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:15am"
+      "raw_date": "Mon Oct 5 3:15am"
     },
     {
       "id": "ff_154082",
@@ -154,7 +154,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:45am"
+      "raw_date": "Mon Oct 5 3:45am"
     },
     {
       "id": "ff_147268",
@@ -171,7 +171,7 @@
       "previous": "55.2",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:45am"
+      "raw_date": "Mon Oct 5 3:45am"
     },
     {
       "id": "ff_147269",
@@ -188,7 +188,7 @@
       "previous": "51.4",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:50am"
+      "raw_date": "Mon Oct 5 3:50am"
     },
     {
       "id": "ff_147270",
@@ -205,7 +205,7 @@
       "previous": "52.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:55am"
+      "raw_date": "Mon Oct 5 3:55am"
     },
     {
       "id": "ff_147271",
@@ -222,7 +222,7 @@
       "previous": "53.0",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 3:00am"
+      "raw_date": "Mon Oct 5 4:00am"
     },
     {
       "id": "ff_147272",
@@ -239,7 +239,7 @@
       "previous": "51.7",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 3:30am"
+      "raw_date": "Mon Oct 5 4:30am"
     },
     {
       "id": "ff_150597",
@@ -256,7 +256,7 @@
       "previous": "5.1",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 3:30am"
+      "raw_date": "Mon Oct 5 4:30am"
     },
     {
       "id": "ff_151317",
@@ -273,7 +273,7 @@
       "previous": "1.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 4:00am"
+      "raw_date": "Mon Oct 5 5:00am"
     },
     {
       "id": "ff_149637",
@@ -290,7 +290,7 @@
       "previous": "58.7",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 8:45am"
+      "raw_date": "Mon Oct 5 9:45am"
     },
     {
       "id": "ff_146608",
@@ -307,7 +307,7 @@
       "previous": "55.4",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 9:00am"
+      "raw_date": "Mon Oct 5 10:00am"
     },
     {
       "id": "ff_149378",
@@ -324,7 +324,7 @@
       "previous": "8",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 4:00pm"
+      "raw_date": "Mon Oct 5 5:00pm"
     },
     {
       "id": "ff_148115",
@@ -341,7 +341,7 @@
       "previous": "-5.2%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 6:30pm"
+      "raw_date": "Mon Oct 5 7:30pm"
     },
     {
       "id": "ff_153364",
@@ -460,7 +460,7 @@
       "previous": "2.5%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 7:30pm"
+      "raw_date": "Mon Oct 5 8:30pm"
     },
     {
       "id": "ff_150287",
@@ -477,7 +477,7 @@
       "previous": "3.00|3.3",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 10:35pm"
+      "raw_date": "Mon Oct 5 11:35pm"
     },
     {
       "id": "ff_151195",
@@ -494,7 +494,7 @@
       "previous": "2.5%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:00am"
+      "raw_date": "Tue Oct 6 2:00am"
     },
     {
       "id": "ff_154045",
@@ -511,7 +511,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:35am"
+      "raw_date": "Tue Oct 6 2:35am"
     },
     {
       "id": "ff_147532",
@@ -528,7 +528,7 @@
       "previous": "-145.9B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:45am"
+      "raw_date": "Tue Oct 6 2:45am"
     },
     {
       "id": "ff_147587",
@@ -545,7 +545,7 @@
       "previous": "-0.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:45am"
+      "raw_date": "Tue Oct 6 2:45am"
     },
     {
       "id": "ff_147309",
@@ -562,7 +562,7 @@
       "previous": "3.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 2:00am"
+      "raw_date": "Tue Oct 6 3:00am"
     },
     {
       "id": "ff_150675",
@@ -579,7 +579,7 @@
       "previous": "44.3",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 3:30am"
+      "raw_date": "Tue Oct 6 4:30am"
     },
     {
       "id": "ff_154046",
@@ -596,7 +596,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 3:30am"
+      "raw_date": "Tue Oct 6 4:30am"
     },
     {
       "id": "ff_151318",
@@ -613,7 +613,7 @@
       "previous": "-0.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 4:00am"
+      "raw_date": "Tue Oct 6 5:00am"
     },
     {
       "id": "ff_149238",
@@ -630,7 +630,7 @@
       "previous": "0.8B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 7:30am"
+      "raw_date": "Tue Oct 6 8:30am"
     },
     {
       "id": "ff_148022",
@@ -647,7 +647,7 @@
       "previous": "-88.6B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 7:30am"
+      "raw_date": "Tue Oct 6 8:30am"
     },
     {
       "id": "ff_149858",
@@ -664,7 +664,7 @@
       "previous": "64.3",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 9:00am"
+      "raw_date": "Tue Oct 6 10:00am"
     },
     {
       "id": "ff_154097",
@@ -681,7 +681,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 9:45am"
+      "raw_date": "Tue Oct 6 10:45am"
     },
     {
       "id": "ff_147094",
@@ -698,7 +698,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 3:30pm"
+      "raw_date": "Tue Oct 6 4:30pm"
     },
     {
       "id": "ff_149895",
@@ -715,7 +715,7 @@
       "previous": "4.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 6:30pm"
+      "raw_date": "Tue Oct 6 7:30pm"
     },
     {
       "id": "ff_149663",
@@ -732,7 +732,7 @@
       "previous": "117.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 12:00am"
+      "raw_date": "Wed Oct 7 1:00am"
     },
     {
       "id": "ff_151196",
@@ -749,7 +749,7 @@
       "previous": "-1.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 1:00am"
+      "raw_date": "Wed Oct 7 2:00am"
     },
     {
       "id": "ff_150816",
@@ -766,7 +766,7 @@
       "previous": "-0.2%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 1:00am"
+      "raw_date": "Wed Oct 7 2:00am"
     },
     {
       "id": "ff_147588",
@@ -783,7 +783,7 @@
       "previous": "-6.7B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 1:45am"
+      "raw_date": "Wed Oct 7 2:45am"
     },
     {
       "id": "ff_147290",
@@ -800,7 +800,7 @@
       "previous": "770B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 2:00am"
+      "raw_date": "Wed Oct 7 3:00am"
     },
     {
       "id": "ff_148956",
@@ -817,7 +817,7 @@
       "previous": "0.9M",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 9:30am"
+      "raw_date": "Wed Oct 7 10:30am"
     },
     {
       "id": "ff_148902",
@@ -834,7 +834,7 @@
       "previous": "4.83|2.7",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 12:01pm"
+      "raw_date": "Wed Oct 7 1:01pm"
     },
     {
       "id": "ff_146528",
@@ -851,7 +851,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 1:00pm"
+      "raw_date": "Wed Oct 7 2:00pm"
     },
     {
       "id": "ff_148731",
@@ -868,7 +868,7 @@
       "previous": "18.1B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 2:00pm"
+      "raw_date": "Wed Oct 7 3:00pm"
     },
     {
       "id": "ff_150793",
@@ -885,7 +885,7 @@
       "previous": "-28%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 6:01pm"
+      "raw_date": "Wed Oct 7 7:01pm"
     },
     {
       "id": "ff_149597",
@@ -902,7 +902,7 @@
       "previous": "2.52T",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 6:50pm"
+      "raw_date": "Wed Oct 7 7:50pm"
     },
     {
       "id": "ff_151383",
@@ -936,7 +936,7 @@
       "previous": "4.9%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 7:00pm"
+      "raw_date": "Wed Oct 7 8:00pm"
     },
     {
       "id": "ff_150309",
@@ -953,7 +953,7 @@
       "previous": "4.08|3.8",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 10:35pm"
+      "raw_date": "Wed Oct 7 11:35pm"
     },
     {
       "id": "ff_148816",
@@ -970,7 +970,7 @@
       "previous": "46.4",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 12:00am"
+      "raw_date": "Thu Oct 8 1:00am"
     },
     {
       "id": "ff_151197",
@@ -987,7 +987,7 @@
       "previous": "21.3B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 1:00am"
+      "raw_date": "Thu Oct 8 2:00am"
     },
     {
       "id": "ff_154095",
@@ -1004,7 +1004,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 3:05am"
+      "raw_date": "Thu Oct 8 4:05am"
     },
     {
       "id": "ff_150699",
@@ -1021,7 +1021,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 3:30am"
+      "raw_date": "Thu Oct 8 4:30am"
     },
     {
       "id": "ff_154049",
@@ -1038,7 +1038,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 4:15am"
+      "raw_date": "Thu Oct 8 5:15am"
     },
     {
       "id": "ff_154050",
@@ -1055,7 +1055,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 5:30am"
+      "raw_date": "Thu Oct 8 6:30am"
     },
     {
       "id": "ff_150558",
@@ -1072,7 +1072,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 6:30am"
+      "raw_date": "Thu Oct 8 7:30am"
     },
     {
       "id": "ff_147018",
@@ -1089,7 +1089,7 @@
       "previous": "197K",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 7:30am"
+      "raw_date": "Thu Oct 8 8:30am"
     },
     {
       "id": "ff_154052",
@@ -1106,7 +1106,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 8:00am"
+      "raw_date": "Thu Oct 8 9:00am"
     },
     {
       "id": "ff_148199",
@@ -1123,7 +1123,7 @@
       "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 9:00am"
+      "raw_date": "Thu Oct 8 10:00am"
     },
     {
       "id": "ff_148773",
@@ -1140,7 +1140,7 @@
       "previous": "64B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 9:30am"
+      "raw_date": "Thu Oct 8 10:30am"
     },
     {
       "id": "ff_148914",
@@ -1157,7 +1157,7 @@
       "previous": "5.31|2.6",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 12:01pm"
+      "raw_date": "Thu Oct 8 1:01pm"
     },
     {
       "id": "ff_154053",
@@ -1174,7 +1174,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 12:40pm"
+      "raw_date": "Thu Oct 8 1:40pm"
     },
     {
       "id": "ff_149625",
@@ -1191,7 +1191,7 @@
       "previous": "-3.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 6:30pm"
+      "raw_date": "Thu Oct 8 7:30pm"
     },
     {
       "id": "ff_151380",
@@ -1225,7 +1225,7 @@
       "previous": "64.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 1:00am"
+      "raw_date": "Fri Oct 9 2:00am"
     },
     {
       "id": "ff_147392",
@@ -1242,7 +1242,7 @@
       "previous": "-33",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 2:00am"
+      "raw_date": "Fri Oct 9 3:00am"
     },
     {
       "id": "ff_147745",
@@ -1259,7 +1259,7 @@
       "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 3:00am"
+      "raw_date": "Fri Oct 9 4:00am"
     },
     {
       "id": "ff_149198",
@@ -1276,7 +1276,7 @@
       "previous": "-41.7K",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 7:30am"
+      "raw_date": "Fri Oct 9 8:30am"
     },
     {
       "id": "ff_149199",
@@ -1293,7 +1293,7 @@
       "previous": "6.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 7:30am"
+      "raw_date": "Fri Oct 9 8:30am"
     },
     {
       "id": "ff_148579",
@@ -1310,7 +1310,7 @@
       "previous": "48.1",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 9:00am"
+      "raw_date": "Fri Oct 9 10:00am"
     },
     {
       "id": "ff_148591",
@@ -1327,7 +1327,7 @@
       "previous": "4.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 9:00am"
+      "raw_date": "Fri Oct 9 10:00am"
     },
     {
       "id": "ff_154098",
@@ -1344,7 +1344,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 3:00pm"
+      "raw_date": "Fri Oct 9 4:00pm"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-04T14:32:38Z",
+  "updated_at": "2026-10-05T04:20:47Z",
   "count": 878,
   "events": [
     {
@@ -6620,17 +6620,17 @@
       "id": "mfb_313495",
       "title": "TD-MI Inflation Gauge MoM (Sep)",
       "country": "AUD",
-      "datetime": "2026-10-05T00:00:00Z",
-      "timestamp": 1791158400,
+      "datetime": "2026-10-05T01:00:00Z",
+      "timestamp": 1791162000,
       "date": "2026-10-05",
-      "time": "00:00",
+      "time": "01:00",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.3%",
+      "actual_state": "worse",
       "raw_date": "Monday, Oct 05, 2026"
     },
     {
