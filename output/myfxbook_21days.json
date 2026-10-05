@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-05T05:36:03Z",
+  "updated_at": "2026-10-05T08:22:33Z",
   "count": 878,
   "events": [
     {
@@ -6714,7 +6714,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "74%",
-      "actual": "",
+      "actual": "79%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6731,7 +6731,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "73%",
-      "actual": "",
+      "actual": "88%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6748,7 +6748,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "74%",
-      "actual": "",
+      "actual": "65%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6765,7 +6765,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "93%",
-      "actual": "",
+      "actual": "94%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6782,7 +6782,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "7%",
-      "actual": "",
+      "actual": "4%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6799,7 +6799,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "30%",
-      "actual": "",
+      "actual": "30%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6816,7 +6816,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "51%",
-      "actual": "",
+      "actual": "57%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
     },
@@ -6833,23 +6833,6 @@
       "forecast": "-€1200M",
       "consensus": "-€1200M",
       "previous": "-€1580.3M",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Oct 05, 2026"
-    },
-    {
-      "id": "mfb_313445",
-      "title": "Construction Output YoY (Q2)",
-      "country": "EUR",
-      "datetime": "2026-10-05T09:00:00Z",
-      "timestamp": 1791190800,
-      "date": "2026-10-05",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "1%",
-      "consensus": "1%",
-      "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 05, 2026"
@@ -6898,8 +6881,8 @@
       "time": "09:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "8.3%",
-      "consensus": "8.3%",
+      "forecast": "8.1%",
+      "consensus": "8.1%",
       "previous": "5.8%",
       "actual": "",
       "actual_state": "neutral",
@@ -10306,6 +10289,23 @@
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
+      "id": "mfb_313445",
+      "title": "Construction Output YoY (Q2)",
+      "country": "EUR",
+      "datetime": "2026-10-09T09:00:00Z",
+      "timestamp": 1791536400,
+      "date": "2026-10-09",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "1%",
+      "consensus": "1%",
+      "previous": "0.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 09, 2026"
+    },
+    {
       "id": "mfb_313836",
       "title": "Harmonised Inflation Rate YoY (Sep)",
       "country": "EUR",
@@ -10861,7 +10861,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "79%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10878,7 +10878,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "88%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10895,7 +10895,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "65%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10912,7 +10912,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "94%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10929,7 +10929,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "4%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10946,7 +10946,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "30%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
@@ -10963,7 +10963,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "57%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
