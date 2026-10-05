@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-05T04:20:32Z",
+  "updated_at": "2026-10-05T05:35:47Z",
   "count": 246,
   "events": [
     {
@@ -84,8 +84,8 @@
       "forecast": "35.3",
       "consensus": "35.3",
       "previous": "35.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "35.4",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 05, 2026"
     },
     {
@@ -100,9 +100,9 @@
       "impact": "Low",
       "forecast": "2.4%",
       "consensus": "2.4%",
-      "previous": "2.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.2%",
+      "actual": "4.5%",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 05, 2026"
     },
     {
@@ -118,8 +118,8 @@
       "forecast": "-0.1%",
       "consensus": "-0.1%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 05, 2026"
     },
     {
