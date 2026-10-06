@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-06T15:07:44Z",
-  "count": 250,
+  "updated_at": "2026-10-06T20:16:31Z",
+  "count": 253,
   "events": [
     {
       "id": "mfb_313425",
@@ -1104,7 +1104,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.727%",
-      "actual": "",
+      "actual": "2.74%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
@@ -1121,7 +1121,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.662%",
-      "actual": "",
+      "actual": "2.53%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
@@ -1398,23 +1398,6 @@
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
-      "id": "mfb_313549",
-      "title": "Global Dairy Trade Price Index (Oct/06)",
-      "country": "NZD",
-      "datetime": "2026-10-06T13:00:00Z",
-      "timestamp": 1791291600,
-      "date": "2026-10-06",
-      "time": "13:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-1.1%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Oct 06, 2026"
-    },
-    {
       "id": "mfb_316748",
       "title": "ECB Elderson Speech",
       "country": "EUR",
@@ -1517,6 +1500,23 @@
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
+      "id": "mfb_316979",
+      "title": "Atlanta Fed GDPNow (Q3)",
+      "country": "USD",
+      "datetime": "2026-10-06T15:00:00Z",
+      "timestamp": 1791298800,
+      "date": "2026-10-06",
+      "time": "15:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "3.7%",
+      "consensus": "3.7%",
+      "previous": "3.7%",
+      "actual": "3.7%",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Oct 06, 2026"
+    },
+    {
       "id": "mfb_313555",
       "title": "6-Week Bill Auction",
       "country": "USD",
@@ -1529,7 +1529,24 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.97%",
-      "actual": "",
+      "actual": "3.945%",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Oct 06, 2026"
+    },
+    {
+      "id": "mfb_313549",
+      "title": "Global Dairy Trade Price Index (Oct/06)",
+      "country": "NZD",
+      "datetime": "2026-10-06T15:50:00Z",
+      "timestamp": 1791301800,
+      "date": "2026-10-06",
+      "time": "15:50",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-1.1%",
+      "actual": "1.2%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
@@ -1563,6 +1580,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.474%",
+      "actual": "4.932%",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Oct 06, 2026"
+    },
+    {
+      "id": "mfb_316977",
+      "title": "Fed Schmid Speech",
+      "country": "USD",
+      "datetime": "2026-10-06T17:15:00Z",
+      "timestamp": 1791306900,
+      "date": "2026-10-06",
+      "time": "17:15",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
@@ -3365,6 +3399,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "64",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Oct 08, 2026"
+    },
+    {
+      "id": "mfb_316980",
+      "title": "Atlanta Fed GDPNow (Q3)",
+      "country": "USD",
+      "datetime": "2026-10-08T15:00:00Z",
+      "timestamp": 1791471600,
+      "date": "2026-10-08",
+      "time": "15:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 08, 2026"
