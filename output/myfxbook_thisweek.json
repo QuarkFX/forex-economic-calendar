@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-06T20:16:31Z",
+  "updated_at": "2026-10-06T23:56:35Z",
   "count": 253,
   "events": [
     {
@@ -1605,16 +1605,16 @@
       "id": "mfb_313560",
       "title": "API Crude Oil Stock Change (Oct/02)",
       "country": "USD",
-      "datetime": "2026-10-06T20:30:00Z",
-      "timestamp": 1791318600,
+      "datetime": "2026-10-06T21:00:00Z",
+      "timestamp": 1791320400,
       "date": "2026-10-06",
-      "time": "20:30",
+      "time": "21:00",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "1.019",
-      "actual": "",
+      "previous": "1.019M",
+      "actual": "-2.09M",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
@@ -1630,9 +1630,9 @@
       "impact": "Medium",
       "forecast": "-4",
       "consensus": "-4",
-      "previous": "-3.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-1.6",
+      "actual": "-24.2",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1647,9 +1647,9 @@
       "impact": "Low",
       "forecast": "-7",
       "consensus": "-7",
-      "previous": "-6.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-4.7",
+      "actual": "-34.5",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1664,9 +1664,9 @@
       "impact": "Low",
       "forecast": "-16",
       "consensus": "-16",
-      "previous": "-16.6",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-14.9",
+      "actual": "-8.7",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1682,8 +1682,8 @@
       "forecast": "23",
       "consensus": "23",
       "previous": "21",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "22",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1715,9 +1715,9 @@
       "impact": "Low",
       "forecast": "3.7%",
       "consensus": "3.7%",
-      "previous": "4.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.3%",
+      "actual": "3.8%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1732,9 +1732,9 @@
       "impact": "Low",
       "forecast": "3.3%",
       "consensus": "3.3%",
-      "previous": "3.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.5%",
+      "actual": "5.2%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
     {
@@ -1750,7 +1750,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "$1207.5B",
-      "actual": "",
+      "actual": "$1178.4B",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 06, 2026"
     },
