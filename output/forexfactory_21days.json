@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-07T10:34:50Z",
-  "count": 307,
+  "updated_at": "2026-10-07T17:33:04Z",
+  "count": 306,
   "events": [
     {
       "id": "ff_148684",
@@ -3263,8 +3263,8 @@
       "forecast": "1.9M",
       "consensus": "1.9M",
       "previous": "0.9M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-3.2M",
+      "actual_state": "better",
       "raw_date": "Wed Oct 7 7:30am"
     },
     {
@@ -3297,7 +3297,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.83|2.7",
-      "actual": "",
+      "actual": "5.30|2.8",
       "actual_state": "neutral",
       "raw_date": "Wed Oct 7 10:01am"
     },
@@ -3861,23 +3861,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Sun Oct 11 All Day"
-    },
-    {
-      "id": "ff_148793",
-      "title": "Fed Monetary Policy Report",
-      "country": "USD",
-      "datetime": "2026-10-11T00:00:00Z",
-      "timestamp": 1791676800,
-      "date": "2026-10-11",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 11 Tentative"
     },
     {
       "id": "ff_151199",
