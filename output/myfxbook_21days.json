@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-07T09:52:25Z",
+  "updated_at": "2026-10-07T10:35:29Z",
   "count": 886,
   "events": [
     {
@@ -8754,7 +8754,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.22%",
-      "actual": "",
+      "actual": "2.38%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -8788,8 +8788,8 @@
       "forecast": "0.3",
       "consensus": "0.3",
       "previous": "1.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.6",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -8805,8 +8805,8 @@
       "forecast": "2.6%",
       "consensus": "2.6%",
       "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.9%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -8822,7 +8822,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.127%",
-      "actual": "",
+      "actual": "3.109%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -8839,7 +8839,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.531%",
-      "actual": "",
+      "actual": "2.638%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -8856,7 +8856,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.81%",
-      "actual": "",
+      "actual": "2.827%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
