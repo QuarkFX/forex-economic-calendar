@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-07T03:39:13Z",
+  "updated_at": "2026-10-07T09:52:11Z",
   "count": 253,
   "events": [
     {
@@ -1823,6 +1823,23 @@
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
+      "id": "mfb_313610",
+      "title": "Foreign Exchange Reserves (Sep)",
+      "country": "CNY",
+      "datetime": "2026-10-07T03:00:00Z",
+      "timestamp": 1791342000,
+      "date": "2026-10-07",
+      "time": "03:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "$3.43T",
+      "consensus": "$3.43T",
+      "previous": "$3.438T",
+      "actual": "$3.4T",
+      "actual_state": "worse",
+      "raw_date": "Wednesday, Oct 07, 2026"
+    },
+    {
       "id": "mfb_316590",
       "title": "BoJ JGB Purchase",
       "country": "JPY",
@@ -1852,8 +1869,8 @@
       "forecast": "2.8%",
       "consensus": "2.8%",
       "previous": "1.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.5%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1866,11 +1883,11 @@
       "time": "05:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "0.2",
-      "consensus": "0.2",
-      "previous": "0.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "0.2%",
+      "consensus": "0.2%",
+      "previous": "0.4%",
+      "actual": "0.9%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1885,9 +1902,9 @@
       "impact": "Low",
       "forecast": "118.1",
       "consensus": "118.1",
-      "previous": "117.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "117.6",
+      "actual": "118",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1903,8 +1920,8 @@
       "forecast": "119.7",
       "consensus": "119.7",
       "previous": "120.6",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "118.7",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1936,9 +1953,9 @@
       "impact": "Medium",
       "forecast": "0.5%",
       "consensus": "0.5%",
-      "previous": "-1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-1.2%",
+      "actual": "2%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1954,8 +1971,8 @@
       "forecast": "-0.2%",
       "consensus": "-0.2%",
       "previous": "-0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1970,9 +1987,9 @@
       "impact": "Medium",
       "forecast": "0.2%",
       "consensus": "0.2%",
-      "previous": "-0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.3%",
+      "actual": "0%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -1987,9 +2004,9 @@
       "impact": "Low",
       "forecast": "-€4.3B",
       "consensus": "-€4.3B",
-      "previous": "-€4.7B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-€3.9B",
+      "actual": "-€1.5B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2004,9 +2021,9 @@
       "impact": "Medium",
       "forecast": "-€6.5B",
       "consensus": "-€6.5B",
-      "previous": "-€6.7B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-€6.6B",
+      "actual": "-€6.1B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2021,9 +2038,9 @@
       "impact": "Low",
       "forecast": "€55.1B",
       "consensus": "€55.1B",
-      "previous": "€54.7B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€54.6B",
+      "actual": "€54.2B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2038,9 +2055,9 @@
       "impact": "Low",
       "forecast": "€61.6B",
       "consensus": "€61.6B",
-      "previous": "€61.3B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€61.2B",
+      "actual": "€60.3B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2056,8 +2073,8 @@
       "forecast": "€381B",
       "consensus": "€381B",
       "previous": "€380.694B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "€370.203B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2073,8 +2090,8 @@
       "forecast": "CHF777B",
       "consensus": "CHF777B",
       "previous": "CHF770.07B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "CHF770.47B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2095,23 +2112,6 @@
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
-      "id": "mfb_313610",
-      "title": "Foreign Exchange Reserves (Sep)",
-      "country": "CNY",
-      "datetime": "2026-10-07T08:00:00Z",
-      "timestamp": 1791360000,
-      "date": "2026-10-07",
-      "time": "08:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.43",
-      "consensus": "3.43",
-      "previous": "3.438",
-      "actual": "3.4",
-      "actual_state": "worse",
-      "raw_date": "Wednesday, Oct 07, 2026"
-    },
-    {
       "id": "mfb_311557",
       "title": "GDP Growth Rate QoQ (Q2)",
       "country": "EUR",
@@ -2123,9 +2123,9 @@
       "impact": "Low",
       "forecast": "-0.1%",
       "consensus": "-0.1%",
-      "previous": "0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "-0.9%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2140,9 +2140,9 @@
       "impact": "Low",
       "forecast": "1.1%",
       "consensus": "1.1%",
-      "previous": "1.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.8%",
+      "actual": "1.3%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2158,8 +2158,8 @@
       "forecast": "6.6%",
       "consensus": "6.6%",
       "previous": "6.58%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.58%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -2175,7 +2175,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.284%",
-      "actual": "",
+      "actual": "4.842%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -2209,7 +2209,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.68%",
-      "actual": "",
+      "actual": "3.36%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -2299,7 +2299,7 @@
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
-      "id": "mfb_316762",
+      "id": "mfb_317039",
       "title": "Treasury Gilt 2028 Auction",
       "country": "GBP",
       "datetime": "2026-10-07T10:30:00Z",
@@ -2461,9 +2461,9 @@
       "time": "14:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "0.922",
+      "forecast": "1.9M",
+      "consensus": "1.9M",
+      "previous": "0.922M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
