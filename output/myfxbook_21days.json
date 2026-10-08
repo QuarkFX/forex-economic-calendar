@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-08T15:59:56Z",
+  "updated_at": "2026-10-08T17:04:28Z",
   "count": 898,
   "events": [
     {
@@ -10062,8 +10062,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "6.6",
-      "actual": "",
+      "previous": "6.6%",
+      "actual": "6.73%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 08, 2026"
     },
@@ -10079,8 +10079,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "7.28",
-      "actual": "",
+      "previous": "7.28%",
+      "actual": "7.4%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 08, 2026"
     },
@@ -10097,7 +10097,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "5.308%",
-      "actual": "",
+      "actual": "5.618%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 08, 2026"
     },
@@ -11326,23 +11326,6 @@
       "raw_date": "Monday, Oct 12, 2026"
     },
     {
-      "id": "mfb_313925",
-      "title": "Monthly Budget Statement (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-12T18:00:00Z",
-      "timestamp": 1791828000,
-      "date": "2026-10-12",
-      "time": "18:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "$210B",
-      "consensus": "$210B",
-      "previous": "-$167B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Oct 12, 2026"
-    },
-    {
       "id": "mfb_313926",
       "title": "BRC Retail Sales Monitor YoY (Sep)",
       "country": "GBP",
@@ -11904,23 +11887,6 @@
       "raw_date": "Tuesday, Oct 13, 2026"
     },
     {
-      "id": "mfb_313976",
-      "title": "Redbook YoY (Oct/10)",
-      "country": "USD",
-      "datetime": "2026-10-13T12:55:00Z",
-      "timestamp": 1791896100,
-      "date": "2026-10-13",
-      "time": "12:55",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "8.6",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Oct 13, 2026"
-    },
-    {
       "id": "mfb_313977",
       "title": "Existing Home Sales (Sep)",
       "country": "USD",
@@ -11992,15 +11958,32 @@
       "id": "mfb_313981",
       "title": "6-Week Bill Auction",
       "country": "USD",
-      "datetime": "2026-10-13T15:30:00Z",
-      "timestamp": 1791905400,
+      "datetime": "2026-10-13T17:00:00Z",
+      "timestamp": 1791910800,
       "date": "2026-10-13",
-      "time": "15:30",
+      "time": "17:00",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
       "previous": "3.945%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Oct 13, 2026"
+    },
+    {
+      "id": "mfb_313925",
+      "title": "Monthly Budget Statement (Sep)",
+      "country": "USD",
+      "datetime": "2026-10-13T18:00:00Z",
+      "timestamp": 1791914400,
+      "date": "2026-10-13",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "$210B",
+      "consensus": "$210B",
+      "previous": "-$167B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 13, 2026"
@@ -12766,6 +12749,23 @@
       "forecast": "3.6%",
       "consensus": "3.6%",
       "previous": "3.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Oct 14, 2026"
+    },
+    {
+      "id": "mfb_313976",
+      "title": "Redbook YoY (Oct/10)",
+      "country": "USD",
+      "datetime": "2026-10-14T12:55:00Z",
+      "timestamp": 1791982500,
+      "date": "2026-10-14",
+      "time": "12:55",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "8.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -14244,7 +14244,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 15, 2026"
@@ -14295,7 +14295,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "6.73",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 15, 2026"
@@ -14312,7 +14312,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "7.4",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 15, 2026"
