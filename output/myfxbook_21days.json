@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-07T22:16:55Z",
+  "updated_at": "2026-10-08T02:09:16Z",
   "count": 898,
   "events": [
     {
@@ -9315,8 +9315,8 @@
       "forecast": "-30%",
       "consensus": "-30%",
       "previous": "-28%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-32%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -9332,8 +9332,8 @@
       "forecast": "¥3194.6B",
       "consensus": "¥3194.6B",
       "previous": "¥2989B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "¥4062B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
     {
@@ -9348,8 +9348,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-684.5",
-      "actual": "",
+      "previous": "-¥682.3B",
+      "actual": "-¥347.6B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -9365,8 +9365,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-362",
-      "actual": "",
+      "previous": "-¥354.2B",
+      "actual": "¥2191.9B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 07, 2026"
     },
@@ -9383,8 +9383,8 @@
       "forecast": "5%",
       "consensus": "5%",
       "previous": "4.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.3%",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 08, 2026"
     },
     {
@@ -12850,7 +12850,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-347.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -12901,7 +12901,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2191.9",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
