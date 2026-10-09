@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-09T01:13:15Z",
+  "updated_at": "2026-10-09T07:24:16Z",
   "count": 898,
   "events": [
     {
@@ -10233,7 +10233,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "1.279%",
-      "actual": "",
+      "actual": "1.274%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 09, 2026"
     },
@@ -10249,9 +10249,9 @@
       "impact": "Low",
       "forecast": "-0.6%",
       "consensus": "-0.6%",
-      "previous": "1.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.1%",
+      "actual": "3.3%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10267,8 +10267,8 @@
       "forecast": "-€0.7B",
       "consensus": "-€0.7B",
       "previous": "-€0.644B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-€0.223B",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10284,8 +10284,8 @@
       "forecast": "61%",
       "consensus": "61%",
       "previous": "64.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "60.4%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10300,9 +10300,9 @@
       "impact": "Low",
       "forecast": "0.5%",
       "consensus": "0.5%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "14.9%",
+      "actual": "3.5%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10318,8 +10318,8 @@
       "forecast": "14%",
       "consensus": "14%",
       "previous": "13.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "17.5%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10334,9 +10334,9 @@
       "impact": "Low",
       "forecast": "€50M",
       "consensus": "€50M",
-      "previous": "-€0.8M",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€58.3M",
+      "actual": "-€125M",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10352,8 +10352,8 @@
       "forecast": "-31",
       "consensus": "-31",
       "previous": "-33",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-36",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10368,9 +10368,9 @@
       "impact": "Low",
       "forecast": "-0.2%",
       "consensus": "-0.2%",
-      "previous": "-1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.7%",
+      "actual": "-0.5%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -10386,8 +10386,8 @@
       "forecast": "2.6%",
       "consensus": "2.6%",
       "previous": "2.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.2%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 09, 2026"
     },
     {
@@ -12032,8 +12032,8 @@
       "time": "01:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "0.2%",
-      "consensus": "0.2%",
+      "forecast": "0.3%",
+      "consensus": "0.3%",
       "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
@@ -12049,8 +12049,8 @@
       "time": "01:30",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "0.9%",
-      "consensus": "0.9%",
+      "forecast": "1.1%",
+      "consensus": "1.1%",
       "previous": "0.8%",
       "actual": "",
       "actual_state": "neutral",
@@ -12066,9 +12066,9 @@
       "time": "01:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "3.8",
-      "consensus": "3.8",
-      "previous": "3.8",
+      "forecast": "4.4%",
+      "consensus": "4.4%",
+      "previous": "3.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -12117,9 +12117,9 @@
       "time": "03:00",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "25",
+      "forecast": "25.3%",
+      "consensus": "25.3%",
+      "previous": "25%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -12134,9 +12134,9 @@
       "time": "03:00",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "28.2",
+      "forecast": "23.5%",
+      "consensus": "23.5%",
+      "previous": "28.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -12729,9 +12729,9 @@
       "time": "12:30",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "0.5",
-      "consensus": "0.5",
-      "previous": "0.4",
+      "forecast": "0.6%",
+      "consensus": "0.6%",
+      "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
@@ -14242,8 +14242,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
+      "forecast": "3.6%",
+      "consensus": "3.6%",
       "previous": "3.6%",
       "actual": "",
       "actual_state": "neutral",
@@ -14635,7 +14635,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.274%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"

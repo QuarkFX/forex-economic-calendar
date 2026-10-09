@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-09T01:12:37Z",
+  "updated_at": "2026-10-09T07:23:25Z",
   "count": 83,
   "events": [
     {
@@ -1291,7 +1291,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "64.7%",
-      "actual": "",
+      "actual": "60.4%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 9 12:00am"
     },
@@ -1308,8 +1308,8 @@
       "forecast": "-32",
       "consensus": "-32",
       "previous": "-33",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-36",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 9 1:00am"
     },
     {

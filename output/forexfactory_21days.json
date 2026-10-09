@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-09T01:12:39Z",
-  "count": 338,
+  "updated_at": "2026-10-09T07:23:28Z",
+  "count": 335,
   "events": [
     {
       "id": "ff_148684",
@@ -3722,7 +3722,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "64.7%",
-      "actual": "",
+      "actual": "60.4%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 9 12:00am"
     },
@@ -3739,8 +3739,8 @@
       "forecast": "-32",
       "consensus": "-32",
       "previous": "-33",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-36",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 9 1:00am"
     },
     {
@@ -3897,23 +3897,6 @@
       "raw_date": "Mon Oct 12 All Day"
     },
     {
-      "id": "ff_150470",
-      "title": "German Buba Monthly Report",
-      "country": "EUR",
-      "datetime": "2026-10-12T00:00:00Z",
-      "timestamp": 1791763200,
-      "date": "2026-10-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 Tentative"
-    },
-    {
       "id": "ff_151199",
       "title": "German WPI m/m",
       "country": "EUR",
@@ -4048,23 +4031,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Oct 12 5:50pm"
-    },
-    {
-      "id": "ff_149848",
-      "title": "Annual Budget Release",
-      "country": "CAD",
-      "datetime": "2026-10-13T00:00:00Z",
-      "timestamp": 1791849600,
-      "date": "2026-10-13",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 Tentative"
     },
     {
       "id": "ff_146723",
@@ -4337,23 +4303,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 13 11:00am"
-    },
-    {
-      "id": "ff_146807",
-      "title": "Federal Budget Balance",
-      "country": "USD",
-      "datetime": "2026-10-13T18:00:00Z",
-      "timestamp": 1791914400,
-      "date": "2026-10-13",
-      "time": "18:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-166.8B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 12:00pm"
     },
     {
       "id": "ff_154990",
@@ -5393,6 +5342,23 @@
       "raw_date": "Thu Oct 15 3:45pm"
     },
     {
+      "id": "ff_146807",
+      "title": "Federal Budget Balance",
+      "country": "USD",
+      "datetime": "2026-10-16T00:00:00Z",
+      "timestamp": 1792108800,
+      "date": "2026-10-16",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-166.8B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 16 Tentative"
+    },
+    {
       "id": "ff_146720",
       "title": "IMF Meetings",
       "country": "All",
@@ -5408,23 +5374,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 16 Day 5"
-    },
-    {
-      "id": "ff_148787",
-      "title": "Treasury Currency Report",
-      "country": "USD",
-      "datetime": "2026-10-16T00:00:00Z",
-      "timestamp": 1792108800,
-      "date": "2026-10-16",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 Tentative"
     },
     {
       "id": "ff_154973",
