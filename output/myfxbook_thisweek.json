@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-09T19:38:11Z",
-  "count": 255,
+  "updated_at": "2026-10-09T23:29:55Z",
+  "count": 254,
   "events": [
     {
       "id": "mfb_313425",
@@ -4317,23 +4317,6 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Oct 09, 2026"
-    },
-    {
-      "id": "mfb_313867",
-      "title": "PPI YoY (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-09T21:00:00Z",
-      "timestamp": 1791579600,
-      "date": "2026-10-09",
-      "time": "21:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.9%",
-      "consensus": "3.9%",
-      "previous": "3.52%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 09, 2026"
