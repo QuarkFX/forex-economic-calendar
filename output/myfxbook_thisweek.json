@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-11T19:06:28Z",
+  "updated_at": "2026-10-12T08:29:58Z",
   "count": 296,
   "events": [
     {
@@ -83,9 +83,9 @@
       "impact": "Low",
       "forecast": "€8.1B",
       "consensus": "€8.1B",
-      "previous": "€10.91B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€11.01B",
+      "actual": "€8.3B",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 12, 2026"
     },
     {
@@ -100,9 +100,9 @@
       "impact": "Low",
       "forecast": "-€250M",
       "consensus": "-€250M",
-      "previous": "-€430M",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-€454M",
+      "actual": "-€360M",
+      "actual_state": "worse",
       "raw_date": "Monday, Oct 12, 2026"
     },
     {
@@ -118,7 +118,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "30%",
-      "actual": "",
+      "actual": "26%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -135,7 +135,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "79%",
-      "actual": "",
+      "actual": "55%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -152,7 +152,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "57%",
-      "actual": "",
+      "actual": "75%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -169,7 +169,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "88%",
-      "actual": "",
+      "actual": "73%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -186,7 +186,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "65%",
-      "actual": "",
+      "actual": "68%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -203,7 +203,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4%",
-      "actual": "",
+      "actual": "10%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
@@ -220,7 +220,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "94%",
-      "actual": "",
+      "actual": "90%",
       "actual_state": "neutral",
       "raw_date": "Monday, Oct 12, 2026"
     },
