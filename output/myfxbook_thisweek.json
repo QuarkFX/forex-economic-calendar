@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-13T20:35:12Z",
+  "updated_at": "2026-10-13T23:53:46Z",
   "count": 297,
   "events": [
     {
@@ -1347,23 +1347,6 @@
       "raw_date": "Tuesday, Oct 13, 2026"
     },
     {
-      "id": "mfb_313925",
-      "title": "Monthly Budget Statement (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-13T18:00:00Z",
-      "timestamp": 1791914400,
-      "date": "2026-10-13",
-      "time": "18:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-$29B",
-      "consensus": "-$29B",
-      "previous": "-$167B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Oct 13, 2026"
-    },
-    {
       "id": "mfb_317232",
       "title": "Fed Collins Speech",
       "country": "USD",
@@ -1393,8 +1376,8 @@
       "forecast": "4.3%",
       "consensus": "4.3%",
       "previous": "8.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "8%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 13, 2026"
     },
     {
@@ -2328,6 +2311,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Oct 14, 2026"
+    },
+    {
+      "id": "mfb_313925",
+      "title": "Monthly Budget Statement (Sep)",
+      "country": "USD",
+      "datetime": "2026-10-14T18:00:00Z",
+      "timestamp": 1792000800,
+      "date": "2026-10-14",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-$29B",
+      "consensus": "-$29B",
+      "previous": "-$167B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
