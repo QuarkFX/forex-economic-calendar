@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-14T02:54:41Z",
+  "updated_at": "2026-10-14T08:16:30Z",
   "count": 749,
   "events": [
     {
@@ -5787,10 +5787,10 @@
       "id": "mfb_313998",
       "title": "Balance of Trade (Sep)",
       "country": "CNY",
-      "datetime": "2026-10-14T03:00:00Z",
-      "timestamp": 1791946800,
+      "datetime": "2026-10-14T02:30:00Z",
+      "timestamp": 1791945000,
       "date": "2026-10-14",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "$118.1B",
@@ -5804,10 +5804,10 @@
       "id": "mfb_313999",
       "title": "Balance of Trade Yuan (Sep)",
       "country": "CNY",
-      "datetime": "2026-10-14T03:00:00Z",
-      "timestamp": 1791946800,
+      "datetime": "2026-10-14T02:30:00Z",
+      "timestamp": 1791945000,
       "date": "2026-10-14",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "CNY805B",
@@ -5821,10 +5821,10 @@
       "id": "mfb_313997",
       "title": "Exports YoY (Sep)",
       "country": "CNY",
-      "datetime": "2026-10-14T03:00:00Z",
-      "timestamp": 1791946800,
+      "datetime": "2026-10-14T02:30:00Z",
+      "timestamp": 1791945000,
       "date": "2026-10-14",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "25.5%",
@@ -5838,10 +5838,10 @@
       "id": "mfb_313996",
       "title": "Imports YoY (Sep)",
       "country": "CNY",
-      "datetime": "2026-10-14T03:00:00Z",
-      "timestamp": 1791946800,
+      "datetime": "2026-10-14T02:30:00Z",
+      "timestamp": 1791945000,
       "date": "2026-10-14",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "24.5%",
@@ -5881,7 +5881,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.239%",
-      "actual": "",
+      "actual": "2.379%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -5898,8 +5898,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "-0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5915,8 +5915,8 @@
       "forecast": "2.6%",
       "consensus": "2.6%",
       "previous": "2.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.7%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5932,8 +5932,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "-0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5949,7 +5949,7 @@
       "forecast": "2.5%",
       "consensus": "2.5%",
       "previous": "2.2%",
-      "actual": "",
+      "actual": "2.5%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -6000,8 +6000,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.9%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -6017,8 +6017,8 @@
       "forecast": "7%",
       "consensus": "7%",
       "previous": "6.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "8.7%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -6051,7 +6051,7 @@
       "forecast": "3.1%",
       "consensus": "3.1%",
       "previous": "2.9%",
-      "actual": "",
+      "actual": "3.1%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -6068,8 +6068,8 @@
       "forecast": "€360M",
       "consensus": "€360M",
       "previous": "€88M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "€456.9M",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -6085,7 +6085,7 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.7%",
-      "actual": "",
+      "actual": "0.6%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -6102,7 +6102,7 @@
       "forecast": "5%",
       "consensus": "5%",
       "previous": "4.6%",
-      "actual": "",
+      "actual": "5%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -6119,7 +6119,7 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.7%",
-      "actual": "",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -6136,7 +6136,7 @@
       "forecast": "4.9%",
       "consensus": "4.9%",
       "previous": "4.3%",
-      "actual": "",
+      "actual": "4.9%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
