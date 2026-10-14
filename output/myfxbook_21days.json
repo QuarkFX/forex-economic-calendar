@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-13T23:53:59Z",
+  "updated_at": "2026-10-14T02:54:41Z",
   "count": 749,
   "events": [
     {
@@ -5711,7 +5711,7 @@
       "forecast": "-0.1%",
       "consensus": "-0.1%",
       "previous": "0%",
-      "actual": "",
+      "actual": "-0.1%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
@@ -5728,8 +5728,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5745,8 +5745,8 @@
       "forecast": "1%",
       "consensus": "1%",
       "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.9%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5762,8 +5762,8 @@
       "forecast": "4.5%",
       "consensus": "4.5%",
       "previous": "3.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5795,9 +5795,9 @@
       "impact": "High",
       "forecast": "$118.1B",
       "consensus": "$118.1B",
-      "previous": "$119.1B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "$119.09B",
+      "actual": "$133.53B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5813,8 +5813,8 @@
       "forecast": "CNY805B",
       "consensus": "CNY805B",
       "previous": "CNY809.3B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "CNY905.97B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5830,8 +5830,8 @@
       "forecast": "25.5%",
       "consensus": "25.5%",
       "previous": "25%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "36.3%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -5847,8 +5847,8 @@
       "forecast": "24.5%",
       "consensus": "24.5%",
       "previous": "28.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "31%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
