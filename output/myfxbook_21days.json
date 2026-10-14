@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-14T18:15:23Z",
+  "updated_at": "2026-10-14T21:44:40Z",
   "count": 750,
   "events": [
     {
@@ -6719,37 +6719,20 @@
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
-      "id": "mfb_313925",
-      "title": "Monthly Budget Statement (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-14T18:00:00Z",
-      "timestamp": 1792000800,
-      "date": "2026-10-14",
-      "time": "18:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-$29B",
-      "consensus": "-$29B",
-      "previous": "-$167B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wednesday, Oct 14, 2026"
-    },
-    {
       "id": "mfb_314064",
       "title": "API Crude Oil Stock Change (Oct/09)",
       "country": "USD",
-      "datetime": "2026-10-14T20:30:00Z",
-      "timestamp": 1792009800,
+      "datetime": "2026-10-14T21:00:00Z",
+      "timestamp": 1792011600,
       "date": "2026-10-14",
-      "time": "20:30",
+      "time": "21:00",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "1.9M",
       "consensus": "1.9M",
       "previous": "-2.09M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-11.1M",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 14, 2026"
     },
     {
@@ -9303,6 +9286,23 @@
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
+      "id": "mfb_313925",
+      "title": "Monthly Budget Statement (Sep)",
+      "country": "USD",
+      "datetime": "2026-10-16T18:00:00Z",
+      "timestamp": 1792173600,
+      "date": "2026-10-16",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-$29B",
+      "consensus": "-$29B",
+      "previous": "-$167B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 16, 2026"
+    },
+    {
       "id": "mfb_314293",
       "title": "Foreign Bond Investment (Aug)",
       "country": "USD",
@@ -10929,7 +10929,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-11.1",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
