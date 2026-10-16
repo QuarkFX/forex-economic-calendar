@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-16T07:26:33Z",
-  "count": 296,
+  "updated_at": "2026-10-16T12:37:38Z",
+  "count": 299,
   "events": [
     {
       "id": "mfb_313883",
@@ -4373,6 +4373,23 @@
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
+      "id": "mfb_317660",
+      "title": "BoJ Uchida Speech",
+      "country": "JPY",
+      "datetime": "2026-10-16T06:30:00Z",
+      "timestamp": 1792132200,
+      "date": "2026-10-16",
+      "time": "06:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 16, 2026"
+    },
+    {
       "id": "mfb_314243",
       "title": "Harmonised Inflation Rate MoM (Sep)",
       "country": "EUR",
@@ -4487,7 +4504,7 @@
       "forecast": "3.8%",
       "consensus": "3.8%",
       "previous": "3.2%",
-      "actual": "",
+      "actual": "3.8%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4504,7 +4521,7 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.6%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4521,8 +4538,8 @@
       "forecast": "104.3",
       "consensus": "104.3",
       "previous": "103.69",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "104.31",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4538,7 +4555,7 @@
       "forecast": "2.5%",
       "consensus": "2.5%",
       "previous": "2.4%",
-      "actual": "",
+      "actual": "2.5%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4554,9 +4571,9 @@
       "impact": "Medium",
       "forecast": "€14.7B",
       "consensus": "€14.7B",
-      "previous": "€14.2B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€10.7B",
+      "actual": "-€16.1B",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4572,7 +4589,7 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "0.5%",
-      "actual": "",
+      "actual": "0.7%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4589,8 +4606,8 @@
       "forecast": "2%",
       "consensus": "2%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4606,7 +4623,7 @@
       "forecast": "4.2%",
       "consensus": "4.2%",
       "previous": "3.3%",
-      "actual": "",
+      "actual": "4.2%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4623,8 +4640,8 @@
       "forecast": "4.1%",
       "consensus": "4.1%",
       "previous": "3.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4637,11 +4654,11 @@
       "time": "09:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "2.5",
-      "consensus": "2.5",
-      "previous": "2",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "2.5%",
+      "consensus": "2.5%",
+      "previous": "2%",
+      "actual": "2.4%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4656,9 +4673,9 @@
       "impact": "Low",
       "forecast": "€4.9B",
       "consensus": "€4.9B",
-      "previous": "€5.3B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€4.7B",
+      "actual": "€2.9B",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4673,26 +4690,9 @@
       "impact": "Medium",
       "forecast": "€7.5B",
       "consensus": "€7.5B",
-      "previous": "€8.24B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Oct 16, 2026"
-    },
-    {
-      "id": "mfb_314269",
-      "title": "CFIB Business Barometer (Oct)",
-      "country": "CAD",
-      "datetime": "2026-10-16T11:00:00Z",
-      "timestamp": 1792148400,
-      "date": "2026-10-16",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "47",
-      "consensus": "47",
-      "previous": "47.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€8.247B",
+      "actual": "€1.773B",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4708,8 +4708,8 @@
       "forecast": "232.5K",
       "consensus": "232.5K",
       "previous": "229K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "248K",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4725,7 +4725,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "-30.63",
-      "actual": "",
+      "actual": "23.9",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -4741,9 +4741,9 @@
       "impact": "Low",
       "forecast": "C$23.59B",
       "consensus": "C$23.59B",
-      "previous": "C$20.65B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "C$20.64B",
+      "actual": "-C$17.31B",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4759,8 +4759,8 @@
       "forecast": "-9",
       "consensus": "-9",
       "previous": "-8.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-20.7",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4775,9 +4775,9 @@
       "impact": "Medium",
       "forecast": "1%",
       "consensus": "1%",
-      "previous": "0.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.2%",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4793,8 +4793,8 @@
       "forecast": "7.9%",
       "consensus": "7.9%",
       "previous": "7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "8.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4809,9 +4809,9 @@
       "impact": "Low",
       "forecast": "9.4%",
       "consensus": "9.4%",
-      "previous": "8.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "9.3%",
+      "actual": "11.6%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -4826,9 +4826,9 @@
       "impact": "Medium",
       "forecast": "0.8%",
       "consensus": "0.8%",
-      "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.5%",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -5017,6 +5017,57 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
+    },
+    {
+      "id": "mfb_317655",
+      "title": "Fed Goolsbee Speech",
+      "country": "USD",
+      "datetime": "2026-10-16T22:00:00Z",
+      "timestamp": 1792188000,
+      "date": "2026-10-16",
+      "time": "22:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 16, 2026"
+    },
+    {
+      "id": "mfb_317648",
+      "title": "Bundesbank President Nagel Speech",
+      "country": "EUR",
+      "datetime": "2026-10-17T04:45:00Z",
+      "timestamp": 1792212300,
+      "date": "2026-10-17",
+      "time": "04:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Saturday, Oct 17, 2026"
+    },
+    {
+      "id": "mfb_317662",
+      "title": "ECB President Lagarde Speech",
+      "country": "EUR",
+      "datetime": "2026-10-17T05:00:00Z",
+      "timestamp": 1792213200,
+      "date": "2026-10-17",
+      "time": "05:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Saturday, Oct 17, 2026"
     },
     {
       "id": "mfb_317259",
