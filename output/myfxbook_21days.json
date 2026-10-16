@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-16T12:37:52Z",
-  "count": 769,
+  "updated_at": "2026-10-16T16:58:15Z",
+  "count": 772,
   "events": [
     {
       "id": "mfb_313425",
@@ -9025,7 +9025,7 @@
       "impact": "Medium",
       "forecast": "232.5K",
       "consensus": "232.5K",
-      "previous": "229K",
+      "previous": "242K",
       "actual": "248K",
       "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
@@ -9093,8 +9093,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-30.63",
-      "actual": "23.9",
+      "previous": "-C$30.63B",
+      "actual": "C$23.9B",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -9127,7 +9127,7 @@
       "impact": "Low",
       "forecast": "7.9%",
       "consensus": "7.9%",
-      "previous": "7%",
+      "previous": "6.7%",
       "actual": "8.1%",
       "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
@@ -9161,9 +9161,9 @@
       "impact": "Low",
       "forecast": "76.5%",
       "consensus": "76.5%",
-      "previous": "76.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "76.4%",
+      "actual": "76.9%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -9178,9 +9178,9 @@
       "impact": "Medium",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.1%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -9195,9 +9195,9 @@
       "impact": "Low",
       "forecast": "1%",
       "consensus": "1%",
-      "previous": "1.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.6%",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -9212,8 +9212,8 @@
       "impact": "Low",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "-0.3%",
-      "actual": "",
+      "previous": "-0.2%",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 16, 2026"
     },
@@ -9230,8 +9230,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 16, 2026"
     },
     {
@@ -11224,6 +11224,23 @@
       "raw_date": "Wednesday, Oct 21, 2026"
     },
     {
+      "id": "mfb_317665",
+      "title": "ECB Lane Speech",
+      "country": "EUR",
+      "datetime": "2026-10-21T04:15:00Z",
+      "timestamp": 1792556100,
+      "date": "2026-10-21",
+      "time": "04:15",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Oct 21, 2026"
+    },
+    {
       "id": "mfb_314465",
       "title": "Core Inflation Rate MoM (Sep)",
       "country": "GBP",
@@ -12788,6 +12805,23 @@
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
+      "id": "mfb_317664",
+      "title": "ECB Montagner Speech",
+      "country": "EUR",
+      "datetime": "2026-10-23T07:55:00Z",
+      "timestamp": 1792742100,
+      "date": "2026-10-23",
+      "time": "07:55",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 23, 2026"
+    },
+    {
       "id": "mfb_314655",
       "title": "Tourist Arrivals YoY (Sep)",
       "country": "EUR",
@@ -12800,6 +12834,23 @@
       "forecast": "4.1%",
       "consensus": "4.1%",
       "previous": "6%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 23, 2026"
+    },
+    {
+      "id": "mfb_314866",
+      "title": "ECB Consumer Inflation Expectations (Sep)",
+      "country": "EUR",
+      "datetime": "2026-10-23T09:00:00Z",
+      "timestamp": 1792746000,
+      "date": "2026-10-23",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "3.2%",
+      "consensus": "3.2%",
+      "previous": "3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 23, 2026"
