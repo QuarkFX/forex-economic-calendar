@@ -1,1419 +1,8 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-18T00:31:54Z",
-  "count": 280,
+  "updated_at": "2026-10-18T09:32:57Z",
+  "count": 291,
   "events": [
-    {
-      "id": "ff_147119",
-      "title": "Bank Holiday",
-      "country": "AUD",
-      "datetime": "2026-10-04T00:00:00Z",
-      "timestamp": 1791072000,
-      "date": "2026-10-04",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Non-Economic",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 All Day"
-    },
-    {
-      "id": "ff_151652",
-      "title": "Bank Holiday",
-      "country": "CNY",
-      "datetime": "2026-10-04T00:00:00Z",
-      "timestamp": 1791072000,
-      "date": "2026-10-04",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Non-Economic",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 All Day"
-    },
-    {
-      "id": "ff_149582",
-      "title": "OPEC-JMMC Meetings",
-      "country": "All",
-      "datetime": "2026-10-04T00:00:00Z",
-      "timestamp": 1791072000,
-      "date": "2026-10-04",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 All Day"
-    },
-    {
-      "id": "ff_149594",
-      "title": "ANZ Commodity Prices m/m",
-      "country": "NZD",
-      "datetime": "2026-10-05T00:00:00Z",
-      "timestamp": 1791158400,
-      "date": "2026-10-05",
-      "time": "00:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-0.4%",
-      "actual": "0.6%",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 5:00pm"
-    },
-    {
-      "id": "ff_151650",
-      "title": "Bank Holiday",
-      "country": "CNY",
-      "datetime": "2026-10-05T00:00:00Z",
-      "timestamp": 1791158400,
-      "date": "2026-10-05",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Non-Economic",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 All Day"
-    },
-    {
-      "id": "ff_148452",
-      "title": "MI Inflation Gauge m/m",
-      "country": "AUD",
-      "datetime": "2026-10-05T00:00:00Z",
-      "timestamp": 1791158400,
-      "date": "2026-10-05",
-      "time": "00:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "0.5%",
-      "actual": "0.3%",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 5:00pm"
-    },
-    {
-      "id": "ff_148804",
-      "title": "Consumer Confidence",
-      "country": "JPY",
-      "datetime": "2026-10-05T05:00:00Z",
-      "timestamp": 1791176400,
-      "date": "2026-10-05",
-      "time": "05:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "35.3",
-      "consensus": "35.3",
-      "previous": "35.5",
-      "actual": "35.4",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 4 10:00pm"
-    },
-    {
-      "id": "ff_147267",
-      "title": "Spanish Services PMI",
-      "country": "EUR",
-      "datetime": "2026-10-05T07:15:00Z",
-      "timestamp": 1791184500,
-      "date": "2026-10-05",
-      "time": "07:15",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "57.1",
-      "consensus": "57.1",
-      "previous": "57.8",
-      "actual": "58.3",
-      "actual_state": "better",
-      "raw_date": "Mon Oct 5 12:15am"
-    },
-    {
-      "id": "ff_154082",
-      "title": "German Buba President Nagel Speaks",
-      "country": "EUR",
-      "datetime": "2026-10-05T07:45:00Z",
-      "timestamp": 1791186300,
-      "date": "2026-10-05",
-      "time": "07:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 12:45am"
-    },
-    {
-      "id": "ff_147268",
-      "title": "Italian Services PMI",
-      "country": "EUR",
-      "datetime": "2026-10-05T07:45:00Z",
-      "timestamp": 1791186300,
-      "date": "2026-10-05",
-      "time": "07:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "54.6",
-      "consensus": "54.6",
-      "previous": "55.2",
-      "actual": "51.7",
-      "actual_state": "worse",
-      "raw_date": "Mon Oct 5 12:45am"
-    },
-    {
-      "id": "ff_147269",
-      "title": "French Final Services PMI",
-      "country": "EUR",
-      "datetime": "2026-10-05T07:50:00Z",
-      "timestamp": 1791186600,
-      "date": "2026-10-05",
-      "time": "07:50",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "51.4",
-      "consensus": "51.4",
-      "previous": "51.4",
-      "actual": "51.2",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 12:50am"
-    },
-    {
-      "id": "ff_147270",
-      "title": "German Final Services PMI",
-      "country": "EUR",
-      "datetime": "2026-10-05T07:55:00Z",
-      "timestamp": 1791186900,
-      "date": "2026-10-05",
-      "time": "07:55",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "52.9",
-      "consensus": "52.9",
-      "previous": "52.9",
-      "actual": "52.9",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 12:55am"
-    },
-    {
-      "id": "ff_147271",
-      "title": "Final Services PMI",
-      "country": "EUR",
-      "datetime": "2026-10-05T08:00:00Z",
-      "timestamp": 1791187200,
-      "date": "2026-10-05",
-      "time": "08:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "53.0",
-      "consensus": "53.0",
-      "previous": "53.0",
-      "actual": "53.0",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 1:00am"
-    },
-    {
-      "id": "ff_147272",
-      "title": "Final Services PMI",
-      "country": "GBP",
-      "datetime": "2026-10-05T08:30:00Z",
-      "timestamp": 1791189000,
-      "date": "2026-10-05",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "51.7",
-      "consensus": "51.7",
-      "previous": "51.7",
-      "actual": "52.1",
-      "actual_state": "better",
-      "raw_date": "Mon Oct 5 1:30am"
-    },
-    {
-      "id": "ff_150597",
-      "title": "Sentix Investor Confidence",
-      "country": "EUR",
-      "datetime": "2026-10-05T08:30:00Z",
-      "timestamp": 1791189000,
-      "date": "2026-10-05",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "4.5",
-      "consensus": "4.5",
-      "previous": "5.1",
-      "actual": "2.7",
-      "actual_state": "worse",
-      "raw_date": "Mon Oct 5 1:30am"
-    },
-    {
-      "id": "ff_151317",
-      "title": "PPI m/m",
-      "country": "EUR",
-      "datetime": "2026-10-05T09:00:00Z",
-      "timestamp": 1791190800,
-      "date": "2026-10-05",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "1.9%",
-      "consensus": "1.9%",
-      "previous": "1.6%",
-      "actual": "1.9%",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:00am"
-    },
-    {
-      "id": "ff_149637",
-      "title": "Final Services PMI",
-      "country": "USD",
-      "datetime": "2026-10-05T13:45:00Z",
-      "timestamp": 1791207900,
-      "date": "2026-10-05",
-      "time": "13:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "58.7",
-      "consensus": "58.7",
-      "previous": "58.7",
-      "actual": "58.8",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 6:45am"
-    },
-    {
-      "id": "ff_146608",
-      "title": "ISM Services PMI",
-      "country": "USD",
-      "datetime": "2026-10-05T14:00:00Z",
-      "timestamp": 1791208800,
-      "date": "2026-10-05",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "55.1",
-      "consensus": "55.1",
-      "previous": "55.4",
-      "actual": "54.9",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 7:00am"
-    },
-    {
-      "id": "ff_149378",
-      "title": "NZIER Business Confidence",
-      "country": "NZD",
-      "datetime": "2026-10-05T21:00:00Z",
-      "timestamp": 1791234000,
-      "date": "2026-10-05",
-      "time": "21:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "8",
-      "actual": "43",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 2:00pm"
-    },
-    {
-      "id": "ff_148115",
-      "title": "Westpac Consumer Sentiment",
-      "country": "AUD",
-      "datetime": "2026-10-05T23:30:00Z",
-      "timestamp": 1791243000,
-      "date": "2026-10-05",
-      "time": "23:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-5.2%",
-      "actual": "-4.7%",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 4:30pm"
-    },
-    {
-      "id": "ff_151048",
-      "title": "ADP Weekly Employment Change",
-      "country": "USD",
-      "datetime": "2026-10-06T00:00:00Z",
-      "timestamp": 1791244800,
-      "date": "2026-10-06",
-      "time": "Sep 12th",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "20.0K",
-      "actual": "22.5K",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 Sep 12th"
-    },
-    {
-      "id": "ff_151651",
-      "title": "Bank Holiday",
-      "country": "CNY",
-      "datetime": "2026-10-06T00:00:00Z",
-      "timestamp": 1791244800,
-      "date": "2026-10-06",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Non-Economic",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 All Day"
-    },
-    {
-      "id": "ff_148127",
-      "title": "ANZ Job Advertisements m/m",
-      "country": "AUD",
-      "datetime": "2026-10-06T00:30:00Z",
-      "timestamp": 1791246600,
-      "date": "2026-10-06",
-      "time": "00:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "2.6%",
-      "actual": "2.2%",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 5:30pm"
-    },
-    {
-      "id": "ff_150287",
-      "title": "10-y Bond Auction",
-      "country": "JPY",
-      "datetime": "2026-10-06T03:35:00Z",
-      "timestamp": 1791257700,
-      "date": "2026-10-06",
-      "time": "03:35",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "3.00|3.3",
-      "actual": "3.10|3.8",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 8:35pm"
-    },
-    {
-      "id": "ff_151195",
-      "title": "German Factory Orders m/m",
-      "country": "EUR",
-      "datetime": "2026-10-06T06:00:00Z",
-      "timestamp": 1791266400,
-      "date": "2026-10-06",
-      "time": "06:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-0.9%",
-      "consensus": "-0.9%",
-      "previous": "3.2%",
-      "actual": "-10.6%",
-      "actual_state": "worse",
-      "raw_date": "Mon Oct 5 11:00pm"
-    },
-    {
-      "id": "ff_154045",
-      "title": "BOJ Gov Ueda Speaks",
-      "country": "JPY",
-      "datetime": "2026-10-06T06:35:00Z",
-      "timestamp": 1791268500,
-      "date": "2026-10-06",
-      "time": "06:35",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 11:35pm"
-    },
-    {
-      "id": "ff_147532",
-      "title": "French Gov Budget Balance",
-      "country": "EUR",
-      "datetime": "2026-10-06T06:45:00Z",
-      "timestamp": 1791269100,
-      "date": "2026-10-06",
-      "time": "06:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-145.9B",
-      "actual": "-159.6B",
-      "actual_state": "neutral",
-      "raw_date": "Mon Oct 5 11:45pm"
-    },
-    {
-      "id": "ff_147587",
-      "title": "French Industrial Production m/m",
-      "country": "EUR",
-      "datetime": "2026-10-06T06:45:00Z",
-      "timestamp": 1791269100,
-      "date": "2026-10-06",
-      "time": "06:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.2%",
-      "consensus": "0.2%",
-      "previous": "-0.6%",
-      "actual": "-0.3%",
-      "actual_state": "worse",
-      "raw_date": "Mon Oct 5 11:45pm"
-    },
-    {
-      "id": "ff_147309",
-      "title": "Unemployment Rate",
-      "country": "CHF",
-      "datetime": "2026-10-06T07:00:00Z",
-      "timestamp": 1791270000,
-      "date": "2026-10-06",
-      "time": "07:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.1%",
-      "consensus": "3.1%",
-      "previous": "3.1%",
-      "actual": "3.1%",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 12:00am"
-    },
-    {
-      "id": "ff_150675",
-      "title": "Construction PMI",
-      "country": "GBP",
-      "datetime": "2026-10-06T08:30:00Z",
-      "timestamp": 1791275400,
-      "date": "2026-10-06",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "45.0",
-      "consensus": "45.0",
-      "previous": "44.3",
-      "actual": "46.1",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 1:30am"
-    },
-    {
-      "id": "ff_150848",
-      "title": "Housing Equity Withdrawal q/q",
-      "country": "GBP",
-      "datetime": "2026-10-06T08:30:00Z",
-      "timestamp": 1791275400,
-      "date": "2026-10-06",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-11.9B",
-      "consensus": "-11.9B",
-      "previous": "-10.6B",
-      "actual": "-6.8B",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 1:30am"
-    },
-    {
-      "id": "ff_154046",
-      "title": "MPC Member Mann Speaks",
-      "country": "GBP",
-      "datetime": "2026-10-06T08:30:00Z",
-      "timestamp": 1791275400,
-      "date": "2026-10-06",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:30am"
-    },
-    {
-      "id": "ff_151318",
-      "title": "Retail Sales m/m",
-      "country": "EUR",
-      "datetime": "2026-10-06T09:00:00Z",
-      "timestamp": 1791277200,
-      "date": "2026-10-06",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.2%",
-      "consensus": "0.2%",
-      "previous": "-0.6%",
-      "actual": "0.1%",
-      "actual_state": "worse",
-      "raw_date": "Tue Oct 6 2:00am"
-    },
-    {
-      "id": "ff_153364",
-      "title": "ADP Weekly Employment Change",
-      "country": "USD",
-      "datetime": "2026-10-06T12:15:00Z",
-      "timestamp": 1791288900,
-      "date": "2026-10-06",
-      "time": "12:15",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "22.5K",
-      "actual": "23.8K",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 5:15am"
-    },
-    {
-      "id": "ff_149238",
-      "title": "Trade Balance",
-      "country": "CAD",
-      "datetime": "2026-10-06T12:30:00Z",
-      "timestamp": 1791289800,
-      "date": "2026-10-06",
-      "time": "12:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "1.5B",
-      "consensus": "1.5B",
-      "previous": "0.8B",
-      "actual": "4.2B",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 5:30am"
-    },
-    {
-      "id": "ff_148022",
-      "title": "Trade Balance",
-      "country": "USD",
-      "datetime": "2026-10-06T12:30:00Z",
-      "timestamp": 1791289800,
-      "date": "2026-10-06",
-      "time": "12:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-100.8B",
-      "consensus": "-100.8B",
-      "previous": "-92.8B",
-      "actual": "-105.6B",
-      "actual_state": "worse",
-      "raw_date": "Tue Oct 6 5:30am"
-    },
-    {
-      "id": "ff_149858",
-      "title": "Ivey PMI",
-      "country": "CAD",
-      "datetime": "2026-10-06T14:00:00Z",
-      "timestamp": 1791295200,
-      "date": "2026-10-06",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "65.2",
-      "consensus": "65.2",
-      "previous": "64.3",
-      "actual": "58.2",
-      "actual_state": "worse",
-      "raw_date": "Tue Oct 6 7:00am"
-    },
-    {
-      "id": "ff_149082",
-      "title": "RCM/TIPP Economic Optimism",
-      "country": "USD",
-      "datetime": "2026-10-06T14:01:00Z",
-      "timestamp": 1791295260,
-      "date": "2026-10-06",
-      "time": "14:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "44.5",
-      "consensus": "44.5",
-      "previous": "45.6",
-      "actual": "46.8",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 7:01am"
-    },
-    {
-      "id": "ff_154097",
-      "title": "FOMC Member Bowman Speaks",
-      "country": "USD",
-      "datetime": "2026-10-06T14:45:00Z",
-      "timestamp": 1791297900,
-      "date": "2026-10-06",
-      "time": "14:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 7:45am"
-    },
-    {
-      "id": "ff_149401",
-      "title": "GDT Price Index",
-      "country": "NZD",
-      "datetime": "2026-10-06T15:46:00Z",
-      "timestamp": 1791301560,
-      "date": "2026-10-06",
-      "time": "15:46",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-1.1%",
-      "actual": "1.2%",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 8:46am"
-    },
-    {
-      "id": "ff_154103",
-      "title": "FOMC Member Schmid Speaks",
-      "country": "USD",
-      "datetime": "2026-10-06T17:15:00Z",
-      "timestamp": 1791306900,
-      "date": "2026-10-06",
-      "time": "17:15",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 10:15am"
-    },
-    {
-      "id": "ff_147094",
-      "title": "API Weekly Statistical Bulletin",
-      "country": "USD",
-      "datetime": "2026-10-06T20:30:00Z",
-      "timestamp": 1791318600,
-      "date": "2026-10-06",
-      "time": "20:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 1:30pm"
-    },
-    {
-      "id": "ff_149895",
-      "title": "Average Cash Earnings y/y",
-      "country": "JPY",
-      "datetime": "2026-10-06T23:30:00Z",
-      "timestamp": 1791329400,
-      "date": "2026-10-06",
-      "time": "23:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.7%",
-      "consensus": "3.7%",
-      "previous": "4.3%",
-      "actual": "3.8%",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 4:30pm"
-    },
-    {
-      "id": "ff_149663",
-      "title": "Leading Indicators",
-      "country": "JPY",
-      "datetime": "2026-10-07T05:00:00Z",
-      "timestamp": 1791349200,
-      "date": "2026-10-07",
-      "time": "05:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "118.1%",
-      "consensus": "118.1%",
-      "previous": "117.7%",
-      "actual": "118.0%",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 10:00pm"
-    },
-    {
-      "id": "ff_151196",
-      "title": "German Industrial Production m/m",
-      "country": "EUR",
-      "datetime": "2026-10-07T06:00:00Z",
-      "timestamp": 1791352800,
-      "date": "2026-10-07",
-      "time": "06:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.5%",
-      "consensus": "0.5%",
-      "previous": "-1.2%",
-      "actual": "2.0%",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 11:00pm"
-    },
-    {
-      "id": "ff_150816",
-      "title": "Lloyds HPI m/m",
-      "country": "GBP",
-      "datetime": "2026-10-07T06:00:00Z",
-      "timestamp": 1791352800,
-      "date": "2026-10-07",
-      "time": "06:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.0%",
-      "consensus": "0.0%",
-      "previous": "-0.3%",
-      "actual": "0.0%",
-      "actual_state": "neutral",
-      "raw_date": "Tue Oct 6 11:00pm"
-    },
-    {
-      "id": "ff_147588",
-      "title": "French Trade Balance",
-      "country": "EUR",
-      "datetime": "2026-10-07T06:45:00Z",
-      "timestamp": 1791355500,
-      "date": "2026-10-07",
-      "time": "06:45",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-6.5B",
-      "consensus": "-6.5B",
-      "previous": "-6.6B",
-      "actual": "-6.1B",
-      "actual_state": "better",
-      "raw_date": "Tue Oct 6 11:45pm"
-    },
-    {
-      "id": "ff_147290",
-      "title": "Foreign Currency Reserves",
-      "country": "CHF",
-      "datetime": "2026-10-07T07:00:00Z",
-      "timestamp": 1791356400,
-      "date": "2026-10-07",
-      "time": "07:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "770B",
-      "actual": "770B",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 12:00am"
-    },
-    {
-      "id": "ff_148956",
-      "title": "Crude Oil Inventories",
-      "country": "USD",
-      "datetime": "2026-10-07T14:30:00Z",
-      "timestamp": 1791383400,
-      "date": "2026-10-07",
-      "time": "14:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "1.9M",
-      "consensus": "1.9M",
-      "previous": "0.9M",
-      "actual": "-3.2M",
-      "actual_state": "better",
-      "raw_date": "Wed Oct 7 7:30am"
-    },
-    {
-      "id": "ff_154809",
-      "title": "President Trump Speaks",
-      "country": "USD",
-      "datetime": "2026-10-07T17:00:00Z",
-      "timestamp": 1791392400,
-      "date": "2026-10-07",
-      "time": "17:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 10:00am"
-    },
-    {
-      "id": "ff_148902",
-      "title": "10-y Bond Auction",
-      "country": "USD",
-      "datetime": "2026-10-07T17:01:00Z",
-      "timestamp": 1791392460,
-      "date": "2026-10-07",
-      "time": "17:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.83|2.7",
-      "actual": "5.30|2.8",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 10:01am"
-    },
-    {
-      "id": "ff_146528",
-      "title": "FOMC Meeting Minutes",
-      "country": "USD",
-      "datetime": "2026-10-07T18:00:00Z",
-      "timestamp": 1791396000,
-      "date": "2026-10-07",
-      "time": "18:00",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 11:00am"
-    },
-    {
-      "id": "ff_148731",
-      "title": "Consumer Credit m/m",
-      "country": "USD",
-      "datetime": "2026-10-07T19:00:00Z",
-      "timestamp": 1791399600,
-      "date": "2026-10-07",
-      "time": "19:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "14.5B",
-      "consensus": "14.5B",
-      "previous": "17.7B",
-      "actual": "8.3B",
-      "actual_state": "worse",
-      "raw_date": "Wed Oct 7 12:00pm"
-    },
-    {
-      "id": "ff_150793",
-      "title": "RICS House Price Balance",
-      "country": "GBP",
-      "datetime": "2026-10-07T23:01:00Z",
-      "timestamp": 1791414060,
-      "date": "2026-10-07",
-      "time": "23:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-30%",
-      "consensus": "-30%",
-      "previous": "-28%",
-      "actual": "-32%",
-      "actual_state": "worse",
-      "raw_date": "Wed Oct 7 4:01pm"
-    },
-    {
-      "id": "ff_149597",
-      "title": "Current Account",
-      "country": "JPY",
-      "datetime": "2026-10-07T23:50:00Z",
-      "timestamp": 1791417000,
-      "date": "2026-10-07",
-      "time": "23:50",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "2.14T",
-      "consensus": "2.14T",
-      "previous": "2.52T",
-      "actual": "2.98T",
-      "actual_state": "better",
-      "raw_date": "Wed Oct 7 4:50pm"
-    },
-    {
-      "id": "ff_151383",
-      "title": "Eurogroup Meetings",
-      "country": "EUR",
-      "datetime": "2026-10-08T00:00:00Z",
-      "timestamp": 1791417600,
-      "date": "2026-10-08",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 All Day"
-    },
-    {
-      "id": "ff_148103",
-      "title": "MI Inflation Expectations",
-      "country": "AUD",
-      "datetime": "2026-10-08T00:00:00Z",
-      "timestamp": 1791417600,
-      "date": "2026-10-08",
-      "time": "00:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.9%",
-      "actual": "5.3%",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 5:00pm"
-    },
-    {
-      "id": "ff_150309",
-      "title": "30-y Bond Auction",
-      "country": "JPY",
-      "datetime": "2026-10-08T03:35:00Z",
-      "timestamp": 1791430500,
-      "date": "2026-10-08",
-      "time": "03:35",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.08|3.8",
-      "actual": "4.11|3.9",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 8:35pm"
-    },
-    {
-      "id": "ff_148816",
-      "title": "Economy Watchers Sentiment",
-      "country": "JPY",
-      "datetime": "2026-10-08T05:00:00Z",
-      "timestamp": 1791435600,
-      "date": "2026-10-08",
-      "time": "05:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "46.7",
-      "consensus": "46.7",
-      "previous": "46.4",
-      "actual": "47.0",
-      "actual_state": "neutral",
-      "raw_date": "Wed Oct 7 10:00pm"
-    },
-    {
-      "id": "ff_151197",
-      "title": "German Trade Balance",
-      "country": "EUR",
-      "datetime": "2026-10-08T06:00:00Z",
-      "timestamp": 1791439200,
-      "date": "2026-10-08",
-      "time": "06:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "19.0B",
-      "consensus": "19.0B",
-      "previous": "21.6B",
-      "actual": "19.5B",
-      "actual_state": "better",
-      "raw_date": "Wed Oct 7 11:00pm"
-    },
-    {
-      "id": "ff_154095",
-      "title": "Gov Board Member Martin Speaks",
-      "country": "CHF",
-      "datetime": "2026-10-08T08:05:00Z",
-      "timestamp": 1791446700,
-      "date": "2026-10-08",
-      "time": "08:05",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 1:05am"
-    },
-    {
-      "id": "ff_150699",
-      "title": "BOE Credit Conditions Survey",
-      "country": "GBP",
-      "datetime": "2026-10-08T08:30:00Z",
-      "timestamp": 1791448200,
-      "date": "2026-10-08",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 1:30am"
-    },
-    {
-      "id": "ff_154101",
-      "title": "FOMC Member Waller Speaks",
-      "country": "USD",
-      "datetime": "2026-10-08T08:30:00Z",
-      "timestamp": 1791448200,
-      "date": "2026-10-08",
-      "time": "08:30",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 1:30am"
-    },
-    {
-      "id": "ff_154050",
-      "title": "MPC Member Pill Speaks",
-      "country": "GBP",
-      "datetime": "2026-10-08T09:00:00Z",
-      "timestamp": 1791450000,
-      "date": "2026-10-08",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 2:00am"
-    },
-    {
-      "id": "ff_154049",
-      "title": "MPC Member Greene Speaks",
-      "country": "GBP",
-      "datetime": "2026-10-08T09:15:00Z",
-      "timestamp": 1791450900,
-      "date": "2026-10-08",
-      "time": "09:15",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 2:15am"
-    },
-    {
-      "id": "ff_150558",
-      "title": "ECB Monetary Policy Meeting Accounts",
-      "country": "EUR",
-      "datetime": "2026-10-08T11:30:00Z",
-      "timestamp": 1791459000,
-      "date": "2026-10-08",
-      "time": "11:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 4:30am"
-    },
-    {
-      "id": "ff_154102",
-      "title": "BOE Gov Bailey Speaks",
-      "country": "GBP",
-      "datetime": "2026-10-08T12:15:00Z",
-      "timestamp": 1791461700,
-      "date": "2026-10-08",
-      "time": "12:15",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 5:15am"
-    },
-    {
-      "id": "ff_147018",
-      "title": "Unemployment Claims",
-      "country": "USD",
-      "datetime": "2026-10-08T12:30:00Z",
-      "timestamp": 1791462600,
-      "date": "2026-10-08",
-      "time": "12:30",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "200K",
-      "consensus": "200K",
-      "previous": "199K",
-      "actual": "197K",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 5:30am"
-    },
-    {
-      "id": "ff_154052",
-      "title": "MPC Member Lombardelli Speaks",
-      "country": "GBP",
-      "datetime": "2026-10-08T13:00:00Z",
-      "timestamp": 1791464400,
-      "date": "2026-10-08",
-      "time": "13:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 6:00am"
-    },
-    {
-      "id": "ff_148199",
-      "title": "Final Wholesale Inventories m/m",
-      "country": "USD",
-      "datetime": "2026-10-08T14:00:00Z",
-      "timestamp": 1791468000,
-      "date": "2026-10-08",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.7%",
-      "consensus": "0.7%",
-      "previous": "0.7%",
-      "actual": "0.5%",
-      "actual_state": "better",
-      "raw_date": "Thu Oct 8 7:00am"
-    },
-    {
-      "id": "ff_148773",
-      "title": "Natural Gas Storage",
-      "country": "USD",
-      "datetime": "2026-10-08T14:30:00Z",
-      "timestamp": 1791469800,
-      "date": "2026-10-08",
-      "time": "14:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "79B",
-      "consensus": "79B",
-      "previous": "64B",
-      "actual": "85B",
-      "actual_state": "worse",
-      "raw_date": "Thu Oct 8 7:30am"
-    },
-    {
-      "id": "ff_148914",
-      "title": "30-y Bond Auction",
-      "country": "USD",
-      "datetime": "2026-10-08T17:01:00Z",
-      "timestamp": 1791478860,
-      "date": "2026-10-08",
-      "time": "17:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "5.31|2.6",
-      "actual": "5.62|2.5",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 10:01am"
-    },
-    {
-      "id": "ff_154053",
-      "title": "FOMC Member Musalem Speaks",
-      "country": "USD",
-      "datetime": "2026-10-08T17:40:00Z",
-      "timestamp": 1791481200,
-      "date": "2026-10-08",
-      "time": "17:40",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 10:40am"
-    },
-    {
-      "id": "ff_149625",
-      "title": "Household Spending y/y",
-      "country": "JPY",
-      "datetime": "2026-10-08T23:30:00Z",
-      "timestamp": 1791502200,
-      "date": "2026-10-08",
-      "time": "23:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-3.5%",
-      "consensus": "-3.5%",
-      "previous": "-3.6%",
-      "actual": "-3.1%",
-      "actual_state": "better",
-      "raw_date": "Thu Oct 8 4:30pm"
-    },
-    {
-      "id": "ff_151380",
-      "title": "ECOFIN Meetings",
-      "country": "EUR",
-      "datetime": "2026-10-09T00:00:00Z",
-      "timestamp": 1791504000,
-      "date": "2026-10-09",
-      "time": "All Day",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 All Day"
-    },
-    {
-      "id": "ff_149699",
-      "title": "Prelim Machine Tool Orders y/y",
-      "country": "JPY",
-      "datetime": "2026-10-09T06:00:00Z",
-      "timestamp": 1791525600,
-      "date": "2026-10-09",
-      "time": "06:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "64.7%",
-      "actual": "60.4%",
-      "actual_state": "neutral",
-      "raw_date": "Thu Oct 8 11:00pm"
-    },
-    {
-      "id": "ff_147392",
-      "title": "SECO Consumer Climate",
-      "country": "CHF",
-      "datetime": "2026-10-09T07:00:00Z",
-      "timestamp": 1791529200,
-      "date": "2026-10-09",
-      "time": "07:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-32",
-      "consensus": "-32",
-      "previous": "-33",
-      "actual": "-36",
-      "actual_state": "worse",
-      "raw_date": "Fri Oct 9 12:00am"
-    },
-    {
-      "id": "ff_147745",
-      "title": "Italian Industrial Production m/m",
-      "country": "EUR",
-      "datetime": "2026-10-09T08:00:00Z",
-      "timestamp": 1791532800,
-      "date": "2026-10-09",
-      "time": "08:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.0%",
-      "consensus": "0.0%",
-      "previous": "0.6%",
-      "actual": "-1.3%",
-      "actual_state": "worse",
-      "raw_date": "Fri Oct 9 1:00am"
-    },
-    {
-      "id": "ff_149198",
-      "title": "Employment Change",
-      "country": "CAD",
-      "datetime": "2026-10-09T12:30:00Z",
-      "timestamp": 1791549000,
-      "date": "2026-10-09",
-      "time": "12:30",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "6.1K",
-      "consensus": "6.1K",
-      "previous": "-41.7K",
-      "actual": "-68.3K",
-      "actual_state": "worse",
-      "raw_date": "Fri Oct 9 5:30am"
-    },
-    {
-      "id": "ff_149199",
-      "title": "Unemployment Rate",
-      "country": "CAD",
-      "datetime": "2026-10-09T12:30:00Z",
-      "timestamp": 1791549000,
-      "date": "2026-10-09",
-      "time": "12:30",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "6.5%",
-      "consensus": "6.5%",
-      "previous": "6.4%",
-      "actual": "6.5%",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 5:30am"
-    },
-    {
-      "id": "ff_148579",
-      "title": "Prelim UoM Consumer Sentiment",
-      "country": "USD",
-      "datetime": "2026-10-09T14:00:00Z",
-      "timestamp": 1791554400,
-      "date": "2026-10-09",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "47.5",
-      "consensus": "47.5",
-      "previous": "48.1",
-      "actual": "46.3",
-      "actual_state": "worse",
-      "raw_date": "Fri Oct 9 7:00am"
-    },
-    {
-      "id": "ff_148591",
-      "title": "Prelim UoM Inflation Expectations",
-      "country": "USD",
-      "datetime": "2026-10-09T14:00:00Z",
-      "timestamp": 1791554400,
-      "date": "2026-10-09",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.6%",
-      "actual": "4.7%",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 7:00am"
-    },
-    {
-      "id": "ff_154098",
-      "title": "FOMC Member Collins Speaks",
-      "country": "USD",
-      "datetime": "2026-10-09T20:00:00Z",
-      "timestamp": 1791576000,
-      "date": "2026-10-09",
-      "time": "20:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 9 1:00pm"
-    },
     {
       "id": "ff_147466",
       "title": "Bank Holiday",
@@ -1497,7 +86,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 2:30am"
+      "raw_date": "Mon Oct 12 4:30am"
     },
     {
       "id": "ff_154981",
@@ -1514,7 +103,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 5:50am"
+      "raw_date": "Mon Oct 12 7:50am"
     },
     {
       "id": "ff_154982",
@@ -1531,7 +120,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 9:10am"
+      "raw_date": "Mon Oct 12 11:10am"
     },
     {
       "id": "ff_150830",
@@ -1548,7 +137,7 @@
       "previous": "0.5%",
       "actual": "1.0%",
       "actual_state": "better",
-      "raw_date": "Mon Oct 12 4:01pm"
+      "raw_date": "Mon Oct 12 6:01pm"
     },
     {
       "id": "ff_148845",
@@ -1565,7 +154,7 @@
       "previous": "5.3%",
       "actual": "5.3%",
       "actual_state": "worse",
-      "raw_date": "Mon Oct 12 4:50pm"
+      "raw_date": "Mon Oct 12 6:50pm"
     },
     {
       "id": "ff_149943",
@@ -1582,7 +171,7 @@
       "previous": "7.6%",
       "actual": "6.8%",
       "actual_state": "worse",
-      "raw_date": "Mon Oct 12 4:50pm"
+      "raw_date": "Mon Oct 12 6:50pm"
     },
     {
       "id": "ff_146723",
@@ -1616,7 +205,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 5:30pm"
+      "raw_date": "Mon Oct 12 7:30pm"
     },
     {
       "id": "ff_147479",
@@ -1633,7 +222,7 @@
       "previous": "-9",
       "actual": "-13",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 5:30pm"
+      "raw_date": "Mon Oct 12 7:30pm"
     },
     {
       "id": "ff_154975",
@@ -1650,7 +239,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 8:00pm"
+      "raw_date": "Mon Oct 12 10:00pm"
     },
     {
       "id": "ff_151198",
@@ -1667,7 +256,7 @@
       "previous": "0.6%",
       "actual": "0.6%",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 12 11:00pm"
+      "raw_date": "Tue Oct 13 1:00am"
     },
     {
       "id": "ff_154991",
@@ -1684,7 +273,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 12:45am"
+      "raw_date": "Tue Oct 13 2:45am"
     },
     {
       "id": "ff_146952",
@@ -1701,7 +290,7 @@
       "previous": "98.7",
       "actual": "97.9",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 3:00am"
+      "raw_date": "Tue Oct 13 5:00am"
     },
     {
       "id": "ff_151049",
@@ -1718,7 +307,7 @@
       "previous": "25.3K",
       "actual": "24.8K",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 5:15am"
+      "raw_date": "Tue Oct 13 7:15am"
     },
     {
       "id": "ff_149833",
@@ -1735,7 +324,7 @@
       "previous": "3.93M",
       "actual": "3.99M",
       "actual_state": "better",
-      "raw_date": "Tue Oct 13 7:00am"
+      "raw_date": "Tue Oct 13 9:00am"
     },
     {
       "id": "ff_151766",
@@ -1752,7 +341,7 @@
       "previous": "0.5%",
       "actual": "-0.3%",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 7:30am"
+      "raw_date": "Tue Oct 13 9:30am"
     },
     {
       "id": "ff_154997",
@@ -1769,7 +358,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 10:00am"
+      "raw_date": "Tue Oct 13 12:00pm"
     },
     {
       "id": "ff_154990",
@@ -1786,7 +375,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 1:00pm"
+      "raw_date": "Tue Oct 13 3:00pm"
     },
     {
       "id": "ff_149135",
@@ -1803,7 +392,7 @@
       "previous": "0.7%",
       "actual": "2.8%",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 2:45pm"
+      "raw_date": "Tue Oct 13 4:45pm"
     },
     {
       "id": "ff_148304",
@@ -1820,7 +409,7 @@
       "previous": "0.0%",
       "actual": "-0.1%",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 4:30pm"
+      "raw_date": "Tue Oct 13 6:30pm"
     },
     {
       "id": "ff_148705",
@@ -1837,7 +426,7 @@
       "previous": "2.0%",
       "actual": "2.0%",
       "actual_state": "worse",
-      "raw_date": "Tue Oct 13 4:50pm"
+      "raw_date": "Tue Oct 13 6:50pm"
     },
     {
       "id": "ff_155113",
@@ -1888,7 +477,7 @@
       "previous": "0.8%",
       "actual": "0.9%",
       "actual_state": "worse",
-      "raw_date": "Tue Oct 13 6:30pm"
+      "raw_date": "Tue Oct 13 8:30pm"
     },
     {
       "id": "ff_150196",
@@ -1905,7 +494,7 @@
       "previous": "3.8%",
       "actual": "5.0%",
       "actual_state": "better",
-      "raw_date": "Tue Oct 13 6:30pm"
+      "raw_date": "Tue Oct 13 8:30pm"
     },
     {
       "id": "ff_154995",
@@ -1922,7 +511,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 7:10pm"
+      "raw_date": "Tue Oct 13 9:10pm"
     },
     {
       "id": "ff_150236",
@@ -1939,7 +528,7 @@
       "previous": "809B",
       "actual": "906B",
       "actual_state": "better",
-      "raw_date": "Tue Oct 13 7:31pm"
+      "raw_date": "Tue Oct 13 9:31pm"
     },
     {
       "id": "ff_150237",
@@ -1956,7 +545,7 @@
       "previous": "119.1B",
       "actual": "133.5B",
       "actual_state": "better",
-      "raw_date": "Tue Oct 13 7:31pm"
+      "raw_date": "Tue Oct 13 9:31pm"
     },
     {
       "id": "ff_154987",
@@ -1973,7 +562,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 8:30pm"
+      "raw_date": "Tue Oct 13 10:30pm"
     },
     {
       "id": "ff_154992",
@@ -1990,7 +579,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 10:30pm"
+      "raw_date": "Wed Oct 14 12:30am"
     },
     {
       "id": "ff_151199",
@@ -2007,7 +596,7 @@
       "previous": "0.9%",
       "actual": "1.9%",
       "actual_state": "better",
-      "raw_date": "Tue Oct 13 11:00pm"
+      "raw_date": "Wed Oct 14 1:00am"
     },
     {
       "id": "ff_154983",
@@ -2024,7 +613,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 11:00pm"
+      "raw_date": "Wed Oct 14 1:00am"
     },
     {
       "id": "ff_154971",
@@ -2041,7 +630,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 13 11:05pm"
+      "raw_date": "Wed Oct 14 1:05am"
     },
     {
       "id": "ff_154976",
@@ -2058,7 +647,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 1:30am"
+      "raw_date": "Wed Oct 14 3:30am"
     },
     {
       "id": "ff_150155",
@@ -2075,7 +664,7 @@
       "previous": "7.5%",
       "actual": "7.2%",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 2:00am"
+      "raw_date": "Wed Oct 14 4:00am"
     },
     {
       "id": "ff_150161",
@@ -2092,7 +681,7 @@
       "previous": "60B",
       "actual": "1080B",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 2:01am"
+      "raw_date": "Wed Oct 14 4:01am"
     },
     {
       "id": "ff_150458",
@@ -2109,7 +698,7 @@
       "previous": "3.80|1.6",
       "actual": "3.80|1.4",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 2:38am"
+      "raw_date": "Wed Oct 14 4:38am"
     },
     {
       "id": "ff_154972",
@@ -2126,7 +715,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 2:40am"
+      "raw_date": "Wed Oct 14 4:40am"
     },
     {
       "id": "ff_149305",
@@ -2143,7 +732,7 @@
       "previous": "-15.8%",
       "actual": "8.8%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 5:30am"
+      "raw_date": "Wed Oct 14 7:30am"
     },
     {
       "id": "ff_148337",
@@ -2160,7 +749,7 @@
       "previous": "0.4%",
       "actual": "0.6%",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 5:30am"
+      "raw_date": "Wed Oct 14 7:30am"
     },
     {
       "id": "ff_148352",
@@ -2177,7 +766,7 @@
       "previous": "3.4%",
       "actual": "3.7%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 5:30am"
+      "raw_date": "Wed Oct 14 7:30am"
     },
     {
       "id": "ff_148368",
@@ -2194,7 +783,7 @@
       "previous": "0.3%",
       "actual": "0.3%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 5:30am"
+      "raw_date": "Wed Oct 14 7:30am"
     },
     {
       "id": "ff_153057",
@@ -2211,7 +800,7 @@
       "previous": "2.4%",
       "actual": "2.6%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 5:30am"
+      "raw_date": "Wed Oct 14 7:30am"
     },
     {
       "id": "ff_151507",
@@ -2228,7 +817,7 @@
       "previous": "-0.1%",
       "actual": "-0.1%",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 6:30am"
+      "raw_date": "Wed Oct 14 8:30am"
     },
     {
       "id": "ff_154998",
@@ -2245,7 +834,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 10:30am"
+      "raw_date": "Wed Oct 14 12:30pm"
     },
     {
       "id": "ff_148636",
@@ -2262,7 +851,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 11:00am"
+      "raw_date": "Wed Oct 14 1:00pm"
     },
     {
       "id": "ff_155128",
@@ -2279,7 +868,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 12:00pm"
+      "raw_date": "Wed Oct 14 2:00pm"
     },
     {
       "id": "ff_147095",
@@ -2296,7 +885,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 1:30pm"
+      "raw_date": "Wed Oct 14 3:30pm"
     },
     {
       "id": "ff_149539",
@@ -2313,7 +902,7 @@
       "previous": "-3.7%",
       "actual": "5.2%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 4:50pm"
+      "raw_date": "Wed Oct 14 6:50pm"
     },
     {
       "id": "ff_155114",
@@ -2364,7 +953,7 @@
       "previous": "29.3K",
       "actual": "-39.3K",
       "actual_state": "worse",
-      "raw_date": "Wed Oct 14 5:30pm"
+      "raw_date": "Wed Oct 14 7:30pm"
     },
     {
       "id": "ff_148149",
@@ -2381,7 +970,7 @@
       "previous": "4.7%",
       "actual": "4.7%",
       "actual_state": "worse",
-      "raw_date": "Wed Oct 14 5:30pm"
+      "raw_date": "Wed Oct 14 7:30pm"
     },
     {
       "id": "ff_154985",
@@ -2398,7 +987,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 7:55pm"
+      "raw_date": "Wed Oct 14 9:55pm"
     },
     {
       "id": "ff_154986",
@@ -2415,7 +1004,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 8:35pm"
+      "raw_date": "Wed Oct 14 10:35pm"
     },
     {
       "id": "ff_148530",
@@ -2432,7 +1021,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 9:30pm"
+      "raw_date": "Wed Oct 14 11:30pm"
     },
     {
       "id": "ff_149687",
@@ -2449,7 +1038,7 @@
       "previous": "-1.7%",
       "actual": "-2.4%",
       "actual_state": "worse",
-      "raw_date": "Wed Oct 14 9:30pm"
+      "raw_date": "Wed Oct 14 11:30pm"
     },
     {
       "id": "ff_154993",
@@ -2466,7 +1055,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 9:30pm"
+      "raw_date": "Wed Oct 14 11:30pm"
     },
     {
       "id": "ff_151566",
@@ -2483,7 +1072,7 @@
       "previous": "-0.5%",
       "actual": "-0.2%",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_151564",
@@ -2500,7 +1089,7 @@
       "previous": "0.4%",
       "actual": "0.1%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_151565",
@@ -2517,7 +1106,7 @@
       "previous": "-19.3B",
       "actual": "-18.0B",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_151568",
@@ -2534,7 +1123,7 @@
       "previous": "0.7%",
       "actual": "0.9%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_151569",
@@ -2551,7 +1140,7 @@
       "previous": "0.3%",
       "actual": "0.8%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_151567",
@@ -2568,7 +1157,7 @@
       "previous": "1.0%",
       "actual": "1.2%",
       "actual_state": "better",
-      "raw_date": "Wed Oct 14 11:00pm"
+      "raw_date": "Thu Oct 15 1:00am"
     },
     {
       "id": "ff_147333",
@@ -2585,7 +1174,7 @@
       "previous": "0.7%",
       "actual": "0.3%",
       "actual_state": "worse",
-      "raw_date": "Wed Oct 14 11:30pm"
+      "raw_date": "Thu Oct 15 1:30am"
     },
     {
       "id": "ff_147553",
@@ -2602,7 +1191,7 @@
       "previous": "-0.3%",
       "actual": "-0.3%",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 11:45pm"
+      "raw_date": "Thu Oct 15 1:45am"
     },
     {
       "id": "ff_154999",
@@ -2619,7 +1208,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 14 11:45pm"
+      "raw_date": "Thu Oct 15 1:45am"
     },
     {
       "id": "ff_155052",
@@ -2636,7 +1225,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 12:30am"
+      "raw_date": "Thu Oct 15 2:30am"
     },
     {
       "id": "ff_154984",
@@ -2653,7 +1242,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 1:45am"
+      "raw_date": "Thu Oct 15 3:45am"
     },
     {
       "id": "ff_154977",
@@ -2670,7 +1259,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 2:00am"
+      "raw_date": "Thu Oct 15 4:00am"
     },
     {
       "id": "ff_151319",
@@ -2687,7 +1276,7 @@
       "previous": "-0.3%",
       "actual": "-0.5%",
       "actual_state": "worse",
-      "raw_date": "Thu Oct 15 2:00am"
+      "raw_date": "Thu Oct 15 4:00am"
     },
     {
       "id": "ff_148404",
@@ -2704,7 +1293,7 @@
       "previous": "0.2%",
       "actual": "0.7%",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_148046",
@@ -2721,7 +1310,7 @@
       "previous": "1.4%",
       "actual": "0.9%",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_148627",
@@ -2738,7 +1327,7 @@
       "previous": "7.6",
       "actual": "25.5",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_149247",
@@ -2755,7 +1344,7 @@
       "previous": "-0.3%",
       "actual": "1.5%",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_148390",
@@ -2772,7 +1361,7 @@
       "previous": "0.5%",
       "actual": "1.3%",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_146964",
@@ -2789,7 +1378,7 @@
       "previous": "37.8",
       "actual": "20.9",
       "actual_state": "worse",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_148034",
@@ -2806,7 +1395,7 @@
       "previous": "1.3%",
       "actual": "0.8%",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_147019",
@@ -2823,7 +1412,7 @@
       "previous": "198K",
       "actual": "199K",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_149256",
@@ -2840,7 +1429,7 @@
       "previous": "0.4%",
       "actual": "-1.6%",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 5:30am"
+      "raw_date": "Thu Oct 15 7:30am"
     },
     {
       "id": "ff_148089",
@@ -2857,7 +1446,7 @@
       "previous": "0.9%",
       "actual": "0.4%",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 7:00am"
+      "raw_date": "Thu Oct 15 9:00am"
     },
     {
       "id": "ff_148774",
@@ -2874,7 +1463,7 @@
       "previous": "85B",
       "actual": "67B",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 7:30am"
+      "raw_date": "Thu Oct 15 9:30am"
     },
     {
       "id": "ff_148957",
@@ -2891,7 +1480,7 @@
       "previous": "-3.2M",
       "actual": "-8.6M",
       "actual_state": "better",
-      "raw_date": "Thu Oct 15 9:00am"
+      "raw_date": "Thu Oct 15 11:00am"
     },
     {
       "id": "ff_154989",
@@ -2908,7 +1497,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 1:30pm"
+      "raw_date": "Thu Oct 15 3:30pm"
     },
     {
       "id": "ff_149348",
@@ -2925,7 +1514,7 @@
       "previous": "53.3",
       "actual": "56.5",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 2:30pm"
+      "raw_date": "Thu Oct 15 4:30pm"
     },
     {
       "id": "ff_149336",
@@ -2942,7 +1531,7 @@
       "previous": "0.3%",
       "actual": "0.0%",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 2:45pm"
+      "raw_date": "Thu Oct 15 4:45pm"
     },
     {
       "id": "ff_146720",
@@ -2976,7 +1565,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 7:00pm"
+      "raw_date": "Thu Oct 15 9:00pm"
     },
     {
       "id": "ff_154988",
@@ -2993,7 +1582,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 7:30pm"
+      "raw_date": "Thu Oct 15 9:30pm"
     },
     {
       "id": "ff_154994",
@@ -3010,7 +1599,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 8:30pm"
+      "raw_date": "Thu Oct 15 10:30pm"
     },
     {
       "id": "ff_154978",
@@ -3027,7 +1616,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 15 9:15pm"
+      "raw_date": "Thu Oct 15 11:15pm"
     },
     {
       "id": "ff_151321",
@@ -3044,7 +1633,7 @@
       "previous": "3.8%",
       "actual": "3.8%",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 2:00am"
+      "raw_date": "Fri Oct 16 4:00am"
     },
     {
       "id": "ff_151320",
@@ -3061,7 +1650,7 @@
       "previous": "2.5%",
       "actual": "2.5%",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 2:00am"
+      "raw_date": "Fri Oct 16 4:00am"
     },
     {
       "id": "ff_151322",
@@ -3078,7 +1667,7 @@
       "previous": "1.4B",
       "actual": "-6.8B",
       "actual_state": "worse",
-      "raw_date": "Fri Oct 16 2:00am"
+      "raw_date": "Fri Oct 16 4:00am"
     },
     {
       "id": "ff_147740",
@@ -3095,7 +1684,7 @@
       "previous": "8.25B",
       "actual": "1.77B",
       "actual_state": "worse",
-      "raw_date": "Fri Oct 16 3:00am"
+      "raw_date": "Fri Oct 16 5:00am"
     },
     {
       "id": "ff_154979",
@@ -3112,7 +1701,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 5:00am"
+      "raw_date": "Fri Oct 16 7:00am"
     },
     {
       "id": "ff_149562",
@@ -3129,7 +1718,7 @@
       "previous": "242K",
       "actual": "249K",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 5:15am"
+      "raw_date": "Fri Oct 16 7:15am"
     },
     {
       "id": "ff_149268",
@@ -3146,7 +1735,7 @@
       "previous": "20.63B",
       "actual": "-17.31B",
       "actual_state": "worse",
-      "raw_date": "Fri Oct 16 5:30am"
+      "raw_date": "Fri Oct 16 7:30am"
     },
     {
       "id": "ff_148420",
@@ -3163,7 +1752,7 @@
       "previous": "0.5%",
       "actual": "1.1%",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 5:30am"
+      "raw_date": "Fri Oct 16 7:30am"
     },
     {
       "id": "ff_147052",
@@ -3180,7 +1769,7 @@
       "previous": "76.4%",
       "actual": "76.9%",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 6:15am"
+      "raw_date": "Fri Oct 16 8:15am"
     },
     {
       "id": "ff_147040",
@@ -3197,7 +1786,7 @@
       "previous": "0.1%",
       "actual": "0.7%",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 6:15am"
+      "raw_date": "Fri Oct 16 8:15am"
     },
     {
       "id": "ff_146807",
@@ -3214,7 +1803,7 @@
       "previous": "-166.8B",
       "actual": "-26.9B",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 11:05am"
+      "raw_date": "Fri Oct 16 1:05pm"
     },
     {
       "id": "ff_149821",
@@ -3231,7 +1820,7 @@
       "previous": "-27.9B",
       "actual": "279.2B",
       "actual_state": "better",
-      "raw_date": "Fri Oct 16 1:00pm"
+      "raw_date": "Fri Oct 16 3:00pm"
     },
     {
       "id": "ff_146719",
@@ -3265,7 +1854,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 9:45pm"
+      "raw_date": "Fri Oct 16 11:45pm"
     },
     {
       "id": "ff_155001",
@@ -3282,24 +1871,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 16 11:45pm"
-    },
-    {
-      "id": "ff_150215",
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "datetime": "2026-10-18T00:00:00Z",
-      "timestamp": 1792281600,
-      "date": "2026-10-18",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-5.3%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 Tentative"
+      "raw_date": "Sat Oct 17 1:45am"
     },
     {
       "id": "ff_146718",
@@ -3333,7 +1905,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sat Oct 17 5:00pm"
+      "raw_date": "Sat Oct 17 7:00pm"
     },
     {
       "id": "ff_149360",
@@ -3350,7 +1922,7 @@
       "previous": "51.2",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 2:30pm"
+      "raw_date": "Sun Oct 18 4:30pm"
     },
     {
       "id": "ff_149320",
@@ -3367,7 +1939,7 @@
       "previous": "-1349M",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 2:45pm"
+      "raw_date": "Sun Oct 18 4:45pm"
     },
     {
       "id": "ff_150783",
@@ -3384,7 +1956,7 @@
       "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 4:01pm"
+      "raw_date": "Sun Oct 18 6:01pm"
     },
     {
       "id": "ff_155134",
@@ -3401,7 +1973,24 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 4:05pm"
+      "raw_date": "Sun Oct 18 6:05pm"
+    },
+    {
+      "id": "ff_150215",
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "datetime": "2026-10-19T00:00:00Z",
+      "timestamp": 1792368000,
+      "date": "2026-10-19",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-5.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Oct 19 Tentative"
     },
     {
       "id": "ff_150171",
@@ -3418,7 +2007,7 @@
       "previous": "-0.17%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 6:30pm"
+      "raw_date": "Sun Oct 18 8:30pm"
     },
     {
       "id": "ff_150410",
@@ -3435,7 +2024,7 @@
       "previous": "-7.2%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_150408",
@@ -3452,7 +2041,7 @@
       "previous": "4.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_150409",
@@ -3469,7 +2058,7 @@
       "previous": "5.2%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_150411",
@@ -3486,7 +2075,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_150413",
@@ -3503,7 +2092,7 @@
       "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_150414",
@@ -3520,7 +2109,7 @@
       "previous": "5.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 7:00pm"
+      "raw_date": "Sun Oct 18 9:00pm"
     },
     {
       "id": "ff_149723",
@@ -3537,7 +2126,7 @@
       "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sun Oct 18 9:30pm"
+      "raw_date": "Sun Oct 18 11:30pm"
     },
     {
       "id": "ff_149171",
@@ -3554,7 +2143,7 @@
       "previous": "-0.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 5:30am"
+      "raw_date": "Mon Oct 19 7:30am"
     },
     {
       "id": "ff_149169",
@@ -3571,7 +2160,7 @@
       "previous": "2.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 5:30am"
+      "raw_date": "Mon Oct 19 7:30am"
     },
     {
       "id": "ff_149170",
@@ -3588,7 +2177,7 @@
       "previous": "0.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 5:30am"
+      "raw_date": "Mon Oct 19 7:30am"
     },
     {
       "id": "ff_149172",
@@ -3605,7 +2194,7 @@
       "previous": "2.0%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 5:30am"
+      "raw_date": "Mon Oct 19 7:30am"
     },
     {
       "id": "ff_149173",
@@ -3622,7 +2211,7 @@
       "previous": "1.9%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 5:30am"
+      "raw_date": "Mon Oct 19 7:30am"
     },
     {
       "id": "ff_149759",
@@ -3639,7 +2228,7 @@
       "previous": "32",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 7:00am"
+      "raw_date": "Mon Oct 19 9:00am"
     },
     {
       "id": "ff_146562",
@@ -3656,7 +2245,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 8:30am"
+      "raw_date": "Mon Oct 19 10:30am"
     },
     {
       "id": "ff_150629",
@@ -3707,7 +2296,7 @@
       "previous": "3.00%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 6:00pm"
+      "raw_date": "Mon Oct 19 8:00pm"
     },
     {
       "id": "ff_150132",
@@ -3724,7 +2313,7 @@
       "previous": "3.50%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 6:00pm"
+      "raw_date": "Mon Oct 19 8:00pm"
     },
     {
       "id": "ff_151092",
@@ -3741,7 +2330,7 @@
       "previous": "3.9%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 11:00pm"
+      "raw_date": "Tue Oct 20 1:00am"
     },
     {
       "id": "ff_151091",
@@ -3758,7 +2347,7 @@
       "previous": "27.8K",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 11:00pm"
+      "raw_date": "Tue Oct 20 1:00am"
     },
     {
       "id": "ff_151200",
@@ -3775,7 +2364,7 @@
       "previous": "1.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 11:00pm"
+      "raw_date": "Tue Oct 20 1:00am"
     },
     {
       "id": "ff_151093",
@@ -3792,7 +2381,7 @@
       "previous": "4.9%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Oct 19 11:00pm"
+      "raw_date": "Tue Oct 20 1:00am"
     },
     {
       "id": "ff_151323",
@@ -3809,7 +2398,7 @@
       "previous": "27.6B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 1:00am"
+      "raw_date": "Tue Oct 20 3:00am"
     },
     {
       "id": "ff_150504",
@@ -3826,7 +2415,7 @@
       "previous": "34.7",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 2:00am"
+      "raw_date": "Tue Oct 20 4:00am"
     },
     {
       "id": "ff_150505",
@@ -3843,7 +2432,7 @@
       "previous": "25.8",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 2:00am"
+      "raw_date": "Tue Oct 20 4:00am"
     },
     {
       "id": "ff_151050",
@@ -3860,7 +2449,7 @@
       "previous": "24.8K",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 5:15am"
+      "raw_date": "Tue Oct 20 7:15am"
     },
     {
       "id": "ff_146819",
@@ -3877,7 +2466,7 @@
       "previous": "1.40M",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 5:30am"
+      "raw_date": "Tue Oct 20 7:30am"
     },
     {
       "id": "ff_146843",
@@ -3894,7 +2483,7 @@
       "previous": "1.28M",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 5:30am"
+      "raw_date": "Tue Oct 20 7:30am"
     },
     {
       "id": "ff_149845",
@@ -3911,7 +2500,7 @@
       "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 7:00am"
+      "raw_date": "Tue Oct 20 9:00am"
     },
     {
       "id": "ff_155129",
@@ -3928,7 +2517,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 10:00am"
+      "raw_date": "Tue Oct 20 12:00pm"
     },
     {
       "id": "ff_147096",
@@ -3945,7 +2534,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 1:30pm"
+      "raw_date": "Tue Oct 20 3:30pm"
     },
     {
       "id": "ff_155130",
@@ -3962,7 +2551,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 3:30pm"
+      "raw_date": "Tue Oct 20 5:30pm"
     },
     {
       "id": "ff_149735",
@@ -3979,7 +2568,7 @@
       "previous": "-0.84T",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 4:50pm"
+      "raw_date": "Tue Oct 20 6:50pm"
     },
     {
       "id": "ff_148890",
@@ -3996,7 +2585,7 @@
       "previous": "3.5%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 7:00pm"
+      "raw_date": "Tue Oct 20 9:00pm"
     },
     {
       "id": "ff_151457",
@@ -4013,7 +2602,7 @@
       "previous": "3.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_151458",
@@ -4030,7 +2619,7 @@
       "previous": "2.6%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_151453",
@@ -4047,7 +2636,7 @@
       "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_151455",
@@ -4064,7 +2653,7 @@
       "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_151623",
@@ -4081,7 +2670,7 @@
       "previous": "18.3B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_151456",
@@ -4098,7 +2687,7 @@
       "previous": "3.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Oct 20 11:00pm"
+      "raw_date": "Wed Oct 21 1:00am"
     },
     {
       "id": "ff_155135",
@@ -4115,7 +2704,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 12:15am"
+      "raw_date": "Wed Oct 21 2:15am"
     },
     {
       "id": "ff_151454",
@@ -4132,7 +2721,7 @@
       "previous": "1.4%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 1:30am"
+      "raw_date": "Wed Oct 21 3:30am"
     },
     {
       "id": "ff_150470",
@@ -4149,7 +2738,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 3:00am"
+      "raw_date": "Wed Oct 21 5:00am"
     },
     {
       "id": "ff_155131",
@@ -4166,7 +2755,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 6:00am"
+      "raw_date": "Wed Oct 21 8:00am"
     },
     {
       "id": "ff_148958",
@@ -4183,7 +2772,7 @@
       "previous": "-8.6M",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 7:30am"
+      "raw_date": "Wed Oct 21 9:30am"
     },
     {
       "id": "ff_150038",
@@ -4200,7 +2789,7 @@
       "previous": "1.5%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Oct 21 2:45pm"
+      "raw_date": "Wed Oct 21 4:45pm"
     },
     {
       "id": "ff_148457",
@@ -4217,7 +2806,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 12:30am"
+      "raw_date": "Thu Oct 22 2:30am"
     },
     {
       "id": "ff_150651",
@@ -4234,7 +2823,7 @@
       "previous": "-9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 3:00am"
+      "raw_date": "Thu Oct 22 5:00am"
     },
     {
       "id": "ff_149289",
@@ -4251,7 +2840,7 @@
       "previous": "1.3%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 5:30am"
+      "raw_date": "Thu Oct 22 7:30am"
     },
     {
       "id": "ff_149574",
@@ -4268,7 +2857,7 @@
       "previous": "-0.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 5:30am"
+      "raw_date": "Thu Oct 22 7:30am"
     },
     {
       "id": "ff_149280",
@@ -4285,7 +2874,7 @@
       "previous": "3.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 5:30am"
+      "raw_date": "Thu Oct 22 7:30am"
     },
     {
       "id": "ff_147020",
@@ -4302,7 +2891,7 @@
       "previous": "199K",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 5:30am"
+      "raw_date": "Thu Oct 22 7:30am"
     },
     {
       "id": "ff_149809",
@@ -4319,7 +2908,7 @@
       "previous": "-0.1%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 7:00am"
+      "raw_date": "Thu Oct 22 9:00am"
     },
     {
       "id": "ff_150609",
@@ -4336,7 +2925,7 @@
       "previous": "-17",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 7:00am"
+      "raw_date": "Thu Oct 22 9:00am"
     },
     {
       "id": "ff_148775",
@@ -4353,7 +2942,7 @@
       "previous": "67B",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 7:30am"
+      "raw_date": "Thu Oct 22 9:30am"
     },
     {
       "id": "ff_150915",
@@ -4370,7 +2959,7 @@
       "previous": "49.6",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 3:00pm"
+      "raw_date": "Thu Oct 22 5:00pm"
     },
     {
       "id": "ff_150916",
@@ -4387,7 +2976,7 @@
       "previous": "51.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 3:00pm"
+      "raw_date": "Thu Oct 22 5:00pm"
     },
     {
       "id": "ff_150687",
@@ -4404,7 +2993,7 @@
       "previous": "-13",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 4:01pm"
+      "raw_date": "Thu Oct 22 6:01pm"
     },
     {
       "id": "ff_149919",
@@ -4421,7 +3010,7 @@
       "previous": "1.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 4:30pm"
+      "raw_date": "Thu Oct 22 6:30pm"
     },
     {
       "id": "ff_150930",
@@ -4438,7 +3027,7 @@
       "previous": "54.1",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 5:30pm"
+      "raw_date": "Thu Oct 22 7:30pm"
     },
     {
       "id": "ff_151611",
@@ -4455,7 +3044,7 @@
       "previous": "0.5%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 22 11:00pm"
+      "raw_date": "Fri Oct 23 1:00am"
     },
     {
       "id": "ff_147671",
@@ -4472,7 +3061,7 @@
       "previous": "50.6",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 12:15am"
+      "raw_date": "Fri Oct 23 2:15am"
     },
     {
       "id": "ff_147672",
@@ -4489,7 +3078,7 @@
       "previous": "51.2",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 12:15am"
+      "raw_date": "Fri Oct 23 2:15am"
     },
     {
       "id": "ff_147673",
@@ -4506,7 +3095,7 @@
       "previous": "53.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 12:30am"
+      "raw_date": "Fri Oct 23 2:30am"
     },
     {
       "id": "ff_147674",
@@ -4523,7 +3112,7 @@
       "previous": "52.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 12:30am"
+      "raw_date": "Fri Oct 23 2:30am"
     },
     {
       "id": "ff_147675",
@@ -4540,7 +3129,7 @@
       "previous": "52.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 1:00am"
+      "raw_date": "Fri Oct 23 3:00am"
     },
     {
       "id": "ff_147676",
@@ -4557,7 +3146,7 @@
       "previous": "53.0",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 1:00am"
+      "raw_date": "Fri Oct 23 3:00am"
     },
     {
       "id": "ff_147677",
@@ -4574,7 +3163,7 @@
       "previous": "51.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 1:30am"
+      "raw_date": "Fri Oct 23 3:30am"
     },
     {
       "id": "ff_147678",
@@ -4591,7 +3180,7 @@
       "previous": "52.1",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 1:30am"
+      "raw_date": "Fri Oct 23 3:30am"
     },
     {
       "id": "ff_149219",
@@ -4608,7 +3197,7 @@
       "previous": "-0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 5:30am"
+      "raw_date": "Fri Oct 23 7:30am"
     },
     {
       "id": "ff_149210",
@@ -4625,7 +3214,7 @@
       "previous": "-0.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 5:30am"
+      "raw_date": "Fri Oct 23 7:30am"
     },
     {
       "id": "ff_151395",
@@ -4642,7 +3231,7 @@
       "previous": "-12.1",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 6:00am"
+      "raw_date": "Fri Oct 23 8:00am"
     },
     {
       "id": "ff_149771",
@@ -4659,7 +3248,7 @@
       "previous": "55.9",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 6:45am"
+      "raw_date": "Fri Oct 23 8:45am"
     },
     {
       "id": "ff_149783",
@@ -4676,7 +3265,7 @@
       "previous": "58.8",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 6:45am"
+      "raw_date": "Fri Oct 23 8:45am"
     },
     {
       "id": "ff_148603",
@@ -4693,7 +3282,7 @@
       "previous": "46.3",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 7:00am"
+      "raw_date": "Fri Oct 23 9:00am"
     },
     {
       "id": "ff_148615",
@@ -4710,7 +3299,41 @@
       "previous": "4.7%",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 23 7:00am"
+      "raw_date": "Fri Oct 23 9:00am"
+    },
+    {
+      "id": "ff_147447",
+      "title": "Bank Holiday",
+      "country": "NZD",
+      "datetime": "2026-10-25T00:00:00Z",
+      "timestamp": 1792886400,
+      "date": "2026-10-25",
+      "time": "All Day",
+      "timezone": "UTC",
+      "impact": "Non-Economic",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Sun Oct 25 All Day"
+    },
+    {
+      "id": "ff_148793",
+      "title": "Fed Monetary Policy Report",
+      "country": "USD",
+      "datetime": "2026-10-25T00:00:00Z",
+      "timestamp": 1792886400,
+      "date": "2026-10-25",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Sun Oct 25 Tentative"
     },
     {
       "id": "ff_147126",
@@ -4727,7 +3350,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sat Oct 24 6:00pm"
+      "raw_date": "Sat Oct 24 8:00pm"
     },
     {
       "id": "ff_147122",
@@ -4744,7 +3367,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sat Oct 24 6:00pm"
+      "raw_date": "Sat Oct 24 8:00pm"
     },
     {
       "id": "ff_147127",
@@ -4761,7 +3384,1571 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Sat Oct 24 6:00pm"
+      "raw_date": "Sat Oct 24 8:00pm"
+    },
+    {
+      "id": "ff_155132",
+      "title": "RBA Assist Gov Jones Speaks",
+      "country": "AUD",
+      "datetime": "2026-10-25T21:40:00Z",
+      "timestamp": 1792964400,
+      "date": "2026-10-25",
+      "time": "21:40",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Sun Oct 25 4:40pm"
+    },
+    {
+      "id": "ff_150434",
+      "title": "German ifo Business Climate",
+      "country": "EUR",
+      "datetime": "2026-10-26T09:00:00Z",
+      "timestamp": 1793005200,
+      "date": "2026-10-26",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "89.9",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Oct 26 4:00am"
+    },
+    {
+      "id": "ff_150663",
+      "title": "CBI Realized Sales",
+      "country": "GBP",
+      "datetime": "2026-10-26T11:00:00Z",
+      "timestamp": 1793012400,
+      "date": "2026-10-26",
+      "time": "11:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-55",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Oct 26 6:00am"
+    },
+    {
+      "id": "ff_149955",
+      "title": "SPPI y/y",
+      "country": "JPY",
+      "datetime": "2026-10-26T23:50:00Z",
+      "timestamp": 1793058600,
+      "date": "2026-10-26",
+      "time": "23:50",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Oct 26 6:50pm"
+    },
+    {
+      "id": "ff_150635",
+      "title": "30-y Bond Auction",
+      "country": "GBP",
+      "datetime": "2026-10-27T00:00:00Z",
+      "timestamp": 1793059200,
+      "date": "2026-10-27",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 Tentative"
+    },
+    {
+      "id": "ff_149848",
+      "title": "Annual Budget Release",
+      "country": "CAD",
+      "datetime": "2026-10-27T00:00:00Z",
+      "timestamp": 1793059200,
+      "date": "2026-10-27",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 Tentative"
+    },
+    {
+      "id": "ff_150841",
+      "title": "BRC Shop Price Index y/y",
+      "country": "GBP",
+      "datetime": "2026-10-27T00:01:00Z",
+      "timestamp": 1793059260,
+      "date": "2026-10-27",
+      "time": "00:01",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "1.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Oct 26 7:01pm"
+    },
+    {
+      "id": "ff_149907",
+      "title": "BOJ Core CPI y/y",
+      "country": "JPY",
+      "datetime": "2026-10-27T05:00:00Z",
+      "timestamp": 1793077200,
+      "date": "2026-10-27",
+      "time": "05:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "1.8%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 12:00am"
+    },
+    {
+      "id": "ff_147506",
+      "title": "Spanish Unemployment Rate",
+      "country": "EUR",
+      "datetime": "2026-10-27T08:00:00Z",
+      "timestamp": 1793088000,
+      "date": "2026-10-27",
+      "time": "08:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "9.9%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 3:00am"
+    },
+    {
+      "id": "ff_150585",
+      "title": "M3 Money Supply y/y",
+      "country": "EUR",
+      "datetime": "2026-10-27T09:00:00Z",
+      "timestamp": 1793091600,
+      "date": "2026-10-27",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 4:00am"
+    },
+    {
+      "id": "ff_150584",
+      "title": "Private Loans y/y",
+      "country": "EUR",
+      "datetime": "2026-10-27T09:00:00Z",
+      "timestamp": 1793091600,
+      "date": "2026-10-27",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.1%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 4:00am"
+    },
+    {
+      "id": "ff_151051",
+      "title": "ADP Weekly Employment Change",
+      "country": "USD",
+      "datetime": "2026-10-27T12:15:00Z",
+      "timestamp": 1793103300,
+      "date": "2026-10-27",
+      "time": "12:15",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:15am"
+    },
+    {
+      "id": "ff_148187",
+      "title": "Core Durable Goods Orders m/m",
+      "country": "USD",
+      "datetime": "2026-10-27T12:30:00Z",
+      "timestamp": 1793104200,
+      "date": "2026-10-27",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:30am"
+    },
+    {
+      "id": "ff_148175",
+      "title": "Durable Goods Orders m/m",
+      "country": "USD",
+      "datetime": "2026-10-27T12:30:00Z",
+      "timestamp": 1793104200,
+      "date": "2026-10-27",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.1%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:30am"
+    },
+    {
+      "id": "ff_148671",
+      "title": "HPI m/m",
+      "country": "USD",
+      "datetime": "2026-10-27T13:00:00Z",
+      "timestamp": 1793106000,
+      "date": "2026-10-27",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 8:00am"
+    },
+    {
+      "id": "ff_148659",
+      "title": "S&P/CS Composite-20 HPI y/y",
+      "country": "USD",
+      "datetime": "2026-10-27T13:00:00Z",
+      "timestamp": 1793106000,
+      "date": "2026-10-27",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 8:00am"
+    },
+    {
+      "id": "ff_146887",
+      "title": "CB Consumer Confidence",
+      "country": "USD",
+      "datetime": "2026-10-27T14:00:00Z",
+      "timestamp": 1793109600,
+      "date": "2026-10-27",
+      "time": "14:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "81.9",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 9:00am"
+    },
+    {
+      "id": "ff_146857",
+      "title": "New Home Sales",
+      "country": "USD",
+      "datetime": "2026-10-27T14:00:00Z",
+      "timestamp": 1793109600,
+      "date": "2026-10-27",
+      "time": "14:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "684K",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 9:00am"
+    },
+    {
+      "id": "ff_146976",
+      "title": "Richmond Manufacturing Index",
+      "country": "USD",
+      "datetime": "2026-10-27T14:00:00Z",
+      "timestamp": 1793109600,
+      "date": "2026-10-27",
+      "time": "14:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-2",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 9:00am"
+    },
+    {
+      "id": "ff_147097",
+      "title": "API Weekly Statistical Bulletin",
+      "country": "USD",
+      "datetime": "2026-10-27T20:30:00Z",
+      "timestamp": 1793133000,
+      "date": "2026-10-27",
+      "time": "20:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 3:30pm"
+    },
+    {
+      "id": "ff_155111",
+      "title": "German 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-10-28T00:00:00Z",
+      "timestamp": 1793145600,
+      "date": "2026-10-28",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.58|1.2",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 Tentative"
+    },
+    {
+      "id": "ff_151204",
+      "title": "German Prelim GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-10-28T00:00:00Z",
+      "timestamp": 1793145600,
+      "date": "2026-10-28",
+      "time": "28th-30th",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 28th-30th"
+    },
+    {
+      "id": "ff_149108",
+      "title": "CPI m/m",
+      "country": "AUD",
+      "datetime": "2026-10-28T00:30:00Z",
+      "timestamp": 1793147400,
+      "date": "2026-10-28",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:30pm"
+    },
+    {
+      "id": "ff_149101",
+      "title": "CPI y/y",
+      "country": "AUD",
+      "datetime": "2026-10-28T00:30:00Z",
+      "timestamp": 1793147400,
+      "date": "2026-10-28",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.0%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:30pm"
+    },
+    {
+      "id": "ff_149112",
+      "title": "Trimmed Mean CPI m/m",
+      "country": "AUD",
+      "datetime": "2026-10-28T00:30:00Z",
+      "timestamp": 1793147400,
+      "date": "2026-10-28",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 7:30pm"
+    },
+    {
+      "id": "ff_148868",
+      "title": "Official Cash Rate",
+      "country": "NZD",
+      "datetime": "2026-10-28T01:00:00Z",
+      "timestamp": 1793149200,
+      "date": "2026-10-28",
+      "time": "01:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.75%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 8:00pm"
+    },
+    {
+      "id": "ff_148869",
+      "title": "RBNZ Rate Statement",
+      "country": "NZD",
+      "datetime": "2026-10-28T01:00:00Z",
+      "timestamp": 1793149200,
+      "date": "2026-10-28",
+      "time": "01:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 8:00pm"
+    },
+    {
+      "id": "ff_152807",
+      "title": "RBNZ Press Conference",
+      "country": "NZD",
+      "datetime": "2026-10-28T02:00:00Z",
+      "timestamp": 1793152800,
+      "date": "2026-10-28",
+      "time": "02:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Oct 27 9:00pm"
+    },
+    {
+      "id": "ff_150482",
+      "title": "German GfK Consumer Climate",
+      "country": "EUR",
+      "datetime": "2026-10-28T07:00:00Z",
+      "timestamp": 1793170800,
+      "date": "2026-10-28",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-30.6",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 2:00am"
+    },
+    {
+      "id": "ff_147382",
+      "title": "UBS Economic Expectations",
+      "country": "CHF",
+      "datetime": "2026-10-28T09:00:00Z",
+      "timestamp": 1793178000,
+      "date": "2026-10-28",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.6",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 4:00am"
+    },
+    {
+      "id": "ff_150695",
+      "title": "Autumn Forecast Statement",
+      "country": "GBP",
+      "datetime": "2026-10-28T12:00:00Z",
+      "timestamp": 1793188800,
+      "date": "2026-10-28",
+      "time": "12:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 7:00am"
+    },
+    {
+      "id": "ff_148212",
+      "title": "Goods Trade Balance",
+      "country": "USD",
+      "datetime": "2026-10-28T12:30:00Z",
+      "timestamp": 1793190600,
+      "date": "2026-10-28",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-132.6B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 7:30am"
+    },
+    {
+      "id": "ff_148224",
+      "title": "Prelim Wholesale Inventories m/m",
+      "country": "USD",
+      "datetime": "2026-10-28T12:30:00Z",
+      "timestamp": 1793190600,
+      "date": "2026-10-28",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 7:30am"
+    },
+    {
+      "id": "ff_151698",
+      "title": "CB Leading Index m/m",
+      "country": "CNY",
+      "datetime": "2026-10-28T13:00:00Z",
+      "timestamp": 1793192400,
+      "date": "2026-10-28",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 8:00am"
+    },
+    {
+      "id": "ff_146550",
+      "title": "BOC Monetary Policy Report",
+      "country": "CAD",
+      "datetime": "2026-10-28T13:45:00Z",
+      "timestamp": 1793195100,
+      "date": "2026-10-28",
+      "time": "13:45",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 8:45am"
+    },
+    {
+      "id": "ff_146545",
+      "title": "BOC Rate Statement",
+      "country": "CAD",
+      "datetime": "2026-10-28T13:45:00Z",
+      "timestamp": 1793195100,
+      "date": "2026-10-28",
+      "time": "13:45",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 8:45am"
+    },
+    {
+      "id": "ff_146537",
+      "title": "Overnight Rate",
+      "country": "CAD",
+      "datetime": "2026-10-28T13:45:00Z",
+      "timestamp": 1793195100,
+      "date": "2026-10-28",
+      "time": "13:45",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "2.25%",
+      "consensus": "2.25%",
+      "previous": "2.25%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 8:45am"
+    },
+    {
+      "id": "ff_146557",
+      "title": "BOC Press Conference",
+      "country": "CAD",
+      "datetime": "2026-10-28T14:30:00Z",
+      "timestamp": 1793197800,
+      "date": "2026-10-28",
+      "time": "14:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 9:30am"
+    },
+    {
+      "id": "ff_148959",
+      "title": "Crude Oil Inventories",
+      "country": "USD",
+      "datetime": "2026-10-28T14:30:00Z",
+      "timestamp": 1793197800,
+      "date": "2026-10-28",
+      "time": "14:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 9:30am"
+    },
+    {
+      "id": "ff_146508",
+      "title": "FOMC Statement",
+      "country": "USD",
+      "datetime": "2026-10-28T18:00:00Z",
+      "timestamp": 1793210400,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 1:00pm"
+    },
+    {
+      "id": "ff_146500",
+      "title": "Federal Funds Rate",
+      "country": "USD",
+      "datetime": "2026-10-28T18:00:00Z",
+      "timestamp": 1793210400,
+      "date": "2026-10-28",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.00%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 1:00pm"
+    },
+    {
+      "id": "ff_146520",
+      "title": "FOMC Press Conference",
+      "country": "USD",
+      "datetime": "2026-10-28T18:30:00Z",
+      "timestamp": 1793212200,
+      "date": "2026-10-28",
+      "time": "18:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 1:30pm"
+    },
+    {
+      "id": "ff_149372",
+      "title": "ANZ Business Confidence",
+      "country": "NZD",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "00:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "51.9",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 7:00pm"
+    },
+    {
+      "id": "ff_148564",
+      "title": "BOJ Outlook Report",
+      "country": "JPY",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 Tentative"
+    },
+    {
+      "id": "ff_148562",
+      "title": "BOJ Policy Rate",
+      "country": "JPY",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "<1.25%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 Tentative"
+    },
+    {
+      "id": "ff_147704",
+      "title": "Italian 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 Tentative"
+    },
+    {
+      "id": "ff_148563",
+      "title": "Monetary Policy Statement",
+      "country": "JPY",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 Tentative"
+    },
+    {
+      "id": "ff_148430",
+      "title": "Import Prices q/q",
+      "country": "AUD",
+      "datetime": "2026-10-29T00:30:00Z",
+      "timestamp": 1793233800,
+      "date": "2026-10-29",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "5.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Oct 28 7:30pm"
+    },
+    {
+      "id": "ff_148805",
+      "title": "Consumer Confidence",
+      "country": "JPY",
+      "datetime": "2026-10-29T05:00:00Z",
+      "timestamp": 1793250000,
+      "date": "2026-10-29",
+      "time": "05:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "35.4",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 12:00am"
+    },
+    {
+      "id": "ff_151203",
+      "title": "German Import Prices m/m",
+      "country": "EUR",
+      "datetime": "2026-10-29T07:00:00Z",
+      "timestamp": 1793257200,
+      "date": "2026-10-29",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 2:00am"
+    },
+    {
+      "id": "ff_151202",
+      "title": "German Retail Sales m/m",
+      "country": "EUR",
+      "datetime": "2026-10-29T07:00:00Z",
+      "timestamp": 1793257200,
+      "date": "2026-10-29",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 2:00am"
+    },
+    {
+      "id": "ff_150805",
+      "title": "Nationwide HPI m/m",
+      "country": "GBP",
+      "datetime": "2026-10-29T07:00:00Z",
+      "timestamp": 1793257200,
+      "date": "2026-10-29",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 2:00am"
+    },
+    {
+      "id": "ff_147709",
+      "title": "Italian Monthly Unemployment Rate",
+      "country": "EUR",
+      "datetime": "2026-10-29T09:00:00Z",
+      "timestamp": 1793264400,
+      "date": "2026-10-29",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "6.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 4:00am"
+    },
+    {
+      "id": "ff_150768",
+      "title": "M4 Money Supply m/m",
+      "country": "GBP",
+      "datetime": "2026-10-29T09:30:00Z",
+      "timestamp": 1793266200,
+      "date": "2026-10-29",
+      "time": "09:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 4:30am"
+    },
+    {
+      "id": "ff_150769",
+      "title": "Mortgage Approvals",
+      "country": "GBP",
+      "datetime": "2026-10-29T09:30:00Z",
+      "timestamp": 1793266200,
+      "date": "2026-10-29",
+      "time": "09:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "55K",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 4:30am"
+    },
+    {
+      "id": "ff_150770",
+      "title": "Net Lending to Individuals m/m",
+      "country": "GBP",
+      "datetime": "2026-10-29T09:30:00Z",
+      "timestamp": 1793266200,
+      "date": "2026-10-29",
+      "time": "09:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "6.9B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 4:30am"
+    },
+    {
+      "id": "ff_148286",
+      "title": "Advance GDP Price Index q/q",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "6.1%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_148274",
+      "title": "Advance GDP q/q",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_148236",
+      "title": "Core PCE Price Index m/m",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_148248",
+      "title": "Personal Income m/m",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_148260",
+      "title": "Personal Spending m/m",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.9%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_147021",
+      "title": "Unemployment Claims",
+      "country": "USD",
+      "datetime": "2026-10-29T12:30:00Z",
+      "timestamp": 1793277000,
+      "date": "2026-10-29",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30am"
+    },
+    {
+      "id": "ff_150541",
+      "title": "Main Refinancing Rate",
+      "country": "EUR",
+      "datetime": "2026-10-29T13:15:00Z",
+      "timestamp": 1793279700,
+      "date": "2026-10-29",
+      "time": "13:15",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.65%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 8:15am"
+    },
+    {
+      "id": "ff_150542",
+      "title": "Monetary Policy Statement",
+      "country": "EUR",
+      "datetime": "2026-10-29T13:15:00Z",
+      "timestamp": 1793279700,
+      "date": "2026-10-29",
+      "time": "13:15",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 8:15am"
+    },
+    {
+      "id": "ff_150540",
+      "title": "ECB Press Conference",
+      "country": "EUR",
+      "datetime": "2026-10-29T13:45:00Z",
+      "timestamp": 1793281500,
+      "date": "2026-10-29",
+      "time": "13:45",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 8:45am"
+    },
+    {
+      "id": "ff_148776",
+      "title": "Natural Gas Storage",
+      "country": "USD",
+      "datetime": "2026-10-29T14:30:00Z",
+      "timestamp": 1793284200,
+      "date": "2026-10-29",
+      "time": "14:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 9:30am"
+    },
+    {
+      "id": "ff_149931",
+      "title": "Tokyo Core CPI y/y",
+      "country": "JPY",
+      "datetime": "2026-10-29T23:30:00Z",
+      "timestamp": 1793316600,
+      "date": "2026-10-29",
+      "time": "23:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 6:30pm"
+    },
+    {
+      "id": "ff_148833",
+      "title": "Unemployment Rate",
+      "country": "JPY",
+      "datetime": "2026-10-29T23:30:00Z",
+      "timestamp": 1793316600,
+      "date": "2026-10-29",
+      "time": "23:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 6:30pm"
+    },
+    {
+      "id": "ff_149675",
+      "title": "Prelim Industrial Production m/m",
+      "country": "JPY",
+      "datetime": "2026-10-29T23:50:00Z",
+      "timestamp": 1793317800,
+      "date": "2026-10-29",
+      "time": "23:50",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-1.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 6:50pm"
+    },
+    {
+      "id": "ff_149711",
+      "title": "Retail Sales y/y",
+      "country": "JPY",
+      "datetime": "2026-10-29T23:50:00Z",
+      "timestamp": 1793317800,
+      "date": "2026-10-29",
+      "time": "23:50",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 6:50pm"
+    },
+    {
+      "id": "ff_148565",
+      "title": "BOJ Press Conference",
+      "country": "JPY",
+      "datetime": "2026-10-30T00:00:00Z",
+      "timestamp": 1793318400,
+      "date": "2026-10-30",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 Tentative"
+    },
+    {
+      "id": "ff_151201",
+      "title": "German Prelim CPI m/m",
+      "country": "EUR",
+      "datetime": "2026-10-30T00:00:00Z",
+      "timestamp": 1793318400,
+      "date": "2026-10-30",
+      "time": "All Day",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.6%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 All Day"
+    },
+    {
+      "id": "ff_148497",
+      "title": "PPI q/q",
+      "country": "AUD",
+      "datetime": "2026-10-30T00:30:00Z",
+      "timestamp": 1793320200,
+      "date": "2026-10-30",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "1.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30pm"
+    },
+    {
+      "id": "ff_148338",
+      "title": "Private Sector Credit m/m",
+      "country": "AUD",
+      "datetime": "2026-10-30T00:30:00Z",
+      "timestamp": 1793320200,
+      "date": "2026-10-30",
+      "time": "00:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.6%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 7:30pm"
+    },
+    {
+      "id": "ff_149747",
+      "title": "Housing Starts y/y",
+      "country": "JPY",
+      "datetime": "2026-10-30T05:00:00Z",
+      "timestamp": 1793336400,
+      "date": "2026-10-30",
+      "time": "05:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "6.1%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 12:00am"
+    },
+    {
+      "id": "ff_147586",
+      "title": "French Consumer Spending m/m",
+      "country": "EUR",
+      "datetime": "2026-10-30T06:30:00Z",
+      "timestamp": 1793341800,
+      "date": "2026-10-30",
+      "time": "06:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 1:30am"
+    },
+    {
+      "id": "ff_151739",
+      "title": "French Flash GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-10-30T06:30:00Z",
+      "timestamp": 1793341800,
+      "date": "2026-10-30",
+      "time": "06:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.0%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 1:30am"
+    },
+    {
+      "id": "ff_147554",
+      "title": "French Prelim CPI m/m",
+      "country": "EUR",
+      "datetime": "2026-10-30T07:45:00Z",
+      "timestamp": 1793346300,
+      "date": "2026-10-30",
+      "time": "07:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 2:45am"
+    },
+    {
+      "id": "ff_151735",
+      "title": "French Prelim Private Payrolls q/q",
+      "country": "EUR",
+      "datetime": "2026-10-30T07:45:00Z",
+      "timestamp": 1793346300,
+      "date": "2026-10-30",
+      "time": "07:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.1%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 2:45am"
+    },
+    {
+      "id": "ff_147369",
+      "title": "KOF Economic Barometer",
+      "country": "CHF",
+      "datetime": "2026-10-30T08:00:00Z",
+      "timestamp": 1793347200,
+      "date": "2026-10-30",
+      "time": "08:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "109.1",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 3:00am"
+    },
+    {
+      "id": "ff_147509",
+      "title": "Spanish Flash CPI y/y",
+      "country": "EUR",
+      "datetime": "2026-10-30T08:00:00Z",
+      "timestamp": 1793347200,
+      "date": "2026-10-30",
+      "time": "08:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.9%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 3:00am"
+    },
+    {
+      "id": "ff_147522",
+      "title": "Spanish Flash GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-10-30T08:00:00Z",
+      "timestamp": 1793347200,
+      "date": "2026-10-30",
+      "time": "08:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 3:00am"
+    },
+    {
+      "id": "ff_150519",
+      "title": "German Unemployment Change",
+      "country": "EUR",
+      "datetime": "2026-10-30T08:55:00Z",
+      "timestamp": 1793350500,
+      "date": "2026-10-30",
+      "time": "08:55",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "12K",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 3:55am"
+    },
+    {
+      "id": "ff_147774",
+      "title": "Italian Prelim GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-10-30T09:00:00Z",
+      "timestamp": 1793350800,
+      "date": "2026-10-30",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 4:00am"
+    },
+    {
+      "id": "ff_147728",
+      "title": "Italian Prelim CPI m/m",
+      "country": "EUR",
+      "datetime": "2026-10-30T10:00:00Z",
+      "timestamp": 1793354400,
+      "date": "2026-10-30",
+      "time": "10:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 5:00am"
+    },
+    {
+      "id": "ff_151359",
+      "title": "Prelim Flash GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-10-30T10:00:00Z",
+      "timestamp": 1793354400,
+      "date": "2026-10-30",
+      "time": "10:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.6%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 5:00am"
+    },
+    {
+      "id": "ff_151332",
+      "title": "Unemployment Rate",
+      "country": "EUR",
+      "datetime": "2026-10-30T10:00:00Z",
+      "timestamp": 1793354400,
+      "date": "2026-10-30",
+      "time": "10:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "6.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 5:00am"
+    },
+    {
+      "id": "ff_148410",
+      "title": "Employment Cost Index q/q",
+      "country": "USD",
+      "datetime": "2026-10-30T12:30:00Z",
+      "timestamp": 1793363400,
+      "date": "2026-10-30",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.9%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 7:30am"
+    },
+    {
+      "id": "ff_149228",
+      "title": "GDP m/m",
+      "country": "CAD",
+      "datetime": "2026-10-30T12:30:00Z",
+      "timestamp": 1793363400,
+      "date": "2026-10-30",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.0%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 7:30am"
+    },
+    {
+      "id": "ff_146831",
+      "title": "Chicago PMI",
+      "country": "USD",
+      "datetime": "2026-10-30T13:45:00Z",
+      "timestamp": 1793367900,
+      "date": "2026-10-30",
+      "time": "13:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "58.8",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 8:45am"
+    },
+    {
+      "id": "ff_150084",
+      "title": "Manufacturing PMI",
+      "country": "CNY",
+      "datetime": "2026-10-31T01:30:00Z",
+      "timestamp": 1793410200,
+      "date": "2026-10-31",
+      "time": "01:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "50.1",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 8:30pm"
+    },
+    {
+      "id": "ff_150083",
+      "title": "Non-Manufacturing PMI",
+      "country": "CNY",
+      "datetime": "2026-10-31T01:30:00Z",
+      "timestamp": 1793410200,
+      "date": "2026-10-31",
+      "time": "01:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "50.2",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 8:30pm"
     }
   ]
 }
