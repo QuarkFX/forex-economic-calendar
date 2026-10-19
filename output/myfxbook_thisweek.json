@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-18T23:34:32Z",
+  "updated_at": "2026-10-19T01:41:36Z",
   "count": 219,
   "events": [
     {
@@ -152,8 +152,8 @@
       "forecast": "-3.1",
       "consensus": "-3.1",
       "previous": "-3",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.8",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 19, 2026"
     },
     {

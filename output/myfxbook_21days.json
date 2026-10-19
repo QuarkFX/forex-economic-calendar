@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-18T23:34:44Z",
-  "count": 855,
+  "updated_at": "2026-10-19T01:41:48Z",
+  "count": 856,
   "events": [
     {
       "id": "mfb_313889",
@@ -5252,8 +5252,8 @@
       "forecast": "-3.1",
       "consensus": "-3.1",
       "previous": "-3",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.8",
+      "actual_state": "better",
       "raw_date": "Monday, Oct 19, 2026"
     },
     {
@@ -11440,6 +11440,23 @@
       "forecast": "35.6",
       "consensus": "35.6",
       "previous": "35.4",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Oct 29, 2026"
+    },
+    {
+      "id": "mfb_315346",
+      "title": "Business Confidence (Oct)",
+      "country": "EUR",
+      "datetime": "2026-10-29T05:30:00Z",
+      "timestamp": 1793251800,
+      "date": "2026-10-29",
+      "time": "05:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.2",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 29, 2026"
