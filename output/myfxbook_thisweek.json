@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-19T19:55:31Z",
+  "updated_at": "2026-10-20T01:51:45Z",
   "count": 220,
   "events": [
     {
@@ -823,16 +823,16 @@
       "id": "mfb_314390",
       "title": "Loan Prime Rate 1Y",
       "country": "CNY",
-      "datetime": "2026-10-20T01:15:00Z",
-      "timestamp": 1792458900,
+      "datetime": "2026-10-20T01:00:00Z",
+      "timestamp": 1792458000,
       "date": "2026-10-20",
-      "time": "01:15",
+      "time": "01:00",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "3%",
       "consensus": "3%",
       "previous": "3%",
-      "actual": "",
+      "actual": "3%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
@@ -849,7 +849,7 @@
       "forecast": "3.5%",
       "consensus": "3.5%",
       "previous": "3.5%",
-      "actual": "",
+      "actual": "3.5%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
@@ -866,7 +866,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.6%",
-      "actual": "",
+      "actual": "3.708%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
@@ -883,8 +883,8 @@
       "forecast": "3.009%",
       "consensus": "3.009%",
       "previous": "3.071%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.133%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -900,7 +900,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.21%",
-      "actual": "",
+      "actual": "3.283%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
