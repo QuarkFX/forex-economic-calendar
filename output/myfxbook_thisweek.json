@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-20T01:51:45Z",
+  "updated_at": "2026-10-20T06:56:35Z",
   "count": 220,
   "events": [
     {
@@ -840,10 +840,10 @@
       "id": "mfb_314391",
       "title": "Loan Prime Rate 5Y (Oct)",
       "country": "CNY",
-      "datetime": "2026-10-20T01:15:00Z",
-      "timestamp": 1792458900,
+      "datetime": "2026-10-20T01:00:00Z",
+      "timestamp": 1792458000,
       "date": "2026-10-20",
-      "time": "01:15",
+      "time": "01:00",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "3.5%",
@@ -917,7 +917,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.856%",
-      "actual": "",
+      "actual": "3.723%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
@@ -934,8 +934,8 @@
       "forecast": "3.5%",
       "consensus": "3.5%",
       "previous": "3.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -951,8 +951,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "1.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.4%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -965,11 +965,11 @@
       "time": "05:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "9.4",
-      "consensus": "9.4",
-      "previous": "9.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "9.4%",
+      "consensus": "9.4%",
+      "previous": "9.1%",
+      "actual": "10.4%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -985,8 +985,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.9%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1002,8 +1002,8 @@
       "forecast": "5.3%",
       "consensus": "5.3%",
       "previous": "4.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.7%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1018,9 +1018,9 @@
       "impact": "Medium",
       "forecast": "CHF4.3B",
       "consensus": "CHF4.3B",
-      "previous": "CHF5.6B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "CHF5.4B",
+      "actual": "CHF1.4B",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1036,8 +1036,8 @@
       "forecast": "4.9%",
       "consensus": "4.9%",
       "previous": "4.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.7%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1053,8 +1053,8 @@
       "forecast": "3.8%",
       "consensus": "3.8%",
       "previous": "3.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.7%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1070,8 +1070,8 @@
       "forecast": "19.4K",
       "consensus": "19.4K",
       "previous": "27.8K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "30.3K",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1087,8 +1087,8 @@
       "forecast": "20K",
       "consensus": "20K",
       "previous": "67K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "102K",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1103,9 +1103,9 @@
       "impact": "Low",
       "forecast": "-15K",
       "consensus": "-15K",
-      "previous": "-26K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1K",
+      "actual": "13K",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
@@ -1120,9 +1120,9 @@
       "impact": "Low",
       "forecast": "3.6%",
       "consensus": "3.6%",
-      "previous": "3.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.6%",
+      "actual": "3.7%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 20, 2026"
     },
     {
