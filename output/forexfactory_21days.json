@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-21T13:14:01Z",
-  "count": 289,
+  "updated_at": "2026-10-21T18:03:32Z",
+  "count": 293,
   "events": [
     {
       "id": "ff_147466",
@@ -2753,8 +2753,8 @@
       "forecast": "-0.1M",
       "consensus": "-0.1M",
       "previous": "-8.6M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-3.1M",
+      "actual_state": "better",
       "raw_date": "Wed Oct 21 9:30am"
     },
     {
@@ -2937,8 +2937,8 @@
       "time": "14:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "83B",
-      "consensus": "83B",
+      "forecast": "80B",
+      "consensus": "80B",
       "previous": "67B",
       "actual": "",
       "actual_state": "neutral",
@@ -3260,8 +3260,8 @@
       "time": "13:45",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "57.8",
-      "consensus": "57.8",
+      "forecast": "57.9",
+      "consensus": "57.9",
       "previous": "58.8",
       "actual": "",
       "actual_state": "neutral",
@@ -4152,6 +4152,23 @@
       "raw_date": "Thu Oct 29 29th-2nd"
     },
     {
+      "id": "ff_155201",
+      "title": "Gov Council Member Vincent Speaks",
+      "country": "CAD",
+      "datetime": "2026-10-29T00:00:00Z",
+      "timestamp": 1793232000,
+      "date": "2026-10-29",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 Tentative"
+    },
+    {
       "id": "ff_147704",
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
@@ -4456,6 +4473,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 9:30am"
+    },
+    {
+      "id": "ff_155202",
+      "title": "Gov Board Member Tschudin Speaks",
+      "country": "CHF",
+      "datetime": "2026-10-29T17:30:00Z",
+      "timestamp": 1793295000,
+      "date": "2026-10-29",
+      "time": "17:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Oct 29 12:30pm"
     },
     {
       "id": "ff_149931",
@@ -4881,6 +4915,40 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 8:45am"
+    },
+    {
+      "id": "ff_155203",
+      "title": "FOMC Member Daly Speaks",
+      "country": "USD",
+      "datetime": "2026-10-30T16:00:00Z",
+      "timestamp": 1793376000,
+      "date": "2026-10-30",
+      "time": "16:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 11:00am"
+    },
+    {
+      "id": "ff_155204",
+      "title": "FOMC Member Musalem Speaks",
+      "country": "USD",
+      "datetime": "2026-10-30T16:30:00Z",
+      "timestamp": 1793377800,
+      "date": "2026-10-30",
+      "time": "16:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 11:30am"
     },
     {
       "id": "ff_150084",
