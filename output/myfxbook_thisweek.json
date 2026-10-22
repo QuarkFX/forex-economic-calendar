@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-22T00:13:44Z",
+  "updated_at": "2026-10-22T04:44:45Z",
   "count": 220,
   "events": [
     {
@@ -2588,23 +2588,6 @@
       "raw_date": "Wednesday, Oct 21, 2026"
     },
     {
-      "id": "mfb_314534",
-      "title": "Balance of Trade (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-21T23:00:00Z",
-      "timestamp": 1792623600,
-      "date": "2026-10-21",
-      "time": "23:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-$1200M",
-      "consensus": "-$1200M",
-      "previous": "-$1151.1M",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wednesday, Oct 21, 2026"
-    },
-    {
       "id": "mfb_314535",
       "title": "Foreign Bond Investment (Oct/17)",
       "country": "JPY",
@@ -2651,8 +2634,8 @@
       "forecast": "10.1%",
       "consensus": "10.1%",
       "previous": "4.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "9.3%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -2668,7 +2651,7 @@
       "forecast": "-34",
       "consensus": "-34",
       "previous": "-33",
-      "actual": "",
+      "actual": "-34",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 22, 2026"
     },
@@ -3246,6 +3229,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.031",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Oct 22, 2026"
+    },
+    {
+      "id": "mfb_314534",
+      "title": "Balance of Trade (Sep)",
+      "country": "USD",
+      "datetime": "2026-10-22T23:00:00Z",
+      "timestamp": 1792710000,
+      "date": "2026-10-22",
+      "time": "23:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "-$1200M",
+      "consensus": "-$1200M",
+      "previous": "-$1151.1M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 22, 2026"
