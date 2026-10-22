@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-21T21:39:00Z",
+  "updated_at": "2026-10-22T00:13:58Z",
   "count": 857,
   "events": [
     {
@@ -7649,8 +7649,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "1.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 21, 2026"
     },
     {
@@ -7666,8 +7666,8 @@
       "forecast": "3.8%",
       "consensus": "3.8%",
       "previous": "4.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.7%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 21, 2026"
     },
     {
@@ -7699,8 +7699,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-339.7",
-      "actual": "",
+      "previous": "-¥339.9B",
+      "actual": "-¥161.6B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 21, 2026"
     },
@@ -7716,8 +7716,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "3521.5",
-      "actual": "",
+      "previous": "¥3545.5B",
+      "actual": "-¥66.5B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 21, 2026"
     },
@@ -11303,7 +11303,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-161.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
@@ -11320,7 +11320,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-66.5",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
