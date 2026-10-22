@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-22T04:44:45Z",
+  "updated_at": "2026-10-22T09:41:27Z",
   "count": 220,
   "events": [
     {
@@ -2668,8 +2668,8 @@
       "forecast": "96",
       "consensus": "96",
       "previous": "96",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "97",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -2685,8 +2685,8 @@
       "forecast": "101",
       "consensus": "101",
       "previous": "101",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "105",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -2707,6 +2707,23 @@
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
+      "id": "mfb_314352",
+      "title": "FDI (YTD) YoY (Sept)",
+      "country": "CNY",
+      "datetime": "2026-10-22T08:30:00Z",
+      "timestamp": 1792657800,
+      "date": "2026-10-22",
+      "time": "08:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-4.8%",
+      "consensus": "-4.8%",
+      "previous": "-5.3%",
+      "actual": "-4.3%",
+      "actual_state": "better",
+      "raw_date": "Thursday, Oct 22, 2026"
+    },
+    {
       "id": "mfb_314572",
       "title": "Consumer Confidence (Oct)",
       "country": "EUR",
@@ -2719,25 +2736,8 @@
       "forecast": "-24",
       "consensus": "-24",
       "previous": "-23",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thursday, Oct 22, 2026"
-    },
-    {
-      "id": "mfb_314352",
-      "title": "FDI (YTD) YoY (Sept)",
-      "country": "CNY",
-      "datetime": "2026-10-22T09:00:00Z",
-      "timestamp": 1792659600,
-      "date": "2026-10-22",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-4.8%",
-      "consensus": "-4.8%",
-      "previous": "-5.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-27",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -2753,7 +2753,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "0.933%",
-      "actual": "",
+      "actual": "1.141%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 22, 2026"
     },
@@ -3039,8 +3039,8 @@
       "time": "14:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "83B",
-      "consensus": "83B",
+      "forecast": "80B",
+      "consensus": "80B",
       "previous": "67B",
       "actual": "",
       "actual_state": "neutral",
