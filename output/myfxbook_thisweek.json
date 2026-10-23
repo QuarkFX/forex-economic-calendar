@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-23T05:22:18Z",
+  "updated_at": "2026-10-23T10:19:34Z",
   "count": 218,
   "events": [
     {
@@ -3330,9 +3330,9 @@
       "impact": "High",
       "forecast": "-0.1%",
       "consensus": "-0.1%",
-      "previous": "0.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.9%",
+      "actual": "-0.7%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
@@ -3347,9 +3347,9 @@
       "impact": "High",
       "forecast": "-0.1%",
       "consensus": "-0.1%",
-      "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "-0.4%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
@@ -3364,9 +3364,9 @@
       "impact": "High",
       "forecast": "1%",
       "consensus": "1%",
-      "previous": "2.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.7%",
+      "actual": "0.8%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
@@ -3381,9 +3381,9 @@
       "impact": "High",
       "forecast": "1.5%",
       "consensus": "1.5%",
-      "previous": "2.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.9%",
+      "actual": "0.8%",
+      "actual_state": "worse",
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
@@ -3404,6 +3404,23 @@
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
+      "id": "mfb_314866",
+      "title": "ECB Consumer Inflation Expectations (Sep)",
+      "country": "EUR",
+      "datetime": "2026-10-23T08:00:00Z",
+      "timestamp": 1792742400,
+      "date": "2026-10-23",
+      "time": "08:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "3.2%",
+      "consensus": "3.2%",
+      "previous": "3%",
+      "actual": "3.1%",
+      "actual_state": "worse",
+      "raw_date": "Friday, Oct 23, 2026"
+    },
+    {
       "id": "mfb_314655",
       "title": "Tourist Arrivals YoY (Sep)",
       "country": "EUR",
@@ -3416,25 +3433,8 @@
       "forecast": "4.1%",
       "consensus": "4.1%",
       "previous": "6%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Oct 23, 2026"
-    },
-    {
-      "id": "mfb_314866",
-      "title": "ECB Consumer Inflation Expectations (Sep)",
-      "country": "EUR",
-      "datetime": "2026-10-23T09:00:00Z",
-      "timestamp": 1792746000,
-      "date": "2026-10-23",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.2%",
-      "consensus": "3.2%",
-      "previous": "3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "11.4%",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 23, 2026"
     },
     {
