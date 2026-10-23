@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-22T22:01:32Z",
-  "count": 862,
+  "updated_at": "2026-10-23T00:39:13Z",
+  "count": 863,
   "events": [
     {
       "id": "mfb_313889",
@@ -8300,23 +8300,6 @@
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
-      "id": "mfb_314534",
-      "title": "Balance of Trade (Sep)",
-      "country": "USD",
-      "datetime": "2026-10-22T23:00:00Z",
-      "timestamp": 1792710000,
-      "date": "2026-10-22",
-      "time": "23:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-$1200M",
-      "consensus": "-$1200M",
-      "previous": "-$1151.1M",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thursday, Oct 22, 2026"
-    },
-    {
       "id": "mfb_314618",
       "title": "GfK Consumer Confidence (Oct)",
       "country": "GBP",
@@ -8329,8 +8312,8 @@
       "forecast": "-15",
       "consensus": "-15",
       "previous": "-13",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-24",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -8346,7 +8329,7 @@
       "forecast": "2.1%",
       "consensus": "2.1%",
       "previous": "1.7%",
-      "actual": "",
+      "actual": "2.1%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 22, 2026"
     },
@@ -8363,8 +8346,8 @@
       "forecast": "2%",
       "consensus": "2%",
       "previous": "1.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.4%",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -8380,8 +8363,8 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -8397,8 +8380,8 @@
       "forecast": "2.3%",
       "consensus": "2.3%",
       "previous": "1.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.1%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 22, 2026"
     },
     {
@@ -8666,8 +8649,8 @@
       "time": "13:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "-11.5",
-      "consensus": "-11.5",
+      "forecast": "-11.8",
+      "consensus": "-11.8",
       "previous": "-12.1",
       "actual": "",
       "actual_state": "neutral",
@@ -8822,6 +8805,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Sunday, Oct 25, 2026"
+    },
+    {
+      "id": "mfb_314534",
+      "title": "Balance of Trade (Sep)",
+      "country": "USD",
+      "datetime": "2026-10-25T23:00:00Z",
+      "timestamp": 1792969200,
+      "date": "2026-10-25",
+      "time": "23:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "-$1200M",
+      "consensus": "-$1200M",
+      "previous": "-$1151.1M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Sunday, Oct 25, 2026"
@@ -13395,6 +13395,23 @@
       "forecast": "5.4%",
       "consensus": "5.4%",
       "previous": "4.8%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Oct 30, 2026"
+    },
+    {
+      "id": "mfb_315706",
+      "title": "Private Non Farm Payrolls QoQ (Q3)",
+      "country": "EUR",
+      "datetime": "2026-10-30T07:45:00Z",
+      "timestamp": 1793346300,
+      "date": "2026-10-30",
+      "time": "07:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "-0.1%",
+      "consensus": "-0.1%",
+      "previous": "-0.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 30, 2026"
