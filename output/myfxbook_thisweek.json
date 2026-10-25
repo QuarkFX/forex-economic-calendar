@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-25T01:40:46Z",
-  "count": 357,
+  "updated_at": "2026-10-25T19:10:17Z",
+  "count": 358,
   "events": [
     {
       "id": "mfb_317654",
@@ -1954,6 +1954,23 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "2.75%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Oct 28, 2026"
+    },
+    {
+      "id": "mfb_318500",
+      "title": "RBNZ Press Conference",
+      "country": "NZD",
+      "datetime": "2026-10-28T02:00:00Z",
+      "timestamp": 1793152800,
+      "date": "2026-10-28",
+      "time": "02:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
