@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-27T02:21:10Z",
+  "updated_at": "2026-10-27T08:08:02Z",
   "count": 367,
   "events": [
     {
@@ -832,8 +832,8 @@
       "forecast": "1",
       "consensus": "1",
       "previous": "3",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -849,8 +849,25 @@
       "forecast": "-6",
       "consensus": "-6",
       "previous": "-4.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-9.7",
+      "actual_state": "worse",
+      "raw_date": "Tuesday, Oct 27, 2026"
+    },
+    {
+      "id": "mfb_314658",
+      "title": "Balance of Trade (Sep)",
+      "country": "EUR",
+      "datetime": "2026-10-27T07:00:00Z",
+      "timestamp": 1793084400,
+      "date": "2026-10-27",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "-€550M",
+      "consensus": "-€550M",
+      "previous": "-€568M",
+      "actual": "-€534M",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -865,9 +882,9 @@
       "impact": "Low",
       "forecast": "3.8%",
       "consensus": "3.8%",
-      "previous": "3.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.5%",
+      "actual": "5.6%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -882,9 +899,9 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0%",
+      "actual": "1.8%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -899,9 +916,9 @@
       "impact": "Low",
       "forecast": "4.4%",
       "consensus": "4.4%",
-      "previous": "4.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.6%",
+      "actual": "7.4%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -916,9 +933,9 @@
       "impact": "Medium",
       "forecast": "85",
       "consensus": "85",
-      "previous": "86",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "85",
+      "actual": "80",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -931,11 +948,11 @@
       "time": "08:00",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "10.1%",
-      "consensus": "10.1%",
+      "forecast": "9.9%",
+      "consensus": "9.9%",
       "previous": "9.87%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "10.18%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -985,23 +1002,6 @@
       "forecast": "3.1%",
       "consensus": "3.1%",
       "previous": "3.1%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Oct 27, 2026"
-    },
-    {
-      "id": "mfb_314658",
-      "title": "Balance of Trade (Sep)",
-      "country": "EUR",
-      "datetime": "2026-10-27T10:00:00Z",
-      "timestamp": 1793095200,
-      "date": "2026-10-27",
-      "time": "10:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-€550M",
-      "consensus": "-€550M",
-      "previous": "-€568M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Oct 27, 2026"
@@ -1407,8 +1407,8 @@
       "time": "13:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "0.1%",
-      "consensus": "0.1%",
+      "forecast": "0.2%",
+      "consensus": "0.2%",
       "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
@@ -1458,8 +1458,8 @@
       "time": "14:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "1",
-      "consensus": "1",
+      "forecast": "0",
+      "consensus": "0",
       "previous": "-2",
       "actual": "",
       "actual_state": "neutral",
