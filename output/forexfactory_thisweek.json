@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-27T08:07:44Z",
+  "updated_at": "2026-10-27T14:26:35Z",
   "count": 100,
   "events": [
     {
@@ -203,7 +203,7 @@
       "forecast": "3.5%",
       "consensus": "3.5%",
       "previous": "3.5%",
-      "actual": "",
+      "actual": "3.5%",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 27 9:00am"
     },
@@ -220,7 +220,7 @@
       "forecast": "3.1%",
       "consensus": "3.1%",
       "previous": "3.1%",
-      "actual": "",
+      "actual": "3.1%",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 27 9:00am"
     },
@@ -236,8 +236,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "18.5K",
-      "actual": "",
+      "previous": "17.5K",
+      "actual": "16.8K",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 27 12:15pm"
     },
@@ -254,7 +254,7 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.2%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 27 12:30pm"
     },
@@ -271,8 +271,8 @@
       "forecast": "2.0%",
       "consensus": "2.0%",
       "previous": "-0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.8%",
+      "actual_state": "worse",
       "raw_date": "Tue Oct 27 12:30pm"
     },
     {
@@ -287,9 +287,9 @@
       "impact": "Low",
       "forecast": "0.2%",
       "consensus": "0.2%",
-      "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.2%",
+      "actual": "0.3%",
+      "actual_state": "better",
       "raw_date": "Tue Oct 27 1:00pm"
     },
     {
@@ -305,7 +305,7 @@
       "forecast": "2.6%",
       "consensus": "2.6%",
       "previous": "2.5%",
-      "actual": "",
+      "actual": "2.7%",
       "actual_state": "neutral",
       "raw_date": "Tue Oct 27 1:00pm"
     },
@@ -321,9 +321,9 @@
       "impact": "Medium",
       "forecast": "81.2",
       "consensus": "81.2",
-      "previous": "81.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "84.2",
+      "actual": "91.7",
+      "actual_state": "better",
       "raw_date": "Tue Oct 27 2:00pm"
     },
     {
@@ -338,9 +338,9 @@
       "impact": "Low",
       "forecast": "651K",
       "consensus": "651K",
-      "previous": "684K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "680K",
+      "actual": "676K",
+      "actual_state": "better",
       "raw_date": "Tue Oct 27 2:00pm"
     },
     {
@@ -356,8 +356,8 @@
       "forecast": "0",
       "consensus": "0",
       "previous": "-2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2",
+      "actual_state": "worse",
       "raw_date": "Tue Oct 27 2:00pm"
     },
     {
