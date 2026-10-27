@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-27T19:32:22Z",
+  "updated_at": "2026-10-27T23:11:29Z",
   "count": 843,
   "events": [
     {
@@ -5328,17 +5328,17 @@
       "id": "mfb_314815",
       "title": "API Crude Oil Stock Change (Oct/23)",
       "country": "USD",
-      "datetime": "2026-10-27T20:30:00Z",
-      "timestamp": 1793133000,
+      "datetime": "2026-10-27T20:50:00Z",
+      "timestamp": 1793134200,
       "date": "2026-10-27",
-      "time": "20:30",
+      "time": "20:50",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "0.8M",
       "consensus": "0.8M",
       "previous": "-4.93M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.031M",
+      "actual_state": "better",
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
@@ -11524,7 +11524,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-2.031",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 03, 2026"
