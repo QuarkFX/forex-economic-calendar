@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-28T15:22:37Z",
-  "count": 368,
+  "updated_at": "2026-10-28T20:25:52Z",
+  "count": 367,
   "events": [
     {
       "id": "mfb_317654",
@@ -2639,23 +2639,6 @@
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
-      "id": "mfb_316985",
-      "title": "Atlanta Fed GDPNow (Q4)",
-      "country": "USD",
-      "datetime": "2026-10-28T15:00:00Z",
-      "timestamp": 1793199600,
-      "date": "2026-10-28",
-      "time": "15:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "3.4",
-      "actual": "3.3",
-      "actual_state": "neutral",
-      "raw_date": "Wednesday, Oct 28, 2026"
-    },
-    {
       "id": "mfb_314911",
       "title": "17-Week Bill Auction",
       "country": "USD",
@@ -2668,7 +2651,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.155%",
-      "actual": "",
+      "actual": "4.14%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -2685,7 +2668,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "0.04%",
-      "actual": "",
+      "actual": "0.038%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -2702,7 +2685,7 @@
       "forecast": "4%",
       "consensus": "4%",
       "previous": "4%",
-      "actual": "",
+      "actual": "4%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
