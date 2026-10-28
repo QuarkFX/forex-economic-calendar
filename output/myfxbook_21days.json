@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-27T23:11:29Z",
+  "updated_at": "2026-10-28T02:14:38Z",
   "count": 843,
   "events": [
     {
@@ -5342,23 +5342,6 @@
       "raw_date": "Tuesday, Oct 27, 2026"
     },
     {
-      "id": "mfb_314688",
-      "title": "Consumer Confidence (Oct)",
-      "country": "EUR",
-      "datetime": "2026-10-27T23:01:00Z",
-      "timestamp": 1793142060,
-      "date": "2026-10-27",
-      "time": "23:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "60",
-      "consensus": "60",
-      "previous": "61.1",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Oct 27, 2026"
-    },
-    {
       "id": "mfb_315997",
       "title": "Communist Party Fifth Plenum",
       "country": "CNY",
@@ -5439,8 +5422,8 @@
       "forecast": "104.1",
       "consensus": "104.1",
       "previous": "103.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "104.34",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5456,8 +5439,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5473,8 +5456,8 @@
       "forecast": "4.2%",
       "consensus": "4.2%",
       "previous": "4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.3%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5490,7 +5473,7 @@
       "forecast": "1.3%",
       "consensus": "1.3%",
       "previous": "0.6%",
-      "actual": "",
+      "actual": "1.3%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -5507,7 +5490,7 @@
       "forecast": "3.9%",
       "consensus": "3.9%",
       "previous": "3.9%",
-      "actual": "",
+      "actual": "3.9%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -5524,7 +5507,7 @@
       "forecast": "1%",
       "consensus": "1%",
       "previous": "0.8%",
-      "actual": "",
+      "actual": "1%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -5541,8 +5524,8 @@
       "forecast": "3.6%",
       "consensus": "3.6%",
       "previous": "3.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.7%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5558,7 +5541,7 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.2%",
-      "actual": "",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -5574,8 +5557,8 @@
       "impact": "High",
       "forecast": "3.6%",
       "consensus": "3.6%",
-      "previous": "3.6%",
-      "actual": "",
+      "previous": "3.5%",
+      "actual": "3.6%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -5592,8 +5575,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5609,8 +5592,8 @@
       "forecast": "3.6%",
       "consensus": "3.6%",
       "previous": "3.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.4%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -5626,8 +5609,8 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "2.75%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.75%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
@@ -6408,6 +6391,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Oct 28, 2026"
+    },
+    {
+      "id": "mfb_314688",
+      "title": "Consumer Confidence (Oct)",
+      "country": "EUR",
+      "datetime": "2026-10-28T23:01:00Z",
+      "timestamp": 1793228460,
+      "date": "2026-10-28",
+      "time": "23:01",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "60",
+      "consensus": "60",
+      "previous": "61.1",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
