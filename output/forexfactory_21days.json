@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-29T11:46:30Z",
-  "count": 297,
+  "updated_at": "2026-10-29T17:50:36Z",
+  "count": 299,
   "events": [
     {
       "id": "ff_146718",
@@ -2345,8 +2345,8 @@
       "forecast": "3.2%",
       "consensus": "3.2%",
       "previous": "6.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.3%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -2362,8 +2362,8 @@
       "forecast": "3.2%",
       "consensus": "3.2%",
       "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.4%",
+      "actual_state": "better",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -2378,8 +2378,8 @@
       "impact": "High",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.2%",
-      "actual": "",
+      "previous": "0.3%",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 12:30pm"
     },
@@ -2395,9 +2395,9 @@
       "impact": "Low",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -2413,8 +2413,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.5%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -2429,8 +2429,8 @@
       "impact": "Medium",
       "forecast": "198K",
       "consensus": "198K",
-      "previous": "194K",
-      "actual": "",
+      "previous": "195K",
+      "actual": "194K",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 12:30pm"
     },
@@ -2464,7 +2464,7 @@
       "forecast": "2.65%",
       "consensus": "2.65%",
       "previous": "2.65%",
-      "actual": "",
+      "actual": "2.65%",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 1:15pm"
     },
@@ -2515,8 +2515,8 @@
       "forecast": "75B",
       "consensus": "75B",
       "previous": "77B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "80B",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 2:30pm"
     },
     {
@@ -3166,23 +3166,6 @@
       "raw_date": "Sun Nov 1 7:00am"
     },
     {
-      "id": "ff_148795",
-      "title": "FOMC Financial Stability Report",
-      "country": "USD",
-      "datetime": "2026-11-01T21:00:00Z",
-      "timestamp": 1793566800,
-      "date": "2026-11-01",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sun Nov 1 Tentative"
-    },
-    {
       "id": "ff_148453",
       "title": "MI Inflation Gauge m/m",
       "country": "AUD",
@@ -3438,6 +3421,23 @@
       "raw_date": "Mon Nov 2 9:30am"
     },
     {
+      "id": "ff_155379",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-02T12:00:00Z",
+      "timestamp": 1793620800,
+      "date": "2026-11-02",
+      "time": "12:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 2 12:00pm"
+    },
+    {
       "id": "ff_146875",
       "title": "Manufacturing PMI",
       "country": "CAD",
@@ -3521,23 +3521,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 3:00pm"
-    },
-    {
-      "id": "ff_155364",
-      "title": "FOMC Member Goolsbee Speaks",
-      "country": "USD",
-      "datetime": "2026-11-02T16:15:00Z",
-      "timestamp": 1793636100,
-      "date": "2026-11-02",
-      "time": "16:15",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 2 4:15pm"
     },
     {
       "id": "ff_148791",
@@ -3727,35 +3710,18 @@
       "raw_date": "Tue Nov 3 7:45am"
     },
     {
-      "id": "ff_147436",
-      "title": "French 10-y Bond Auction",
-      "country": "EUR",
-      "datetime": "2026-11-03T10:18:00Z",
-      "timestamp": 1793701080,
-      "date": "2026-11-03",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Nov 3 Tentative"
-    },
-    {
-      "id": "ff_150635",
-      "title": "30-y Bond Auction",
+      "id": "ff_155376",
+      "title": "10-y Bond Auction",
       "country": "GBP",
-      "datetime": "2026-11-03T11:32:00Z",
-      "timestamp": 1793705520,
+      "datetime": "2026-11-03T10:33:00Z",
+      "timestamp": 1793701980,
       "date": "2026-11-03",
       "time": "Tentative",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.42|3.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 3 Tentative"
@@ -3827,6 +3793,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 3 Tentative"
+    },
+    {
+      "id": "ff_155378",
+      "title": "BOC Gov Macklem Speaks",
+      "country": "CAD",
+      "datetime": "2026-11-03T16:00:00Z",
+      "timestamp": 1793721600,
+      "date": "2026-11-03",
+      "time": "16:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 3 4:00pm"
     },
     {
       "id": "ff_155365",
@@ -4231,7 +4214,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-1.9M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 3:30pm"
@@ -4407,6 +4390,40 @@
       "raw_date": "Thu Nov 5 10:00am"
     },
     {
+      "id": "ff_155377",
+      "title": "Spanish 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-11-05T10:03:00Z",
+      "timestamp": 1793872980,
+      "date": "2026-11-05",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 Tentative"
+    },
+    {
+      "id": "ff_147436",
+      "title": "French 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-11-05T10:18:00Z",
+      "timestamp": 1793873880,
+      "date": "2026-11-05",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 Tentative"
+    },
+    {
       "id": "ff_146901",
       "title": "Challenger Job Cuts y/y",
       "country": "USD",
@@ -4422,23 +4439,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 10:30am"
-    },
-    {
-      "id": "ff_150455",
-      "title": "German 10-y Bond Auction",
-      "country": "EUR",
-      "datetime": "2026-11-05T10:42:00Z",
-      "timestamp": 1793875320,
-      "date": "2026-11-05",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 5 Tentative"
     },
     {
       "id": "ff_150723",
@@ -4571,7 +4571,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "194K",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 1:30pm"
@@ -4622,19 +4622,36 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "80B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 3:30pm"
     },
     {
-      "id": "ff_149848",
-      "title": "Annual Budget Release",
-      "country": "CAD",
-      "datetime": "2026-11-05T21:03:00Z",
-      "timestamp": 1793912580,
+      "id": "ff_155380",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-05T17:45:00Z",
+      "timestamp": 1793900700,
       "date": "2026-11-05",
-      "time": "Tentative",
+      "time": "17:45",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 5:45pm"
+    },
+    {
+      "id": "ff_155382",
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-05T18:00:00Z",
+      "timestamp": 1793901600,
+      "date": "2026-11-05",
+      "time": "18:00",
       "timezone": "UTC",
       "impact": "Medium",
       "forecast": "",
@@ -4642,7 +4659,24 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Nov 5 Tentative"
+      "raw_date": "Thu Nov 5 6:00pm"
+    },
+    {
+      "id": "ff_149848",
+      "title": "Annual Budget Release",
+      "country": "CAD",
+      "datetime": "2026-11-05T21:00:00Z",
+      "timestamp": 1793912400,
+      "date": "2026-11-05",
+      "time": "21:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 9:00pm"
     },
     {
       "id": "ff_149896",
@@ -4660,23 +4694,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 11:30pm"
-    },
-    {
-      "id": "ff_155370",
-      "title": "FOMC Member Logan Speaks",
-      "country": "USD",
-      "datetime": "2026-11-06T00:00:00Z",
-      "timestamp": 1793923200,
-      "date": "2026-11-06",
-      "time": "00:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 6 12:00am"
     },
     {
       "id": "ff_149125",
@@ -4724,7 +4741,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 7:00am"
@@ -4813,6 +4830,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 10:00am"
+    },
+    {
+      "id": "ff_155381",
+      "title": "Gov Board Member Tschudin Speaks",
+      "country": "CHF",
+      "datetime": "2026-11-06T11:00:00Z",
+      "timestamp": 1793962800,
+      "date": "2026-11-06",
+      "time": "11:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 6 11:00am"
     },
     {
       "id": "ff_155372",
@@ -4985,6 +5019,23 @@
       "raw_date": "Fri Nov 6 3:00pm"
     },
     {
+      "id": "ff_155374",
+      "title": "BOJ Gov Ueda Speaks",
+      "country": "JPY",
+      "datetime": "2026-11-06T16:00:00Z",
+      "timestamp": 1793980800,
+      "date": "2026-11-06",
+      "time": "16:00",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 6 4:00pm"
+    },
+    {
       "id": "ff_148793",
       "title": "Fed Monetary Policy Report",
       "country": "USD",
@@ -5034,23 +5085,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 Tentative"
-    },
-    {
-      "id": "ff_155374",
-      "title": "BOJ Gov Ueda Speaks",
-      "country": "JPY",
-      "datetime": "2026-11-07T04:30:00Z",
-      "timestamp": 1794025800,
-      "date": "2026-11-07",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Sat Nov 7 Tentative"
     }
   ]
 }

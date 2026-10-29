@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-29T11:46:27Z",
+  "updated_at": "2026-10-29T17:50:34Z",
   "count": 100,
   "events": [
     {
@@ -917,8 +917,8 @@
       "forecast": "3.2%",
       "consensus": "3.2%",
       "previous": "6.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.3%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -934,8 +934,8 @@
       "forecast": "3.2%",
       "consensus": "3.2%",
       "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.4%",
+      "actual_state": "better",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -950,8 +950,8 @@
       "impact": "High",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.2%",
-      "actual": "",
+      "previous": "0.3%",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 12:30pm"
     },
@@ -967,9 +967,9 @@
       "impact": "Low",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -985,8 +985,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.5%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 12:30pm"
     },
     {
@@ -1001,8 +1001,8 @@
       "impact": "Medium",
       "forecast": "198K",
       "consensus": "198K",
-      "previous": "194K",
-      "actual": "",
+      "previous": "195K",
+      "actual": "194K",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 12:30pm"
     },
@@ -1036,7 +1036,7 @@
       "forecast": "2.65%",
       "consensus": "2.65%",
       "previous": "2.65%",
-      "actual": "",
+      "actual": "2.65%",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 1:15pm"
     },
@@ -1087,8 +1087,8 @@
       "forecast": "75B",
       "consensus": "75B",
       "previous": "77B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "80B",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 2:30pm"
     },
     {
