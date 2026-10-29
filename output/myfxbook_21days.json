@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-29T04:30:31Z",
+  "updated_at": "2026-10-29T05:42:34Z",
   "count": 843,
   "events": [
     {
@@ -6561,8 +6561,8 @@
       "forecast": "35.1",
       "consensus": "35.1",
       "previous": "35.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "35",
+      "actual_state": "worse",
       "raw_date": "Thursday, Oct 29, 2026"
     },
     {
@@ -7969,8 +7969,8 @@
       "time": "23:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "2.6%",
-      "consensus": "2.6%",
+      "forecast": "3.3%",
+      "consensus": "3.3%",
       "previous": "2.7%",
       "actual": "",
       "actual_state": "neutral",
