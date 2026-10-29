@@ -168,7 +168,7 @@ Every dataset in the `output/` directory adheres to a strictly standardized, cle
 - 💱 **`country`**: 3-letter currency code affected (`USD`, `EUR`, `GBP`, `JPY`, `AUD`, `CAD`, `CHF`, `NZD`, `CNY`).
 - 📅 **`datetime`**: Standardized ISO 8601 UTC timestamp (`YYYY-MM-DDTHH:MM:SSZ`).
 - ⏱️ **`timestamp`**: Unix epoch timestamp in seconds for fast mathematical comparisons.
-- 📆 **`date`** & ⏰ **`time`**: Separate `YYYY-MM-DD` and `HH:MM` strings for easy UI table binding.
+- 📆 **`date`** & ⏰ **`time`**: Separate `YYYY-MM-DD` and `HH:MM` strings for easy UI table binding. Forex Factory events without a fixed time keep their label in `time`: `Tentative` events carry Forex Factory's expected release instant in `datetime`, while `All Day` and `Day N` events are anchored to `00:00Z` of their GMT calendar date.
 - 🌍 **`timezone`**: Canonical timezone standard (`UTC`).
 - 💥 **`impact`**: Standardized severity rating:
   - 🔴 `High` (Red Folder — Primary prop firm restriction target)
@@ -253,6 +253,7 @@ Cloudflare WAF serves interactive Turnstile challenges (`403 Attention Required!
 │   ├── 📖 myfxbook_scraper.py       # Myfxbook parser with SeleniumBase UC + CDP Mode
 │   ├── 🚀 scraper.py                # Master orchestrator & change detector
 │   └── 🖥️ server.py                 # Optional Flask REST API server with CORS
+├── 🧪 tests/                         # Offline unit tests (python -m unittest discover -s tests)
 ├── 🙈 .gitignore                    # Local cache, bytecode, IDE settings, AGENTS.md, GEMINI.md ignored
 ├── 📦 requirements.txt              # Minimal production dependencies
 ├── ⚖️ LICENSE                       # MIT Open Source License

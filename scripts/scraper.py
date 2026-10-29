@@ -72,8 +72,9 @@ def save_json(data, filename):
                 try:
                     os.remove(filepath)
                     os.replace(tmp_filepath, filepath)
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"[Scraper] Error: could not replace {filepath}: {e}")
+                    return filepath
     print(f"[Scraper] Saved updated data ({len(data) if data else 0} events) to {filepath}")
     return filepath
 

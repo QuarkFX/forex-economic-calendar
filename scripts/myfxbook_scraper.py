@@ -4,13 +4,19 @@ import re
 import json
 import time
 import hashlib
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE_DIR = os.path.join(ROOT_DIR, ".cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
+
+def _week_key(offset_weeks=0):
+    """Return the Sunday (UTC) that starts the target calendar week, used to scope caches per week."""
+    today = datetime.now(timezone.utc).date()
+    sunday = today - timedelta(days=(today.weekday() + 1) % 7)
+    return (sunday + timedelta(weeks=offset_weeks)).isoformat()
 
 def _parse_mfb_datetime(raw_date, raw_time):
     """Parse Myfxbook date and time into standardized UTC ISO 8601 and epoch timestamp."""
@@ -210,6 +216,26 @@ class MyfxbookScraper:
                     })
         return events
 
+    def _pin_gmt_timezone(self, sb):
+        """
+        Reset Myfxbook's `timezone`/`dst` cookies to GMT before the next navigation.
+
+        After each page load, Myfxbook's JavaScript stores the browser's UTC offset in these cookies
+        and the server renders every later page in that offset. On a non-UTC machine (e.g. IST) this
+        shifted all events after the first page load. A fresh browser without cookies is served GMT.
+        """
+        cdp = getattr(sb, "cdp", None)
+        if cdp is None:
+            # CDP mode not active yet: first navigation of a fresh browser, no cookies exist
+            return
+        try:
+            cdp.evaluate(
+                "if (location.hostname.endsWith('myfxbook.com')) {"
+                " document.cookie = 'timezone=0; path=/'; document.cookie = 'dst=0; path=/'; } 1"
+            )
+        except Exception as e:
+            print(f"[Myfxbook UC+CDP] Timezone cookie reset notice: {e}")
+
     def _fetch_html_uc(self, period_id, max_retries=2):
         """Fetch economic calendar HTML using SeleniumBase UC + CDP Mode."""
         sb = self._get_sb()
@@ -219,6 +245,7 @@ class MyfxbookScraper:
         url = f"{self.base_url}?calPeriod={period_id}"
         for attempt in range(1, max_retries + 1):
             try:
+                self._pin_gmt_timezone(sb)
                 # Activate Chrome DevTools Protocol mode on target URL
                 sb.activate_cdp_mode(url)
                 sb.sleep(2)
@@ -312,43 +339,54 @@ class MyfxbookScraper:
 
     def get_this_week(self, force_refresh=True):
         """Fetch this week's events (calPeriod=3) with live actuals."""
+        cache_key = f"this_week_{_week_key(0)}"
         if not force_refresh:
-            cached = self._read_cache("this_week", 300)
+            cached = self._read_cache(cache_key, 300)
             if cached:
                 return cached
 
         fresh = self._scrape_period(3)
         if fresh:
-            self._write_cache("this_week", fresh)
+            self._write_cache(cache_key, fresh)
             return fresh
 
-        return self._read_cache("this_week", 86400) or []
+        # Cache fallback is limited to the same calendar week
+        return self._read_cache(cache_key, 86400) or []
 
     def get_21_days(self):
         """Fetch 21 consecutive days (Previous Week + This Week + Next Week) with resilient fallback."""
+        # Cache keys are scoped to the target week so a week rollover never serves the wrong week
+        last_key = f"last_week_{_week_key(-1)}"
+        next_key = f"next_week_{_week_key(1)}"
+
         # 1. Previous Week (24h cache)
-        last_week = self._read_cache("last_week", 86400)
+        last_week = self._read_cache(last_key, 86400)
         if not last_week:
             last_week = self._scrape_period(2)
             if last_week:
-                self._write_cache("last_week", last_week)
+                self._write_cache(last_key, last_week)
             time.sleep(1)
 
         # 2. This Week (reuses live data from current cycle, no duplicate request)
         this_week = self.get_this_week(force_refresh=False)
 
         # 3. Next Week (2h cache)
-        next_week = self._read_cache("next_week", 7200)
+        next_week = self._read_cache(next_key, 7200)
         if not next_week:
             next_week = self._scrape_period(9)
             if next_week:
-                self._write_cache("next_week", next_week)
+                self._write_cache(next_key, next_week)
             time.sleep(1)
 
         # Resilient fallback: If live scrape failed, reuse last known good cache up to 7 days
         if not last_week:
-            last_week = self._read_cache("last_week", 86400 * 7) or []
+            last_week = self._read_cache(last_key, 86400 * 7) or []
         if not next_week:
-            next_week = self._read_cache("next_week", 86400 * 7) or []
+            next_week = self._read_cache(next_key, 86400 * 7) or []
+
+        # Never publish a 21-day feed with a missing week (e.g. no upcoming news); the previous file is kept instead
+        if not (last_week and this_week and next_week):
+            print(f"[Myfxbook] Incomplete 21-day dataset (last={len(last_week)}, this={len(this_week)}, next={len(next_week)}). Skipping update.")
+            return []
 
         return _dedup_mfb_events(last_week, this_week, next_week)
