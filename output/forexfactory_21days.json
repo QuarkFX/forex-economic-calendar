@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-29T05:42:07Z",
+  "updated_at": "2026-10-29T11:46:30Z",
   "count": 297,
   "events": [
     {
@@ -2260,8 +2260,8 @@
       "forecast": "6.2%",
       "consensus": "6.2%",
       "previous": "6.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.3%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 9:00am"
     },
     {
@@ -2277,8 +2277,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.1%",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 9:30am"
     },
     {
@@ -2294,7 +2294,7 @@
       "forecast": "54K",
       "consensus": "54K",
       "previous": "55K",
-      "actual": "",
+      "actual": "53K",
       "actual_state": "neutral",
       "raw_date": "Thu Oct 29 9:30am"
     },
@@ -2311,26 +2311,26 @@
       "forecast": "6.2B",
       "consensus": "6.2B",
       "previous": "6.9B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.8B",
+      "actual_state": "worse",
       "raw_date": "Thu Oct 29 9:30am"
     },
     {
       "id": "ff_147704",
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
-      "datetime": "2026-10-29T09:33:00Z",
-      "timestamp": 1793266380,
+      "datetime": "2026-10-29T10:08:00Z",
+      "timestamp": 1793268480,
       "date": "2026-10-29",
-      "time": "Tentative",
+      "time": "10:08",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
       "previous": "4.58|1.6",
-      "actual": "",
+      "actual": "4.49|1.6",
       "actual_state": "neutral",
-      "raw_date": "Thu Oct 29 Tentative"
+      "raw_date": "Thu Oct 29 10:08am"
     },
     {
       "id": "ff_148286",
