@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-29T17:50:36Z",
-  "count": 299,
+  "updated_at": "2026-10-29T22:14:34Z",
+  "count": 298,
   "events": [
     {
       "id": "ff_146718",
@@ -3183,23 +3183,6 @@
       "raw_date": "Mon Nov 2 12:00am"
     },
     {
-      "id": "ff_148128",
-      "title": "ANZ Job Advertisements m/m",
-      "country": "AUD",
-      "datetime": "2026-11-02T00:30:00Z",
-      "timestamp": 1793579400,
-      "date": "2026-11-02",
-      "time": "00:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 2 12:30am"
-    },
-    {
       "id": "ff_150063",
       "title": "Building Approvals m/m",
       "country": "AUD",
@@ -3232,6 +3215,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 12:30am"
+    },
+    {
+      "id": "ff_148128",
+      "title": "ANZ Job Advertisements m/m",
+      "country": "AUD",
+      "datetime": "2026-11-02T00:45:00Z",
+      "timestamp": 1793580300,
+      "date": "2026-11-02",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 2 Tentative"
     },
     {
       "id": "ff_150109",
@@ -4509,6 +4509,23 @@
       "raw_date": "Thu Nov 5 12:00pm"
     },
     {
+      "id": "ff_155383",
+      "title": "BOE Gov Bailey Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-05T12:30:00Z",
+      "timestamp": 1793881800,
+      "date": "2026-11-05",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 12:30pm"
+    },
+    {
       "id": "ff_155367",
       "title": "SNB Chairman Schlegel Speaks",
       "country": "CHF",
@@ -5036,23 +5053,6 @@
       "raw_date": "Fri Nov 6 4:00pm"
     },
     {
-      "id": "ff_148793",
-      "title": "Fed Monetary Policy Report",
-      "country": "USD",
-      "datetime": "2026-11-06T16:00:00Z",
-      "timestamp": 1793980800,
-      "date": "2026-11-06",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 6 Tentative"
-    },
-    {
       "id": "ff_148732",
       "title": "Consumer Credit m/m",
       "country": "USD",
@@ -5068,23 +5068,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 8:00pm"
-    },
-    {
-      "id": "ff_148787",
-      "title": "Treasury Currency Report",
-      "country": "USD",
-      "datetime": "2026-11-06T21:00:00Z",
-      "timestamp": 1793998800,
-      "date": "2026-11-06",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 6 Tentative"
     }
   ]
 }
