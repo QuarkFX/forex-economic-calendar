@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-28T20:25:52Z",
+  "updated_at": "2026-10-29T00:07:54Z",
   "count": 367,
   "events": [
     {
@@ -2724,23 +2724,6 @@
       "raw_date": "Wednesday, Oct 28, 2026"
     },
     {
-      "id": "mfb_314688",
-      "title": "Consumer Confidence (Oct)",
-      "country": "EUR",
-      "datetime": "2026-10-28T23:01:00Z",
-      "timestamp": 1793228460,
-      "date": "2026-10-28",
-      "time": "23:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "60",
-      "consensus": "60",
-      "previous": "61.1",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wednesday, Oct 28, 2026"
-    },
-    {
       "id": "mfb_314922",
       "title": "Foreign Bond Investment (Oct/24)",
       "country": "JPY",
@@ -2752,8 +2735,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-161.6",
-      "actual": "",
+      "previous": "-¥160.5B",
+      "actual": "-¥92.6B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -2769,8 +2752,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-66.5",
-      "actual": "",
+      "previous": "-¥67.5B",
+      "actual": "¥1180.9B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Oct 28, 2026"
     },
@@ -2787,8 +2770,8 @@
       "forecast": "51.5",
       "consensus": "51.5",
       "previous": "51.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "52.5",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 29, 2026"
     },
     {
@@ -2821,8 +2804,8 @@
       "forecast": "5%",
       "consensus": "5%",
       "previous": "6.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "38.6%",
+      "actual_state": "better",
       "raw_date": "Thursday, Oct 29, 2026"
     },
     {
@@ -4249,6 +4232,23 @@
       "forecast": "97.4",
       "consensus": "97.4",
       "previous": "97.6",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Oct 29, 2026"
+    },
+    {
+      "id": "mfb_314688",
+      "title": "Consumer Confidence (Oct)",
+      "country": "EUR",
+      "datetime": "2026-10-29T23:01:00Z",
+      "timestamp": 1793314860,
+      "date": "2026-10-29",
+      "time": "23:01",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "60",
+      "consensus": "60",
+      "previous": "61.1",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Oct 29, 2026"
