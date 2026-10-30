@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-10-30T01:58:41Z",
+  "updated_at": "2026-10-30T08:07:16Z",
   "count": 298,
   "events": [
     {
@@ -2673,30 +2673,47 @@
       "raw_date": "Fri Oct 30 12:30am"
     },
     {
+      "id": "ff_148564",
+      "title": "BOJ Outlook Report",
+      "country": "JPY",
+      "datetime": "2026-10-30T03:02:00Z",
+      "timestamp": 1793329320,
+      "date": "2026-10-30",
+      "time": "03:02",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 3:02am"
+    },
+    {
       "id": "ff_148562",
       "title": "BOJ Policy Rate",
       "country": "JPY",
-      "datetime": "2026-10-30T02:30:00Z",
-      "timestamp": 1793327400,
+      "datetime": "2026-10-30T03:02:00Z",
+      "timestamp": 1793329320,
       "date": "2026-10-30",
-      "time": "Tentative",
+      "time": "03:02",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "<1.25%",
       "consensus": "<1.25%",
       "previous": "<1.25%",
-      "actual": "",
+      "actual": "<1.25%",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 30 Tentative"
+      "raw_date": "Fri Oct 30 3:02am"
     },
     {
       "id": "ff_148563",
       "title": "Monetary Policy Statement",
       "country": "JPY",
-      "datetime": "2026-10-30T02:30:00Z",
-      "timestamp": 1793327400,
+      "datetime": "2026-10-30T03:02:00Z",
+      "timestamp": 1793329320,
       "date": "2026-10-30",
-      "time": "Tentative",
+      "time": "03:02",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "",
@@ -2704,24 +2721,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 30 Tentative"
-    },
-    {
-      "id": "ff_148564",
-      "title": "BOJ Outlook Report",
-      "country": "JPY",
-      "datetime": "2026-10-30T02:31:00Z",
-      "timestamp": 1793327460,
-      "date": "2026-10-30",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Oct 30 Tentative"
+      "raw_date": "Fri Oct 30 3:02am"
     },
     {
       "id": "ff_149747",
@@ -2736,18 +2736,18 @@
       "forecast": "2.7%",
       "consensus": "2.7%",
       "previous": "6.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.7%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 5:00am"
     },
     {
       "id": "ff_148565",
       "title": "BOJ Press Conference",
       "country": "JPY",
-      "datetime": "2026-10-30T05:30:00Z",
-      "timestamp": 1793338200,
+      "datetime": "2026-10-30T06:30:00Z",
+      "timestamp": 1793341800,
       "date": "2026-10-30",
-      "time": "Tentative",
+      "time": "06:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "",
@@ -2755,7 +2755,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Fri Oct 30 Tentative"
+      "raw_date": "Fri Oct 30 6:30am"
     },
     {
       "id": "ff_147586",
@@ -2770,8 +2770,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "-0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.5%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 6:30am"
     },
     {
@@ -2787,8 +2787,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.1%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 6:30am"
     },
     {
@@ -2804,8 +2804,8 @@
       "forecast": "1.9%",
       "consensus": "1.9%",
       "previous": "1.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.1%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 7:00am"
     },
     {
@@ -2820,9 +2820,9 @@
       "impact": "Low",
       "forecast": "-0.2%",
       "consensus": "-0.2%",
-      "previous": "-0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.3%",
+      "actual": "0.0%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 7:00am"
     },
     {
@@ -2838,8 +2838,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "-0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 7:45am"
     },
     {
@@ -2855,7 +2855,7 @@
       "forecast": "-0.1%",
       "consensus": "-0.1%",
       "previous": "-0.1%",
-      "actual": "",
+      "actual": "-0.1%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 7:45am"
     },
@@ -2872,8 +2872,8 @@
       "forecast": "108.1",
       "consensus": "108.1",
       "previous": "109.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "107.6",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 8:00am"
     },
     {
@@ -2889,7 +2889,7 @@
       "forecast": "4.9%",
       "consensus": "4.9%",
       "previous": "4.9%",
-      "actual": "",
+      "actual": "4.9%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 8:00am"
     },
@@ -2906,7 +2906,7 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.7%",
-      "actual": "",
+      "actual": "0.6%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 8:00am"
     },
