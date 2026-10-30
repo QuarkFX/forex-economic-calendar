@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-10-30T15:02:05Z",
-  "count": 367,
+  "updated_at": "2026-10-30T19:56:12Z",
+  "count": 368,
   "events": [
     {
       "id": "mfb_317654",
@@ -4033,6 +4033,23 @@
       "raw_date": "Thursday, Oct 29, 2026"
     },
     {
+      "id": "mfb_318820",
+      "title": "NY Fed Bill Purchases 4 to 12 months",
+      "country": "USD",
+      "datetime": "2026-10-29T14:20:00Z",
+      "timestamp": 1793283600,
+      "date": "2026-10-29",
+      "time": "14:20",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "1.827",
+      "consensus": "1.827",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Oct 29, 2026"
+    },
+    {
       "id": "mfb_315047",
       "title": "EIA Natural Gas Stocks Change (Oct/23)",
       "country": "USD",
@@ -6076,17 +6093,17 @@
       "id": "mfb_315271",
       "title": "Budget Balance (Aug)",
       "country": "CAD",
-      "datetime": "2026-10-30T15:00:00Z",
-      "timestamp": 1793372400,
+      "datetime": "2026-10-30T15:15:00Z",
+      "timestamp": 1793373300,
       "date": "2026-10-30",
-      "time": "15:00",
+      "time": "15:15",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "-C$4.9B",
       "consensus": "-C$4.9B",
       "previous": "-C$4.77B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-C$0.22B",
+      "actual_state": "better",
       "raw_date": "Friday, Oct 30, 2026"
     },
     {
@@ -6153,7 +6170,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "460",
-      "actual": "",
+      "actual": "462",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 30, 2026"
     },
@@ -6170,7 +6187,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "603",
-      "actual": "",
+      "actual": "603",
       "actual_state": "neutral",
       "raw_date": "Friday, Oct 30, 2026"
     },

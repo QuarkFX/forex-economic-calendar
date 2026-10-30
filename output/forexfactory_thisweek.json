@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-30T15:01:38Z",
-  "count": 100,
+  "updated_at": "2026-10-30T19:55:38Z",
+  "count": 101,
   "events": [
     {
       "id": "ff_147447",
@@ -1668,6 +1668,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 4:30pm"
+    },
+    {
+      "id": "ff_155386",
+      "title": "FOMC Member Logan Speaks",
+      "country": "USD",
+      "datetime": "2026-10-30T17:30:00Z",
+      "timestamp": 1793381400,
+      "date": "2026-10-30",
+      "time": "17:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Oct 30 5:30pm"
     },
     {
       "id": "ff_150084",
