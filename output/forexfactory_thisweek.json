@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-10-30T08:07:14Z",
+  "updated_at": "2026-10-30T15:01:38Z",
   "count": 100,
   "events": [
     {
@@ -1206,8 +1206,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.2%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 All Day"
     },
     {
@@ -1495,7 +1495,7 @@
       "forecast": "5K",
       "consensus": "5K",
       "previous": "12K",
-      "actual": "",
+      "actual": "4K",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 8:55am"
     },
@@ -1512,8 +1512,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 9:00am"
     },
     {
@@ -1529,8 +1529,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.0%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 9:00am"
     },
     {
@@ -1546,8 +1546,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.9%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 10:00am"
     },
     {
@@ -1563,8 +1563,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "better",
       "raw_date": "Fri Oct 30 10:00am"
     },
     {
@@ -1579,9 +1579,9 @@
       "impact": "Low",
       "forecast": "6.4%",
       "consensus": "6.4%",
-      "previous": "6.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "6.5%",
+      "actual": "6.5%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 10:00am"
     },
     {
@@ -1597,7 +1597,7 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "0.9%",
-      "actual": "",
+      "actual": "0.8%",
       "actual_state": "neutral",
       "raw_date": "Fri Oct 30 12:30pm"
     },
@@ -1614,8 +1614,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.0%",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 12:30pm"
     },
     {
@@ -1631,8 +1631,8 @@
       "forecast": "55.8",
       "consensus": "55.8",
       "previous": "58.8",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "55.3",
+      "actual_state": "worse",
       "raw_date": "Fri Oct 30 1:45pm"
     },
     {
