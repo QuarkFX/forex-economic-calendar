@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-10-31T02:36:20Z",
+  "updated_at": "2026-10-31T18:57:46Z",
   "count": 873,
   "events": [
     {
@@ -9932,6 +9932,23 @@
       "raw_date": "Saturday, Oct 31, 2026"
     },
     {
+      "id": "mfb_316985",
+      "title": "Atlanta Fed GDPNow (Q4)",
+      "country": "USD",
+      "datetime": "2026-10-31T15:00:00Z",
+      "timestamp": 1793458800,
+      "date": "2026-10-31",
+      "time": "15:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.4%",
+      "actual": "3.3%",
+      "actual_state": "neutral",
+      "raw_date": "Saturday, Oct 31, 2026"
+    },
+    {
       "id": "mfb_315290",
       "title": "All Saints' Day",
       "country": "EUR",
@@ -10862,23 +10879,6 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.725%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 02, 2026"
-    },
-    {
-      "id": "mfb_316985",
-      "title": "Atlanta Fed GDPNow (Q4)",
-      "country": "USD",
-      "datetime": "2026-11-02T16:00:00Z",
-      "timestamp": 1793635200,
-      "date": "2026-11-02",
-      "time": "16:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "3.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 02, 2026"
