@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-02T01:59:34Z",
-  "count": 295,
+  "updated_at": "2026-11-02T09:01:35Z",
+  "count": 294,
   "events": [
     {
       "id": "ff_147447",
@@ -1834,8 +1834,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "15.5%",
-      "actual": "",
+      "previous": "15.9%",
+      "actual": "12.5%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 5:30am"
     },
@@ -1851,27 +1851,27 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "1.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.2%",
+      "actual": "-2.0%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 2 7:00am"
     },
     {
       "id": "ff_147350",
       "title": "Retail Sales y/y",
       "country": "CHF",
-      "datetime": "2026-11-02T07:30:00Z",
-      "timestamp": 1793604600,
+      "datetime": "2026-11-02T07:33:00Z",
+      "timestamp": 1793604780,
       "date": "2026-11-02",
-      "time": "07:30",
+      "time": "07:33",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "3.0%",
       "consensus": "3.0%",
-      "previous": "3.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 2 7:30am"
+      "previous": "3.9%",
+      "actual": "1.6%",
+      "actual_state": "worse",
+      "raw_date": "Mon Nov 2 7:33am"
     },
     {
       "id": "ff_147205",
@@ -1886,8 +1886,8 @@
       "forecast": "50.4",
       "consensus": "50.4",
       "previous": "51.0",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "52.2",
+      "actual_state": "better",
       "raw_date": "Mon Nov 2 8:15am"
     },
     {
@@ -1903,8 +1903,8 @@
       "forecast": "55.3",
       "consensus": "55.3",
       "previous": "55.3",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "56.7",
+      "actual_state": "better",
       "raw_date": "Mon Nov 2 8:30am"
     },
     {
@@ -1920,8 +1920,8 @@
       "forecast": "49.9",
       "consensus": "49.9",
       "previous": "50.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "49.4",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 2 8:45am"
     },
     {
@@ -1937,7 +1937,7 @@
       "forecast": "49.3",
       "consensus": "49.3",
       "previous": "49.3",
-      "actual": "",
+      "actual": "49.5",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 8:50am"
     },
@@ -1954,7 +1954,7 @@
       "forecast": "54.2",
       "consensus": "54.2",
       "previous": "54.2",
-      "actual": "",
+      "actual": "54.2",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 8:55am"
     },
@@ -1971,7 +1971,7 @@
       "forecast": "52.4",
       "consensus": "52.4",
       "previous": "52.4",
-      "actual": "",
+      "actual": "52.7",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 9:00am"
     },
@@ -3710,23 +3710,6 @@
       "raw_date": "Mon Nov 9 All Day"
     },
     {
-      "id": "ff_149700",
-      "title": "Prelim Machine Tool Orders y/y",
-      "country": "JPY",
-      "datetime": "2026-11-09T00:00:00Z",
-      "timestamp": 1794182400,
-      "date": "2026-11-09",
-      "time": "9th-13th",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 9 9th-13th"
-    },
-    {
       "id": "ff_150202",
       "title": "CPI y/y",
       "country": "CNY",
@@ -3738,7 +3721,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.9%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 1:30am"
@@ -3755,7 +3738,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 1:30am"
@@ -3772,7 +3755,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "118.0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 5:00am"
@@ -3789,7 +3772,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "19.5B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 7:00am"
@@ -3806,7 +3789,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.7",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 9:30am"
@@ -3823,7 +3806,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 3:00pm"
@@ -3840,7 +3823,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-3.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 11:30pm"
@@ -3857,7 +3840,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-4.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 11:30pm"
@@ -3891,7 +3874,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 11:50pm"
@@ -3908,7 +3891,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.98T",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 11:50pm"
@@ -3925,7 +3908,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 12:01am"
@@ -3942,7 +3925,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-13",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 12:30am"
@@ -3959,7 +3942,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "4.11|3.9",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 3:35am"
@@ -3976,7 +3959,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "47.0",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 5:00am"
@@ -4010,7 +3993,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "97.9",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 11:00am"
@@ -4033,7 +4016,7 @@
       "raw_date": "Tue Nov 10 Tentative"
     },
     {
-      "id": "ff_153365",
+      "id": "ff_151052",
       "title": "ADP Weekly Employment Change",
       "country": "USD",
       "datetime": "2026-11-10T13:15:00Z",
@@ -4050,7 +4033,7 @@
       "raw_date": "Tue Nov 10 1:15pm"
     },
     {
-      "id": "ff_151052",
+      "id": "ff_153365",
       "title": "ADP Weekly Employment Change",
       "country": "USD",
       "datetime": "2026-11-10T13:15:00Z",
@@ -4078,7 +4061,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 1:30pm"
@@ -4095,7 +4078,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 1:30pm"
@@ -4112,7 +4095,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 1:30pm"
@@ -4129,7 +4112,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 1:30pm"
@@ -4146,7 +4129,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.30|2.8",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 6:01pm"
@@ -4197,7 +4180,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 11:50pm"
@@ -4288,6 +4271,23 @@
       "raw_date": "Wed Nov 11 Tentative"
     },
     {
+      "id": "ff_149700",
+      "title": "Prelim Machine Tool Orders y/y",
+      "country": "JPY",
+      "datetime": "2026-11-11T06:00:00Z",
+      "timestamp": 1794376800,
+      "date": "2026-11-11",
+      "time": "06:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "60.4%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Nov 11 6:00am"
+    },
+    {
       "id": "ff_151208",
       "title": "German Final CPI m/m",
       "country": "EUR",
@@ -4299,7 +4299,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-0.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 7:00am"
@@ -4316,7 +4316,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-1.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 9:00am"
@@ -4333,7 +4333,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.80|1.4",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 Tentative"
@@ -4367,7 +4367,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 9:45pm"
@@ -4384,7 +4384,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "6.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 11:50pm"
@@ -4401,7 +4401,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 12:00am"
@@ -4418,7 +4418,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-32%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 12:01am"
@@ -4435,7 +4435,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-0.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4452,7 +4452,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4469,7 +4469,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-18.0B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4486,7 +4486,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.9%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4503,7 +4503,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4520,7 +4520,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4537,7 +4537,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
@@ -4554,27 +4554,10 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.5%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
-    },
-    {
-      "id": "ff_150216",
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "datetime": "2026-11-12T07:02:00Z",
-      "timestamp": 1794466920,
-      "date": "2026-11-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 Tentative"
     },
     {
       "id": "ff_150559",
@@ -4656,7 +4639,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "8.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 1:30pm"
@@ -4690,7 +4673,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.99M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 3:00pm"
@@ -4724,7 +4707,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-0.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 3:30pm"
@@ -4758,7 +4741,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.62|2.5",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 6:01pm"
@@ -4775,7 +4758,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-26.9B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00pm"
@@ -4792,7 +4775,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "56.5",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 9:30pm"
@@ -4809,7 +4792,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 7:30am"
@@ -4826,7 +4809,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 7:45am"
@@ -4843,7 +4826,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.77B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 9:00am"
@@ -4860,7 +4843,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 10:00am"
@@ -4877,7 +4860,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.4%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 10:00am"
@@ -4894,7 +4877,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-6.8B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 10:00am"
@@ -4911,7 +4894,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 1:30pm"
@@ -4928,7 +4911,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.5%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 1:30pm"
@@ -4945,7 +4928,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 1:30pm"
@@ -4962,7 +4945,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-1.6%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 1:30pm"
@@ -4979,7 +4962,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-0.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 2:30pm"
