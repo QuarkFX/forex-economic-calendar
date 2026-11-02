@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-01T01:07:21Z",
-  "count": 296,
+  "updated_at": "2026-11-02T01:59:34Z",
+  "count": 295,
   "events": [
     {
       "id": "ff_147447",
@@ -1767,7 +1767,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "0.3%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 12:00am"
     },
@@ -1783,9 +1783,9 @@
       "impact": "Low",
       "forecast": "1.8%",
       "consensus": "1.8%",
-      "previous": "-6.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-5.2%",
+      "actual": "5.1%",
+      "actual_state": "better",
       "raw_date": "Mon Nov 2 12:30am"
     },
     {
@@ -1801,26 +1801,9 @@
       "forecast": "53.3",
       "consensus": "53.3",
       "previous": "53.3",
-      "actual": "",
+      "actual": "53.3",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 12:30am"
-    },
-    {
-      "id": "ff_148128",
-      "title": "ANZ Job Advertisements m/m",
-      "country": "AUD",
-      "datetime": "2026-11-02T00:45:00Z",
-      "timestamp": 1793580300,
-      "date": "2026-11-02",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 2 Tentative"
     },
     {
       "id": "ff_150109",
@@ -1835,7 +1818,7 @@
       "forecast": "52.0",
       "consensus": "52.0",
       "previous": "52.1",
-      "actual": "",
+      "actual": "52.0",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 2 1:45am"
     },
@@ -2070,8 +2053,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "0.3%",
-      "consensus": "0.3%",
+      "forecast": "0.4%",
+      "consensus": "0.4%",
       "previous": "0.9%",
       "actual": "",
       "actual_state": "neutral",
@@ -2087,8 +2070,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "54.7",
-      "consensus": "54.7",
+      "forecast": "54.5",
+      "consensus": "54.5",
       "previous": "54.5",
       "actual": "",
       "actual_state": "neutral",
