@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-03T16:32:07Z",
+  "updated_at": "2026-11-03T21:59:48Z",
   "count": 294,
   "events": [
     {
@@ -2175,8 +2175,8 @@
       "forecast": "15.8M",
       "consensus": "15.8M",
       "previous": "16.0M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "15.5M",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 3 All Day"
     },
     {
@@ -2387,10 +2387,10 @@
       "id": "ff_155365",
       "title": "German Buba President Nagel Speaks",
       "country": "EUR",
-      "datetime": "2026-11-03T17:00:00Z",
-      "timestamp": 1793725200,
+      "datetime": "2026-11-03T18:00:00Z",
+      "timestamp": 1793728800,
       "date": "2026-11-03",
-      "time": "17:00",
+      "time": "18:00",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
@@ -2398,7 +2398,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Tue Nov 3 5:00pm"
+      "raw_date": "Tue Nov 3 6:00pm"
     },
     {
       "id": "ff_147098",
@@ -2429,9 +2429,9 @@
       "impact": "High",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "-0.1%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 3 9:45pm"
     },
     {
@@ -2447,8 +2447,8 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 3 9:45pm"
     },
     {
@@ -2464,8 +2464,8 @@
       "forecast": "5.5%",
       "consensus": "5.5%",
       "previous": "5.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.7%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 3 9:45pm"
     },
     {
