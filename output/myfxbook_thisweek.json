@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-03T01:44:21Z",
+  "updated_at": "2026-11-03T08:36:48Z",
   "count": 289,
   "events": [
     {
@@ -1189,7 +1189,7 @@
       "forecast": "4.85%",
       "consensus": "4.85%",
       "previous": "4.6%",
-      "actual": "",
+      "actual": "4.85%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
@@ -1257,8 +1257,8 @@
       "forecast": "1.3%",
       "consensus": "1.3%",
       "previous": "1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.5%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
     {
@@ -1274,8 +1274,8 @@
       "forecast": "0%",
       "consensus": "0%",
       "previous": "0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
     {
@@ -1291,8 +1291,8 @@
       "forecast": "-€154B",
       "consensus": "-€154B",
       "previous": "-€159.6B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-€159.2B",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
     {
@@ -1577,8 +1577,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "0.4%",
-      "consensus": "0.4%",
+      "forecast": "0.5%",
+      "consensus": "0.5%",
       "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
