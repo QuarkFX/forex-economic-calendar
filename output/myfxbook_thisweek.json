@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-02T19:27:29Z",
+  "updated_at": "2026-11-03T01:44:21Z",
   "count": 289,
   "events": [
     {
@@ -1067,28 +1067,11 @@
       "time": "21:45",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "-4",
-      "consensus": "-4",
-      "previous": "5.6",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 02, 2026"
-    },
-    {
-      "id": "mfb_314688",
-      "title": "Consumer Confidence (Oct)",
-      "country": "EUR",
-      "datetime": "2026-11-02T23:01:00Z",
-      "timestamp": 1793660460,
-      "date": "2026-11-02",
-      "time": "23:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "60",
-      "consensus": "60",
-      "previous": "61.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "-4%",
+      "consensus": "-4%",
+      "previous": "5.3%",
+      "actual": "-7.9%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 02, 2026"
     },
     {
@@ -1155,7 +1138,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.708%",
-      "actual": "",
+      "actual": "3.508%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
@@ -1172,8 +1155,8 @@
       "forecast": "3.109%",
       "consensus": "3.109%",
       "previous": "3.192%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.958%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
     {
@@ -1189,7 +1172,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.362%",
-      "actual": "",
+      "actual": "3.19%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 03, 2026"
     },
@@ -1886,6 +1869,23 @@
       "forecast": "-24.9",
       "consensus": "-24.9",
       "previous": "-24.2",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Nov 03, 2026"
+    },
+    {
+      "id": "mfb_314688",
+      "title": "Consumer Confidence (Oct)",
+      "country": "EUR",
+      "datetime": "2026-11-03T23:01:00Z",
+      "timestamp": 1793746860,
+      "date": "2026-11-03",
+      "time": "23:01",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "60",
+      "consensus": "60",
+      "previous": "61.1",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 03, 2026"
