@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-04T08:49:47Z",
-  "count": 294,
+  "updated_at": "2026-11-04T16:42:36Z",
+  "count": 305,
   "events": [
     {
       "id": "ff_147447",
@@ -2600,8 +2600,8 @@
       "forecast": "48.4",
       "consensus": "48.4",
       "previous": "48.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "46.2",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 4 8:50am"
     },
     {
@@ -2617,8 +2617,8 @@
       "forecast": "51.7",
       "consensus": "51.7",
       "previous": "51.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "52.5",
+      "actual_state": "better",
       "raw_date": "Wed Nov 4 8:55am"
     },
     {
@@ -2634,7 +2634,7 @@
       "forecast": "51.7",
       "consensus": "51.7",
       "previous": "51.7",
-      "actual": "",
+      "actual": "51.4",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 9:00am"
     },
@@ -2651,7 +2651,7 @@
       "forecast": "53.1",
       "consensus": "53.1",
       "previous": "53.1",
-      "actual": "",
+      "actual": "52.8",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 9:30am"
     },
@@ -2668,7 +2668,7 @@
       "forecast": "4.0%",
       "consensus": "4.0%",
       "previous": "3.8%",
-      "actual": "",
+      "actual": "4.0%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 10:00am"
     },
@@ -2685,7 +2685,7 @@
       "forecast": "2.5%",
       "consensus": "2.5%",
       "previous": "2.5%",
-      "actual": "",
+      "actual": "2.5%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 10:00am"
     },
@@ -2701,9 +2701,9 @@
       "impact": "Low",
       "forecast": "67K",
       "consensus": "67K",
-      "previous": "90K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "86K",
+      "actual": "86K",
+      "actual_state": "better",
       "raw_date": "Wed Nov 4 1:15pm"
     },
     {
@@ -2718,9 +2718,9 @@
       "impact": "Low",
       "forecast": "4.8B",
       "consensus": "4.8B",
-      "previous": "4.2B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "5.0B",
+      "actual": "5.4B",
+      "actual_state": "better",
       "raw_date": "Wed Nov 4 1:30pm"
     },
     {
@@ -2735,9 +2735,9 @@
       "impact": "Low",
       "forecast": "-107.9B",
       "consensus": "-107.9B",
-      "previous": "-105.6B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-105.7B",
+      "actual": "-105.0B",
+      "actual_state": "better",
       "raw_date": "Wed Nov 4 1:30pm"
     },
     {
@@ -2753,8 +2753,8 @@
       "forecast": "57.9",
       "consensus": "57.9",
       "previous": "57.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "56.1",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 4 2:45pm"
     },
     {
@@ -2770,7 +2770,7 @@
       "forecast": "54.8",
       "consensus": "54.8",
       "previous": "54.9",
-      "actual": "",
+      "actual": "54.5",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 4 3:00pm"
     },
@@ -2787,8 +2787,8 @@
       "forecast": "-1.7M",
       "consensus": "-1.7M",
       "previous": "-1.9M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.9M",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 4 3:30pm"
     },
     {
@@ -3676,6 +3676,23 @@
       "raw_date": "Fri Nov 6 8:00pm"
     },
     {
+      "id": "ff_155590",
+      "title": "RBA Assist Gov Hunter Speaks",
+      "country": "AUD",
+      "datetime": "2026-11-08T22:30:00Z",
+      "timestamp": 1794177000,
+      "date": "2026-11-08",
+      "time": "22:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Sun Nov 8 10:30pm"
+    },
+    {
       "id": "ff_151381",
       "title": "ECOFIN Meetings",
       "country": "EUR",
@@ -3795,6 +3812,23 @@
       "raw_date": "Mon Nov 9 9:30am"
     },
     {
+      "id": "ff_155591",
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "datetime": "2026-11-09T15:00:00Z",
+      "timestamp": 1794236400,
+      "date": "2026-11-09",
+      "time": "15:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 9 3:00pm"
+    },
+    {
       "id": "ff_148200",
       "title": "Final Wholesale Inventories m/m",
       "country": "USD",
@@ -3810,6 +3844,40 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 3:00pm"
+    },
+    {
+      "id": "ff_155592",
+      "title": "FOMC Member Barkin Speaks",
+      "country": "USD",
+      "datetime": "2026-11-09T17:15:00Z",
+      "timestamp": 1794244500,
+      "date": "2026-11-09",
+      "time": "17:15",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 9 5:15pm"
+    },
+    {
+      "id": "ff_155593",
+      "title": "BOE Gov Bailey Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-09T17:25:00Z",
+      "timestamp": 1794245100,
+      "date": "2026-11-09",
+      "time": "17:25",
+      "timezone": "UTC",
+      "impact": "High",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 9 5:25pm"
     },
     {
       "id": "ff_149626",
@@ -3982,6 +4050,23 @@
       "raw_date": "Tue Nov 10 7:00am"
     },
     {
+      "id": "ff_155594",
+      "title": "FOMC Member Waller Speaks",
+      "country": "USD",
+      "datetime": "2026-11-10T09:00:00Z",
+      "timestamp": 1794301200,
+      "date": "2026-11-10",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 9:00am"
+    },
+    {
       "id": "ff_146953",
       "title": "NFIB Small Business Index",
       "country": "USD",
@@ -4014,6 +4099,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 Tentative"
+    },
+    {
+      "id": "ff_155595",
+      "title": "MPC Member Lombardelli Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-10T12:30:00Z",
+      "timestamp": 1794313800,
+      "date": "2026-11-10",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 12:30pm"
     },
     {
       "id": "ff_151052",
@@ -4152,6 +4254,40 @@
       "raw_date": "Tue Nov 10 6:30pm"
     },
     {
+      "id": "ff_155597",
+      "title": "FOMC Member Schmid Speaks",
+      "country": "USD",
+      "datetime": "2026-11-10T18:30:00Z",
+      "timestamp": 1794335400,
+      "date": "2026-11-10",
+      "time": "18:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 6:30pm"
+    },
+    {
+      "id": "ff_155596",
+      "title": "MPC Member Pill Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-10T18:30:00Z",
+      "timestamp": 1794335400,
+      "date": "2026-11-10",
+      "time": "18:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 6:30pm"
+    },
+    {
       "id": "ff_147099",
       "title": "API Weekly Statistical Bulletin",
       "country": "USD",
@@ -4167,6 +4303,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 9:30pm"
+    },
+    {
+      "id": "ff_155598",
+      "title": "FOMC Member Paulson Speaks",
+      "country": "USD",
+      "datetime": "2026-11-10T23:30:00Z",
+      "timestamp": 1794353400,
+      "date": "2026-11-10",
+      "time": "23:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 11:30pm"
     },
     {
       "id": "ff_148706",
@@ -4662,6 +4815,23 @@
       "raw_date": "Thu Nov 12 1:30pm"
     },
     {
+      "id": "ff_155599",
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "datetime": "2026-11-12T14:00:00Z",
+      "timestamp": 1794492000,
+      "date": "2026-11-12",
+      "time": "14:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 12 2:00pm"
+    },
+    {
       "id": "ff_149834",
       "title": "Existing Home Sales",
       "country": "USD",
@@ -4711,6 +4881,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 3:30pm"
+    },
+    {
+      "id": "ff_155600",
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "datetime": "2026-11-12T16:30:00Z",
+      "timestamp": 1794501000,
+      "date": "2026-11-12",
+      "time": "16:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 12 4:30pm"
     },
     {
       "id": "ff_148961",
