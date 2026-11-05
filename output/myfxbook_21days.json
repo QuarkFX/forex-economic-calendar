@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-04T22:13:43Z",
+  "updated_at": "2026-11-05T02:28:57Z",
   "count": 915,
   "events": [
     {
@@ -9204,10 +9204,10 @@
       "id": "mfb_315494",
       "title": "Total Vehicle Sales (Oct)",
       "country": "USD",
-      "datetime": "2026-11-04T19:00:00Z",
-      "timestamp": 1793818800,
+      "datetime": "2026-11-04T22:00:00Z",
+      "timestamp": 1793829600,
       "date": "2026-11-04",
-      "time": "19:00",
+      "time": "22:00",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "15.9M",
@@ -9246,9 +9246,9 @@
       "impact": "High",
       "forecast": "A$0.8B",
       "consensus": "A$0.8B",
-      "previous": "A$0.495B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "A$0.184B",
+      "actual": "A$2.826B",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 05, 2026"
     },
     {
@@ -9263,8 +9263,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "3.7%",
-      "actual": "",
+      "previous": "3.1%",
+      "actual": "2.3%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -9280,8 +9280,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "5.8%",
-      "actual": "",
+      "previous": "6.2%",
+      "actual": "-3.3%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },

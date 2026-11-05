@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-04T16:42:33Z",
+  "updated_at": "2026-11-05T02:28:08Z",
   "count": 115,
   "events": [
     {
@@ -1103,9 +1103,9 @@
       "impact": "Low",
       "forecast": "0.94B",
       "consensus": "0.94B",
-      "previous": "0.50B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.18B",
+      "actual": "2.83B",
+      "actual_state": "better",
       "raw_date": "Thu Nov 5 12:30am"
     },
     {
