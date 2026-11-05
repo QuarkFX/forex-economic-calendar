@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-05T02:28:10Z",
+  "updated_at": "2026-11-05T09:44:27Z",
   "count": 304,
   "events": [
     {
@@ -2838,7 +2838,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.10|3.8",
-      "actual": "",
+      "actual": "2.77|3.2",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 3:35am"
     },
@@ -2871,9 +2871,9 @@
       "impact": "Low",
       "forecast": "4.6%",
       "consensus": "4.6%",
-      "previous": "-10.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-10.1%",
+      "actual": "4.4%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 5 7:00am"
     },
     {
@@ -2888,9 +2888,9 @@
       "impact": "Low",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "-0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.4%",
+      "actual": "-0.5%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 5 7:45am"
     },
     {
@@ -2906,7 +2906,7 @@
       "forecast": "3.1%",
       "consensus": "3.1%",
       "previous": "3.1%",
-      "actual": "",
+      "actual": "3.1%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 8:00am"
     },
@@ -2923,8 +2923,8 @@
       "forecast": "0.0%",
       "consensus": "0.0%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.1%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 5 9:00am"
     },
     {
@@ -2940,8 +2940,8 @@
       "forecast": "46.4",
       "consensus": "46.4",
       "previous": "46.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "43.6",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 5 9:30am"
     },
     {
