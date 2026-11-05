@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-05T09:44:24Z",
+  "updated_at": "2026-11-05T17:40:19Z",
   "count": 115,
   "events": [
     {
@@ -1228,6 +1228,40 @@
       "raw_date": "Thu Nov 5 9:30am"
     },
     {
+      "id": "ff_155377",
+      "title": "Spanish 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-11-05T09:39:00Z",
+      "timestamp": 1793871540,
+      "date": "2026-11-05",
+      "time": "09:39",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.18|1.6",
+      "actual": "3.80|1.7",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 9:39am"
+    },
+    {
+      "id": "ff_147436",
+      "title": "French 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-11-05T09:55:00Z",
+      "timestamp": 1793872500,
+      "date": "2026-11-05",
+      "time": "09:55",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.93|2.0",
+      "actual": "4.74|2.3",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 5 9:55am"
+    },
+    {
       "id": "ff_151326",
       "title": "PPI m/m",
       "country": "EUR",
@@ -1239,44 +1273,10 @@
       "impact": "Low",
       "forecast": "2.5%",
       "consensus": "2.5%",
-      "previous": "1.9%",
-      "actual": "",
+      "previous": "2.0%",
+      "actual": "2.5%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 10:00am"
-    },
-    {
-      "id": "ff_155377",
-      "title": "Spanish 10-y Bond Auction",
-      "country": "EUR",
-      "datetime": "2026-11-05T10:03:00Z",
-      "timestamp": 1793872980,
-      "date": "2026-11-05",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.18|1.6",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 5 Tentative"
-    },
-    {
-      "id": "ff_147436",
-      "title": "French 10-y Bond Auction",
-      "country": "EUR",
-      "datetime": "2026-11-05T10:18:00Z",
-      "timestamp": 1793873880,
-      "date": "2026-11-05",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.93|2.0",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 5 Tentative"
     },
     {
       "id": "ff_146901",
@@ -1291,7 +1291,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "-19.9%",
-      "actual": "",
+      "actual": "-71.3%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 10:30am"
     },
@@ -1325,8 +1325,8 @@
       "forecast": "7-0-2",
       "consensus": "7-0-2",
       "previous": "3-0-6",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "9-0-0",
+      "actual_state": "better",
       "raw_date": "Thu Nov 5 12:00pm"
     },
     {
@@ -1359,7 +1359,7 @@
       "forecast": "4.00%",
       "consensus": "4.00%",
       "previous": "3.75%",
-      "actual": "",
+      "actual": "4.00%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 5 12:00pm"
     },
@@ -1409,9 +1409,9 @@
       "impact": "Low",
       "forecast": "2.8%",
       "consensus": "2.8%",
-      "previous": "1.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.1%",
+      "actual": "3.6%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 5 1:30pm"
     },
     {
@@ -1427,8 +1427,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.7%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 5 1:30pm"
     },
     {
@@ -1443,9 +1443,9 @@
       "impact": "Medium",
       "forecast": "197K",
       "consensus": "197K",
-      "previous": "194K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "195K",
+      "actual": "189K",
+      "actual_state": "better",
       "raw_date": "Thu Nov 5 1:30pm"
     },
     {
@@ -1512,8 +1512,8 @@
       "forecast": "81B",
       "consensus": "81B",
       "previous": "80B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "77B",
+      "actual_state": "better",
       "raw_date": "Thu Nov 5 3:30pm"
     },
     {
