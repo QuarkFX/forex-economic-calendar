@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-05T17:41:13Z",
+  "updated_at": "2026-11-05T22:52:36Z",
   "count": 915,
   "events": [
     {
@@ -10028,8 +10028,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "6.6",
-      "actual": "6.57",
+      "previous": "6.6%",
+      "actual": "6.57%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -10045,8 +10045,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "7.24",
-      "actual": "7.18",
+      "previous": "7.24%",
+      "actual": "7.18%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -10080,7 +10080,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "$6.746T",
-      "actual": "",
+      "actual": "$6.748T",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -10097,7 +10097,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "$2.895T",
-      "actual": "",
+      "actual": "$2.963T",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -14380,7 +14380,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "6.57",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
@@ -14414,7 +14414,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "7.18",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
@@ -14635,7 +14635,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "2.963",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
