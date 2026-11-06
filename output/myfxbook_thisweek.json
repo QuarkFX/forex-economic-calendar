@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-06T17:41:23Z",
+  "updated_at": "2026-11-06T22:24:16Z",
   "count": 289,
   "events": [
     {
@@ -4844,7 +4844,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "603",
-      "actual": "",
+      "actual": "604",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 06, 2026"
     },
@@ -4861,7 +4861,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "462",
-      "actual": "",
+      "actual": "463",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 06, 2026"
     },
@@ -4878,8 +4878,8 @@
       "forecast": "$12B",
       "consensus": "$12B",
       "previous": "$8.28B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "$27.84B",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 06, 2026"
     },
     {
