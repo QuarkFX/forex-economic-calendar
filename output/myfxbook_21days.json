@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-05T22:52:36Z",
+  "updated_at": "2026-11-06T03:00:12Z",
   "count": 915,
   "events": [
     {
@@ -10113,9 +10113,9 @@
       "impact": "Low",
       "forecast": "3.8%",
       "consensus": "3.8%",
-      "previous": "3.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.9%",
+      "actual": "4.6%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 05, 2026"
     },
     {
@@ -10130,9 +10130,9 @@
       "impact": "Low",
       "forecast": "3.9%",
       "consensus": "3.9%",
-      "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.9%",
+      "actual": "3.6%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 05, 2026"
     },
     {
@@ -10147,8 +10147,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-¥92.6B",
-      "actual": "",
+      "previous": "-¥81.8B",
+      "actual": "¥1312B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -10164,8 +10164,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "¥1180.9B",
-      "actual": "",
+      "previous": "¥1182.2B",
+      "actual": "¥1129.3B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -12049,9 +12049,9 @@
       "time": "23:50",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "1500",
-      "consensus": "1500",
-      "previous": "4062",
+      "forecast": "¥1500B",
+      "consensus": "¥1500B",
+      "previous": "¥4062B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 09, 2026"
@@ -13632,7 +13632,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1312",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 11, 2026"
@@ -13683,7 +13683,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1129.3",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 11, 2026"
@@ -13817,9 +13817,9 @@
       "time": "07:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "-20",
-      "consensus": "-20",
-      "previous": "-18.1",
+      "forecast": "-20%",
+      "consensus": "-20%",
+      "previous": "-18.1%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"

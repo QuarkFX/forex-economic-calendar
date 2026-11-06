@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-05T22:52:24Z",
+  "updated_at": "2026-11-06T02:59:58Z",
   "count": 288,
   "events": [
     {
@@ -3840,9 +3840,9 @@
       "impact": "Low",
       "forecast": "3.9%",
       "consensus": "3.9%",
-      "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.9%",
+      "actual": "3.6%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 05, 2026"
     },
     {
@@ -3857,9 +3857,9 @@
       "impact": "Low",
       "forecast": "3.8%",
       "consensus": "3.8%",
-      "previous": "3.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.9%",
+      "actual": "4.6%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 05, 2026"
     },
     {
@@ -3874,8 +3874,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-¥92.6B",
-      "actual": "",
+      "previous": "-¥81.8B",
+      "actual": "¥1312B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
@@ -3891,8 +3891,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "¥1180.9B",
-      "actual": "",
+      "previous": "¥1182.2B",
+      "actual": "¥1129.3B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 05, 2026"
     },
