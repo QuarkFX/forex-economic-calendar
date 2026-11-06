@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-06T10:34:03Z",
-  "count": 115,
+  "updated_at": "2026-11-06T17:41:06Z",
+  "count": 116,
   "events": [
     {
       "id": "ff_146469",
@@ -1647,7 +1647,7 @@
       "impact": "Low",
       "forecast": "-5.8B",
       "consensus": "-5.8B",
-      "previous": "-6.1B",
+      "previous": "-6.0B",
       "actual": "-7.3B",
       "actual_state": "worse",
       "raw_date": "Fri Nov 6 7:45am"
@@ -1766,9 +1766,9 @@
       "impact": "High",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "0.4%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 6 1:30pm"
     },
     {
@@ -1784,8 +1784,8 @@
       "forecast": "14.6K",
       "consensus": "14.6K",
       "previous": "-68.3K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-4.7K",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 6 1:30pm"
     },
     {
@@ -1800,9 +1800,9 @@
       "impact": "High",
       "forecast": "65K",
       "consensus": "65K",
-      "previous": "29K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "60K",
+      "actual": "165K",
+      "actual_state": "better",
       "raw_date": "Fri Nov 6 1:30pm"
     },
     {
@@ -1818,8 +1818,8 @@
       "forecast": "6.5%",
       "consensus": "6.5%",
       "previous": "6.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.7%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 6 1:30pm"
     },
     {
@@ -1835,8 +1835,8 @@
       "forecast": "4.2%",
       "consensus": "4.2%",
       "previous": "4.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.1%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 6 1:30pm"
     },
     {
@@ -1869,8 +1869,8 @@
       "forecast": "57.7",
       "consensus": "57.7",
       "previous": "58.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "58.3",
+      "actual_state": "better",
       "raw_date": "Fri Nov 6 3:00pm"
     },
     {
@@ -1886,8 +1886,8 @@
       "forecast": "48.1",
       "consensus": "48.1",
       "previous": "48.0",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "51.0",
+      "actual_state": "better",
       "raw_date": "Fri Nov 6 3:00pm"
     },
     {
@@ -1903,7 +1903,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.7%",
-      "actual": "",
+      "actual": "4.3%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 3:00pm"
     },
@@ -1940,6 +1940,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 6 5:15pm"
+    },
+    {
+      "id": "ff_155607",
+      "title": "FOMC Member Daly Speaks",
+      "country": "USD",
+      "datetime": "2026-11-06T18:00:00Z",
+      "timestamp": 1793988000,
+      "date": "2026-11-06",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 6 6:00pm"
     },
     {
       "id": "ff_148732",
