@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-08T19:58:15Z",
+  "updated_at": "2026-11-08T23:26:04Z",
   "count": 878,
   "events": [
     {
@@ -5198,8 +5198,8 @@
       "time": "07:00",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "€19.6B",
-      "consensus": "€19.6B",
+      "forecast": "€19.2B",
+      "consensus": "€19.2B",
       "previous": "€19.5B",
       "actual": "",
       "actual_state": "neutral",
