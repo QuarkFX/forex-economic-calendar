@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-08T01:58:13Z",
+  "updated_at": "2026-11-09T02:51:00Z",
   "count": 309,
   "events": [
     {
@@ -2073,8 +2073,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 9 1:30am"
     },
     {
@@ -2090,8 +2090,8 @@
       "forecast": "5.3%",
       "consensus": "5.3%",
       "previous": "5.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.7%",
+      "actual_state": "better",
       "raw_date": "Mon Nov 9 1:30am"
     },
     {
