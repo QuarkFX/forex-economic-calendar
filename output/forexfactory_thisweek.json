@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-09T10:41:46Z",
-  "count": 101,
+  "updated_at": "2026-11-09T21:05:58Z",
+  "count": 106,
   "events": [
     {
       "id": "ff_155590",
@@ -53,6 +53,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 All Day"
+    },
+    {
+      "id": "ff_155619",
+      "title": "G7 Meetings",
+      "country": "All",
+      "datetime": "2026-11-09T00:00:00Z",
+      "timestamp": 1794182400,
+      "date": "2026-11-09",
+      "time": "Day 1",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 9 Day 1"
     },
     {
       "id": "ff_150202",
@@ -186,8 +203,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 9 3:00pm"
     },
     {
@@ -325,6 +342,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 Oct 17th"
+    },
+    {
+      "id": "ff_155620",
+      "title": "G7 Meetings",
+      "country": "All",
+      "datetime": "2026-11-10T00:00:00Z",
+      "timestamp": 1794268800,
+      "date": "2026-11-10",
+      "time": "Day 2",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 Day 2"
     },
     {
       "id": "ff_150157",
@@ -857,10 +891,10 @@
       "id": "ff_155605",
       "title": "German Buba President Nagel Speaks",
       "country": "EUR",
-      "datetime": "2026-11-11T08:20:00Z",
-      "timestamp": 1794385200,
+      "datetime": "2026-11-11T08:15:00Z",
+      "timestamp": 1794384900,
       "date": "2026-11-11",
-      "time": "08:20",
+      "time": "08:15",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
@@ -868,7 +902,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Nov 11 8:20am"
+      "raw_date": "Wed Nov 11 8:15am"
     },
     {
       "id": "ff_147744",
@@ -886,6 +920,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 11 9:00am"
+    },
+    {
+      "id": "ff_155618",
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-11T09:45:00Z",
+      "timestamp": 1794390300,
+      "date": "2026-11-11",
+      "time": "09:45",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Nov 11 9:45am"
     },
     {
       "id": "ff_150456",
@@ -1160,6 +1211,23 @@
       "raw_date": "Thu Nov 12 1:30pm"
     },
     {
+      "id": "ff_155599",
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "datetime": "2026-11-12T13:30:00Z",
+      "timestamp": 1794490200,
+      "date": "2026-11-12",
+      "time": "13:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 12 1:30pm"
+    },
+    {
       "id": "ff_147023",
       "title": "Unemployment Claims",
       "country": "USD",
@@ -1175,23 +1243,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 1:30pm"
-    },
-    {
-      "id": "ff_155599",
-      "title": "FOMC Member Hammack Speaks",
-      "country": "USD",
-      "datetime": "2026-11-12T14:00:00Z",
-      "timestamp": 1794492000,
-      "date": "2026-11-12",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 2:00pm"
     },
     {
       "id": "ff_149834",
@@ -1265,10 +1316,10 @@
       "id": "ff_155600",
       "title": "FOMC Member Goolsbee Speaks",
       "country": "USD",
-      "datetime": "2026-11-12T16:30:00Z",
-      "timestamp": 1794501000,
+      "datetime": "2026-11-12T16:15:00Z",
+      "timestamp": 1794500100,
       "date": "2026-11-12",
-      "time": "16:30",
+      "time": "16:15",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
@@ -1276,7 +1327,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 4:30pm"
+      "raw_date": "Thu Nov 12 4:15pm"
     },
     {
       "id": "ff_148961",
@@ -1294,6 +1345,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 5:00pm"
+    },
+    {
+      "id": "ff_155775",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-12T17:30:00Z",
+      "timestamp": 1794504600,
+      "date": "2026-11-12",
+      "time": "17:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 12 5:30pm"
     },
     {
       "id": "ff_148915",
@@ -1668,6 +1736,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 3:50pm"
+    },
+    {
+      "id": "ff_155776",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-13T16:00:00Z",
+      "timestamp": 1794585600,
+      "date": "2026-11-13",
+      "time": "16:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 4:00pm"
     },
     {
       "id": "ff_155604",
