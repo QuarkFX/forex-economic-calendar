@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-09T02:51:00Z",
+  "updated_at": "2026-11-09T10:41:48Z",
   "count": 309,
   "events": [
     {
@@ -2027,40 +2027,6 @@
       "raw_date": "Mon Nov 9 All Day"
     },
     {
-      "id": "ff_150157",
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "datetime": "2026-11-09T00:00:00Z",
-      "timestamp": 1794182400,
-      "date": "2026-11-09",
-      "time": "9th-14th",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "7.3%",
-      "consensus": "7.3%",
-      "previous": "7.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 9 9th-14th"
-    },
-    {
-      "id": "ff_150158",
-      "title": "New Loans",
-      "country": "CNY",
-      "datetime": "2026-11-09T00:00:00Z",
-      "timestamp": 1794182400,
-      "date": "2026-11-09",
-      "time": "9th-14th",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "80B",
-      "consensus": "80B",
-      "previous": "1080B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Mon Nov 9 9th-14th"
-    },
-    {
       "id": "ff_150202",
       "title": "CPI y/y",
       "country": "CNY",
@@ -2107,7 +2073,7 @@
       "forecast": "116.7%",
       "consensus": "116.7%",
       "previous": "118.0%",
-      "actual": "",
+      "actual": "116.4%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 9 5:00am"
     },
@@ -2123,9 +2089,9 @@
       "impact": "Low",
       "forecast": "19.2B",
       "consensus": "19.2B",
-      "previous": "19.5B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "17.9B",
+      "actual": "15.6B",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 9 7:00am"
     },
     {
@@ -2141,8 +2107,8 @@
       "forecast": "2.1",
       "consensus": "2.1",
       "previous": "2.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.4",
+      "actual_state": "better",
       "raw_date": "Mon Nov 9 9:30am"
     },
     {
@@ -2331,6 +2297,40 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 10 Oct 17th"
+    },
+    {
+      "id": "ff_150157",
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "datetime": "2026-11-10T00:00:00Z",
+      "timestamp": 1794268800,
+      "date": "2026-11-10",
+      "time": "10th-14th",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "7.3%",
+      "consensus": "7.3%",
+      "previous": "7.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 10th-14th"
+    },
+    {
+      "id": "ff_150158",
+      "title": "New Loans",
+      "country": "CNY",
+      "datetime": "2026-11-10T00:00:00Z",
+      "timestamp": 1794268800,
+      "date": "2026-11-10",
+      "time": "10th-14th",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "80B",
+      "consensus": "80B",
+      "previous": "1080B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 10 10th-14th"
     },
     {
       "id": "ff_150831",
