@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-09T21:06:29Z",
+  "updated_at": "2026-11-10T03:32:36Z",
   "count": 878,
   "events": [
     {
@@ -5847,8 +5847,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.8%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5864,8 +5864,8 @@
       "forecast": "-3.1%",
       "consensus": "-3.1%",
       "previous": "-3.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-6.8%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5881,8 +5881,8 @@
       "forecast": "-2.6%",
       "consensus": "-2.6%",
       "previous": "-4.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.7%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5898,8 +5898,8 @@
       "forecast": "78.3",
       "consensus": "78.3",
       "previous": "80.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "78.2",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5914,9 +5914,9 @@
       "impact": "Low",
       "forecast": "5.4%",
       "consensus": "5.4%",
-      "previous": "5.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "5.2%",
+      "actual": "5.2%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5948,9 +5948,9 @@
       "impact": "Medium",
       "forecast": "¥3354.4B",
       "consensus": "¥3354.4B",
-      "previous": "¥4062B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "¥3993B",
+      "actual": "¥2372B",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 09, 2026"
     },
     {
@@ -5983,8 +5983,8 @@
       "forecast": "1.2%",
       "consensus": "1.2%",
       "previous": "1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
@@ -5999,9 +5999,9 @@
       "impact": "High",
       "forecast": "-14",
       "consensus": "-14",
-      "previous": "-13",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-14",
+      "actual": "-15",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
@@ -6017,7 +6017,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.508%",
-      "actual": "",
+      "actual": "3.416%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
@@ -6034,8 +6034,8 @@
       "forecast": "2.909%",
       "consensus": "2.909%",
       "previous": "2.958%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.991%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
@@ -6051,7 +6051,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.19%",
-      "actual": "",
+      "actual": "3.176%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
@@ -6059,68 +6059,68 @@
       "id": "mfb_315907",
       "title": "Balance of Trade (Oct)",
       "country": "CNY",
-      "datetime": "2026-11-10T03:00:00Z",
-      "timestamp": 1794279600,
+      "datetime": "2026-11-10T02:30:00Z",
+      "timestamp": 1794277800,
       "date": "2026-11-10",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "$125.8B",
       "consensus": "$125.8B",
       "previous": "$133.53B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "$105.28B",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
       "id": "mfb_315908",
       "title": "Balance of Trade Yuan (Oct)",
       "country": "CNY",
-      "datetime": "2026-11-10T03:00:00Z",
-      "timestamp": 1794279600,
+      "datetime": "2026-11-10T02:30:00Z",
+      "timestamp": 1794277800,
       "date": "2026-11-10",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "CNY859B",
       "consensus": "CNY859B",
       "previous": "CNY905.97B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "CNY712.78B",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
       "id": "mfb_315906",
       "title": "Exports YoY (Oct)",
       "country": "CNY",
-      "datetime": "2026-11-10T03:00:00Z",
-      "timestamp": 1794279600,
+      "datetime": "2026-11-10T02:30:00Z",
+      "timestamp": 1794277800,
       "date": "2026-11-10",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "33.5%",
       "consensus": "33.5%",
       "previous": "36.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "35.2%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
       "id": "mfb_315905",
       "title": "Imports YoY (Oct)",
       "country": "CNY",
-      "datetime": "2026-11-10T03:00:00Z",
-      "timestamp": 1794279600,
+      "datetime": "2026-11-10T02:30:00Z",
+      "timestamp": 1794277800,
       "date": "2026-11-10",
-      "time": "03:00",
+      "time": "02:30",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "32%",
       "consensus": "32%",
       "previous": "31%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "41.6%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 10, 2026"
     },
     {
@@ -10963,7 +10963,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.416%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
@@ -10978,9 +10978,9 @@
       "time": "01:35",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
+      "forecast": "2.909%",
+      "consensus": "2.909%",
+      "previous": "2.991%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
@@ -10997,7 +10997,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.176%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
