@@ -15,35 +15,40 @@ concurrency:
 
 jobs:
   scrape-and-update:
-    # Pinned to a stable LTS image; ubuntu-latest migrated to Ubuntu 26 in Oct 2026
+    # Pinned to an LTS image whose preinstalled tools (Chrome, Xvfb, Tk) are known-good
     runs-on: ubuntu-24.04
     # Prevent a hung browser session from holding the concurrency group for hours
     timeout-minutes: 30
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - name: Install system dependencies for browser automation
+      # Xvfb ships preinstalled on the runner image, so apt is only a fallback.
+      # This keeps runs independent of the Ubuntu package mirrors, which can become
+      # unreachable from GitHub runners. tkinter (needed by PyAutoGUI) comes from the
+      # setup-python interpreter, not from apt's python3-tk.
+      - name: Ensure virtual display (Xvfb) is available
+        timeout-minutes: 5
         run: |
-          # Retry to survive transient mirror/DNS failures on the runner
-          for attempt in 1 2 3; do
-            if sudo apt-get update -o Acquire::Retries=3 \
-              && sudo apt-get install -y -o Acquire::Retries=3 --fix-missing xvfb python3-tk python3-dev; then
-              exit 0
-            fi
-            echo "apt attempt $attempt failed; retrying in 20s..."
-            sleep 20
-          done
-          echo "apt failed after 3 attempts"
-          exit 1
+          if ! python -c "import tkinter" >/dev/null 2>&1; then
+            echo "::warning::tkinter is not importable by $(python --version); captcha GUI clicks may fail."
+          fi
+          if command -v Xvfb >/dev/null 2>&1; then
+            echo "Xvfb is preinstalled at $(command -v Xvfb); skipping apt."
+            exit 0
+          fi
+          echo "Xvfb not found; installing it from the Ubuntu archive..."
+          APT_OPTS="-o Acquire::Retries=2 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20"
+          sudo timeout 150 apt-get update $APT_OPTS
+          sudo timeout 150 apt-get install -y --no-install-recommends $APT_OPTS xvfb
 
       - name: Install dependencies
         run: |
