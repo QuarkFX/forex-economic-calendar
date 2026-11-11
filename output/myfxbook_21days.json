@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-11T16:51:06Z",
+  "updated_at": "2026-11-11T21:26:04Z",
   "count": 878,
   "events": [
     {
@@ -10213,9 +10213,9 @@
       "time": "01:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-2.8",
+      "forecast": "-3%",
+      "consensus": "-3%",
+      "previous": "-2.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 16, 2026"
@@ -10230,9 +10230,9 @@
       "time": "02:00",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-7.2",
+      "forecast": "-7.1%",
+      "consensus": "-7.1%",
+      "previous": "-7.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 16, 2026"
@@ -10247,9 +10247,9 @@
       "time": "02:00",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "",
-      "consensus": "",
-      "previous": "5.5",
+      "forecast": "5.3%",
+      "consensus": "5.3%",
+      "previous": "5.5%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 16, 2026"
@@ -11556,9 +11556,9 @@
       "time": "13:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "169",
-      "consensus": "169",
-      "previous": "174.6",
+      "forecast": "169K",
+      "consensus": "169K",
+      "previous": "174.6K",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
