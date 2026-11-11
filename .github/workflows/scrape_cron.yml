@@ -15,7 +15,8 @@ concurrency:
 
 jobs:
   scrape-and-update:
-    runs-on: ubuntu-latest
+    # Pinned to a stable LTS image; ubuntu-latest migrated to Ubuntu 26 in Oct 2026
+    runs-on: ubuntu-24.04
     # Prevent a hung browser session from holding the concurrency group for hours
     timeout-minutes: 30
 
@@ -32,8 +33,17 @@ jobs:
 
       - name: Install system dependencies for browser automation
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb python3-tk python3-dev
+          # Retry to survive transient mirror/DNS failures on the runner
+          for attempt in 1 2 3; do
+            if sudo apt-get update -o Acquire::Retries=3 \
+              && sudo apt-get install -y -o Acquire::Retries=3 --fix-missing xvfb python3-tk python3-dev; then
+              exit 0
+            fi
+            echo "apt attempt $attempt failed; retrying in 20s..."
+            sleep 20
+          done
+          echo "apt failed after 3 attempts"
+          exit 1
 
       - name: Install dependencies
         run: |
