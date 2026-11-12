@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-12T02:21:38Z",
+  "updated_at": "2026-11-12T10:00:24Z",
   "count": 331,
   "events": [
     {
@@ -2973,9 +2973,9 @@
       "impact": "Low",
       "forecast": "0.0%",
       "consensus": "0.0%",
-      "previous": "-0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.5%",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 12 7:00am"
     },
     {
@@ -2990,9 +2990,9 @@
       "impact": "High",
       "forecast": "0.0%",
       "consensus": "0.0%",
-      "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.0%",
+      "actual": "0.2%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 12 7:00am"
     },
     {
@@ -3007,9 +3007,9 @@
       "impact": "Low",
       "forecast": "-19.2B",
       "consensus": "-19.2B",
-      "previous": "-18.0B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-19.6B",
+      "actual": "-22.3B",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 12 7:00am"
     },
     {
@@ -3025,7 +3025,7 @@
       "forecast": "0.9%",
       "consensus": "0.9%",
       "previous": "0.9%",
-      "actual": "",
+      "actual": "0.9%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
     },
@@ -3041,9 +3041,9 @@
       "impact": "Low",
       "forecast": "-0.4%",
       "consensus": "-0.4%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "0.3%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 12 7:00am"
     },
     {
@@ -3058,9 +3058,9 @@
       "impact": "Low",
       "forecast": "-0.5%",
       "consensus": "-0.5%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 12 7:00am"
     },
     {
@@ -3076,7 +3076,7 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "1.8%",
-      "actual": "",
+      "actual": "0.4%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
     },
@@ -3093,7 +3093,7 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "0.5%",
-      "actual": "",
+      "actual": "0.7%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 7:00am"
     },
@@ -3113,40 +3113,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 9:00am"
-    },
-    {
-      "id": "ff_150157",
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "datetime": "2026-11-12T09:03:00Z",
-      "timestamp": 1794474180,
-      "date": "2026-11-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "7.2%",
-      "consensus": "7.2%",
-      "previous": "7.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 Tentative"
-    },
-    {
-      "id": "ff_150158",
-      "title": "New Loans",
-      "country": "CNY",
-      "datetime": "2026-11-12T09:03:00Z",
-      "timestamp": 1794474180,
-      "date": "2026-11-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "80B",
-      "consensus": "80B",
-      "previous": "1080B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 Tentative"
     },
     {
       "id": "ff_149306",
@@ -3555,6 +3521,40 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 10:00am"
+    },
+    {
+      "id": "ff_150157",
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "datetime": "2026-11-13T10:03:00Z",
+      "timestamp": 1794564180,
+      "date": "2026-11-13",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "7.2%",
+      "consensus": "7.2%",
+      "previous": "7.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 Tentative"
+    },
+    {
+      "id": "ff_150158",
+      "title": "New Loans",
+      "country": "CNY",
+      "datetime": "2026-11-13T10:03:00Z",
+      "timestamp": 1794564180,
+      "date": "2026-11-13",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "80B",
+      "consensus": "80B",
+      "previous": "1080B",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 Tentative"
     },
     {
       "id": "ff_148405",

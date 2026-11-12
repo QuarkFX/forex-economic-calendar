@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-12T02:22:01Z",
+  "updated_at": "2026-11-12T10:00:43Z",
   "count": 303,
   "events": [
     {
@@ -3059,7 +3059,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.379%",
-      "actual": "",
+      "actual": "2.186%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3075,9 +3075,9 @@
       "impact": "Low",
       "forecast": "-€0.7B",
       "consensus": "-€0.7B",
-      "previous": "-€0.9B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-€1.2B",
+      "actual": "-€0.5B",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3092,9 +3092,9 @@
       "impact": "Low",
       "forecast": "-£1.6B",
       "consensus": "-£1.6B",
-      "previous": "-£0.92B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-£2.567B",
+      "actual": "-£5.134B",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3110,7 +3110,7 @@
       "forecast": "1.9%",
       "consensus": "1.9%",
       "previous": "1.4%",
-      "actual": "",
+      "actual": "1.9%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3126,9 +3126,9 @@
       "impact": "Low",
       "forecast": "-20%",
       "consensus": "-20%",
-      "previous": "-18.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-18.5%",
+      "actual": "-25.3%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3143,9 +3143,9 @@
       "impact": "Low",
       "forecast": "3.8%",
       "consensus": "3.8%",
-      "previous": "3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.5%",
+      "actual": "4.4%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3160,9 +3160,9 @@
       "impact": "High",
       "forecast": "0%",
       "consensus": "0%",
-      "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0%",
+      "actual": "0.2%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3177,9 +3177,9 @@
       "impact": "High",
       "forecast": "-£19.2B",
       "consensus": "-£19.2B",
-      "previous": "-£18.01B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-£19.61B",
+      "actual": "-£22.29B",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3194,9 +3194,9 @@
       "impact": "Low",
       "forecast": "1.9%",
       "consensus": "1.9%",
-      "previous": "2.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2%",
+      "actual": "2.1%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3211,9 +3211,9 @@
       "impact": "Low",
       "forecast": "2.9%",
       "consensus": "2.9%",
-      "previous": "1.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.1%",
+      "actual": "3.1%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3228,9 +3228,9 @@
       "impact": "Low",
       "forecast": "-2.1%",
       "consensus": "-2.1%",
-      "previous": "-1.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-1.9%",
+      "actual": "-1.5%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3246,8 +3246,8 @@
       "forecast": "-0.2%",
       "consensus": "-0.2%",
       "previous": "1.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3263,7 +3263,7 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "0.5%",
-      "actual": "",
+      "actual": "0.7%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3279,8 +3279,8 @@
       "impact": "Medium",
       "forecast": "0.7%",
       "consensus": "0.7%",
-      "previous": "0.7%",
-      "actual": "",
+      "previous": "0.6%",
+      "actual": "0.7%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3296,9 +3296,9 @@
       "impact": "High",
       "forecast": "-£5.7B",
       "consensus": "-£5.7B",
-      "previous": "-£5.29B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-£6.82B",
+      "actual": "-£8.99B",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3313,9 +3313,9 @@
       "impact": "Medium",
       "forecast": "-0.5%",
       "consensus": "-0.5%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3330,9 +3330,9 @@
       "impact": "Medium",
       "forecast": "-0.3%",
       "consensus": "-0.3%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "0.3%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3348,8 +3348,8 @@
       "forecast": "4.4%",
       "consensus": "4.4%",
       "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3364,9 +3364,9 @@
       "impact": "Low",
       "forecast": "-0.1%",
       "consensus": "-0.1%",
-      "previous": "-0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.5%",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3382,7 +3382,7 @@
       "forecast": "0.9%",
       "consensus": "0.9%",
       "previous": "0.9%",
-      "actual": "",
+      "actual": "0.9%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
