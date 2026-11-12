@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-12T18:01:43Z",
+  "updated_at": "2026-11-12T23:34:00Z",
   "count": 106,
   "events": [
     {
@@ -1296,23 +1296,6 @@
       "raw_date": "Thu Nov 12 5:30pm"
     },
     {
-      "id": "ff_146863",
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "datetime": "2026-11-12T17:59:00Z",
-      "timestamp": 1794506340,
-      "date": "2026-11-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.37%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 Tentative"
-    },
-    {
       "id": "ff_148915",
       "title": "30-y Bond Auction",
       "country": "USD",
@@ -1325,7 +1308,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "5.62|2.5",
-      "actual": "",
+      "actual": "5.44|2.4",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 6:01pm"
     },
@@ -1376,8 +1359,8 @@
       "forecast": "-298.6B",
       "consensus": "-298.6B",
       "previous": "-26.9B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-404.1B",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 12 7:00pm"
     },
     {
@@ -1409,8 +1392,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "56.5",
-      "actual": "",
+      "previous": "56.3",
+      "actual": "54.9",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 9:30pm"
     },
@@ -1702,6 +1685,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 2:40pm"
+    },
+    {
+      "id": "ff_146863",
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "datetime": "2026-11-13T15:15:00Z",
+      "timestamp": 1794582900,
+      "date": "2026-11-13",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.37%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 Tentative"
     },
     {
       "id": "ff_148778",
