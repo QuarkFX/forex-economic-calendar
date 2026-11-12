@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-12T10:00:24Z",
-  "count": 331,
+  "updated_at": "2026-11-12T18:01:45Z",
+  "count": 332,
   "events": [
     {
       "id": "ff_146469",
@@ -3126,8 +3126,8 @@
       "impact": "Low",
       "forecast": "-4.0%",
       "consensus": "-4.0%",
-      "previous": "8.8%",
-      "actual": "",
+      "previous": "7.6%",
+      "actual": "-4.1%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 1:30pm"
     },
@@ -3160,9 +3160,9 @@
       "impact": "Medium",
       "forecast": "194K",
       "consensus": "194K",
-      "previous": "189K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "191K",
+      "actual": "200K",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 12 1:30pm"
     },
     {
@@ -3177,9 +3177,9 @@
       "impact": "Low",
       "forecast": "3.89M",
       "consensus": "3.89M",
-      "previous": "3.99M",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.97M",
+      "actual": "3.75M",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 12 3:00pm"
     },
     {
@@ -3200,23 +3200,6 @@
       "raw_date": "Thu Nov 12 3:00pm"
     },
     {
-      "id": "ff_146863",
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "datetime": "2026-11-12T15:00:00Z",
-      "timestamp": 1794495600,
-      "date": "2026-11-12",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.37%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 12 Tentative"
-    },
-    {
       "id": "ff_151767",
       "title": "CB Leading Index m/m",
       "country": "AUD",
@@ -3228,8 +3211,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-0.3%",
-      "actual": "",
+      "previous": "-0.5%",
+      "actual": "0.0%",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 3:30pm"
     },
@@ -3263,8 +3246,8 @@
       "forecast": "-0.6M",
       "consensus": "-0.6M",
       "previous": "-0.9M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.7M",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 12 5:00pm"
     },
     {
@@ -3283,6 +3266,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 12 5:30pm"
+    },
+    {
+      "id": "ff_146863",
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "datetime": "2026-11-12T17:59:00Z",
+      "timestamp": 1794506340,
+      "date": "2026-11-12",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.37%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 12 Tentative"
     },
     {
       "id": "ff_148915",
@@ -4206,10 +4206,10 @@
       "id": "ff_155894",
       "title": "RBA Gov Bullock Speaks",
       "country": "AUD",
-      "datetime": "2026-11-16T23:00:00Z",
-      "timestamp": 1794870000,
+      "datetime": "2026-11-16T22:50:00Z",
+      "timestamp": 1794869400,
       "date": "2026-11-16",
-      "time": "23:00",
+      "time": "22:50",
       "timezone": "UTC",
       "impact": "High",
       "forecast": "",
@@ -4217,7 +4217,7 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Nov 16 11:00pm"
+      "raw_date": "Mon Nov 16 10:50pm"
     },
     {
       "id": "ff_148528",
@@ -4983,6 +4983,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 18 3:30pm"
+    },
+    {
+      "id": "ff_155908",
+      "title": "Gov Council Member Gravelle Speaks",
+      "country": "CAD",
+      "datetime": "2026-11-18T17:30:00Z",
+      "timestamp": 1795023000,
+      "date": "2026-11-18",
+      "time": "17:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Nov 18 5:30pm"
     },
     {
       "id": "ff_155899",

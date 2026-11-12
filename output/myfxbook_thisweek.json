@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-12T10:00:43Z",
-  "count": 303,
+  "updated_at": "2026-11-12T18:02:16Z",
+  "count": 302,
   "events": [
     {
       "id": "mfb_319390",
@@ -3416,7 +3416,7 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.5%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3433,8 +3433,8 @@
       "forecast": "6.2%",
       "consensus": "6.2%",
       "previous": "5.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.9%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3450,7 +3450,7 @@
       "forecast": "5.9%",
       "consensus": "5.9%",
       "previous": "5.2%",
-      "actual": "",
+      "actual": "5.9%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3467,7 +3467,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.761%",
-      "actual": "",
+      "actual": "4.993%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3484,7 +3484,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
-      "actual": "",
+      "actual": "4.73",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3501,7 +3501,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.69%",
-      "actual": "",
+      "actual": "3.58%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3518,7 +3518,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.9%",
-      "actual": "",
+      "actual": "4.04%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3535,8 +3535,8 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3551,9 +3551,9 @@
       "impact": "Low",
       "forecast": "-4%",
       "consensus": "-4%",
-      "previous": "8.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "7.6%",
+      "actual": "-4.1%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3568,9 +3568,9 @@
       "impact": "Low",
       "forecast": "€15.5B",
       "consensus": "€15.5B",
-      "previous": "€10.3B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "€11.1B",
+      "actual": "€18.7B",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3585,9 +3585,9 @@
       "impact": "High",
       "forecast": "192.5K",
       "consensus": "192.5K",
-      "previous": "194.75K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "195.25K",
+      "actual": "195.25K",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3602,9 +3602,9 @@
       "impact": "High",
       "forecast": "1710K",
       "consensus": "1710K",
-      "previous": "1718K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1717K",
+      "actual": "1697K",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3619,9 +3619,9 @@
       "impact": "High",
       "forecast": "195K",
       "consensus": "195K",
-      "previous": "189K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "191K",
+      "actual": "200K",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3653,9 +3653,9 @@
       "impact": "High",
       "forecast": "3.85M",
       "consensus": "3.85M",
-      "previous": "3.99M",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.97M",
+      "actual": "3.75M",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3670,9 +3670,9 @@
       "impact": "High",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "1.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1%",
+      "actual": "-5.5%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3722,7 +3722,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.975%",
-      "actual": "",
+      "actual": "4.08%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3739,24 +3739,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.89%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thursday, Nov 12, 2026"
-    },
-    {
-      "id": "mfb_317424",
-      "title": "17-Week Bill Auction",
-      "country": "USD",
-      "datetime": "2026-11-12T16:30:00Z",
-      "timestamp": 1794501000,
-      "date": "2026-11-12",
-      "time": "16:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.09%",
-      "actual": "",
+      "actual": "3.955%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3790,7 +3773,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.31%",
-      "actual": "",
+      "actual": "3.377%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3806,8 +3789,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-0.007",
-      "actual": "",
+      "previous": "-0.007M",
+      "actual": "-0.063M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3823,8 +3806,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "0.28",
-      "actual": "",
+      "previous": "0.28M",
+      "actual": "0.106M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3841,8 +3824,8 @@
       "forecast": "-0.1M",
       "consensus": "-0.1M",
       "previous": "-0.222M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.799M",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3857,8 +3840,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "0.199",
-      "actual": "",
+      "previous": "0.199M",
+      "actual": "0.322M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3875,8 +3858,8 @@
       "forecast": "-1M",
       "consensus": "-1M",
       "previous": "-3.565M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.071M",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3891,8 +3874,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "1.179",
-      "actual": "",
+      "previous": "1.179M",
+      "actual": "0.544M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3909,8 +3892,8 @@
       "forecast": "-1.1M",
       "consensus": "-1.1M",
       "previous": "-0.865M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.657M",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 12, 2026"
     },
     {
@@ -3925,8 +3908,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-0.203",
-      "actual": "",
+      "previous": "-0.203M",
+      "actual": "0.335M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3942,8 +3925,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "0.463",
-      "actual": "",
+      "previous": "0.463M",
+      "actual": "-0.078M",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3959,8 +3942,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "7.18",
-      "actual": "",
+      "previous": "7.18%",
+      "actual": "7.11%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -3976,7 +3959,24 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "6.57",
+      "previous": "6.57%",
+      "actual": "6.45%",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Nov 12, 2026"
+    },
+    {
+      "id": "mfb_317424",
+      "title": "17-Week Bill Auction",
+      "country": "USD",
+      "datetime": "2026-11-12T18:00:00Z",
+      "timestamp": 1794506400,
+      "date": "2026-11-12",
+      "time": "18:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.09%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
@@ -3994,7 +3994,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "5.618%",
-      "actual": "",
+      "actual": "5.441%",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 12, 2026"
     },
@@ -4730,23 +4730,6 @@
       "raw_date": "Friday, Nov 13, 2026"
     },
     {
-      "id": "mfb_313844",
-      "title": "Consumer Confidence (Sep)",
-      "country": "EUR",
-      "datetime": "2026-11-13T10:00:00Z",
-      "timestamp": 1794564000,
-      "date": "2026-11-13",
-      "time": "10:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "83.4",
-      "consensus": "83.4",
-      "previous": "84.1",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 13, 2026"
-    },
-    {
       "id": "mfb_316272",
       "title": "GDP Growth Rate YoY (Q3)",
       "country": "EUR",
@@ -5062,9 +5045,9 @@
       "time": "15:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "77",
+      "forecast": "66B",
+      "consensus": "66B",
+      "previous": "77B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 13, 2026"
