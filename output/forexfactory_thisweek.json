@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-13T18:45:24Z",
-  "count": 105,
+  "updated_at": "2026-11-13T23:55:00Z",
+  "count": 106,
   "events": [
     {
       "id": "ff_155590",
@@ -1753,6 +1753,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 5:00pm"
+    },
+    {
+      "id": "ff_148795",
+      "title": "FOMC Financial Stability Report",
+      "country": "USD",
+      "datetime": "2026-11-13T21:00:00Z",
+      "timestamp": 1794603600,
+      "date": "2026-11-13",
+      "time": "21:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 9:00pm"
     },
     {
       "id": "ff_155606",
