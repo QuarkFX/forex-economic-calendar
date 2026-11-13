@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-12T23:34:02Z",
+  "updated_at": "2026-11-13T11:32:38Z",
   "count": 335,
   "events": [
     {
@@ -3399,7 +3399,7 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "1.9%",
-      "actual": "",
+      "actual": "0.4%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 7:00am"
     },
@@ -3416,8 +3416,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.9%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 13 7:30am"
     },
     {
@@ -3433,7 +3433,7 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.4%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 7:45am"
     },
@@ -3449,9 +3449,43 @@
       "impact": "Low",
       "forecast": "2.84B",
       "consensus": "2.84B",
-      "previous": "1.77B",
-      "actual": "",
+      "previous": "1.82B",
+      "actual": "2.08B",
+      "actual_state": "worse",
+      "raw_date": "Fri Nov 13 9:00am"
+    },
+    {
+      "id": "ff_150157",
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "datetime": "2026-11-13T09:00:00Z",
+      "timestamp": 1794560400,
+      "date": "2026-11-13",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "7.2%",
+      "consensus": "7.2%",
+      "previous": "7.2%",
+      "actual": "7.1%",
       "actual_state": "neutral",
+      "raw_date": "Fri Nov 13 9:00am"
+    },
+    {
+      "id": "ff_150158",
+      "title": "New Loans",
+      "country": "CNY",
+      "datetime": "2026-11-13T09:00:00Z",
+      "timestamp": 1794560400,
+      "date": "2026-11-13",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "80B",
+      "consensus": "80B",
+      "previous": "1080B",
+      "actual": "-100B",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 13 9:00am"
     },
     {
@@ -3467,8 +3501,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.0%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 13 10:00am"
     },
     {
@@ -3484,7 +3518,7 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.4%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 13 10:00am"
     },
@@ -3500,44 +3534,10 @@
       "impact": "Low",
       "forecast": "-4.5B",
       "consensus": "-4.5B",
-      "previous": "-6.8B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-7.8B",
+      "actual": "-8.7B",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 13 10:00am"
-    },
-    {
-      "id": "ff_150157",
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "datetime": "2026-11-13T10:03:00Z",
-      "timestamp": 1794564180,
-      "date": "2026-11-13",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "7.2%",
-      "consensus": "7.2%",
-      "previous": "7.2%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 13 Tentative"
-    },
-    {
-      "id": "ff_150158",
-      "title": "New Loans",
-      "country": "CNY",
-      "datetime": "2026-11-13T10:03:00Z",
-      "timestamp": 1794564180,
-      "date": "2026-11-13",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "80B",
-      "consensus": "80B",
-      "previous": "1080B",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 13 Tentative"
     },
     {
       "id": "ff_148405",
