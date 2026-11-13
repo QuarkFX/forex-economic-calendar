@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-12T23:34:32Z",
+  "updated_at": "2026-11-13T03:36:10Z",
   "count": 880,
   "events": [
     {
@@ -9060,7 +9060,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "1.241%",
-      "actual": "",
+      "actual": "1.271%",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 13, 2026"
     },

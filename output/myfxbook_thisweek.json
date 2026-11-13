@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-12T23:34:19Z",
+  "updated_at": "2026-11-13T03:35:54Z",
   "count": 302,
   "events": [
     {
@@ -4147,7 +4147,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "1.241%",
-      "actual": "",
+      "actual": "1.271%",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 13, 2026"
     },
