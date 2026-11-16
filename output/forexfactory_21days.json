@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-16T00:22:36Z",
-  "count": 294,
+  "updated_at": "2026-11-16T06:57:19Z",
+  "count": 295,
   "events": [
     {
       "id": "ff_155590",
@@ -1886,7 +1886,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "-0.14%",
-      "actual": "",
+      "actual": "-0.15%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 16 1:30am"
     },
@@ -1903,8 +1903,8 @@
       "forecast": "-7.0%",
       "consensus": "-7.0%",
       "previous": "-7.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-8.1%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 2:00am"
     },
     {
@@ -1920,8 +1920,8 @@
       "forecast": "5.3%",
       "consensus": "5.3%",
       "previous": "5.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.8%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 2:00am"
     },
     {
@@ -1954,8 +1954,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 2:00am"
     },
     {
@@ -1971,8 +1971,8 @@
       "forecast": "5.2%",
       "consensus": "5.2%",
       "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.1%",
+      "actual_state": "better",
       "raw_date": "Mon Nov 16 2:00am"
     },
     {
@@ -1988,8 +1988,8 @@
       "forecast": "2.2%",
       "consensus": "2.2%",
       "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.0%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 4:30am"
     },
     {
@@ -2178,6 +2178,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 16 5:00pm"
+    },
+    {
+      "id": "ff_155947",
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "datetime": "2026-11-16T19:15:00Z",
+      "timestamp": 1794856500,
+      "date": "2026-11-16",
+      "time": "19:15",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 16 7:15pm"
     },
     {
       "id": "ff_148875",
