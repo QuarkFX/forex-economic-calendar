@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-16T06:57:17Z",
+  "updated_at": "2026-11-16T16:44:29Z",
   "count": 120,
   "events": [
     {
@@ -220,8 +220,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "-0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 10:00am"
     },
     {
@@ -237,8 +237,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 1:30pm"
     },
     {
@@ -254,7 +254,7 @@
       "forecast": "2.5%",
       "consensus": "2.5%",
       "previous": "2.4%",
-      "actual": "",
+      "actual": "2.5%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 16 1:30pm"
     },
@@ -271,8 +271,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "better",
       "raw_date": "Mon Nov 16 1:30pm"
     },
     {
@@ -288,8 +288,8 @@
       "forecast": "17.6",
       "consensus": "17.6",
       "previous": "25.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "7.8",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 1:30pm"
     },
     {
@@ -304,8 +304,8 @@
       "impact": "High",
       "forecast": "2.0%",
       "consensus": "2.0%",
-      "previous": "1.9%",
-      "actual": "",
+      "previous": "2.0%",
+      "actual": "2.0%",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 16 1:30pm"
     },
@@ -321,9 +321,9 @@
       "impact": "High",
       "forecast": "1.9%",
       "consensus": "1.9%",
-      "previous": "1.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.9%",
+      "actual": "1.8%",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 16 1:30pm"
     },
     {
@@ -347,18 +347,18 @@
       "id": "ff_146942",
       "title": "Cleveland Fed Inflation Expectations",
       "country": "USD",
-      "datetime": "2026-11-16T14:48:00Z",
-      "timestamp": 1794840480,
+      "datetime": "2026-11-16T14:45:00Z",
+      "timestamp": 1794840300,
       "date": "2026-11-16",
-      "time": "Tentative",
+      "time": "14:45",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
       "previous": "3.3%",
-      "actual": "",
+      "actual": "3.5%",
       "actual_state": "neutral",
-      "raw_date": "Mon Nov 16 Tentative"
+      "raw_date": "Mon Nov 16 2:45pm"
     },
     {
       "id": "ff_155893",
@@ -1681,7 +1681,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "61B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 19 3:30pm"
