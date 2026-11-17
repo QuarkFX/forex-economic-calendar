@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-17T08:28:45Z",
+  "updated_at": "2026-11-17T17:46:51Z",
   "count": 125,
   "events": [
     {
@@ -628,8 +628,8 @@
       "forecast": "28.8",
       "consensus": "28.8",
       "previous": "28.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "35.6",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 10:00am"
     },
     {
@@ -645,8 +645,8 @@
       "forecast": "19.1",
       "consensus": "19.1",
       "previous": "18.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "26.5",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 10:00am"
     },
     {
@@ -678,8 +678,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "19.8K",
-      "actual": "",
+      "previous": "19.3K",
+      "actual": "23.8K",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 17 1:15pm"
     },
@@ -695,9 +695,9 @@
       "impact": "Low",
       "forecast": "241K",
       "consensus": "241K",
-      "previous": "249K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "250K",
+      "actual": "245K",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 1:15pm"
     },
     {
@@ -712,9 +712,9 @@
       "impact": "High",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.1%",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 1:30pm"
     },
     {
@@ -729,9 +729,9 @@
       "impact": "Low",
       "forecast": "14.85B",
       "consensus": "14.85B",
-      "previous": "-17.31B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-16.53B",
+      "actual": "19.46B",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 1:30pm"
     },
     {
@@ -747,8 +747,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 1:30pm"
     },
     {
@@ -764,8 +764,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "better",
       "raw_date": "Tue Nov 17 1:30pm"
     },
     {
@@ -797,9 +797,9 @@
       "impact": "Low",
       "forecast": "76.8%",
       "consensus": "76.8%",
-      "previous": "76.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "76.8%",
+      "actual": "76.4%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 17 2:15pm"
     },
     {
@@ -815,9 +815,26 @@
       "forecast": "0.0%",
       "consensus": "0.0%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.4%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 17 2:15pm"
+    },
+    {
+      "id": "ff_149404",
+      "title": "GDT Price Index",
+      "country": "NZD",
+      "datetime": "2026-11-17T14:29:00Z",
+      "timestamp": 1794925740,
+      "date": "2026-11-17",
+      "time": "14:29",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3.0%",
+      "actual": "0.0%",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 17 2:29pm"
     },
     {
       "id": "ff_155896",
@@ -849,7 +866,7 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 17 3:00pm"
     },
@@ -866,26 +883,9 @@
       "forecast": "29",
       "consensus": "29",
       "previous": "29",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "25",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 17 3:00pm"
-    },
-    {
-      "id": "ff_149404",
-      "title": "GDT Price Index",
-      "country": "NZD",
-      "datetime": "2026-11-17T15:50:00Z",
-      "timestamp": 1794930600,
-      "date": "2026-11-17",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "3.0%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Nov 17 Tentative"
     },
     {
       "id": "ff_155910",
@@ -1305,8 +1305,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "-2.1%",
-      "consensus": "-2.1%",
+      "forecast": "-1.8%",
+      "consensus": "-1.8%",
       "previous": "-7.3%",
       "actual": "",
       "actual_state": "neutral",
@@ -1322,8 +1322,8 @@
       "time": "15:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "",
-      "consensus": "",
+      "forecast": "-0.3M",
+      "consensus": "-0.3M",
       "previous": "4.7M",
       "actual": "",
       "actual_state": "neutral",

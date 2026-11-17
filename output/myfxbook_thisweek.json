@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-17T08:29:11Z",
+  "updated_at": "2026-11-17T17:47:22Z",
   "count": 335,
   "events": [
     {
@@ -837,40 +837,6 @@
       "raw_date": "Monday, Nov 16, 2026"
     },
     {
-      "id": "mfb_316392",
-      "title": "3-Month Bill Auction",
-      "country": "EUR",
-      "datetime": "2026-11-16T15:30:00Z",
-      "timestamp": 1794843000,
-      "date": "2026-11-16",
-      "time": "15:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "2.66%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 16, 2026"
-    },
-    {
-      "id": "mfb_316393",
-      "title": "6-Month Bill Auction",
-      "country": "EUR",
-      "datetime": "2026-11-16T15:30:00Z",
-      "timestamp": 1794843000,
-      "date": "2026-11-16",
-      "time": "15:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "2.75%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 16, 2026"
-    },
-    {
       "id": "mfb_316434",
       "title": "6-Month Bill Auction",
       "country": "USD",
@@ -1228,23 +1194,6 @@
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
-      "id": "mfb_316387",
-      "title": "FDI (YTD) YoY (Oct)",
-      "country": "CNY",
-      "datetime": "2026-11-17T09:00:00Z",
-      "timestamp": 1794906000,
-      "date": "2026-11-17",
-      "time": "09:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-4.1%",
-      "consensus": "-4.1%",
-      "previous": "-4.3%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Nov 17, 2026"
-    },
-    {
       "id": "mfb_316466",
       "title": "Inflation Rate YoY (Oct)",
       "country": "EUR",
@@ -1257,8 +1206,8 @@
       "forecast": "5.4%",
       "consensus": "5.4%",
       "previous": "4.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5.5%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1274,7 +1223,7 @@
       "forecast": "5.6%",
       "consensus": "5.6%",
       "previous": "4.2%",
-      "actual": "",
+      "actual": "5.6%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1291,8 +1240,8 @@
       "forecast": "0.9%",
       "consensus": "0.9%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1308,7 +1257,7 @@
       "forecast": "1.2%",
       "consensus": "1.2%",
       "previous": "2.1%",
-      "actual": "",
+      "actual": "1.2%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1324,9 +1273,9 @@
       "impact": "Medium",
       "forecast": "-€8.6B",
       "consensus": "-€8.6B",
-      "previous": "-€5.98B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-€7.81B",
+      "actual": "-€7.82B",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1358,9 +1307,9 @@
       "impact": "Low",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "-0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.2%",
+      "actual": "1.3%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1376,8 +1325,8 @@
       "forecast": "19.1",
       "consensus": "19.1",
       "previous": "18.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "26.5",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1393,8 +1342,8 @@
       "forecast": "29",
       "consensus": "29",
       "previous": "28.1",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "35.6",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1410,8 +1359,8 @@
       "forecast": "-35",
       "consensus": "-35",
       "previous": "-35.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-33.2",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1427,7 +1376,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "5.64%",
-      "actual": "",
+      "actual": "5.591%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1461,7 +1410,7 @@
       "forecast": "5.2%",
       "consensus": "5.2%",
       "previous": "4.5%",
-      "actual": "",
+      "actual": "5.2%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1478,7 +1427,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.08%",
-      "actual": "",
+      "actual": "3.1%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1495,7 +1444,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.433%",
-      "actual": "",
+      "actual": "3.389%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1512,7 +1461,41 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.829%",
-      "actual": "",
+      "actual": "3.725%",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Nov 17, 2026"
+    },
+    {
+      "id": "mfb_316392",
+      "title": "3-Month Bill Auction",
+      "country": "EUR",
+      "datetime": "2026-11-17T11:30:00Z",
+      "timestamp": 1794915000,
+      "date": "2026-11-17",
+      "time": "11:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.66%",
+      "actual": "2.635%",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Nov 17, 2026"
+    },
+    {
+      "id": "mfb_316393",
+      "title": "6-Month Bill Auction",
+      "country": "EUR",
+      "datetime": "2026-11-17T11:30:00Z",
+      "timestamp": 1794915000,
+      "date": "2026-11-17",
+      "time": "11:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "2.75%",
+      "actual": "2.83%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1534,23 +1517,6 @@
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
-      "id": "mfb_316488",
-      "title": "Global Dairy Trade Price Index (Nov/17)",
-      "country": "NZD",
-      "datetime": "2026-11-17T13:00:00Z",
-      "timestamp": 1794920400,
-      "date": "2026-11-17",
-      "time": "13:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "3",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Nov 17, 2026"
-    },
-    {
       "id": "mfb_316491",
       "title": "Housing Starts (Oct)",
       "country": "CAD",
@@ -1562,9 +1528,9 @@
       "impact": "Medium",
       "forecast": "238K",
       "consensus": "238K",
-      "previous": "250K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "250.1K",
+      "actual": "244.6K",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1580,7 +1546,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "19.75K",
-      "actual": "",
+      "actual": "23.75K",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1597,8 +1563,8 @@
       "forecast": "169K",
       "consensus": "169K",
       "previous": "174.6K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "180.5K",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1613,9 +1579,9 @@
       "impact": "Low",
       "forecast": "C$14.85B",
       "consensus": "C$14.85B",
-      "previous": "-C$17.31B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-C$16.53B",
+      "actual": "C$19.46B",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1630,8 +1596,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "23.9",
-      "actual": "",
+      "previous": "C$23.42B",
+      "actual": "C$13.48B",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1664,9 +1630,9 @@
       "impact": "High",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.5%",
+      "actual": "0.5%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1681,9 +1647,9 @@
       "impact": "High",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.1%",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1698,9 +1664,9 @@
       "impact": "High",
       "forecast": "6.5%",
       "consensus": "6.5%",
-      "previous": "6.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "6.6%",
+      "actual": "6.8%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1716,8 +1682,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1733,8 +1699,8 @@
       "forecast": "-6",
       "consensus": "-6",
       "previous": "-20.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-10.6",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1750,7 +1716,7 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.8%",
-      "actual": "",
+      "actual": "0.2%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1766,9 +1732,9 @@
       "impact": "Medium",
       "forecast": "0.3%",
       "consensus": "0.3%",
-      "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.4%",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1783,7 +1749,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "11.6%",
+      "previous": "11.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
@@ -1800,9 +1766,9 @@
       "impact": "High",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.5%",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1817,8 +1783,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "10.1",
-      "actual": "",
+      "previous": "10.1%",
+      "actual": "9.5%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1835,8 +1801,8 @@
       "forecast": "1.4%",
       "consensus": "1.4%",
       "previous": "1.34%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.39%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1852,8 +1818,8 @@
       "forecast": "0.1%",
       "consensus": "0.1%",
       "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.4%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1869,8 +1835,8 @@
       "forecast": "1.4%",
       "consensus": "1.4%",
       "previous": "1.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1885,9 +1851,9 @@
       "impact": "Low",
       "forecast": "76.8%",
       "consensus": "76.8%",
-      "previous": "76.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "76.8%",
+      "actual": "76.4%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1903,8 +1869,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.3%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1919,9 +1885,9 @@
       "impact": "Low",
       "forecast": "2.4%",
       "consensus": "2.4%",
-      "previous": "2.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.1%",
+      "actual": "2.1%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -1938,6 +1904,23 @@
       "consensus": "",
       "previous": "",
       "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tuesday, Nov 17, 2026"
+    },
+    {
+      "id": "mfb_316488",
+      "title": "Global Dairy Trade Price Index (Nov/17)",
+      "country": "NZD",
+      "datetime": "2026-11-17T14:30:00Z",
+      "timestamp": 1794925800,
+      "date": "2026-11-17",
+      "time": "14:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "3%",
+      "actual": "0%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1971,7 +1954,7 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
@@ -1987,9 +1970,9 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.2%",
+      "actual": "0.5%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -2005,25 +1988,8 @@
       "forecast": "29",
       "consensus": "29",
       "previous": "29",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Nov 17, 2026"
-    },
-    {
-      "id": "mfb_316989",
-      "title": "Atlanta Fed GDPNow (Q4)",
-      "country": "USD",
-      "datetime": "2026-11-17T16:00:00Z",
-      "timestamp": 1794931200,
-      "date": "2026-11-17",
-      "time": "16:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "3.5%",
-      "consensus": "3.5%",
-      "previous": "3.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "25",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -2039,8 +2005,25 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.99%",
-      "actual": "",
+      "actual": "4.055%",
       "actual_state": "neutral",
+      "raw_date": "Tuesday, Nov 17, 2026"
+    },
+    {
+      "id": "mfb_316989",
+      "title": "Atlanta Fed GDPNow (Q4)",
+      "country": "USD",
+      "datetime": "2026-11-17T16:45:00Z",
+      "timestamp": 1794933900,
+      "date": "2026-11-17",
+      "time": "16:45",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "3.5%",
+      "consensus": "3.5%",
+      "previous": "3.5%",
+      "actual": "3.4%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -2087,8 +2070,8 @@
       "time": "21:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
+      "forecast": "-0.5M",
+      "consensus": "-0.5M",
       "previous": "9M",
       "actual": "",
       "actual_state": "neutral",
@@ -2274,8 +2257,8 @@
       "time": "00:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "0.9%",
-      "consensus": "0.9%",
+      "forecast": "1%",
+      "consensus": "1%",
       "previous": "0.8%",
       "actual": "",
       "actual_state": "neutral",
@@ -2685,6 +2668,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Nov 18, 2026"
+    },
+    {
+      "id": "mfb_316387",
+      "title": "FDI (YTD) YoY (Oct)",
+      "country": "CNY",
+      "datetime": "2026-11-18T09:00:00Z",
+      "timestamp": 1794992400,
+      "date": "2026-11-18",
+      "time": "09:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-4.1%",
+      "consensus": "-4.1%",
+      "previous": "-4.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
@@ -3192,8 +3192,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "-2.3%",
-      "consensus": "-2.3%",
+      "forecast": "-2.1%",
+      "consensus": "-2.1%",
       "previous": "-7.3%",
       "actual": "",
       "actual_state": "neutral",
@@ -3364,7 +3364,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.4%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
@@ -4033,23 +4033,6 @@
       "raw_date": "Thursday, Nov 19, 2026"
     },
     {
-      "id": "mfb_316683",
-      "title": "Conventional Gilt Tender",
-      "country": "GBP",
-      "datetime": "2026-11-19T10:00:00Z",
-      "timestamp": 1795082400,
-      "date": "2026-11-19",
-      "time": "10:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thursday, Nov 19, 2026"
-    },
-    {
       "id": "mfb_319828",
       "title": "2031 OAT Auction",
       "country": "EUR",
@@ -4130,6 +4113,23 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thursday, Nov 19, 2026"
+    },
+    {
+      "id": "mfb_320224",
+      "title": "Treasury Gilt 2029 Auction",
+      "country": "GBP",
+      "datetime": "2026-11-19T10:00:00Z",
+      "timestamp": 1795082400,
+      "date": "2026-11-19",
+      "time": "10:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.818%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 19, 2026"
