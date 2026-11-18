@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-18T00:17:22Z",
+  "updated_at": "2026-11-18T07:47:36Z",
   "count": 300,
   "events": [
     {
@@ -2803,9 +2803,9 @@
       "impact": "Medium",
       "forecast": "1.0%",
       "consensus": "1.0%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 18 12:30am"
     },
     {
@@ -2838,7 +2838,7 @@
       "forecast": "3.6%",
       "consensus": "3.6%",
       "previous": "3.5%",
-      "actual": "",
+      "actual": "3.6%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 18 7:00am"
     },
@@ -2855,7 +2855,7 @@
       "forecast": "2.8%",
       "consensus": "2.8%",
       "previous": "2.8%",
-      "actual": "",
+      "actual": "2.8%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 18 7:00am"
     },
@@ -2872,8 +2872,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "1.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 18 7:00am"
     },
     {
@@ -2889,8 +2889,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 18 7:00am"
     },
     {
@@ -2906,26 +2906,9 @@
       "forecast": "4.1%",
       "consensus": "4.1%",
       "previous": "3.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 18 7:00am"
-    },
-    {
-      "id": "ff_150216",
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "datetime": "2026-11-18T07:02:00Z",
-      "timestamp": 1794985320,
-      "date": "2026-11-18",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-4.3%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Wed Nov 18 Tentative"
     },
     {
       "id": "ff_155897",
@@ -3334,6 +3317,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Thu Nov 19 12:30am"
+    },
+    {
+      "id": "ff_150216",
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "datetime": "2026-11-19T07:02:00Z",
+      "timestamp": 1795071720,
+      "date": "2026-11-19",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-4.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 19 Tentative"
     },
     {
       "id": "ff_154808",

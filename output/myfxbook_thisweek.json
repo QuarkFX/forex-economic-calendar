@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-18T00:17:52Z",
+  "updated_at": "2026-11-18T07:48:00Z",
   "count": 335,
   "events": [
     {
@@ -2240,11 +2240,11 @@
       "time": "00:30",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "3.4",
-      "consensus": "3.4",
-      "previous": "3.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "3.4%",
+      "consensus": "3.4%",
+      "previous": "3.2%",
+      "actual": "3.5%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2259,9 +2259,9 @@
       "impact": "Low",
       "forecast": "1%",
       "consensus": "1%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2277,7 +2277,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.723%",
-      "actual": "",
+      "actual": "3.756%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2294,7 +2294,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "1.623%",
-      "actual": "",
+      "actual": "1.647%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2327,8 +2327,8 @@
       "impact": "Low",
       "forecast": "5.1%",
       "consensus": "5.1%",
-      "previous": "4.6%",
-      "actual": "",
+      "previous": "4.7%",
+      "actual": "5.1%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2345,7 +2345,7 @@
       "forecast": "2.8%",
       "consensus": "2.8%",
       "previous": "2.8%",
-      "actual": "",
+      "actual": "2.8%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2362,7 +2362,7 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.2%",
-      "actual": "",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2379,8 +2379,8 @@
       "forecast": "3.7%",
       "consensus": "3.7%",
       "previous": "3.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.6%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2396,8 +2396,8 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2413,7 +2413,7 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.4%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -2430,8 +2430,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.4%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2447,8 +2447,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.1%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2464,8 +2464,8 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "2.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.9%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2481,8 +2481,8 @@
       "forecast": "0.8%",
       "consensus": "0.8%",
       "previous": "1.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2498,8 +2498,8 @@
       "forecast": "9.1%",
       "consensus": "9.1%",
       "previous": "8.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "10.8%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2515,8 +2515,8 @@
       "forecast": "4.1%",
       "consensus": "4.1%",
       "previous": "3.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -2532,8 +2532,8 @@
       "forecast": "3.8%",
       "consensus": "3.8%",
       "previous": "3.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.7%",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -3192,8 +3192,8 @@
       "time": "15:00",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "-2.1%",
-      "consensus": "-2.1%",
+      "forecast": "-2%",
+      "consensus": "-2%",
       "previous": "-7.3%",
       "actual": "",
       "actual_state": "neutral",
@@ -3260,9 +3260,9 @@
       "time": "15:30",
       "timezone": "UTC",
       "impact": "Medium",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.657",
+      "forecast": "0.4M",
+      "consensus": "0.4M",
+      "previous": "4.657M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
