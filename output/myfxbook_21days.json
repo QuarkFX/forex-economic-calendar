@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-17T17:47:36Z",
-  "count": 871,
+  "updated_at": "2026-11-18T00:18:04Z",
+  "count": 873,
   "events": [
     {
       "id": "mfb_319390",
@@ -7229,23 +7229,6 @@
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
-      "id": "mfb_316540",
-      "title": "API Crude Oil Stock Change (Nov/13)",
-      "country": "USD",
-      "datetime": "2026-11-17T21:30:00Z",
-      "timestamp": 1794951000,
-      "date": "2026-11-17",
-      "time": "21:30",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-0.5M",
-      "consensus": "-0.5M",
-      "previous": "9M",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tuesday, Nov 17, 2026"
-    },
-    {
       "id": "mfb_316541",
       "title": "PPI Input QoQ (Q3)",
       "country": "NZD",
@@ -7258,8 +7241,8 @@
       "forecast": "1.5%",
       "consensus": "1.5%",
       "previous": "2.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.7%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -7274,9 +7257,26 @@
       "impact": "Low",
       "forecast": "1.1%",
       "consensus": "1.1%",
-      "previous": "1.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.7%",
+      "actual": "0.8%",
+      "actual_state": "worse",
+      "raw_date": "Tuesday, Nov 17, 2026"
+    },
+    {
+      "id": "mfb_316540",
+      "title": "API Crude Oil Stock Change (Nov/13)",
+      "country": "USD",
+      "datetime": "2026-11-17T21:55:00Z",
+      "timestamp": 1794952500,
+      "date": "2026-11-17",
+      "time": "21:55",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-0.5M",
+      "consensus": "-0.5M",
+      "previous": "9M",
+      "actual": "5.3M",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -7308,9 +7308,9 @@
       "impact": "High",
       "forecast": "-¥956B",
       "consensus": "-¥956B",
-      "previous": "-¥536.6B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-¥556.5B",
+      "actual": "-¥476.5B",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -7325,9 +7325,9 @@
       "impact": "Medium",
       "forecast": "20%",
       "consensus": "20%",
-      "previous": "16.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "16.5%",
+      "actual": "20.5%",
+      "actual_state": "better",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -7342,9 +7342,9 @@
       "impact": "Low",
       "forecast": "25.8%",
       "consensus": "25.8%",
-      "previous": "18.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "18.5%",
+      "actual": "21.6%",
+      "actual_state": "worse",
       "raw_date": "Tuesday, Nov 17, 2026"
     },
     {
@@ -7393,9 +7393,9 @@
       "impact": "Low",
       "forecast": "-0.2%",
       "consensus": "-0.2%",
-      "previous": "-0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0%",
+      "actual": "0%",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -11881,7 +11881,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "5.3M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tuesday, Nov 24, 2026"
@@ -14624,6 +14624,23 @@
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
+      "id": "mfb_317741",
+      "title": "Retail Sales MoM (Oct)",
+      "country": "EUR",
+      "datetime": "2026-11-27T11:00:00Z",
+      "timestamp": 1795777200,
+      "date": "2026-11-27",
+      "time": "11:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-1",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Nov 27, 2026"
+    },
+    {
       "id": "mfb_317328",
       "title": "Retail Sales YoY (Oct)",
       "country": "EUR",
@@ -14653,6 +14670,23 @@
       "forecast": "3.9%",
       "consensus": "3.9%",
       "previous": "4.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Friday, Nov 27, 2026"
+    },
+    {
+      "id": "mfb_317740",
+      "title": "Retail Sales YoY (Oct)",
+      "country": "EUR",
+      "datetime": "2026-11-27T11:00:00Z",
+      "timestamp": 1795777200,
+      "date": "2026-11-27",
+      "time": "11:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.1",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 27, 2026"
