@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-18T16:51:42Z",
+  "updated_at": "2026-11-18T23:14:54Z",
   "count": 873,
   "events": [
     {
@@ -8567,7 +8567,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "5.469%",
-      "actual": "",
+      "actual": "5.459%",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -8634,8 +8634,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "108.9",
-      "actual": "",
+      "previous": "$108.6B",
+      "actual": "$80.8B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -8651,9 +8651,9 @@
       "impact": "Medium",
       "forecast": "$160.7B",
       "consensus": "$160.7B",
-      "previous": "$279.2B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "$285B",
+      "actual": "$155.3B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -8668,8 +8668,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "199.8",
-      "actual": "",
+      "previous": "$203B",
+      "actual": "$261B",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
@@ -8685,9 +8685,9 @@
       "impact": "Medium",
       "forecast": "-NZ$1.65B",
       "consensus": "-NZ$1.65B",
-      "previous": "-NZ$1.971B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-NZ$2.123B",
+      "actual": "-NZ$2.772B",
+      "actual_state": "worse",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -8702,9 +8702,9 @@
       "impact": "Low",
       "forecast": "NZ$6.7B",
       "consensus": "NZ$6.7B",
-      "previous": "NZ$6.47B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "NZ$6.29B",
+      "actual": "NZ$6.95B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -8719,9 +8719,9 @@
       "impact": "Low",
       "forecast": "NZ$7.9B",
       "consensus": "NZ$7.9B",
-      "previous": "NZ$8.44B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "NZ$8.42B",
+      "actual": "NZ$9.72B",
+      "actual_state": "better",
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
@@ -12918,7 +12918,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.2%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 25, 2026"
@@ -12935,7 +12935,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "4.23%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Nov 25, 2026"
