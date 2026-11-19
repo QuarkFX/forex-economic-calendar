@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-19T13:02:27Z",
+  "updated_at": "2026-11-19T21:28:29Z",
   "count": 125,
   "events": [
     {
@@ -1613,9 +1613,9 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "2.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.5%",
+      "actual": "0.3%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 1:30pm"
     },
     {
@@ -1631,8 +1631,8 @@
       "forecast": "20.6",
       "consensus": "20.6",
       "previous": "20.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.3",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 1:30pm"
     },
     {
@@ -1647,9 +1647,9 @@
       "impact": "Low",
       "forecast": "0.9%",
       "consensus": "0.9%",
-      "previous": "4.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "4.5%",
+      "actual": "-1.0%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 1:30pm"
     },
     {
@@ -1664,9 +1664,9 @@
       "impact": "Medium",
       "forecast": "198K",
       "consensus": "198K",
-      "previous": "200K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "202K",
+      "actual": "203K",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 1:30pm"
     },
     {
@@ -1716,26 +1716,9 @@
       "forecast": "0.0%",
       "consensus": "0.0%",
       "previous": "0.0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.3%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 3:00pm"
-    },
-    {
-      "id": "ff_146863",
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "datetime": "2026-11-19T15:15:00Z",
-      "timestamp": 1795101300,
-      "date": "2026-11-19",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "4.37%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 19 Tentative"
     },
     {
       "id": "ff_148779",
@@ -1750,9 +1733,26 @@
       "forecast": "25B",
       "consensus": "25B",
       "previous": "61B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "20B",
+      "actual_state": "better",
       "raw_date": "Thu Nov 19 3:30pm"
+    },
+    {
+      "id": "ff_146863",
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "datetime": "2026-11-19T15:46:00Z",
+      "timestamp": 1795103160,
+      "date": "2026-11-19",
+      "time": "15:46",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "4.37%",
+      "actual": "4.42%",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 19 3:46pm"
     },
     {
       "id": "ff_155904",
