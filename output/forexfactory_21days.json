@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-19T04:12:26Z",
-  "count": 300,
+  "updated_at": "2026-11-19T13:02:30Z",
+  "count": 305,
   "events": [
     {
       "id": "ff_155590",
@@ -3330,9 +3330,9 @@
       "impact": "Low",
       "forecast": "16.6B",
       "consensus": "16.6B",
-      "previous": "8.7B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "11.6B",
+      "actual": "12.5B",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 9:00am"
     },
     {
@@ -3348,8 +3348,8 @@
       "forecast": "-29",
       "consensus": "-29",
       "previous": "-32",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-12",
+      "actual_state": "better",
       "raw_date": "Thu Nov 19 11:00am"
     },
     {
@@ -4169,6 +4169,23 @@
       "raw_date": "Mon Nov 23 9:30am"
     },
     {
+      "id": "ff_156627",
+      "title": "MPC Member Pill Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-23T13:00:00Z",
+      "timestamp": 1795438800,
+      "date": "2026-11-23",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 23 1:00pm"
+    },
+    {
       "id": "ff_149273",
       "title": "Corporate Profits q/q",
       "country": "CAD",
@@ -4220,6 +4237,23 @@
       "raw_date": "Mon Nov 23 2:45pm"
     },
     {
+      "id": "ff_156628",
+      "title": "FOMC Member Williams Speaks",
+      "country": "USD",
+      "datetime": "2026-11-23T21:00:00Z",
+      "timestamp": 1795467600,
+      "date": "2026-11-23",
+      "time": "21:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 23 9:00pm"
+    },
+    {
       "id": "ff_150931",
       "title": "Flash Manufacturing PMI",
       "country": "JPY",
@@ -4269,6 +4303,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 11:00am"
+    },
+    {
+      "id": "ff_156629",
+      "title": "MPC Member Greene Speaks",
+      "country": "GBP",
+      "datetime": "2026-11-24T12:30:00Z",
+      "timestamp": 1795523400,
+      "date": "2026-11-24",
+      "time": "12:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 24 12:30pm"
     },
     {
       "id": "ff_151054",
@@ -4388,6 +4439,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 3:00pm"
+    },
+    {
+      "id": "ff_156630",
+      "title": "BOC Gov Macklem Speaks",
+      "country": "CAD",
+      "datetime": "2026-11-24T16:30:00Z",
+      "timestamp": 1795537800,
+      "date": "2026-11-24",
+      "time": "16:30",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 24 4:30pm"
     },
     {
       "id": "ff_147101",
@@ -5051,6 +5119,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 27 8:55am"
+    },
+    {
+      "id": "ff_156631",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-11-27T13:00:00Z",
+      "timestamp": 1795784400,
+      "date": "2026-11-27",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 27 1:00pm"
     },
     {
       "id": "ff_149261",
