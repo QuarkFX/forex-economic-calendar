@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-18T23:14:02Z",
+  "updated_at": "2026-11-19T04:12:24Z",
   "count": 125,
   "events": [
     {
@@ -1478,8 +1478,8 @@
       "forecast": "1.3%",
       "consensus": "1.3%",
       "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.3%",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 18 11:50pm"
     },
     {
@@ -1494,9 +1494,9 @@
       "impact": "High",
       "forecast": "25.5K",
       "consensus": "25.5K",
-      "previous": "-39.3K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-36.4K",
+      "actual": "-43.5K",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 12:30am"
     },
     {
@@ -1512,8 +1512,8 @@
       "forecast": "4.7%",
       "consensus": "4.7%",
       "previous": "4.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.9%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 12:30am"
     },
     {
