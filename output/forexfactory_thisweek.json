@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-20T10:19:54Z",
-  "count": 124,
+  "updated_at": "2026-11-20T18:41:33Z",
+  "count": 126,
   "events": [
     {
       "id": "ff_149361",
@@ -578,6 +578,23 @@
       "consensus": "25.4K",
       "previous": "9.8K",
       "actual": "33.2K",
+      "actual_state": "worse",
+      "raw_date": "Tue Nov 17 7:00am"
+    },
+    {
+      "id": "ff_155842",
+      "title": "HMRC Payrolls Change",
+      "country": "GBP",
+      "datetime": "2026-11-17T07:00:00Z",
+      "timestamp": 1794898800,
+      "date": "2026-11-17",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "9K",
+      "consensus": "9K",
+      "previous": "20K",
+      "actual": "-34K",
       "actual_state": "worse",
       "raw_date": "Tue Nov 17 7:00am"
     },
@@ -2022,8 +2039,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.0%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 1:30pm"
     },
     {
@@ -2038,9 +2055,9 @@
       "impact": "Low",
       "forecast": "0.7%",
       "consensus": "0.7%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.4%",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 1:30pm"
     },
     {
@@ -2056,8 +2073,8 @@
       "forecast": "-18",
       "consensus": "-18",
       "previous": "-18",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-17",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 3:00pm"
     },
     {
@@ -2073,7 +2090,7 @@
       "forecast": "51.7",
       "consensus": "51.7",
       "previous": "51.0",
-      "actual": "",
+      "actual": "51.5",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 3:00pm"
     },
@@ -2090,9 +2107,26 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.3%",
-      "actual": "",
+      "actual": "3.7%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 3:00pm"
+    },
+    {
+      "id": "ff_156834",
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "datetime": "2026-11-20T17:00:00Z",
+      "timestamp": 1795194000,
+      "date": "2026-11-20",
+      "time": "17:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 20 5:00pm"
     },
     {
       "id": "ff_155918",

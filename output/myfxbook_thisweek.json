@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-20T10:20:23Z",
+  "updated_at": "2026-11-20T18:42:04Z",
   "count": 330,
   "events": [
     {
@@ -3149,6 +3149,23 @@
       "raw_date": "Wednesday, Nov 18, 2026"
     },
     {
+      "id": "mfb_320448",
+      "title": "NY Fed Bill Purchases 4 to 12 months",
+      "country": "USD",
+      "datetime": "2026-11-18T14:20:00Z",
+      "timestamp": 1795011600,
+      "date": "2026-11-18",
+      "time": "14:20",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "1.756",
+      "consensus": "1.756",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Nov 18, 2026"
+    },
+    {
       "id": "mfb_319850",
       "title": "ECB President Lagarde Speech",
       "country": "EUR",
@@ -5319,42 +5336,42 @@
       "impact": "Low",
       "forecast": "6.5%",
       "consensus": "6.5%",
-      "previous": "6.5%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 20, 2026"
-    },
-    {
-      "id": "mfb_316819",
-      "title": "Unemployment Rate (Oct)",
-      "country": "EUR",
-      "datetime": "2026-11-20T11:00:00Z",
-      "timestamp": 1795172400,
-      "date": "2026-11-20",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "5.2%",
-      "consensus": "5.2%",
-      "previous": "5.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "6.4%",
+      "actual": "6.4%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
       "id": "mfb_316823",
       "title": "CFIB Business Barometer (Nov)",
       "country": "CAD",
-      "datetime": "2026-11-20T12:00:00Z",
-      "timestamp": 1795176000,
+      "datetime": "2026-11-20T11:05:00Z",
+      "timestamp": 1795172700,
       "date": "2026-11-20",
-      "time": "12:00",
+      "time": "11:05",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "50.5",
       "consensus": "50.5",
-      "previous": "50",
-      "actual": "",
+      "previous": "51",
+      "actual": "57.3",
+      "actual_state": "better",
+      "raw_date": "Friday, Nov 20, 2026"
+    },
+    {
+      "id": "mfb_316819",
+      "title": "Unemployment Rate (Oct)",
+      "country": "EUR",
+      "datetime": "2026-11-20T11:50:00Z",
+      "timestamp": 1795175400,
+      "date": "2026-11-20",
+      "time": "11:50",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "5.2%",
+      "consensus": "5.2%",
+      "previous": "5.2%",
+      "actual": "5.2%",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
     },
@@ -5387,9 +5404,9 @@
       "impact": "High",
       "forecast": "4.8%",
       "consensus": "4.8%",
-      "previous": "5.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "5.6%",
+      "actual": "7.5%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5404,9 +5421,9 @@
       "impact": "High",
       "forecast": "0.7%",
       "consensus": "0.7%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.4%",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5421,9 +5438,9 @@
       "impact": "High",
       "forecast": "0.7%",
       "consensus": "0.7%",
-      "previous": "1.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "1.4%",
+      "actual": "1%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5436,11 +5453,11 @@
       "time": "13:30",
       "timezone": "UTC",
       "impact": "High",
-      "forecast": "0.5",
-      "consensus": "0.5",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "0.5%",
+      "consensus": "0.5%",
+      "previous": "0.8%",
+      "actual": "-1.5%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5456,8 +5473,8 @@
       "forecast": "-17.9",
       "consensus": "-17.9",
       "previous": "-17.9",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-16.9",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5473,8 +5490,8 @@
       "forecast": "51.6",
       "consensus": "51.6",
       "previous": "46.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "49.4",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5490,7 +5507,7 @@
       "forecast": "51.5",
       "consensus": "51.5",
       "previous": "48",
-      "actual": "",
+      "actual": "51.5",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
     },
@@ -5507,8 +5524,8 @@
       "forecast": "4.3%",
       "consensus": "4.3%",
       "previous": "4.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.7%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5524,8 +5541,8 @@
       "forecast": "50.9",
       "consensus": "50.9",
       "previous": "48.8",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "52.9",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5541,8 +5558,8 @@
       "forecast": "3.4%",
       "consensus": "3.4%",
       "previous": "3.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.3%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -5575,7 +5592,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "463",
-      "actual": "",
+      "actual": "469",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
     },
@@ -5592,24 +5609,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "601",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 20, 2026"
-    },
-    {
-      "id": "mfb_316844",
-      "title": "Balance of Trade (Oct)",
-      "country": "USD",
-      "datetime": "2026-11-20T21:00:00Z",
-      "timestamp": 1795208400,
-      "date": "2026-11-20",
-      "time": "21:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-$1150M",
-      "consensus": "-$1150M",
-      "previous": "-$1133.43M",
-      "actual": "",
+      "actual": "607",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
     }
