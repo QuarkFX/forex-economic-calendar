@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-19T21:28:32Z",
-  "count": 305,
+  "updated_at": "2026-11-20T02:29:34Z",
+  "count": 307,
   "events": [
     {
       "id": "ff_155590",
@@ -3637,8 +3637,8 @@
       "forecast": "2.3%",
       "consensus": "2.3%",
       "previous": "2.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.2%",
+      "actual_state": "worse",
       "raw_date": "Thu Nov 19 11:30pm"
     },
     {
@@ -3654,7 +3654,7 @@
       "forecast": "-22",
       "consensus": "-22",
       "previous": "-24",
-      "actual": "",
+      "actual": "-22",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 12:01am"
     },
@@ -3671,7 +3671,7 @@
       "forecast": "3.00%",
       "consensus": "3.00%",
       "previous": "3.00%",
-      "actual": "",
+      "actual": "3.00%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 1:00am"
     },
@@ -3688,7 +3688,7 @@
       "forecast": "3.50%",
       "consensus": "3.50%",
       "previous": "3.50%",
-      "actual": "",
+      "actual": "3.50%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 1:00am"
     },
@@ -3704,8 +3704,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "6.9%",
-      "actual": "",
+      "previous": "6.8%",
+      "actual": "5.0%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 20 2:00am"
     },
@@ -4016,13 +4016,13 @@
       "raw_date": "Mon Nov 23 All Day"
     },
     {
-      "id": "ff_151211",
-      "title": "German Final GDP q/q",
+      "id": "ff_151214",
+      "title": "German Import Prices m/m",
       "country": "EUR",
       "datetime": "2026-11-23T00:00:00Z",
       "timestamp": 1795392000,
       "date": "2026-11-23",
-      "time": "23rd-27th",
+      "time": "23rd-30th",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
@@ -4030,7 +4030,24 @@
       "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Mon Nov 23 23rd-27th"
+      "raw_date": "Mon Nov 23 23rd-30th"
+    },
+    {
+      "id": "ff_151213",
+      "title": "German Retail Sales m/m",
+      "country": "EUR",
+      "datetime": "2026-11-23T00:00:00Z",
+      "timestamp": 1795392000,
+      "date": "2026-11-23",
+      "time": "23rd-30th",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Mon Nov 23 23rd-30th"
     },
     {
       "id": "ff_147679",
@@ -4214,7 +4231,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "56.1",
+      "previous": "54.9",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 23 2:45pm"
@@ -4333,7 +4350,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "23.8K",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 1:15pm"
@@ -4503,7 +4520,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.8%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 12:30am"
@@ -4520,7 +4537,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "4.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 12:30am"
@@ -4554,7 +4571,7 @@
       "impact": "High",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "0.3%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 12:30am"
@@ -4575,6 +4592,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 5:00am"
+    },
+    {
+      "id": "ff_151211",
+      "title": "German Final GDP q/q",
+      "country": "EUR",
+      "datetime": "2026-11-25T07:00:00Z",
+      "timestamp": 1795590000,
+      "date": "2026-11-25",
+      "time": "07:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "0.2%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Nov 25 7:00am"
     },
     {
       "id": "ff_147381",
@@ -4656,7 +4690,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "1.8%",
+      "previous": "1.9%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 1:30pm"
@@ -4741,7 +4775,7 @@
       "impact": "Medium",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "203K",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 1:30pm"
@@ -4775,7 +4809,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "3.4M",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 3:30pm"
@@ -4792,7 +4826,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "20B",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 5:00pm"
@@ -4968,23 +5002,6 @@
       "raw_date": "Thu Nov 26 10:30am"
     },
     {
-      "id": "ff_147705",
-      "title": "Italian 10-y Bond Auction",
-      "country": "EUR",
-      "datetime": "2026-11-26T10:33:00Z",
-      "timestamp": 1795689180,
-      "date": "2026-11-26",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Thu Nov 26 Tentative"
-    },
-    {
       "id": "ff_150560",
       "title": "ECB Monetary Policy Meeting Accounts",
       "country": "EUR",
@@ -5119,6 +5136,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 27 8:55am"
+    },
+    {
+      "id": "ff_147705",
+      "title": "Italian 10-y Bond Auction",
+      "country": "EUR",
+      "datetime": "2026-11-27T10:33:00Z",
+      "timestamp": 1795775580,
+      "date": "2026-11-27",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Nov 27 Tentative"
     },
     {
       "id": "ff_156631",
