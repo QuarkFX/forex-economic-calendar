@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-20T02:30:18Z",
+  "updated_at": "2026-11-20T10:20:37Z",
   "count": 879,
   "events": [
     {
@@ -10097,7 +10097,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "1.271%",
-      "actual": "",
+      "actual": "1.262%",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
     },
@@ -10114,8 +10114,8 @@
       "forecast": "-35",
       "consensus": "-35",
       "previous": "-34",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-32",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10131,8 +10131,8 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "1.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10148,8 +10148,8 @@
       "forecast": "4.4%",
       "consensus": "4.4%",
       "previous": "4.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "5%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10165,8 +10165,8 @@
       "forecast": "0.9%",
       "consensus": "0.9%",
       "previous": "1.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.4%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10182,8 +10182,8 @@
       "forecast": "7.2%",
       "consensus": "7.2%",
       "previous": "6.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "8.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10198,9 +10198,9 @@
       "impact": "Low",
       "forecast": "-£18B",
       "consensus": "-£18B",
-      "previous": "-£24.5B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-£22.9B",
+      "actual": "-£17B",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10215,9 +10215,9 @@
       "impact": "High",
       "forecast": "0%",
       "consensus": "0%",
-      "previous": "-0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.6%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10232,9 +10232,9 @@
       "impact": "High",
       "forecast": "1.7%",
       "consensus": "1.7%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.4%",
+      "actual": "2.3%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10249,9 +10249,9 @@
       "impact": "High",
       "forecast": "-0.1%",
       "consensus": "-0.1%",
-      "previous": "-0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.9%",
+      "actual": "0.9%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10266,9 +10266,9 @@
       "impact": "High",
       "forecast": "1.8%",
       "consensus": "1.8%",
-      "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.4%",
+      "actual": "2.5%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10283,9 +10283,9 @@
       "impact": "Low",
       "forecast": "97",
       "consensus": "97",
-      "previous": "98",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "97",
+      "actual": "95",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10301,8 +10301,8 @@
       "forecast": "102",
       "consensus": "102",
       "previous": "105",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "104",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10332,11 +10332,11 @@
       "time": "09:00",
       "timezone": "UTC",
       "impact": "Low",
-      "forecast": "-3",
-      "consensus": "-3",
-      "previous": "-2.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "forecast": "-3%",
+      "consensus": "-3%",
+      "previous": "-3.2%",
+      "actual": "-0.1%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10352,8 +10352,8 @@
       "forecast": "€0.5B",
       "consensus": "€0.5B",
       "previous": "€1.743B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-€0.52B",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10369,8 +10369,8 @@
       "forecast": "-4.1%",
       "consensus": "-4.1%",
       "previous": "-4.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-2.4%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10386,8 +10386,8 @@
       "forecast": "-27",
       "consensus": "-27",
       "previous": "-27",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-21",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10403,8 +10403,8 @@
       "forecast": "4.3%",
       "consensus": "4.3%",
       "previous": "3.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.2%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10420,8 +10420,8 @@
       "forecast": "-14",
       "consensus": "-14",
       "previous": "-13",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-13",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10436,9 +10436,9 @@
       "impact": "Medium",
       "forecast": "2.4%",
       "consensus": "2.4%",
-      "previous": "2.44%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.45%",
+      "actual": "2.57%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10454,8 +10454,8 @@
       "forecast": "4.5%",
       "consensus": "4.5%",
       "previous": "4.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.3%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
@@ -10544,23 +10544,6 @@
       "raw_date": "Friday, Nov 20, 2026"
     },
     {
-      "id": "mfb_316832",
-      "title": "Manufacturing Sales MoM (Oct)",
-      "country": "CAD",
-      "datetime": "2026-11-20T13:30:00Z",
-      "timestamp": 1795181400,
-      "date": "2026-11-20",
-      "time": "13:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.2%",
-      "consensus": "0.2%",
-      "previous": "0%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 20, 2026"
-    },
-    {
       "id": "mfb_316829",
       "title": "Retail Sales Ex Autos MoM (Sep)",
       "country": "CAD",
@@ -10624,23 +10607,6 @@
       "forecast": "4.8%",
       "consensus": "4.8%",
       "previous": "5.4%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 20, 2026"
-    },
-    {
-      "id": "mfb_316826",
-      "title": "Wholesale Sales MoM (Oct)",
-      "country": "CAD",
-      "datetime": "2026-11-20T13:30:00Z",
-      "timestamp": 1795181400,
-      "date": "2026-11-20",
-      "time": "13:30",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.3%",
-      "consensus": "0.3%",
-      "previous": "0.7%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 20, 2026"
@@ -11185,6 +11151,23 @@
       "forecast": "0.4",
       "consensus": "0.4",
       "previous": "0.07",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Monday, Nov 23, 2026"
+    },
+    {
+      "id": "mfb_316832",
+      "title": "Manufacturing Sales MoM (Oct)",
+      "country": "CAD",
+      "datetime": "2026-11-23T13:30:00Z",
+      "timestamp": 1795440600,
+      "date": "2026-11-23",
+      "time": "13:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "0.2%",
+      "consensus": "0.2%",
+      "previous": "0%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
@@ -12720,6 +12703,23 @@
       "raw_date": "Wednesday, Nov 25, 2026"
     },
     {
+      "id": "mfb_316826",
+      "title": "Wholesale Sales MoM (Oct)",
+      "country": "CAD",
+      "datetime": "2026-11-25T13:30:00Z",
+      "timestamp": 1795613400,
+      "date": "2026-11-25",
+      "time": "13:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "0.3%",
+      "consensus": "0.3%",
+      "previous": "0.7%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wednesday, Nov 25, 2026"
+    },
+    {
       "id": "mfb_317095",
       "title": "New Home Sales (Oct)",
       "country": "USD",
@@ -13785,7 +13785,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "1.262%",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 27, 2026"
@@ -14899,10 +14899,10 @@
       "id": "mfb_317354",
       "title": "Budget Balance (Sep)",
       "country": "CAD",
-      "datetime": "2026-11-27T15:00:00Z",
-      "timestamp": 1795791600,
+      "datetime": "2026-11-27T16:00:00Z",
+      "timestamp": 1795795200,
       "date": "2026-11-27",
-      "time": "15:00",
+      "time": "16:00",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "-C$1.9B",

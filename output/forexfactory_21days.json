@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-20T02:29:34Z",
+  "updated_at": "2026-11-20T10:19:57Z",
   "count": 307,
   "events": [
     {
@@ -3722,8 +3722,8 @@
       "forecast": "0.9%",
       "consensus": "0.9%",
       "previous": "1.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.4%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 7:00am"
     },
     {
@@ -3738,9 +3738,9 @@
       "impact": "Low",
       "forecast": "18.0B",
       "consensus": "18.0B",
-      "previous": "24.5B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "22.9B",
+      "actual": "17.0B",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 7:00am"
     },
     {
@@ -3755,27 +3755,10 @@
       "impact": "Medium",
       "forecast": "0.0%",
       "consensus": "0.0%",
-      "previous": "-0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.6%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Fri Nov 20 7:00am"
-    },
-    {
-      "id": "ff_150216",
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "datetime": "2026-11-20T07:02:00Z",
-      "timestamp": 1795158120,
-      "date": "2026-11-20",
-      "time": "Tentative",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-4.3%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Fri Nov 20 Tentative"
     },
     {
       "id": "ff_155906",
@@ -4286,6 +4269,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 12:30am"
+    },
+    {
+      "id": "ff_150216",
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "datetime": "2026-11-24T07:02:00Z",
+      "timestamp": 1795503720,
+      "date": "2026-11-24",
+      "time": "Tentative",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-4.3%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 24 Tentative"
     },
     {
       "id": "ff_150436",
