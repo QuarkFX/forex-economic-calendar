@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-23T10:02:49Z",
+  "updated_at": "2026-11-23T22:02:07Z",
   "count": 258,
   "events": [
     {
@@ -186,7 +186,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.67%",
-      "actual": "",
+      "actual": "2.773%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -203,7 +203,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.908%",
-      "actual": "",
+      "actual": "2.98%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -220,7 +220,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.806%",
-      "actual": "",
+      "actual": "3.764%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -237,8 +237,8 @@
       "forecast": "0.6%",
       "consensus": "0.6%",
       "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.3%",
+      "actual_state": "better",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -254,25 +254,8 @@
       "forecast": "7.3%",
       "consensus": "7.3%",
       "previous": "7.4%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 23, 2026"
-    },
-    {
-      "id": "mfb_316878",
-      "title": "Balance of Trade (Oct)",
-      "country": "EUR",
-      "datetime": "2026-11-23T11:00:00Z",
-      "timestamp": 1795431600,
-      "date": "2026-11-23",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "-€550M",
-      "consensus": "-€550M",
-      "previous": "-€534M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "10.2%",
+      "actual_state": "better",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -287,9 +270,9 @@
       "impact": "Low",
       "forecast": "2.6%",
       "consensus": "2.6%",
-      "previous": "3.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.4%",
+      "actual": "3.1%",
+      "actual_state": "better",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -304,9 +287,9 @@
       "impact": "Low",
       "forecast": "0.6%",
       "consensus": "0.6%",
-      "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.8%",
+      "actual": "0.8%",
+      "actual_state": "better",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -322,7 +305,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.414%",
-      "actual": "",
+      "actual": "4.264%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -339,7 +322,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.07%",
-      "actual": "",
+      "actual": "3.419%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -356,7 +339,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.189%",
-      "actual": "",
+      "actual": "3.587%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -373,7 +356,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "",
-      "actual": "",
+      "actual": "4.273",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -407,8 +390,8 @@
       "forecast": "0.2%",
       "consensus": "0.2%",
       "previous": "0%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.3%",
+      "actual_state": "better",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -423,9 +406,9 @@
       "impact": "Medium",
       "forecast": "0.4",
       "consensus": "0.4",
-      "previous": "0.07",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.05",
+      "actual": "-0.06",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -441,7 +424,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.389%",
-      "actual": "",
+      "actual": "3.309%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -458,7 +441,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "2.708%",
-      "actual": "",
+      "actual": "2.887%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -475,7 +458,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.158%",
-      "actual": "",
+      "actual": "3.112%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -497,6 +480,23 @@
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
+      "id": "mfb_316878",
+      "title": "Balance of Trade (Oct)",
+      "country": "EUR",
+      "datetime": "2026-11-23T16:00:00Z",
+      "timestamp": 1795449600,
+      "date": "2026-11-23",
+      "time": "16:00",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "-€550M",
+      "consensus": "-€550M",
+      "previous": "-€534M",
+      "actual": "-€575.1M",
+      "actual_state": "worse",
+      "raw_date": "Monday, Nov 23, 2026"
+    },
+    {
       "id": "mfb_316892",
       "title": "6-Month Bill Auction",
       "country": "USD",
@@ -509,7 +509,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.31%",
-      "actual": "",
+      "actual": "4.34%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -526,8 +526,8 @@
       "forecast": "4.109%",
       "consensus": "4.109%",
       "previous": "4.155%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.18%",
+      "actual_state": "worse",
       "raw_date": "Monday, Nov 23, 2026"
     },
     {
@@ -543,7 +543,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "3.679%",
-      "actual": "",
+      "actual": "3.729%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
@@ -560,7 +560,7 @@
       "forecast": "",
       "consensus": "",
       "previous": "4.708%",
-      "actual": "",
+      "actual": "4.7%",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 23, 2026"
     },
