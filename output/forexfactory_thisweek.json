@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-23T01:53:11Z",
+  "updated_at": "2026-11-23T10:02:25Z",
   "count": 75,
   "events": [
     {
@@ -101,8 +101,8 @@
       "forecast": "49.8",
       "consensus": "49.8",
       "previous": "49.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "47.9",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 23 8:15am"
     },
     {
@@ -118,8 +118,8 @@
       "forecast": "47.4",
       "consensus": "47.4",
       "previous": "46.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "46.6",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 23 8:15am"
     },
     {
@@ -135,8 +135,8 @@
       "forecast": "54.1",
       "consensus": "54.1",
       "previous": "54.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "55.0",
+      "actual_state": "better",
       "raw_date": "Mon Nov 23 8:30am"
     },
     {
@@ -152,8 +152,8 @@
       "forecast": "52.4",
       "consensus": "52.4",
       "previous": "52.5",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "54.0",
+      "actual_state": "better",
       "raw_date": "Mon Nov 23 8:30am"
     },
     {
@@ -169,7 +169,7 @@
       "forecast": "52.7",
       "consensus": "52.7",
       "previous": "52.7",
-      "actual": "",
+      "actual": "52.9",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 23 9:00am"
     },
@@ -186,8 +186,8 @@
       "forecast": "51.8",
       "consensus": "51.8",
       "previous": "51.4",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "51.2",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 23 9:00am"
     },
     {
@@ -203,7 +203,7 @@
       "forecast": "53.0",
       "consensus": "53.0",
       "previous": "52.8",
-      "actual": "",
+      "actual": "52.7",
       "actual_state": "neutral",
       "raw_date": "Mon Nov 23 9:30am"
     },
@@ -220,8 +220,8 @@
       "forecast": "53.0",
       "consensus": "53.0",
       "previous": "52.8",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "52.0",
+      "actual_state": "worse",
       "raw_date": "Mon Nov 23 9:30am"
     },
     {
