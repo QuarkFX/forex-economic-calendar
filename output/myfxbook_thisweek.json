@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-22T15:49:44Z",
+  "updated_at": "2026-11-23T01:53:29Z",
   "count": 258,
   "events": [
     {
@@ -16,8 +16,8 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "3.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3.5%",
+      "actual_state": "better",
       "raw_date": "Sunday, Nov 22, 2026"
     },
     {
@@ -32,9 +32,9 @@
       "impact": "High",
       "forecast": "0.5%",
       "consensus": "0.5%",
-      "previous": "-0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.4%",
+      "actual": "2.2%",
+      "actual_state": "better",
       "raw_date": "Sunday, Nov 22, 2026"
     },
     {
