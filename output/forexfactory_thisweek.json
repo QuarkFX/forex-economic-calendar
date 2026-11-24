@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-24T05:58:37Z",
+  "updated_at": "2026-11-24T17:03:12Z",
   "count": 74,
   "events": [
     {
@@ -338,8 +338,8 @@
       "impact": "Low",
       "forecast": "90.5",
       "consensus": "90.5",
-      "previous": "90.2",
-      "actual": "",
+      "previous": "90.1",
+      "actual": "90.6",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 9:00am"
     },
@@ -356,8 +356,8 @@
       "forecast": "-27",
       "consensus": "-27",
       "previous": "-10",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "9",
+      "actual_state": "better",
       "raw_date": "Tue Nov 24 11:00am"
     },
     {
@@ -389,10 +389,27 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "23.8K",
-      "actual": "",
+      "previous": "23.0K",
+      "actual": "21.0K",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 1:15pm"
+    },
+    {
+      "id": "ff_151699",
+      "title": "CB Leading Index m/m",
+      "country": "CNY",
+      "datetime": "2026-11-24T13:51:00Z",
+      "timestamp": 1795528260,
+      "date": "2026-11-24",
+      "time": "13:51",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "-0.2%",
+      "actual": "-0.3%",
+      "actual_state": "neutral",
+      "raw_date": "Tue Nov 24 1:51pm"
     },
     {
       "id": "ff_151396",
@@ -407,25 +424,8 @@
       "forecast": "-9.4",
       "consensus": "-9.4",
       "previous": "-9.8",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Tue Nov 24 2:00pm"
-    },
-    {
-      "id": "ff_151699",
-      "title": "CB Leading Index m/m",
-      "country": "CNY",
-      "datetime": "2026-11-24T14:00:00Z",
-      "timestamp": 1795528800,
-      "date": "2026-11-24",
-      "time": "14:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "",
-      "consensus": "",
-      "previous": "-0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-14.7",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 24 2:00pm"
     },
     {
@@ -440,9 +440,9 @@
       "impact": "Low",
       "forecast": "0.2%",
       "consensus": "0.2%",
-      "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.2%",
+      "actual": "0.0%",
+      "actual_state": "worse",
       "raw_date": "Tue Nov 24 2:00pm"
     },
     {
@@ -457,8 +457,8 @@
       "impact": "Low",
       "forecast": "2.7%",
       "consensus": "2.7%",
-      "previous": "2.7%",
-      "actual": "",
+      "previous": "2.6%",
+      "actual": "2.6%",
       "actual_state": "neutral",
       "raw_date": "Tue Nov 24 2:00pm"
     },
@@ -474,9 +474,9 @@
       "impact": "Medium",
       "forecast": "92.4",
       "consensus": "92.4",
-      "previous": "91.7",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "91.9",
+      "actual": "103.3",
+      "actual_state": "better",
       "raw_date": "Tue Nov 24 3:00pm"
     },
     {
@@ -492,8 +492,8 @@
       "forecast": "-2",
       "consensus": "-2",
       "previous": "-2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "3",
+      "actual_state": "better",
       "raw_date": "Tue Nov 24 3:00pm"
     },
     {
