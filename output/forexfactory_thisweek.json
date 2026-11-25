@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-25T10:02:10Z",
-  "count": 75,
+  "updated_at": "2026-11-25T19:54:39Z",
+  "count": 76,
   "events": [
     {
       "id": "ff_150011",
@@ -670,18 +670,18 @@
       "id": "ff_150455",
       "title": "German 10-y Bond Auction",
       "country": "EUR",
-      "datetime": "2026-11-25T10:42:00Z",
-      "timestamp": 1795603320,
+      "datetime": "2026-11-25T10:32:00Z",
+      "timestamp": 1795602720,
       "date": "2026-11-25",
-      "time": "Tentative",
+      "time": "10:32",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
       "previous": "3.37|1.1",
-      "actual": "",
+      "actual": "3.22|1.4",
       "actual_state": "neutral",
-      "raw_date": "Wed Nov 25 Tentative"
+      "raw_date": "Wed Nov 25 10:32am"
     },
     {
       "id": "ff_156972",
@@ -713,7 +713,7 @@
       "forecast": "0.5%",
       "consensus": "0.5%",
       "previous": "0.5%",
-      "actual": "",
+      "actual": "0.5%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 1:30pm"
     },
@@ -730,7 +730,7 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.3%",
-      "actual": "",
+      "actual": "0.3%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 1:30pm"
     },
@@ -747,8 +747,8 @@
       "forecast": "0.7%",
       "consensus": "0.7%",
       "previous": "1.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.2%",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 25 1:30pm"
     },
     {
@@ -763,9 +763,9 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.2%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.3%",
+      "actual": "0.7%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 1:30pm"
     },
     {
@@ -780,9 +780,9 @@
       "impact": "Low",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.6%",
+      "actual": "0.3%",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 25 1:30pm"
     },
     {
@@ -798,8 +798,8 @@
       "forecast": "2.3%",
       "consensus": "2.3%",
       "previous": "2.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.9%",
+      "actual_state": "worse",
       "raw_date": "Wed Nov 25 1:30pm"
     },
     {
@@ -815,8 +815,8 @@
       "forecast": "3.5%",
       "consensus": "3.5%",
       "previous": "3.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.3%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 1:30pm"
     },
     {
@@ -831,10 +831,27 @@
       "impact": "Low",
       "forecast": "201K",
       "consensus": "201K",
-      "previous": "203K",
+      "previous": "202K",
+      "actual": "189K",
+      "actual_state": "better",
+      "raw_date": "Wed Nov 25 1:30pm"
+    },
+    {
+      "id": "ff_157093",
+      "title": "Monetary Policy Report Hearings",
+      "country": "GBP",
+      "datetime": "2026-11-25T14:15:00Z",
+      "timestamp": 1795616100,
+      "date": "2026-11-25",
+      "time": "14:15",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
       "actual": "",
       "actual_state": "neutral",
-      "raw_date": "Wed Nov 25 1:30pm"
+      "raw_date": "Wed Nov 25 2:15pm"
     },
     {
       "id": "ff_146858",
@@ -848,9 +865,9 @@
       "impact": "Low",
       "forecast": "650K",
       "consensus": "650K",
-      "previous": "676K",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "614K",
+      "actual": "701K",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 3:00pm"
     },
     {
@@ -866,8 +883,8 @@
       "forecast": "2.0M",
       "consensus": "2.0M",
       "previous": "3.4M",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "1.1M",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 3:30pm"
     },
     {
@@ -883,8 +900,8 @@
       "forecast": "-19B",
       "consensus": "-19B",
       "previous": "20B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-24B",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 5:00pm"
     },
     {
