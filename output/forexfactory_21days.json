@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-24T17:03:14Z",
-  "count": 299,
+  "updated_at": "2026-11-25T01:25:19Z",
+  "count": 300,
   "events": [
     {
       "id": "ff_149361",
@@ -2701,9 +2701,9 @@
       "impact": "Low",
       "forecast": "3.6%",
       "consensus": "3.6%",
-      "previous": "3.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "3.8%",
+      "actual": "4.2%",
+      "actual_state": "better",
       "raw_date": "Tue Nov 24 11:50pm"
     },
     {
@@ -2719,8 +2719,8 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.5%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 12:30am"
     },
     {
@@ -2736,8 +2736,8 @@
       "forecast": "4.7%",
       "consensus": "4.7%",
       "previous": "4.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.9%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 12:30am"
     },
     {
@@ -2752,8 +2752,8 @@
       "impact": "Low",
       "forecast": "0.8%",
       "consensus": "0.8%",
-      "previous": "-2.1%",
-      "actual": "",
+      "previous": "-0.1%",
+      "actual": "0.9%",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 12:30am"
     },
@@ -2770,8 +2770,8 @@
       "forecast": "0.3%",
       "consensus": "0.3%",
       "previous": "0.3%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "0.5%",
+      "actual_state": "better",
       "raw_date": "Wed Nov 25 12:30am"
     },
     {
@@ -2841,6 +2841,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wed Nov 25 Tentative"
+    },
+    {
+      "id": "ff_156972",
+      "title": "FOMC Member Bowman Speaks",
+      "country": "USD",
+      "datetime": "2026-11-25T12:25:00Z",
+      "timestamp": 1795609500,
+      "date": "2026-11-25",
+      "time": "12:25",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Wed Nov 25 12:25pm"
     },
     {
       "id": "ff_148188",
@@ -3347,7 +3364,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "4.49|1.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 27 Tentative"
