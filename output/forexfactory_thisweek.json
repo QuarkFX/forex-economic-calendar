@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-25T19:54:39Z",
-  "count": 76,
+  "updated_at": "2026-11-26T02:34:15Z",
+  "count": 77,
   "events": [
     {
       "id": "ff_150011",
@@ -939,6 +939,23 @@
       "raw_date": "Thu Nov 26 All Day"
     },
     {
+      "id": "ff_157097",
+      "title": "Euro Summit",
+      "country": "EUR",
+      "datetime": "2026-11-26T00:00:00Z",
+      "timestamp": 1795651200,
+      "date": "2026-11-26",
+      "time": "All Day",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Thu Nov 26 All Day"
+    },
+    {
       "id": "ff_148318",
       "title": "Private Capital Expenditure q/q",
       "country": "AUD",
@@ -950,9 +967,9 @@
       "impact": "Low",
       "forecast": "4.5%",
       "consensus": "4.5%",
-      "previous": "-3.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-2.0%",
+      "actual": "12.2%",
+      "actual_state": "better",
       "raw_date": "Thu Nov 26 12:30am"
     },
     {
