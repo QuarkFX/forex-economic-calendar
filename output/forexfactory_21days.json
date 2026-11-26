@@ -1,7 +1,7 @@
 {
   "source_file": "forexfactory_21days.json",
-  "updated_at": "2026-11-26T11:29:26Z",
-  "count": 305,
+  "updated_at": "2026-11-26T20:26:17Z",
+  "count": 306,
   "events": [
     {
       "id": "ff_149361",
@@ -5187,6 +5187,23 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Fri Dec 4 3:00pm"
+    },
+    {
+      "id": "ff_157099",
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "datetime": "2026-12-04T15:30:00Z",
+      "timestamp": 1796398200,
+      "date": "2026-12-04",
+      "time": "15:30",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "",
+      "consensus": "",
+      "previous": "",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Fri Dec 4 3:30pm"
     }
   ]
 }
