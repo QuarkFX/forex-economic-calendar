@@ -1,7 +1,7 @@
 {
   "source_file": "myfxbook_thisweek.json",
-  "updated_at": "2026-11-27T12:08:21Z",
-  "count": 253,
+  "updated_at": "2026-11-27T21:11:40Z",
+  "count": 251,
   "events": [
     {
       "id": "mfb_316852",
@@ -4084,23 +4084,6 @@
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
-      "id": "mfb_317339",
-      "title": "Business Confidence (Nov)",
-      "country": "EUR",
-      "datetime": "2026-11-27T11:00:00Z",
-      "timestamp": 1795777200,
-      "date": "2026-11-27",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Medium",
-      "forecast": "-0.3",
-      "consensus": "-0.3",
-      "previous": "-0.7",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 27, 2026"
-    },
-    {
       "id": "mfb_317740",
       "title": "Retail Sales YoY (Oct)",
       "country": "EUR",
@@ -4135,6 +4118,23 @@
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
+      "id": "mfb_317339",
+      "title": "Business Confidence (Nov)",
+      "country": "EUR",
+      "datetime": "2026-11-27T13:00:00Z",
+      "timestamp": 1795784400,
+      "date": "2026-11-27",
+      "time": "13:00",
+      "timezone": "UTC",
+      "impact": "Medium",
+      "forecast": "-0.3",
+      "consensus": "-0.3",
+      "previous": "-0.8",
+      "actual": "-2.3",
+      "actual_state": "worse",
+      "raw_date": "Friday, Nov 27, 2026"
+    },
+    {
       "id": "mfb_317350",
       "title": "Current Account (Q3)",
       "country": "CAD",
@@ -4146,9 +4146,9 @@
       "impact": "Medium",
       "forecast": "C$9.9B",
       "consensus": "C$9.9B",
-      "previous": "C$8.8B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "C$6.1B",
+      "actual": "C$4.5B",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -4163,9 +4163,9 @@
       "impact": "Medium",
       "forecast": "0.4%",
       "consensus": "0.4%",
-      "previous": "0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.7%",
+      "actual": "0.6%",
+      "actual_state": "better",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -4180,9 +4180,9 @@
       "impact": "High",
       "forecast": "-$133B",
       "consensus": "-$133B",
-      "previous": "-$135.1B",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-$135.08B",
+      "actual": "-$149.5B",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -4197,9 +4197,9 @@
       "impact": "Medium",
       "forecast": "0.5%",
       "consensus": "0.5%",
-      "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "0.8%",
+      "actual": "0.9%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -4232,8 +4232,8 @@
       "forecast": "-C$1.9B",
       "consensus": "-C$1.9B",
       "previous": "-C$0.22B",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-C$5.14B",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -4269,40 +4269,6 @@
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Friday, Nov 27, 2026"
-    },
-    {
-      "id": "mfb_317329",
-      "title": "Retail Sales MoM (Oct)",
-      "country": "EUR",
-      "datetime": "2026-11-30T11:00:00Z",
-      "timestamp": 1796036400,
-      "date": "2026-11-30",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "0.1%",
-      "consensus": "0.1%",
-      "previous": "0.7%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 30, 2026"
-    },
-    {
-      "id": "mfb_317330",
-      "title": "Retail Sales YoY (Oct)",
-      "country": "EUR",
-      "datetime": "2026-11-30T11:00:00Z",
-      "timestamp": 1796036400,
-      "date": "2026-11-30",
-      "time": "11:00",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "3.9%",
-      "consensus": "3.9%",
-      "previous": "4.5%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Monday, Nov 30, 2026"
     }
   ]
 }
