@@ -1,6 +1,6 @@
 {
   "source_file": "forexfactory_thisweek.json",
-  "updated_at": "2026-11-27T03:00:44Z",
+  "updated_at": "2026-11-27T12:07:45Z",
   "count": 77,
   "events": [
     {
@@ -1137,9 +1137,9 @@
       "impact": "Low",
       "forecast": "0.1%",
       "consensus": "0.1%",
-      "previous": "-0.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "-0.9%",
+      "actual": "0.0%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 27 7:45am"
     },
     {
@@ -1155,7 +1155,7 @@
       "forecast": "-0.1%",
       "consensus": "-0.1%",
       "previous": "-0.1%",
-      "actual": "",
+      "actual": "-0.1%",
       "actual_state": "neutral",
       "raw_date": "Fri Nov 27 7:45am"
     },
@@ -1172,8 +1172,8 @@
       "forecast": "-0.2%",
       "consensus": "-0.2%",
       "previous": "0.4%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.7%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 27 7:45am"
     },
     {
@@ -1189,8 +1189,8 @@
       "forecast": "-0.1%",
       "consensus": "-0.1%",
       "previous": "-0.1%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "-0.2%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 27 7:45am"
     },
     {
@@ -1206,8 +1206,8 @@
       "forecast": "4.7%",
       "consensus": "4.7%",
       "previous": "4.9%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "4.1%",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 27 8:00am"
     },
     {
@@ -1223,26 +1223,26 @@
       "forecast": "5K",
       "consensus": "5K",
       "previous": "4K",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "9K",
+      "actual_state": "worse",
       "raw_date": "Fri Nov 27 8:55am"
     },
     {
       "id": "ff_147705",
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
-      "datetime": "2026-11-27T10:33:00Z",
-      "timestamp": 1795775580,
+      "datetime": "2026-11-27T10:05:00Z",
+      "timestamp": 1795773900,
       "date": "2026-11-27",
-      "time": "Tentative",
+      "time": "10:05",
       "timezone": "UTC",
       "impact": "Low",
       "forecast": "",
       "consensus": "",
       "previous": "4.49|1.6",
-      "actual": "",
+      "actual": "4.33|1.5",
       "actual_state": "neutral",
-      "raw_date": "Fri Nov 27 Tentative"
+      "raw_date": "Fri Nov 27 10:05am"
     },
     {
       "id": "ff_156631",
