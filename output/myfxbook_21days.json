@@ -1,6 +1,6 @@
 {
   "source_file": "myfxbook_21days.json",
-  "updated_at": "2026-11-26T20:26:58Z",
+  "updated_at": "2026-11-27T03:01:14Z",
   "count": 900,
   "events": [
     {
@@ -8618,8 +8618,8 @@
       "forecast": "96.5",
       "consensus": "96.5",
       "previous": "96.2",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "100.2",
+      "actual_state": "better",
       "raw_date": "Thursday, Nov 26, 2026"
     },
     {
@@ -8635,8 +8635,8 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "2.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.5%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 26, 2026"
     },
     {
@@ -8651,9 +8651,9 @@
       "impact": "Low",
       "forecast": "2.9%",
       "consensus": "2.9%",
-      "previous": "2.8%",
-      "actual": "",
-      "actual_state": "neutral",
+      "previous": "2.7%",
+      "actual": "2.8%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 26, 2026"
     },
     {
@@ -8669,8 +8669,8 @@
       "forecast": "3%",
       "consensus": "3%",
       "previous": "2.6%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "2.9%",
+      "actual_state": "worse",
       "raw_date": "Thursday, Nov 26, 2026"
     },
     {
@@ -8685,8 +8685,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-440.7",
-      "actual": "",
+      "previous": "-¥436.7B",
+      "actual": "¥423.5B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 26, 2026"
     },
@@ -8702,8 +8702,8 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "-224.1",
-      "actual": "",
+      "previous": "-¥238B",
+      "actual": "-¥571.6B",
       "actual_state": "neutral",
       "raw_date": "Thursday, Nov 26, 2026"
     },
@@ -8737,25 +8737,8 @@
       "forecast": "8.4%",
       "consensus": "8.4%",
       "previous": "38.6%",
-      "actual": "",
-      "actual_state": "neutral",
-      "raw_date": "Friday, Nov 27, 2026"
-    },
-    {
-      "id": "mfb_317176",
-      "title": "Consumer Confidence (Nov)",
-      "country": "EUR",
-      "datetime": "2026-11-27T00:01:00Z",
-      "timestamp": 1795737660,
-      "date": "2026-11-27",
-      "time": "00:01",
-      "timezone": "UTC",
-      "impact": "Low",
-      "forecast": "61.7",
-      "consensus": "61.7",
-      "previous": "61.6",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "6.2%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -8771,8 +8754,8 @@
       "forecast": "16.4%",
       "consensus": "16.4%",
       "previous": "15.5%",
-      "actual": "",
-      "actual_state": "neutral",
+      "actual": "16%",
+      "actual_state": "worse",
       "raw_date": "Friday, Nov 27, 2026"
     },
     {
@@ -10114,6 +10097,23 @@
       "forecast": "0.4%",
       "consensus": "0.4%",
       "previous": "0.5%",
+      "actual": "",
+      "actual_state": "neutral",
+      "raw_date": "Monday, Nov 30, 2026"
+    },
+    {
+      "id": "mfb_317176",
+      "title": "Consumer Confidence (Nov)",
+      "country": "EUR",
+      "datetime": "2026-11-30T00:01:00Z",
+      "timestamp": 1795996860,
+      "date": "2026-11-30",
+      "time": "00:01",
+      "timezone": "UTC",
+      "impact": "Low",
+      "forecast": "61.7",
+      "consensus": "61.7",
+      "previous": "61.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Monday, Nov 30, 2026"
@@ -13734,7 +13734,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "423.5",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Dec 02, 2026"
@@ -13751,7 +13751,7 @@
       "impact": "Low",
       "forecast": "",
       "consensus": "",
-      "previous": "",
+      "previous": "-571.6",
       "actual": "",
       "actual_state": "neutral",
       "raw_date": "Wednesday, Dec 02, 2026"
